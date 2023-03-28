@@ -12,10 +12,9 @@ We recognize that African Nova Scotians are a distinct people whose histories, l
 {% include section.html %}
 
 ## Highlights
-
 {% capture text %}
 
-Welcome to NCIL's new website!
+Welcome to NCIL's new website...
 
 {%
   include button.html
