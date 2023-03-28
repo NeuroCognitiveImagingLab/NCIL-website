@@ -3,8 +3,12 @@
 
 # NeuroCognitiveImagingLab's Website
 
-An engaging 1-3 sentence description of your lab.
+The NeuroCognitive Imaging Lab (NCIL) at Dalhousie University in Halifax, Nova Scotia, Canada, conducts basic and applied cognitive neuroscience research. Much of our research is focused on language and neuroplasticity — how the brain changes with experience. The ultimate goal of our work is to help people live healthier, happier, and more productive lives. To this end, our activities follow a cycle including basic research, active participation in clinical settings, clinical research, and knowledge translation and commercialization. 
 
+
+NCIL is located in Mi’kma’ki, the ancestral and unceded territory of the Mi’kmaq. We are all Treaty people. 
+
+We recognize that African Nova Scotians are a distinct people whose histories, legacies and contributions have enriched that part of Mi'kma'ki known as Nova Scotia for over 400 years.
 {% include section.html %}
 
 ## Highlights
