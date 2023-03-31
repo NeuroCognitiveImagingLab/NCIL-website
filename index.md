@@ -1,7 +1,7 @@
 ---
 ---
 
-# NeuroCognitiveImagingLab's Website
+# Welcome to NCIL!
 
 The NeuroCognitive Imaging Lab (NCIL) at Dalhousie University in Halifax, Nova Scotia, Canada, conducts basic and applied cognitive neuroscience research. Much of our research is focused on language and neuroplasticity — how the brain changes with experience. The ultimate goal of our work is to help people live healthier, happier, and more productive lives. To this end, our activities follow a cycle including basic research, active participation in clinical settings, clinical research, and knowledge translation and application. 
 
@@ -15,7 +15,10 @@ We recognize that African Nova Scotians are a distinct people whose histories, l
 ## Highlights
 {% capture text %}
 
-Welcome to NCIL's new website...
+NCIL's research is focused on **Neuroplasticity**: how the brain is changed by experience. Neuroplasticity is an innate capacity of the brain. It includes changes that occur during development, learning (such as learning a new language), recovery from injury (such as a stroke), 
+adaptation to the loss of a sense (such the loss of hearing or sight), and many other things.
+
+In our lab, we mostly use **neuroimaging** tools like MRI and EEG to study the brain. These tools are non-invasive (they are safe and painless) and give us amazing abilities to see where and when things are happening in the brain. You can learn more about these tools under the Neuroimaging link at the top of the page.
 
 {%
   include button.html
@@ -38,8 +41,14 @@ Welcome to NCIL's new website...
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+Current research projects in the lab are focused on a number of different topics, including:
+* Basic Language Processing
+* Reading Development
+* Second Language Learning
+* Brain-Computer Interfaces
+* Aphasia (an acquired language disorder)
+* Advanced analysis approaches for EEG and fMRI
+  
 {%
   include button.html
   link="tools"
