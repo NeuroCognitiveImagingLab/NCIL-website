@@ -13,11 +13,12 @@ We recognize that African Nova Scotians are a distinct people whose histories, l
 
 {:.center}
 
-{% include section.html full=true %}
-
-{% include banner.html image="images/DSC_3730-copy-2.jpg" %}
-
-{% include section.html %}
+{% 
+  include section.html
+  background="images/DSC_3730-copy-2.jpg"
+  dark=true
+  size=full
+%}
 
 ## Our Research
 NCIL's research is focused on **Neuroplasticity**: how the brain is changed by experience. Neuroplasticity is an innate capacity of the brain. It includes changes that occur during development, learning (such as learning a new language), recovery from injury (such as a stroke), 
@@ -42,11 +43,12 @@ Current research projects in the lab are focused on a number of different topics
 %}
 {:.center}
 
-{% include section.html full=true %}
-
-{% include banner.html image="images/aaron_with_book.jpg" %}
-
-{% include section.html %}
+{% 
+  include section.html
+  background="images/aaron_with_book.jpg"
+  dark=true
+  size=full
+%}
 
 ## Our Resources
 The NeuroCognitive Imaging lab makes extensive use of brain imaging technologies including:
@@ -67,11 +69,12 @@ To support the growth of the field, lab director Dr. Aaron Newman has written te
 %}
 {:.center}
 
-{% include section.html full=true %}
-
-{% include banner.html image="images/cindy_eeg_1.JPG" %}
-
-{% include section.html %}
+{% 
+  include section.html
+  background="images/cindy_eeg_1.JPG"
+  dark=true
+  size=full
+%}
 
 ## Our Team
 {:.center}
