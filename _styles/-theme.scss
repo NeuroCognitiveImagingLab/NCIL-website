@@ -3,20 +3,20 @@
 
 // colors
 [data-dark="false"] {
-  --primary: #0ea5e9;
-  --secondary: #7dd3fc;
-  --text: #000000;
-  --background: #ffffff;
+  --primary: #457B9D;
+  --secondary: #A8DADC;
+  --text: #1D3557;
+  --background: #F1FAEE;
   --background-alt: #fafafa;
   --light-gray: #e0e0e0;
   --gray: #808080;
   --overlay: #00000020;
 }
 [data-dark="true"] {
-  --primary: #0ea5e9;
-  --secondary: #075985;
-  --text: #ffffff;
-  --background: #181818;
+  --primary: #457B9D;
+  --secondary: #A8DADC;
+  --text: #F1FAEE;
+  --background: #1D3557;
   --background-alt: #1c1c1c;
   --light-gray: #404040;
   --gray: #808080;
@@ -25,10 +25,10 @@
 
 :root {
   // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
-  --code: "Roboto Mono", monospace;
+  --title: "Nunito", sans-serif;
+  --heading: "Nunito", sans-serif;
+  --body: "Nunito", sans-serif;
+  --code: "Fira Mono", monospace;
 
   // font sizes
   --medium: 1rem;
