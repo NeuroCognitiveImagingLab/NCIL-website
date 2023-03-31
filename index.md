@@ -34,13 +34,7 @@ Current research projects in the lab are focused on a number of different topics
 * Aphasia (an acquired language disorder)
 * Advanced analysis approaches for EEG and fMRI
 
-{%
-  include link.html
-  link="projects"
-  text="Find out more about the research going on at the NeuroCognitive Imaging Lab"
-  icon="fas fa-arrow-right"
-  flip=true
-%}
+[Find out more about the research going on at the NeuroCognitive Imaging Lab](projects)
 {:.center}
 
 {% 
@@ -60,13 +54,7 @@ Our lab houses two 64-channel EEG systems as well as servers for data storage an
 
 To support the growth of the field, lab director Dr. Aaron Newman has written textbooks on [neuroimaging](https://uk.sagepub.com/en-gb/eur/research-methods-for-cognitive-neuroscience/book242924) and [neural data science](https://neuraldatascience.io/intro.html) in Python.
 
-{%
-  include link.html
-  link="tools"
-  text="Find out more about the resources available in the NeuroCognitive Imaging Lab"
-  icon="fas fa-arrow-right"
-  flip=true
-%}
+[Find out more about the resources available in the NeuroCognitive Imaging Lab](tools)
 {:.center}
 
 {% 
@@ -83,26 +71,14 @@ The NeuroCognitive Imaging lab is a group of enthusiastic researchers interested
 
 NCIL is committed to providing a safe, diverse, inclusive, and equitable environment for learning and working. We welcome trainees from all backgrounds, both locally and internationally. In particular, we welcome and encourage participation by people from African Nova Scotian and Mi'kmaq communities. We recognize the barriers to participation in academia that these and other groups have experienced, and we actively work to support future scholars from historically marginalized communities.
 
-{%
-  include link.html
-  link="team"
-  text="Meet our team"
-  icon="fas fa-arrow-right"
-  flip=true
-%}
+[Meet our team](team)
 {:.center}
 
 ## Do you want to participate in one of our studies?
 
 Due to the broad range of research that takes place in the lab, we are often searching for participants from diverse backgrounds. Depending on what studies are active, we might be looking for elementary school children, young adults, older adults, people with different language learning experiences, or people with certain clinical conditions (such as stroke or vision problems). However, in order for our research to be scientifically rigourous, each study has specific criteria for participation. If you are interested in participating, please click the link below.
 
-{%
-  include link.html
-  link="participate"
-  text="Find out more about participating in a research study"
-  icon="fas fa-arrow-right"
-  flip=true
-%}
+[Find out more about participating in a research study](participate)
 {:.center}
 
 {:.center}
