@@ -72,7 +72,9 @@ Current research projects in the lab are focused on a number of different topics
 
 {% capture text %}
 
-DELETE THIS TEXT - TESTING ONLY
+The NeuroCognitive Imaging lab is a group of enthusiastic researchers interested in cognitive neuroscience. Our team comprises individuals with diverse backgrounds, interests, and skill sets. This includes undergraduate and graduate students, postdoctoral scholars, and professional research assistants. If you are interested in joining the lab as a volunteer, student, or other trainee, please contact us! 
+
+NCIL is committed to providing a safe, diverse, inclusive, and equitable environment for learning and working. We welcome trainees from all backgrounds, both locally and internationally. In particular, we welcome and encourage participation by people from African Nova Scotian and Mi'kmaq communities. We recognize the barriers to participation in academia that these and other groups have experienced, and we actively work to support future scholars from historically marginalized communities.
 
 {%
   include button.html
