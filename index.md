@@ -9,7 +9,7 @@ The NeuroCognitive Imaging Lab (NCIL) at Dalhousie University in Halifax, Nova S
 
 NCIL is located in Mi’kma’ki, the ancestral and unceded territory of the Mi’kmaq. We are all Treaty people. 
 
-We recognize that African Nova Scotians are a distinct people whose histories, legacies and contributions have enriched that part of Mi'kma'ki known as Nova Scotia for over 400 years.
+We recognize that African Nova Scotians are a distinct people whose histories, legacies and contributions have enriched that part of Mi'kma'ki known as Nova Scotia for over 400 years. 
 
 {% 
   include section.html
