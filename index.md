@@ -19,6 +19,8 @@ We recognize that African Nova Scotians are a distinct people whose histories, l
 %}
 
 ## Our Research
+{:.center}
+
 NCIL's research is focused on **Neuroplasticity**: how the brain is changed by experience. Neuroplasticity is an innate capacity of the brain. It includes changes that occur during development, learning (such as learning a new language), recovery from injury (such as a stroke), 
 adaptation to the loss of a sense (such the loss of hearing or sight), and many other things.
 
@@ -43,6 +45,8 @@ Current research projects in the lab are focused on a number of different topics
 %}
 
 ## Our Resources
+{:.center}
+
 The NeuroCognitive Imaging lab makes extensive use of brain imaging technologies including:
 - Functional magnetic resonance imaging (fMRI)
 - Event-related brain potentials (ERP)
@@ -57,7 +61,7 @@ To support the growth of the field, lab director Dr. Aaron Newman has written te
 
 {% 
   include section.html
-  background="images/aaron_with_book.jpg"
+  background="images/aaron_with_book.png"
   dark=true
   size=full
 %}
@@ -75,6 +79,7 @@ NCIL is committed to providing a safe, diverse, inclusive, and equitable environ
 {% include section.html %}
 
 ## Do you want to participate in one of our studies?
+{:.center}
 
 Due to the broad range of research that takes place in the lab, we are often searching for participants from diverse backgrounds. Depending on what studies are active, we might be looking for elementary school children, young adults, older adults, people with different language learning experiences, or people with certain clinical conditions (such as stroke or vision problems). However, in order for our research to be scientifically rigourous, each study has specific criteria for participation. If you are interested in participating, please click the link below.
 
