@@ -10,7 +10,6 @@ The NeuroCognitive Imaging Lab (NCIL) at Dalhousie University in Halifax, Nova S
 NCIL is located in Mi’kma’ki, the ancestral and unceded territory of the Mi’kmaq. We are all Treaty people. 
 
 We recognize that African Nova Scotians are a distinct people whose histories, legacies and contributions have enriched that part of Mi'kma'ki known as Nova Scotia for over 400 years.
-{:.center}
 
 {% 
   include section.html
@@ -36,14 +35,7 @@ Current research projects in the lab are focused on a number of different topics
 [Find out more about the research going on at the NeuroCognitive Imaging Lab](projects)
 {:.center}
 
-{% 
-  include section.html
-  background="images/aaron_with_book.jpg"
-  dark=true
-  size=full
-%}
-
-{% include section.html dark=true %}
+{% include section.html %}
 
 ## Our Resources
 The NeuroCognitive Imaging lab makes extensive use of brain imaging technologies including:
@@ -65,8 +57,6 @@ To support the growth of the field, lab director Dr. Aaron Newman has written te
   size=full
 %}
 
-{% include section.html dark=true %}
-
 ## Our Team
 {:.center}
 
@@ -77,11 +67,11 @@ NCIL is committed to providing a safe, diverse, inclusive, and equitable environ
 [Meet our team](team)
 {:.center}
 
+{% include section.html %}
+
 ## Do you want to participate in one of our studies?
 
 Due to the broad range of research that takes place in the lab, we are often searching for participants from diverse backgrounds. Depending on what studies are active, we might be looking for elementary school children, young adults, older adults, people with different language learning experiences, or people with certain clinical conditions (such as stroke or vision problems). However, in order for our research to be scientifically rigourous, each study has specific criteria for participation. If you are interested in participating, please click the link below.
 
 [Find out more about participating in a research study](participate)
-{:.center}
-
 {:.center}
