@@ -35,7 +35,12 @@ Current research projects in the lab are focused on a number of different topics
 [Find out more about the research going on at the NeuroCognitive Imaging Lab](projects)
 {:.center}
 
-{% include section.html %}
+{% 
+  include section.html
+  background="images/cindy_eeg_1.JPG"
+  dark=true
+  size=full
+%}
 
 ## Our Resources
 The NeuroCognitive Imaging lab makes extensive use of brain imaging technologies including:
@@ -52,7 +57,7 @@ To support the growth of the field, lab director Dr. Aaron Newman has written te
 
 {% 
   include section.html
-  background="images/cindy_eeg_1.JPG"
+  background="images/aaron_with_book.jpg"
   dark=true
   size=full
 %}
