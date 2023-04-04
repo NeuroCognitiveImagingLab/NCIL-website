@@ -14,7 +14,6 @@ We recognize that African Nova Scotians are a distinct people whose histories, l
 {% 
   include section.html
   background="images/DSC_3730-copy-2.jpg"
-  dark=true
   size=full
 %}
 
@@ -75,7 +74,6 @@ To support the growth of the field, lab director Dr. Aaron Newman has written te
 {% 
   include section.html
   background="images/aaron_with_book.png"
-  dark=true
   size=full
 %}
 
