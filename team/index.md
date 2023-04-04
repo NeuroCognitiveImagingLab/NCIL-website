@@ -78,3 +78,8 @@ These are past lab members who have moved on to other school programs, new jobs,
 ## Funding
 Our work is made possible by funding from several organizations.
 {:.center}
+
+[![SSHRC](/images/team/sshrc-fip-full-color-eng.jpg)](https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx)
+[![Brain Repair Centre](/images/team/BRC_logo.png)](https://www.brainrepair.ca/)
+[![NSERC](/images/team/NSERC_FIP_RGB.png)](https://www.nserc-crsng.gc.ca/index_eng.asp)
+[![Mitacs](/images/team/Mitacs.png)](https://www.mitacs.ca/en)
