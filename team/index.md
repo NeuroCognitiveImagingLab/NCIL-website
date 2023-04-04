@@ -41,3 +41,23 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 {% include list.html data="members" component="portrait" filters="role: collab, group: " %}
 
 {% include section.html %}
+
+## Partners
+
+{% capture content %}
+[![SURGE](/images/team/S_Color_horizontal_medium_lightBG.png)](https://www.surgeinnovation.ca/)
+
+[![Ensuring Full Literacy](/images/team/Ensuring_Full_Literacy_logo.png)](https://ensuringliteracy.ca/)
+
+[![Brain Repair Centre](/images/team/BRC_logo.png)](https://www.brainrepair.ca/)
+
+[![IWK Health Centre](/images/team/IWKLOGO.png)](https://www.iwk.nshealth.ca/)
+
+[![QEII Health Sciences Centre Foundation](/images/team/QEII_logo.svg)](https://qe2foundation.ca/)
+
+{% endcapture %}
+
+{% include grid.html content=content %}
+
+{% include section.html %}
+
