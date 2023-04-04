@@ -25,7 +25,7 @@ Aphasia is a communication disorder that affects approximately 2.5 million peopl
 {% endcapture %}
 {%
   include feature.html
-  image="images/Photo_AphasiaProject.jpeg"
+  image="images/projects/Photo_AphasiaProject.jpeg"
   link="projects/Aphasia"
   title="Developing a Prototype of a Computer-Based Therapy for Aphasia: Usability Testing and Preliminary Assessment of Efficacy"
   text=text
@@ -45,7 +45,7 @@ During the covid-19 pandemic, there was a widespread adoption of remote work. Ho
 {% endcapture %}
 {%
   include feature.html
-  image="images/mind_wandering.PNG"
+  image="images/projects/mind_wandering.PNG"
   link="projects/Project-Homework"
   title="Project Homework: An investigation into Cognitive Factors in Remote Collaboration and Remote Work Platforms"
   flip=true
@@ -66,7 +66,7 @@ A brain-computer interface (BCI) is an electronic system that can convert an ind
 {% endcapture %}
 {%
   include feature.html
-  image="images/shutterstock_1048466104.jpg"
+  image="images/projects/shutterstock_1048466104.jpg"
   link="projects/BCI"
   title="A Novel Flickering Oddball Stimulation Paradigm for Hybrid Brain-Computer Interfaces"
   text=text
@@ -86,7 +86,7 @@ What Makes a Skilled Reader? The Neurocognitive Imaging Lab needs your help to f
 {% endcapture %}
 {%
   include feature.html
-  image="images/kids-reading-books.jpg"
+  image="images/projects/kids-reading-books.jpg"
   link="projects/What-Makes-a-Skilled-Reader"
   title="What Makes a Skilled Reader?"
   flip=true
@@ -107,7 +107,7 @@ MADworld-Mango is part of a larger, multi-partner study, _Ensuring Full Literacy
 {% endcapture %}
 {%
   include feature.html
-  image="images/young-woman-using-smartphone.jpg"
+  image="images/projects/young-woman-using-smartphone.jpg"
   link="projects/MADworld-Mango"
   title="Efficacy of Mobile-Assisted Language Learning (MADworld-Mango)"
   text=text
@@ -127,7 +127,7 @@ Learning a new language is challenging for most adults, and it has been shown th
 {% endcapture %}
 {%
   include feature.html
-  image="images/welsh-dragon-2931-p.png"
+  image="images/projects/welsh-dragon-2931-p.png"
   link="projects/WERP"
   title="Welsh Event Related Potential Study"
   flip=true
@@ -147,7 +147,7 @@ Learning a new language is challenging for most adults, and it has been shown th
 {% endcapture %}
 {%
   include feature.html
-  image="images/guy_speaks.png"
+  image="images/projects/guy_speaks.png"
   link="projects/Production-Effect"
   title="Production Effect Project"
   text=""
