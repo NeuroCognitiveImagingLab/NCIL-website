@@ -10,7 +10,7 @@ nav:
 Great people doing amazing work is what makes NCIL. Here’s who we are:
 {:.center}
 
-{% include section.html %}
+{% include section.html dark=true%}
 
 ## Staff
 {:.center}
@@ -24,7 +24,7 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 
 {% include list.html data="members" component="portrait" filters="role: phd, group: " %}
 
-{% include section.html %}
+{% include section.html dark=true%}
 
 ## Undergraduate Students
 {:.center}
@@ -88,6 +88,8 @@ These are past lab members who have moved on to other school programs, new jobs,
 {% include section.html %}
 
 ## Funding
+{:.center}
+
 Our work is made possible by funding from several organizations.
 {:.center}
 
