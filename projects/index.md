@@ -50,6 +50,7 @@ During the covid-19 pandemic, there was a widespread adoption of remote work. Ho
   image="images/mind_wandering.PNG"
   link="projects/Project-Homework"
   title="Project Homework: An investigation into Cognitive Factors in Remote Collaboration and Remote Work Platforms"
+  flip=true
   text=text
 %}
 
@@ -90,6 +91,7 @@ What Makes a Skilled Reader? The Neurocognitive Imaging Lab needs your help to f
   image="images/kids-reading-books.jpg"
   link="projects/What-Makes-a-Skilled-Reader"
   title="What Makes a Skilled Reader?"
+  flip=true
   text=text
 %}
 
@@ -127,9 +129,10 @@ MADworld-Mango is part of a larger, multi-partner study, _Ensuring Full Literacy
 {% endcapture %}
 {%
   include feature.html
-  image="images/ML-Logo-Header.svg"
+  image="images/photo.jpg"
   link="projects/MADworld-Mango"
   title="Efficacy of Mobile-Assisted Language Learning (MADworld-Mango)"
+  flip=true
   text=text
 %}
 
@@ -146,7 +149,7 @@ MADworld-Mango is part of a larger, multi-partner study, _Ensuring Full Literacy
 {% endcapture %}
 {%
   include feature.html
-  image="images/speech-human-voice-symbol.jpg"
+  image="images/people-talking.svg"
   link="projects/Production-Effect"
   title="Production Effect Project"
   text=""
