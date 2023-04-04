@@ -33,8 +33,8 @@ Current research projects in the lab are focused on a number of different topics
 * Brain-Computer Interfaces
 * Aphasia (an acquired language disorder)
 * Advanced analysis approaches for EEG and fMRI
+{:.center}
 
-{% endcapture %}
 {%
   include button.html
   link="projects"
