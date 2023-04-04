@@ -14,6 +14,7 @@ We recognize that African Nova Scotians are a distinct people whose histories, l
 {% 
   include section.html
   background="images/DSC_3730-copy-2.jpg"
+  dark=true
   size=full
 %}
 
@@ -94,7 +95,7 @@ NCIL is committed to providing a safe, diverse, inclusive, and equitable environ
 %}
 {:.center}
 
-{% include section.html %}
+{% include section.html dark=true%}
 
 ## Do you want to participate in one of our studies?
 {:.center}
