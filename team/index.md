@@ -15,14 +15,10 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 
 {% include list.html data="members" component="portrait" filters="role: pi, group: " %}
 
-{% include section.html %}
-
 ## Graduate Students
 {:.center}
 
 {% include list.html data="members" component="portrait" filters="role: phd, group: " %}
-
-{% include section.html %}
 
 ## Undergraduate Students
 {:.center}
@@ -47,8 +43,6 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 
 {% include list.html data="members" component="portrait" filters="role: collab, group: " %}
 
-{% include section.html %}
-
 ## Partners
 {:.center}
 
@@ -64,8 +58,6 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 
 {% include grid.html content=content %}
 
-{% include section.html %}
-
 ## Alumni
 {:.center}
 Gone but never forgotten.
@@ -79,8 +71,6 @@ These are past lab members who have moved on to other school programs, new jobs,
 {% include list.html data="members" component="portrait" filters="role: programmer, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: mascot, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: collab, group: alum" style="small" %}
-
-{% include section.html %}
 
 ## Funding
 {:.center}
