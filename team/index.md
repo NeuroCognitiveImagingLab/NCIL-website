@@ -6,22 +6,29 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
+{:.center}
 Great people doing amazing work is what makes NCIL. Here’s who we are:
 {:.center}
 
 {% include section.html %}
 
 ## Staff
+{:.center}
+
 {% include list.html data="members" component="portrait" filters="role: pi, group: " %}
 
 {% include section.html %}
 
 ## Graduate Students
+{:.center}
+
 {% include list.html data="members" component="portrait" filters="role: phd, group: " %}
 
 {% include section.html %}
 
 ## Undergraduate Students
+{:.center}
+
 {% include list.html data="members" component="portrait" filters="role: undergrad, group: " %}
 
 {% include section.html background="images/20111102_BrainRepair_01.jpg" dark=true %}
@@ -38,11 +45,14 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 {% include section.html %}
 
 ## Collaborators
+{:.center}
+
 {% include list.html data="members" component="portrait" filters="role: collab, group: " %}
 
 {% include section.html %}
 
 ## Partners
+{:.center}
 
 {% capture content %}
 [![SURGE](/images/team/S_Color_horizontal_medium_lightBG.png)](https://www.surgeinnovation.ca/)
@@ -62,8 +72,10 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 {% include section.html %}
 
 ## Alumni
+{:.center}
 Gone but never forgotten.
 These are past lab members who have moved on to other school programs, new jobs, or elsewhere.
+{:.center}
 
 {% include list.html data="members" component="portrait" filters="role: pi, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: alum" style="small" %}
