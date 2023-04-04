@@ -51,4 +51,22 @@ During the covid-19 pandemic, there was a widespread adoption of remote work. Ho
   text=text
 %}
 
+{% capture text %}
+A brain-computer interface (BCI) is an electronic system that can convert an individual’s brain activity into control commands to operate devices, allowing systems to receive input directly from task-related brain signals. For this reason, BCIs offer promising assistive technology solutions for people suffering with severe motor dysfunction. This project aims to maximize the performance of a BCI to distinguish target responses, for any user, at any time. This project will be recruiting participants beginning in January of 2023.
+{%
+  include button.html
+  link="projects/BCI"
+  text="Find out more about this study"
+  icon="fas fa-arrow-right"
+  flip=true
+%}
+{:.center}
+{% endcapture %}
 
+{%
+  include feature.html
+  image="images/shutterstock_1048466104.jpg"
+  link="projects/BCI"
+  title="A Novel Flickering Oddball Stimulation Paradigm for Hybrid Brain-Computer Interfaces"
+  text=text
+%}
