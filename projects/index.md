@@ -110,7 +110,6 @@ MADworld-Mango is part of a larger, multi-partner study, _Ensuring Full Literacy
   image="images/young-woman-using-smartphone.jpg"
   link="projects/MADworld-Mango"
   title="Efficacy of Mobile-Assisted Language Learning (MADworld-Mango)"
-  flip=true
   text=text
 %}
 
@@ -131,6 +130,7 @@ Learning a new language is challenging for most adults, and it has been shown th
   image="images/welsh-dragon-2931-p.png"
   link="projects/WERP"
   title="Welsh Event Related Potential Study"
+  flip=true
   text=text
 %}
 
