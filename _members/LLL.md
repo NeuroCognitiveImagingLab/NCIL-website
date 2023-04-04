@@ -1,7 +1,7 @@
 ---
 name: Language and Literacy Lab (LLL)
 image: images/team/LLL_team.jpg
-description: Lab Director
+description: Collaborator
 role: collab
 aliases:
   - LLL
