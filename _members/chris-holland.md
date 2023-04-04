@@ -1,6 +1,6 @@
 ---
 name: Chris Holland
-image: images/Chris_Holland.jpeg
+image: images/team/Chris_Holland.jpeg
 description: PhD Student
 role: phd
 aliases:
