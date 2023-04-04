@@ -31,7 +31,7 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 
 {% include list.html data="members" component="portrait" filters="role: undergrad, group: " %}
 
-{% include section.html background="images/team/join_us.png" dark=true %}
+{% include section.html background="images/team/join.png" dark=true %}
 
 {%
   include button.html
