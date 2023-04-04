@@ -6,30 +6,33 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Great people doing amazing work is what makes NCIL. Here’s who we are:
+{:.center}
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
-
-{% include section.html background="images/background.jpg" dark=true %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Staff
+{% include list.html data="members" component="portrait" filters="role: pi, group: " %}
 
 {% include section.html %}
 
-{% capture content %}
+## Graduate Students
+{% include list.html data="members" component="portrait" filters="role: phd, group: " %}
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+{% include section.html %}
 
-{% endcapture %}
+## Undergraduate Students
+{% include list.html data="members" component="portrait" filters="role: undergrad, group: " %}
 
-{% include grid.html style="square" content=content %}
+{% include section.html background="images/20111102_BrainRepair_01.jpg" dark=true%}
+
+{%
+  include button.html
+  icon="fa-solid fa-handshake-angle"
+  text="Join the Team"
+  link="join"
+  style="button"
+%}
+{:.center}
+
+{% include section.html %}
