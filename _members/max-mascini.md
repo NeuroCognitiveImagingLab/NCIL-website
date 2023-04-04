@@ -1,6 +1,6 @@
 ---
 name: Max Mascini
-image: images/Max_Mascini_Photo.png
+image: images/team/Max_Mascini_Photo.png
 description: Independent Research
 role: undergrad
 aliases:
