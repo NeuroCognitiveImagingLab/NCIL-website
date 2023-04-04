@@ -147,7 +147,7 @@ MADworld-Mango is part of a larger, multi-partner study, _Ensuring Full Literacy
 {% endcapture %}
 {%
   include feature.html
-  image="images/guy_speaks.svg"
+  image="images/guy_speaks.png"
   link="projects/Production-Effect"
   title="Production Effect Project"
   text=""
