@@ -60,6 +60,7 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 {% include figure.html image="images/team/BRC_logo.png" link="https://www.brainrepair.ca/" %}
 {% include figure.html image="images/team/IWKLOGO.png" link="https://www.iwk.nshealth.ca/" %}
 {% include figure.html image="images/team/QEII_logo.svg" link="https://qe2foundation.ca/" height="200px"%}
+{% include figure.html image="images/team/ML-Logo-Header.svg" link="https://mangolanguages.com/" %}
 
 {% endcapture %}
 
