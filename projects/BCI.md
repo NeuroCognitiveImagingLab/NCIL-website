@@ -30,10 +30,8 @@ Overall, this is a complex study that intersects neuroscience, computer science,
 Funded by the Nova Scotia Graduate Scholarship (NSGS) and the Dalhousie Medical Research Foundation (DMRF).
 
 {%
-  include gallery.html
-
-  image1="images/DMRF_Logo.svg"
-  link1="https://dmrf.ca/"
-  tooltip1="DMRF"
-
+  include figure.html
+  image="images/DMRF_Logo.svg"
+  link="https://dmrf.ca/"
+  tooltip="DMRF"
 %}

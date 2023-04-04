@@ -4,6 +4,7 @@ title: MADworld-Mango
 ## The MADworld-Mango Languages Project
 
 The goal of this study is to learn if a digital app is useful in helping newcomers to Canada improve their English abilities. The NeuroCognitive Imaging Lab at Dalhousie University has partnered with Simon Fraser University and Mango Languages to conduct this study.
+
 ## What You Will Be Asked to Do
 We are currently recruiting people to take part in this study. If you are interested in participating, you will be given a choice to "consent" (agree) to take part in the study. If you agree to participate, you will complete questionnaires and tests online, and then you will be given free access to an ESL (English as a second language) program offered through the app, Mango Languages. You will be asked to use the Mango Languages app to play games intended to help improve your English. We ask that you try to use the app at least 1 hour per week, for a period of 8 weeks. We recommend that you practice for 20 minutes, 3 times per week, but that is up to you. At the end of 8 weeks, you will be asked to do a final test of your English abilities.
 

@@ -20,7 +20,7 @@ Here are the projects we are working on at NCIL:
 %}
 
 {%
-  include link.html
+  include button.html
   link="projects/Aphasia"
   text="Find out more about this study"
   icon="fas fa-arrow-right"
@@ -37,7 +37,7 @@ Here are the projects we are working on at NCIL:
 %}
 
 {%
-  include link.html
+  include button.html
   link="projects/Project-Homework"
   text="Find out more about this study"
   icon="fas fa-arrow-right"
