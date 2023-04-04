@@ -102,5 +102,11 @@ NCIL is committed to providing a safe, diverse, inclusive, and equitable environ
 
 Due to the broad range of research that takes place in the lab, we are often searching for participants from diverse backgrounds. Depending on what studies are active, we might be looking for elementary school children, young adults, older adults, people with different language learning experiences, or people with certain clinical conditions (such as stroke or vision problems). However, in order for our research to be scientifically rigourous, each study has specific criteria for participation. If you are interested in participating, please click the link below.
 
-[Find out more about participating in a research study](participate)
+{%
+  include button.html
+  link="participate"
+  text="Find out more about participating in a research study"
+  icon="fas fa-arrow-right"
+  flip=true
+%}
 {:.center}
