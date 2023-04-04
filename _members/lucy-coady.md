@@ -1,6 +1,6 @@
 ---
 name: Lucy Coady
-image: images/Lucy_Coady_Photo.jpg
+image: images/team/Lucy_Coady_Photo.jpg
 description: Honours Student
 role: undergrad
 aliases:
