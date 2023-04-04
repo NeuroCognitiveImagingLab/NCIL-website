@@ -67,17 +67,6 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 
 {% include section.html %}
 
-## Funding
-{:.center}
-
-Our work is made possible by funding from several organizations.
-{:.center}
-
-{% include figure.html image="images/team/sshrc-fip-full-color-eng.jpg" caption="SSHRC" link="https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" %}
-{% include figure.html image="images/team/BRC_logo.png" caption="Brain Repair Centre" link="https://www.brainrepair.ca/" %}
-{% include figure.html image="images/team/NSERC_FIP_RGB.png" caption="NSERC" link="https://www.nserc-crsng.gc.ca/index_eng.asp" %}
-{% include figure.html image="images/team/Mitacs.png" caption="Mitacs" link="https://www.mitacs.ca/en" %}
-
 ## Alumni
 {:.center}
 Gone but never forgotten.
@@ -93,3 +82,19 @@ These are past lab members who have moved on to other school programs, new jobs,
 {% include list.html data="members" component="portrait" filters="role: collab, group: alum" style="small" %}
 
 {% include section.html %}
+
+## Funding
+{:.center}
+
+Our work is made possible by funding from several organizations.
+{:.center}
+
+{% capture content %}
+{% include figure.html image="images/team/sshrc-fip-full-color-eng.jpg" link="https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" %}
+{% include figure.html image="images/team/NSERC_FIP_RGB.jpg" link="https://www.nserc-crsng.gc.ca/index_eng.asp" %}
+{% include figure.html image="images/team/BRC_logo.png" link="https://www.brainrepair.ca/" height=400px %}
+{% include figure.html image="images/team/Mitacs.png" link="https://www.mitacs.ca/en" %}
+
+{% endcapture %}
+
+{% include grid.html content=content %}
