@@ -55,15 +55,11 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 {:.center}
 
 {% capture content %}
-[![SURGE](/images/team/S_Color_horizontal_medium_lightBG.png)](https://www.surgeinnovation.ca/)
-
-[![Ensuring Full Literacy](/images/team/Ensuring_Full_Literacy_logo.png)](https://ensuringliteracy.ca/)
-
-[![Brain Repair Centre](/images/team/BRC_logo.png)](https://www.brainrepair.ca/)
-
-[![IWK Health Centre](/images/team/IWKLOGO.png)](https://www.iwk.nshealth.ca/)
-
-[![QEII Health Sciences Centre Foundation](/images/team/QEII_logo.svg)](https://qe2foundation.ca/)
+{% include figure.html image="images/team/S_Color_horizontal_medium_lightBG.png" caption="SURGE" link="https://www.surgeinnovation.ca/" %}
+{% include figure.html image="images/team/Ensuring_Full_Literacy_logo.png" caption="Ensuring Full Literacy" link="https://ensuringliteracy.ca/" %}
+{% include figure.html image="images/team/BRC_logo.png" caption="Brain Repair Centre" link="https://www.brainrepair.ca/" %}
+{% include figure.html image="images/team/IWKLOGO.png" caption="IWK Health Centre" link="https://www.iwk.nshealth.ca/" %}
+{% include figure.html image="images/team/QEII_logo.svg" caption="QEII Health Sciences Centre Foundation" link="https://qe2foundation.ca/" %}
 
 {% endcapture %}
 
@@ -93,7 +89,7 @@ These are past lab members who have moved on to other school programs, new jobs,
 Our work is made possible by funding from several organizations.
 {:.center}
 
-[![SSHRC](/images/team/sshrc-fip-full-color-eng.jpg)](https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx)
-[![Brain Repair Centre](/images/team/BRC_logo.png)](https://www.brainrepair.ca/)
-[![NSERC](/images/team/NSERC_FIP_RGB.png)](https://www.nserc-crsng.gc.ca/index_eng.asp)
-[![Mitacs](/images/team/Mitacs.png)](https://www.mitacs.ca/en)
+{% include figure.html image="images/team/sshrc-fip-full-color-eng.jpg" caption="SSHRC" link="https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" %}
+{% include figure.html image="images/team/BRC_logo.png" caption="Brain Repair Centre" link="https://www.brainrepair.ca/" %}
+{% include figure.html image="images/team/NSERC_FIP_RGB.png" caption="NSERC" link="https://www.nserc-crsng.gc.ca/index_eng.asp" %}
+{% include figure.html image="images/team/Mitacs.png" caption="Mitacs" link="https://www.mitacs.ca/en" %}
