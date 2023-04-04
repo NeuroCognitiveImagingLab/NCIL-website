@@ -94,26 +94,6 @@ What Makes a Skilled Reader? The Neurocognitive Imaging Lab needs your help to f
 %}
 
 {% capture text %}
-Learning a new language is challenging for most adults, and it has been shown that it can be more difficult if the learner is using their first language during the process. Therefore, this project investigates adult language learning of Welsh words, and uses electroencephalography (EEG) to explore how speaking English versions of the newly learned Welsh words will alter brain activity. This project will be recruiting participants in 2023.
-
-{%
-  include button.html
-  link="projects/WERP"
-  text="Find out more about this study"
-  icon="fas fa-arrow-right"
-  flip=true
-%}
-{:.center}
-{% endcapture %}
-{%
-  include feature.html
-  image="images/welsh-dragon-2931-p.png"
-  link="projects/WERP"
-  title="Welsh Event Related Potential Study"
-  text=text
-%}
-
-{% capture text %}
 MADworld-Mango is part of a larger, multi-partner study, _Ensuring Full Literacy in a Multicultural and Digital World_, under the direction of Dr. Janet F. Werker at the University of British Columbia. MADworld-Mango is a collaboration between PIs Aaron Newman of Dalhousie University, Henny Yeung of Simon Fraser University, and Mango Languages, USA. Consistent with the larger study, MADworld-Mango addresses a major issue confronting society: literacy and how to bridge literacy acquisition within a multicultural and digitally-connected world.  This project has formed a research-industry-community partnership to evaluate the efficacy of a digital learning platform designed to assist newcomers to Canada improve their English abilities. After 8 weeks of online participation, we’ll evaluate learners’ benefit from additional training with a language app to any other instruction they are receiving. 
 
 {%
@@ -135,6 +115,26 @@ MADworld-Mango is part of a larger, multi-partner study, _Ensuring Full Literacy
 %}
 
 {% capture text %}
+Learning a new language is challenging for most adults, and it has been shown that it can be more difficult if the learner is using their first language during the process. Therefore, this project investigates adult language learning of Welsh words, and uses electroencephalography (EEG) to explore how speaking English versions of the newly learned Welsh words will alter brain activity. This project will be recruiting participants in 2023.
+
+{%
+  include button.html
+  link="projects/WERP"
+  text="Find out more about this study"
+  icon="fas fa-arrow-right"
+  flip=true
+%}
+{:.center}
+{% endcapture %}
+{%
+  include feature.html
+  image="images/welsh-dragon-2931-p.png"
+  link="projects/WERP"
+  title="Welsh Event Related Potential Study"
+  text=text
+%}
+
+{% capture text %}
 
 {%
   include button.html
@@ -152,6 +152,3 @@ MADworld-Mango is part of a larger, multi-partner study, _Ensuring Full Literacy
   title="Production Effect Project"
   text=""
 %}
-
-
-
