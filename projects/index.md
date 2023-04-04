@@ -11,8 +11,6 @@ nav:
 Here are the projects we are working on at NCIL:
 {:.center}
 
-{% include section.html %}
-
 {% capture text %}
 Aphasia is a communication disorder that affects approximately 2.5 million people in North America, however currently most people with aphasia do not receive adequate treatment. Computer-based therapies can help to address these problems as they provide people with access to a potentially cost-effective therapy, from the comfort of their own home. This project aims to develop, test, and commercialize a computer-based therapy for at-home rehabilitation of aphasia. This program has been developed, undergone initial testing, and is now recruiting participants with aphasia to participate in testing the refined design of the computer program.
 
@@ -129,7 +127,7 @@ MADworld-Mango is part of a larger, multi-partner study, _Ensuring Full Literacy
 {% endcapture %}
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/young-woman-using-smartphone.jpg"
   link="projects/MADworld-Mango"
   title="Efficacy of Mobile-Assisted Language Learning (MADworld-Mango)"
   flip=true
@@ -149,7 +147,7 @@ MADworld-Mango is part of a larger, multi-partner study, _Ensuring Full Literacy
 {% endcapture %}
 {%
   include feature.html
-  image="images/people-talking.svg"
+  image="images/guy_speaks.svg"
   link="projects/Production-Effect"
   title="Production Effect Project"
   text=""
