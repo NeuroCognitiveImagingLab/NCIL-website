@@ -50,7 +50,7 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 {% include figure.html image="images/team/S_Color_horizontal_medium_lightBG.png" link="https://www.surgeinnovation.ca/" %}
 {% include figure.html image="images/team/Ensuring_Full_Literacy_logo.png" link="https://ensuringliteracy.ca/" %}
 {% include figure.html image="images/team/BRC_logo.png" link="https://www.brainrepair.ca/" %}
-{% include figure.html image="images/team/IWKLOGO.png" link="https://www.iwk.nshealth.ca/" %}
+{% include figure.html image="images/team/IWK-Logo-Colour-1080.png" link="https://www.iwk.nshealth.ca/" %}
 {% include figure.html image="images/team/QEII_logo.svg" link="https://qe2foundation.ca/" %}
 {% include figure.html image="images/team/ML-Logo-Header.svg" link="https://mangolanguages.com/" %}
 
