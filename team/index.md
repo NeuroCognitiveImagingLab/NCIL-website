@@ -79,7 +79,7 @@ Our work is made possible by funding from several organizations.
 {:.center}
 
 {% capture content %}
-{% include figure.html image="images/team/sshrc-fip-full-color-eng.jpg" link="https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" %}
+{% include figure.html image="images/team/sshrc-fip-full-color-eng.png" link="https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" %}
 {% include figure.html image="images/team/NSERC_FIP_RGB.jpg" link="https://www.nserc-crsng.gc.ca/index_eng.asp" %}
 {% include figure.html image="images/team/BRC_logo.png" link="https://www.brainrepair.ca/" %}
 {% include figure.html image="images/team/Mitacs.png" link="https://www.mitacs.ca/en" %}
