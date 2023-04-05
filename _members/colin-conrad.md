@@ -1,7 +1,7 @@
 ---
 name: Colin Conrad
 image: images/team/colinface.jpg
-description:
+description: Collaborator
 role: collab
 aliases:
   - C. Conrad
