@@ -51,8 +51,8 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 {% include figure.html image="images/team/Ensuring_Full_Literacy_logo.png" link="https://ensuringliteracy.ca/" %}
 {% include figure.html image="images/team/BRC_logo.png" link="https://www.brainrepair.ca/" %}
 {% include figure.html image="images/team/IWK-Logo-Colour-1080.png" link="https://www.iwk.nshealth.ca/" %}
+{% include figure.html image="images/team/ML-Logo-Header.svg" link="https://mangolanguages.com/" width="600px"%}
 {% include figure.html image="images/team/QEII_logo.svg" link="https://qe2foundation.ca/" width="800px"%}
-{% include figure.html image="images/team/ML-Logo-Header.svg" link="https://mangolanguages.com/" width="800px"%}
 
 {% endcapture %}
 
@@ -79,6 +79,6 @@ Our work is made possible by funding from several organizations.
 {:.center}
 
 {% include figure.html image="images/team/sshrc-fip-full-color-eng.png" link="https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" %}
-{% include figure.html image="images/team/NSERC_FIP_RGB.png" link="https://www.nserc-crsng.gc.ca/index_eng.asp" %}
-{% include figure.html image="images/team/BRC_logo.png" link="https://www.brainrepair.ca/" height="400px"%}
+{% include figure.html image="images/team/NSERC_FIP_RGB.png" link="https://www.nserc-crsng.gc.ca/index_eng.asp" height="400px"%}
+{% include figure.html image="images/team/BRC_logo.png" link="https://www.brainrepair.ca/" height="200px"%}
 {% include figure.html image="images/team/Mitacs.png" link="https://www.mitacs.ca/en" %}
