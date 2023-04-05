@@ -15,6 +15,11 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 
 {% include list.html data="members" component="portrait" filters="role: pi, group: " %}
 
+## Postdoctoral Researchers
+{:.center}
+
+{% include list.html data="members" component="portrait" filters="role: postdoc, group: " %}
+
 ## Graduate Students
 {:.center}
 
