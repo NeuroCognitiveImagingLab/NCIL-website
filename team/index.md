@@ -65,9 +65,6 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 
 ## Alumni
 {:.center}
-Gone but never forgotten.
-These are past lab members who have moved on to other school programs, new jobs, or elsewhere.
-{:.center}
 
 {% include list.html data="members" component="portrait" filters="role: pi, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: alum" style="small" %}
