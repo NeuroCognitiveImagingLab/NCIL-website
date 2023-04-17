@@ -2,10 +2,11 @@
 title: Neuroimaging
 nav:
   order: 4
-  tooltip: Software, datasets, and more
+  tooltip: About neuroimaging 
 ---
 
 # {% include icon.html icon="fa-solid fa-tools" %}Neuroimaging
+{:.center}
 
 # Neuroimaging tools
 A number of remarkable tools exist to measure and localize the activity of the brain non-invasively. These tools form the primary basis of the field of cognitive neuroscience, which is dedicated to understanding the relationships between cognition and brain activity. NCIL lab director Aaron Newman has published a book that provides and overview of these techniques, [*Research Methods for Cognitive Neuroscience*](https://us.sagepub.com/en-us/nam/research-methods-for-cognitive-neuroscience/book242924), as well as the Dalhousie University course NESC/PSYO 3137. On this page we provide a bit more information on the two techniques we use most in NCIL, and which lab members are most likely to gain experience with.
