@@ -5,7 +5,7 @@ nav:
   tooltip: About neuroimaging 
 ---
 
-# {% include icon.html icon="fa-brain fa-tools" %}Neuroimaging
+# {% include icon.html icon="fa-solid fa-brain" %}Neuroimaging
 {:.center}
 
 # Neuroimaging tools
