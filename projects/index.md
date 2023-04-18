@@ -14,7 +14,6 @@ NCIL conducts research on language, using a combination of neuroimaging and beha
 
 {% capture text %}
 What Makes a Skilled Reader? The Neurocognitive Imaging Lab needs your help to find out! The goal of the study is to characterize how individual differences in reading skills relate to children’s patterns of brain activation, and how these relationships change from Grade 2 to Grade 5. We’re currently looking for kids to participate who are in grades 2 or 3, speak only English at home, and be enrolled in either standard English of French immersion programs at school. Click below to find out more if you're interested!
-
 {%
   include button.html
   link="projects/What-Makes-a-Skilled-Reader"
@@ -35,7 +34,6 @@ What Makes a Skilled Reader? The Neurocognitive Imaging Lab needs your help to f
 
 {% capture text %}
 A brain-computer interface (BCI) is an electronic system that can convert an individual’s brain activity into control commands to operate devices, allowing systems to receive input directly from task-related brain signals. For this reason, BCIs offer promising assistive technology solutions for people suffering with severe motor dysfunction. Our research using EEG aims to maximize the performance of a BCI to distinguish target responses, for any user, at any time. 
-
 {%
   include button.html
   link="projects/BCI"
@@ -53,9 +51,9 @@ A brain-computer interface (BCI) is an electronic system that can convert an ind
   text=text
 %}
 
+
 {% capture text %}
 Aphasia is a communication disorder that affects approximately 2.5 million people in North America. Unfortunately, most people with aphasia are not able to access adequate treatment. Computer-based therapies can help to address these problems as they provide people with access to a potentially cost-effective therapy, from the comfort of their own home. In our research project we are developing, and testing a computer-based therapy for at-home rehabilitation of aphasia, with the future goal of releasing a commercial product. The initial version of our web app has been developed and tested for usability, and is now undergoing efficacy testing. We are currently recruiting people with aphasia to participate in this study — please contact us if you're interested!
-
 {%
   include button.html
   link="projects/Aphasia"
@@ -71,11 +69,12 @@ Aphasia is a communication disorder that affects approximately 2.5 million peopl
   link="projects/Aphasia"
   title="Aphasia Treatment (online app)"
   text=text
+  flip=true
 %}
+
 
 {% capture text %}
 Partnering with app developer Mango Languages (whose Research Director, Dr. Kaitlyn Tagarelli, is NCIL alum!) we are studying how the Mango Languages app can assist newcomers to Canada improve their English abilities. After 8 weeks of app use, we evaluate learners’ benefit and how it relates to other language supports they receive (such as classes or discussion groups). In this project, we are partnered with the [Language Learning & Development Lab](https://www.sfu.ca/langdev.html) at Simon Fraser University, directed by Dr. Henny Yeung. This project is funded through a larger, multi-partner research grant, [_Ensuring Full Literacy in a Multicultural and Digital World_](https://ensuringliteracy.ca), under the direction of [Dr. Janet F. Werker](https://psych.ubc.ca/profile/janet-werker/) at the University of British Columbia.   
-
 {%
   include button.html
   link="projects/MADworld-Mango"
@@ -96,7 +95,6 @@ Partnering with app developer Mango Languages (whose Research Director, Dr. Kait
 
 {% capture text %}
 Learning a new language is challenging for most adults, and it has been shown that it can be more difficult if the learner is using their first language during the process. Therefore, this project investigates adult language learning of Welsh words, and uses electroencephalography (EEG) to explore how speaking English versions of the newly learned Welsh words will alter brain activity. 
-
 {%
   include button.html
   link="projects/WERP"
@@ -118,7 +116,6 @@ Learning a new language is challenging for most adults, and it has been shown th
 
 {% capture text %}
 This research project is driven by a very simple question: why do we remember things better when we read them aloud, than when we read them silently? There are many possible reasons: when we read aloud, we engage our motuh and larynx (motor system) and we hear ourselves speak (auditory perception). We also simply have to "do" a thing when we read a word aloud that we don't when we read silently, which may direct more attention to the word. All of these things might strengthen our memory for a word. In our research, we are using functional MRI scanning to examine what is different in the brain when we read aloud. In particular, we are using an advanced analysis technique known as _representational similarity analysis_ (RSA), which allows us to examine the distinct neural "fingerprints" of individual words, in different brain areas. 
-
 {%
   include button.html
   link="projects/Production-Effect"
@@ -133,12 +130,12 @@ This research project is driven by a very simple question: why do we remember th
   image="images/guy_speaks.png"
   link="projects/Production-Effect"
   title="What's Special About Reading Aloud? (fMRI)"
-  text=""
+  text=text
 %}
+
 
 {% capture text %}
 During the COVID-19 pandemic, there was a widespread adoption of remote work. However, the collaboration platforms that enable this work may strain cognitive systems — which can inhibit the ability to learn or develop new ideas. We hypothesize that this is in part to increased mind wandering when working and learning online. This project, in collaboration iwth [Dr. Colin Conrad](https://www.dal.ca/faculty/management/school-of-information-management/faculty-staff/faculty/colin-conrad.html) of Dalhousie University's [School of Information Management](https://www.dal.ca/faculty/management/school-of-information-management.html), aims to explore how the ability to sustain attention may become weaker over time and how changes in work environments can prevent it. This study uses surveys, behavioural studies and electroencephalography (EEG).
-
 {%
   include button.html
   link="projects/Project-Homework"
