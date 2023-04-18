@@ -25,9 +25,9 @@ nav:
   icon="fas fa-table"
   flip=true
 %}
-{:.center}
 
 {% endcapture %}
+{:.center}
 
 # Neuroimaging tools
 A number of remarkable tools exist to measure and localize the activity of the brain non-invasively. These tools form the primary basis of the field of cognitive neuroscience, which is dedicated to understanding the relationships between cognition and brain activity. NCIL lab director Aaron Newman has published a book that provides and overview of these techniques, [*Research Methods for Cognitive Neuroscience*](https://us.sagepub.com/en-us/nam/research-methods-for-cognitive-neuroscience/book242924), as well as the Dalhousie University course NESC/PSYO 3137. On this page we provide a bit more information on the two techniques we use most in NCIL, and which lab members are most likely to gain experience with.
@@ -38,11 +38,11 @@ EEG is a technique used for recording ‘brain waves’, or more technically the
 {% capture content %}
 {% include figure.html image="images/cindy_eeg_2.JPG" %}
 {% include figure.html image="images/DSC_3734 copy.JPG" %}
-{:.center}
 
 {% endcapture %}
 
 {% include grid.html content=content %}
+{:.center}
 
 The most important thing to understand about EEG is that while it is very good at answering questions about when in time a cognitive process occurs, and how that process is affected by different experimental manipulations, it is not good at localizing where in the brain activity occurs. Typically many brain regions are active at one time, and the inside of the head is an excellent conductor of these electrical signals. Thus the signals we record with electrodes on the outside of the scalp tend to be largest where the signals happen to add up, which is not necessarily directly over the part of the brain that is generating the signal. In cognitive neuroscience research, most people use EEG in two ways: event-related potentials (ERPs), and frequency-domain analyses. 
 
