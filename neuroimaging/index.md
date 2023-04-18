@@ -42,7 +42,6 @@ EEG is a technique used for recording ‘brain waves’, or more technically the
 {% endcapture %}
 
 {% include grid.html content=content %}
-{:.center}
 
 The most important thing to understand about EEG is that while it is very good at answering questions about when in time a cognitive process occurs, and how that process is affected by different experimental manipulations, it is not good at localizing where in the brain activity occurs. Typically many brain regions are active at one time, and the inside of the head is an excellent conductor of these electrical signals. Thus the signals we record with electrodes on the outside of the scalp tend to be largest where the signals happen to add up, which is not necessarily directly over the part of the brain that is generating the signal. In cognitive neuroscience research, most people use EEG in two ways: event-related potentials (ERPs), and frequency-domain analyses. 
 
@@ -64,8 +63,6 @@ MRI scanners are very expensive to install and maintain; for this reason, we do 
 {% endcapture %}
 
 {% include grid.html content=content %}
-{:.center}
-
 
 The typical way of analyzing fMRI data involves comparing activity between different experimental conditions to determine which brain areas show greater activity in one condition than another. However, more advanced analysis techniques go beyond this. For example, techniques such as functional and effective connectivity can be used to examine how different brain areas interact with each other. As well, multi-voxel pattern analysis (MVPA) techniques such as representational similarity analysis (RSA) can be used to decode the unique neural  "fingerprint" evoked by individual stimuli, and determine whether there are systematic relationships between differences in brain activation for different stimuli, and relationships between the stimuli themselves (for example, a brain area sensitive to words night show more similar "fingerprints" for two words that have similar spelling, compared to two words that have very different spellings). 
 
