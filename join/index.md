@@ -32,6 +32,10 @@ nav:
   flip=true
 %}
 
+The NeuroCognitive Imaging lab is a group of enthusiastic researchers interested in cognitive neuroscience. Our team comprises individuals with diverse backgrounds, interests, and skill sets. This includes undergraduate and graduate students, postdoctoral scholars, and professional research assistants. If you are interested in joining the lab as a volunteer, student, or other trainee, please contact us!
+
+NCIL is committed to providing a safe, diverse, inclusive, and equitable environment for learning and working. We welcome trainees from all backgrounds, both locally and internationally. In particular, we welcome and encourage participation by people from African Nova Scotian and Mi’kmaq communities. We recognize the barriers to participation in academia that these and other groups have experienced, and we actively work to support future scholars from historically marginalized communities.
+
 # Undergraduate Students
 NCIL always has many undergraduate students in the lab, getting experience with cognitive neuroscience research. Lab experience in general is a great way to learn about the process of scientific research, and to develop critical thinking and writing skills. This can be valuable for a variety of educational and career paths, including graduate study in cognitive neuroscience, or many other fields (e.g., clinical professions, law, entrepreneurship).
 
