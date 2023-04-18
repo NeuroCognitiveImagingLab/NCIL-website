@@ -36,7 +36,7 @@ In addition to fMRI, MRI scanners can produce other types of scans that are usef
 MRI scanners are very expensive to install and maintain; for this reason, we do not have an MRI scanner in NCIL, but we have access to MRIs for research purposes at the nearby IWK and QEII health centres. MRI studies are very expensive to run and typically we can only conduct an MRI research study if we have a significant research grant to cover these costs. 
 
 {% capture content %}
-{% include figure.html image="images/IWK_MRI_scanner.jpg" %}
+{% include figure.html image="images/IWK_MRI_scanner.png" %}
 {% include figure.html image="images/child_in_MRI_scanner.png" %}
 
 {% endcapture %}
