@@ -5,7 +5,7 @@ nav:
   tooltip: About neuroimaging 
 ---
 
-# {% include icon.html icon="fa-solid fa-brain" %}Neuroimaging
+# {% include icon.html icon="fa-solid fa-brain" %}Neuroimaging and Data Science
 {:.center}
 
 # Neuroimaging tools
@@ -13,6 +13,14 @@ A number of remarkable tools exist to measure and localize the activity of the b
 
 ## Electroencephalography (EEG)
 EEG is a technique used for recording ‘brain waves’, or more technically the electrical activity produced by the brain. EEG achieves this by using electrodes that are placed on the scalp, and recording the summed electrical signals the brain produces to operate. NCIL has two state-of-the-art EEG systems available for research use, each with up to 64 electrodes. The majority of projects in NCIL use EEG, and this is what most trainees get access to. Our lab manager, Dr. Cindy Hamon-Hill, runs EEG training sessions at the start of every term to help onboard new lab members. 
+
+{% capture content %}
+{% include figure.html image="images/cindy_eeg_2.JPG" %}
+{% include figure.html image="images/DSC_3734 copy.JPG" %}
+
+{% endcapture %}
+
+{% include grid.html content=content %}
 
 The most important thing to understand about EEG is that while it is very good at answering questions about when in time a cognitive process occurs, and how that process is affected by different experimental manipulations, it is not good at localizing where in the brain activity occurs. Typically many brain regions are active at one time, and the inside of the head is an excellent conductor of these electrical signals. Thus the signals we record with electrodes on the outside of the scalp tend to be largest where the signals happen to add up, which is not necessarily directly over the part of the brain that is generating the signal. In cognitive neuroscience research, most people use EEG in two ways: event-related potentials (ERPs), and frequency-domain analyses. 
 
@@ -27,12 +35,17 @@ In addition to fMRI, MRI scanners can produce other types of scans that are usef
 
 MRI scanners are very expensive to install and maintain; for this reason, we do not have an MRI scanner in NCIL, but we have access to MRIs for research purposes at the nearby IWK and QEII health centres. MRI studies are very expensive to run and typically we can only conduct an MRI research study if we have a significant research grant to cover these costs. 
 
+{% capture content %}
+{% include figure.html image="images/IWK_MRI_scanner.jpg" %}
+{% include figure.html image="images/child_in_MRI_scanner.png" %}
+
+{% endcapture %}
+
+{% include grid.html content=content %}
+
 The typical way of analyzing fMRI data involves comparing activity between different experimental conditions to determine which brain areas show greater activity in one condition than another. However, more advanced analysis techniques go beyond this. For example, techniques such as functional and effective connectivity can be used to examine how different brain areas interact with each other. As well, multi-voxel pattern analysis (MVPA) techniques such as representational similarity analysis (RSA) can be used to decode the unique neural  "fingerprint" evoked by individual stimuli, and determine whether there are systematic relationships between differences in brain activation for different stimuli, and relationships between the stimuli themselves (for example, a brain area sensitive to words night show more similar "fingerprints" for two words that have similar spelling, compared to two words that have very different spellings). 
 
-# Coding
+# Data Science
 Coding (computer programming) is a vital skill in cognitive neuroscience. While many tasks can be completed using familiar software and GUIs (point-and-click graphical user interfaces), in NCIL much of our lab — including running experiments, managing data, and analyzing it — depends on custom software written in the Python and R languages. While you don't need to know how to code to get started volunteering or working on a research project in NCIL, this ability will become increasingly important the longer you stay, and the more you do, in the lab. Coding skills are also extremely valuable on the job market, and when applying to many graduate programs. Not only do coding skills look great on your CV, but they are good for you as well — coding teaches you to tackle problems in a systematic and logical way, breaking them down into small parts and addressing them in a sequential manner. 
 
-There are many great resources for learning how to code. All NCIL lab members get free access to [DataCamp](https://datacamp.com), an online learning platform for data science. As well, Dr. Newman has written a free online textbook, [*Data Science for Psychology and Neuroscience in Python*](https://neuraldatascience.io), an associated [YouTube channel](https://youtube.com/playlist?list=PLtfEWMIgWS22MMZjPIzBRE2cHhMcvEKwp), and teaches a course based on this book, NESC/PSYO 3505 *Neural Data Science*. The [SURGE] sandbox also offers regular [*Discover Coding*](https://www.surgeinnovation.ca/discover) workshops on both Python (developed by Dr. Newman) and R (developed by NCIL alumnus Simon Leger).  
-
-# Lab Meetings
-We typically hold two lab meetings every week. Everyone (including volunteers) is encouraged to attend our weekly "Science meeting", where a lab member presents a current research project, or discusses an interesting journal article that's relevant to the lab. Some of these meetings also take the form of tutorials, such as an introduction to ERP data analysis. Everyone who is leading a project (so, independent research and honours students, grad students, postdocs) are also required to attend our weekly "Nuts 'n Bolts" meeting, where all lab members give updates on the progress of their projects, including any challenges they're facing. These meetings ensure that everyone who's running a project gets face time with Dr. Newman every week, that everyone has an idea of what all is going on in the lab, and that lab members have the opportunity to collaborate and help each other if they are facing similar challenges (or have some insight into how to help someone else).
+There are many great resources for learning how to code. All NCIL lab members get free access to [DataCamp](https://datacamp.com), an online learning platform for data science. As well, Dr. Newman has written a free online textbook, [*Data Science for Psychology and Neuroscience in Python*](https://neuraldatascience.io), an associated [YouTube channel](https://youtube.com/playlist?list=PLtfEWMIgWS22MMZjPIzBRE2cHhMcvEKwp), and teaches a course based on this book, NESC/PSYO 3505 *Neural Data Science*. The [SURGE] sandbox also offers regular [*Discover Coding*](https://www.surgeinnovation.ca/discover) workshops on both Python (developed by Dr. Newman) and R (developed by NCIL alumnus Simon Leger).
