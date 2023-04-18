@@ -77,7 +77,7 @@ Aphasia is a communication disorder that affects approximately 2.5 million peopl
 
 
 {% capture text %}
-Partnering with app developer Mango Languages (whose Research Director, Dr. Kaitlyn Tagarelli, is NCIL alum!), we are studying how the Mango Languages app can assist newcomers to Canada improve their English abilities. After 8 weeks of app use, we evaluate learners’ benefit and how it relates to other language supports they receive (such as classes or discussion groups). In this project, we are partnered with the [Language Learning & Development Lab](https://www.sfu.ca/langdev.html) at Simon Fraser University, directed by Dr. Henny Yeung. This project is funded through a larger, multi-partner research grant, [_Ensuring Full Literacy in a Multicultural and Digital World_](https://ensuringliteracy.ca), under the direction of [Dr. Janet F. Werker](https://psych.ubc.ca/profile/janet-werker/) at the University of British Columbia.   
+Partnering with app developer Mango Languages (whose Research Director, Dr. Kaitlyn Tagarelli, is NCIL alum!), we are studying how the Mango Languages app can assist newcomers to Canada with improving their English abilities. After 8 weeks of app use, we evaluate learners’ benefit and how it relates to other language supports they receive (such as classes or discussion groups). In this project, we are partnered with the [Language Learning & Development Lab](https://www.sfu.ca/langdev.html) at Simon Fraser University, directed by Dr. Henny Yeung. This project is funded through a larger, multi-partner research grant, [_Ensuring Full Literacy in a Multicultural and Digital World_](https://ensuringliteracy.ca), under the direction of [Dr. Janet F. Werker](https://psych.ubc.ca/profile/janet-werker/) at the University of British Columbia.   
 {%
   include button.html
   link="projects/MADworld-Mango"
@@ -172,7 +172,7 @@ _Hyperscanning_ refers to collecting neuroimaging data from more than one person
 {%
   include feature.html
   image="images/hyperscanning.jpg"
-  link="projects/hyperscanning"
+  link="projects/Hyperscanning"
   title="Hyperscanning During Conversation (Two-Person EEG)"
   text=text
 %}
