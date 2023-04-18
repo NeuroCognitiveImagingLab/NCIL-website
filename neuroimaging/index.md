@@ -38,6 +38,7 @@ EEG is a technique used for recording ‘brain waves’, or more technically the
 {% capture content %}
 {% include figure.html image="images/cindy_eeg_2.JPG" %}
 {% include figure.html image="images/DSC_3734 copy.JPG" %}
+{:.center}
 
 {% endcapture %}
 
@@ -59,6 +60,7 @@ MRI scanners are very expensive to install and maintain; for this reason, we do 
 {% capture content %}
 {% include figure.html image="images/IWK_MRI_scanner.png" %}
 {% include figure.html image="images/child_in_MRI_scanner.png" %}
+{:.center}
 
 {% endcapture %}
 
