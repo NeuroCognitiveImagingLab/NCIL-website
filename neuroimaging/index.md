@@ -25,9 +25,9 @@ nav:
   icon="fas fa-table"
   flip=true
 %}
+{:.center}
 
 {% endcapture %}
-{:.center}
 
 # Neuroimaging tools
 A number of remarkable tools exist to measure and localize the activity of the brain non-invasively. These tools form the primary basis of the field of cognitive neuroscience, which is dedicated to understanding the relationships between cognition and brain activity. NCIL lab director Aaron Newman has published a book that provides and overview of these techniques, [*Research Methods for Cognitive Neuroscience*](https://us.sagepub.com/en-us/nam/research-methods-for-cognitive-neuroscience/book242924), as well as the Dalhousie University course NESC/PSYO 3137. On this page we provide a bit more information on the two techniques we use most in NCIL, and which lab members are most likely to gain experience with.
@@ -60,11 +60,12 @@ MRI scanners are very expensive to install and maintain; for this reason, we do 
 {% capture content %}
 {% include figure.html image="images/IWK_MRI_scanner.png" %}
 {% include figure.html image="images/child_in_MRI_scanner.png" %}
-{:.center}
 
 {% endcapture %}
 
 {% include grid.html content=content %}
+{:.center}
+
 
 The typical way of analyzing fMRI data involves comparing activity between different experimental conditions to determine which brain areas show greater activity in one condition than another. However, more advanced analysis techniques go beyond this. For example, techniques such as functional and effective connectivity can be used to examine how different brain areas interact with each other. As well, multi-voxel pattern analysis (MVPA) techniques such as representational similarity analysis (RSA) can be used to decode the unique neural  "fingerprint" evoked by individual stimuli, and determine whether there are systematic relationships between differences in brain activation for different stimuli, and relationships between the stimuli themselves (for example, a brain area sensitive to words night show more similar "fingerprints" for two words that have similar spelling, compared to two words that have very different spellings). 
 
