@@ -172,7 +172,7 @@ _Hyperscanning_ refers to collecting neuroimaging data from more than one person
 {%
   include feature.html
   image="images/hyperscanning.jpg"
-  link="projects/Hyperscanning"
+  link="projects/hyperscanning"
   title="Hyperscanning During Conversation (Two-Person EEG)"
   text=text
 %}
