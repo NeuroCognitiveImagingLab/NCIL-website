@@ -7,7 +7,7 @@ EEG _hyperscanning_ refers to recording electroencephalographic (EEG) data from 
 
 In a [recent paper](https://doi.org/10.1016/j.mex.2023.102019), we describe a method that allows for simultaneous acquisition of EEG data from a pair of participants engaged in conversation, using a single EEG system with simultaneous audio data collection that is synchronized with the EEG recording. This allows for the post-hoc insertion of trigger codes so that it is possible to analyze ERPs time-locked to specific events. In the paper we also demonstrated methods for deriving ERPs elicited by another person's spontaneous speech, using this setup. 
 
-We have used this approach to demonstrate that we can obtain the classic N400 ERP to spoekn words during a conversation, and further that — as in previous lab-based studies — the N400 is modulated by the frequency with which words occur in the language.
+We have used this approach to demonstrate that we can obtain the classic N400 ERP to spoken words during a conversation, and further that — as in previous lab-based studies — the N400 is modulated by the frequency with which words occur in the language.
 
 ## Funding
 
