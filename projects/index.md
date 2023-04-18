@@ -54,7 +54,7 @@ A brain-computer interface (BCI) is an electronic system that can convert an ind
 %}
 
 {% capture text %}
-Aphasia is a communication disorder that affects approximately 2.5 million people in North America. Unfortunately, most people with aphasia are not able to access adequate treatment. Computer-based therapies can help to address these problems as they provide people with access to a potentially cost-effective therapy, from the comfort of their own home. In our research project we are developing, and testing a computer-based therapy for at-home rehabilitation of aphasia, with the future goal of releasing a commercial product. The initial version of our web app has been developed and tested for usability, and is now undergoing efficacy testing. We are currently recruiting people with aphasia to participate in this study!
+Aphasia is a communication disorder that affects approximately 2.5 million people in North America. Unfortunately, most people with aphasia are not able to access adequate treatment. Computer-based therapies can help to address these problems as they provide people with access to a potentially cost-effective therapy, from the comfort of their own home. In our research project we are developing, and testing a computer-based therapy for at-home rehabilitation of aphasia, with the future goal of releasing a commercial product. The initial version of our web app has been developed and tested for usability, and is now undergoing efficacy testing. We are currently recruiting people with aphasia to participate in this study — please contact us if you're interested!
 
 {%
   include button.html
@@ -69,7 +69,7 @@ Aphasia is a communication disorder that affects approximately 2.5 million peopl
   include feature.html
   image="images/Photo_AphasiaProject.jpeg"
   link="projects/Aphasia"
-  title="Developing a Prototype of a Computer-Based Therapy for Aphasia: Usability Testing and Preliminary Assessment of Efficacy"
+  title="Aphasia Treatment (online app)"
   text=text
 %}
 
@@ -95,7 +95,7 @@ Partnering with app developer Mango Languages (whose Research Director, Dr. Kait
 
 
 {% capture text %}
-Learning a new language is challenging for most adults, and it has been shown that it can be more difficult if the learner is using their first language during the process. Therefore, this project investigates adult language learning of Welsh words, and uses electroencephalography (EEG) to explore how speaking English versions of the newly learned Welsh words will alter brain activity. This project will be recruiting participants in 2023.
+Learning a new language is challenging for most adults, and it has been shown that it can be more difficult if the learner is using their first language during the process. Therefore, this project investigates adult language learning of Welsh words, and uses electroencephalography (EEG) to explore how speaking English versions of the newly learned Welsh words will alter brain activity. 
 
 {%
   include button.html
@@ -110,33 +110,10 @@ Learning a new language is challenging for most adults, and it has been shown th
   include feature.html
   image="images/welsh-dragon-2931-p.png"
   link="projects/WERP"
-  title="Welsh Event Related Potential Study"
+  title="Memory Processes in Second Language Learning (EEG)"
   flip=true
   text=text
 %}
-
-{% capture text %}
-During the COVID-19 pandemic, there was a widespread adoption of remote work. However, the collaboration platforms that enable this work, may strain cognitive systems by inhibiting the ability to develop new ideas, and strain the ability to learn - due in part to increased mind wandering. This project aims to explore how the ability to sustain attention may become weaker over time and how changes in work environments can prevent it, using surveys, behavioural studies and electroencephalography (EEG). This project is currently recruiting participants.
-
-{%
-  include button.html
-  link="projects/Project-Homework"
-  text="Find out more about this study"
-  icon="fas fa-arrow-right"
-  flip=true
-%}
-{:.center}
-{% endcapture %}
-{%
-  include feature.html
-  image="images/mind_wandering.PNG"
-  link="projects/Project-Homework"
-  title="Project Homework: An investigation into Cognitive Factors in Remote Collaboration and Remote Work Platforms"
-  flip=true
-  text=text
-%}
-
-
 
 
 {% capture text %}
@@ -155,6 +132,27 @@ This research project is driven by a very simple question: why do we remember th
   include feature.html
   image="images/guy_speaks.png"
   link="projects/Production-Effect"
-  title="Production Effect Project"
+  title="What's Special About Reading Aloud? (fMRI)"
   text=""
+%}
+
+{% capture text %}
+During the COVID-19 pandemic, there was a widespread adoption of remote work. However, the collaboration platforms that enable this work may strain cognitive systems — which can inhibit the ability to learn or develop new ideas. We hypothesize that this is in part to increased mind wandering when working and learning online. This project, in collaboration iwth [Dr. Colin Conrad](https://www.dal.ca/faculty/management/school-of-information-management/faculty-staff/faculty/colin-conrad.html) of Dalhousie University's [School of Information Management](https://www.dal.ca/faculty/management/school-of-information-management.html), aims to explore how the ability to sustain attention may become weaker over time and how changes in work environments can prevent it. This study uses surveys, behavioural studies and electroencephalography (EEG).
+
+{%
+  include button.html
+  link="projects/Project-Homework"
+  text="Find out more about this study"
+  icon="fas fa-arrow-right"
+  flip=true
+%}
+{:.center}
+{% endcapture %}
+{%
+  include feature.html
+  image="images/mind_wandering.PNG"
+  link="projects/Project-Homework"
+  title="Mind Wandering in Remote Collaboration and Remote Work Platforms (EEG)"
+  flip=true
+  text=text
 %}
