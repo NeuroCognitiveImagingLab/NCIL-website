@@ -5,8 +5,32 @@ nav:
   tooltip: Join us!
 ---
 
-# {% include icon.html icon="fa-solid fa-users-gear" %}Training
+# {% include icon.html icon="fa-solid fa-users-gear" %}Training: Do you want to join NCIL?
 {:.center}
+
+{%
+  include button.html
+  link="join/#undergraduate-students"
+  text="Undergraduate"
+  icon="fas fa-user-graduate"
+  flip=true
+%}
+
+{%
+  include button.html
+  link="join/#graduate-training"
+  text="Graduate"
+  icon="fas fa-graduation-cap"
+  flip=true
+%}
+
+{%
+  include button.html
+  link="join/#postdoctoral-studies"
+  text="Postdoctoral"
+  icon="fas fa-glasses"
+  flip=true
+%}
 
 # Undergraduate Students
 NCIL always has many undergraduate students in the lab, getting experience with cognitive neuroscience research. Lab experience in general is a great way to learn about the process of scientific research, and to develop critical thinking and writing skills. This can be valuable for a variety of educational and career paths, including graduate study in cognitive neuroscience, or many other fields (e.g., clinical professions, law, entrepreneurship).
@@ -29,7 +53,7 @@ We do not require undergraduate students to have any specific skills when starti
 
 For more information on joining the lab as an independent research student, see…
 
-# Graduate Training (MSc/PhD)
+# Graduate Training
 Graduate studies in the NeuroCognitive Imaging Lab may be pursued through [Dalhousie’s graduate program in Psychology and Neuroscience](https://www.dal.ca/faculty/science/psychology_neuroscience/programs/graduate-programs.html). We offer MSc and PhD degrees in basic research, as well as a PhD in Clinical Psychology. Most NCIL graduate students are in the basic research program, because the demands of learning and mastering neuroimaging techniques along with those of the clinical PhD program do not generally create a favourable work-life balance.
 
 The research-focused graduate program in Psychology and Neuroscience at Dalhousie is best described as an “apprenticeship” program; there are relatively few courses, and students are expected to focus primarily on learning and conducting research under the guidance of their supervisor. 
