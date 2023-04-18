@@ -8,7 +8,9 @@ nav:
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 {:.center}
 
-NCIL conducts research on language, using a combination of neuroimaging and behavioural measures. Here are the current projects we are working on at NCIL:
+NCIL conducts research on language, using a combination of neuroimaging and behavioural measures. 
+
+Here are the current projects we are working on at NCIL:
 {:.center}
 
 
