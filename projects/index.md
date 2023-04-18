@@ -13,7 +13,7 @@ NCIL conducts research on language, using a combination of neuroimaging and beha
 
 
 {% capture text %}
-What Makes a Skilled Reader? The Neurocognitive Imaging Lab needs your help to find out! We’re looking for students in grades 2 & 3 who speak English at home and at school, with normal hearing and normal (or corrected to normal) vision, to take part in a longitudinal neuroimaging study. The goal of the study is to characterize how individual differences in reading skills relate to children’s patterns of brain activation, and how these relationships change from Grade 2 to Grade 5. This project is currently recruiting children – they must be in grades 2 or 3, speak only English at home, and be enrolled in either standard English of French immersion programs at school.
+What Makes a Skilled Reader? The Neurocognitive Imaging Lab needs your help to find out! The goal of the study is to characterize how individual differences in reading skills relate to children’s patterns of brain activation, and how these relationships change from Grade 2 to Grade 5. We’re currently looking for kids to participate who are in grades 2 or 3, speak only English at home, and be enrolled in either standard English of French immersion programs at school. Click below to find out more if you're interested!
 
 {%
   include button.html
@@ -74,7 +74,7 @@ Aphasia is a communication disorder that affects approximately 2.5 million peopl
 %}
 
 {% capture text %}
-Partnering with app developer Mango Languages (whose Research Director, Dr. Kaitlyn Tagarelli, is NCIL alum!) we are studying how the Mango Languages app can assist newcomers to Canada improve their English abilities. After 8 weeks of app use, we evaluate learners’ benefit and how it relates to other language supports they receive (such as classes or discussion groups). In this project, we are partnered with the [Language Learning & Development Lab](https://www.sfu.ca/langdev.html) at Simon Fraser University, directed by Dr. Henny Yeung. This project is funded through a larger, multi-partner research grant, _Ensuring Full Literacy in a Multicultural and Digital World_, under the direction of Dr. Janet F. Werker at the University of British Columbia.   
+Partnering with app developer Mango Languages (whose Research Director, Dr. Kaitlyn Tagarelli, is NCIL alum!) we are studying how the Mango Languages app can assist newcomers to Canada improve their English abilities. After 8 weeks of app use, we evaluate learners’ benefit and how it relates to other language supports they receive (such as classes or discussion groups). In this project, we are partnered with the [Language Learning & Development Lab](https://www.sfu.ca/langdev.html) at Simon Fraser University, directed by Dr. Henny Yeung. This project is funded through a larger, multi-partner research grant, [_Ensuring Full Literacy in a Multicultural and Digital World_](https://ensuringliteracy.ca), under the direction of [Dr. Janet F. Werker](https://psych.ubc.ca/profile/janet-werker/) at the University of British Columbia.   
 
 {%
   include button.html
@@ -140,7 +140,7 @@ During the COVID-19 pandemic, there was a widespread adoption of remote work. Ho
 
 
 {% capture text %}
-This research project is driven by a very simple question: why do we remember things better when we read them aloud, than when we read them silently? 
+This research project is driven by a very simple question: why do we remember things better when we read them aloud, than when we read them silently? There are many possible reasons: when we read aloud, we engage our motuh and larynx (motor system) and we hear ourselves speak (auditory perception). We also simply have to "do" a thing when we read a word aloud that we don't when we read silently, which may direct more attention to the word. All of these things might strengthen our memory for a word. In our research, we are using functional MRI scanning to examine what is different in the brain when we read aloud. In particular, we are using an advanced analysis technique known as _representational similarity analysis_ (RSA), which allows us to examine the distinct neural "fingerprints" of individual words, in different brain areas. 
 
 {%
   include button.html
