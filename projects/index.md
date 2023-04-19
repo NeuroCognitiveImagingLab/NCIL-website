@@ -77,7 +77,7 @@ Aphasia is an acquired loss of language abilities, often caused by stroke or oth
 
 
 {% capture text %}
-We are studying how the[Mango Languages](https://mangolanguages.com) app can assist newcomers to Canada to improve their English abilities. We are conducting this sudy in partnership with Mango Languages and the [Language Learning & Development Lab](https://www.sfu.ca/langdev.html) at Simon Fraser University, directed by Dr. Henny Yeung. This project is funded through a [SSHRC](https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx) Partnership Grant, [_Ensuring Full Literacy in a Multicultural and Digital World_](https://ensuringliteracy.ca), under the direction of [Dr. Janet F. Werker](https://psych.ubc.ca/profile/janet-werker/) at the University of British Columbia.   
+We are studying how the [Mango Languages](https://mangolanguages.com) app can assist newcomers to Canada to improve their English abilities. We are conducting this sudy in partnership with Mango Languages and the [Language Learning & Development Lab](https://www.sfu.ca/langdev.html) at Simon Fraser University, directed by Dr. Henny Yeung. This project is funded through a [SSHRC](https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx) Partnership Grant, [_Ensuring Full Literacy in a Multicultural and Digital World_](https://ensuringliteracy.ca), under the direction of [Dr. Janet F. Werker](https://psych.ubc.ca/profile/janet-werker/) at the University of British Columbia.   
 {%
   include button.html
   link="projects/MADworld-Mango"
