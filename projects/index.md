@@ -20,7 +20,7 @@ What Makes a Skilled Reader? The NeuroCognitive Imaging Lab needs your help to f
 {%
   include button.html
   link="projects/What-Makes-a-Skilled-Reader"
-  text="Find out more about this study"
+  text="Find out more about our fMRI study for kids!"
   icon="fas fa-arrow-right"
   flip=true
 %}
@@ -40,7 +40,7 @@ A brain-computer interface (BCI) is an electronic system that can convert an ind
 {%
   include button.html
   link="projects/BCI"
-  text="Find out more about this study"
+  text="Find out more about our BCI study"
   icon="fas fa-arrow-right"
   flip=true
 %}
@@ -60,7 +60,7 @@ Aphasia is an acquired loss of language abilities, often caused by stroke or oth
 {%
   include button.html
   link="projects/Aphasia"
-  text="Find out more about this study"
+  text="Find out more about the aphasia study"
   icon="fas fa-arrow-right"
   flip=true
 %}
@@ -81,7 +81,7 @@ We are studying how the[Mango Languages](https://mangolanguages.com) app can ass
 {%
   include button.html
   link="projects/MADworld-Mango"
-  text="Find out more about this study"
+  text="Find out more about the Mango study"
   icon="fas fa-arrow-right"
   flip=true
 %}
@@ -101,7 +101,7 @@ Learning a new language is challenging for most adults, and it has been shown th
 {%
   include button.html
   link="projects/WERP"
-  text="Find out more about this study"
+  text="Find out more about the Welsh learning study"
   icon="fas fa-arrow-right"
   flip=true
 %}
@@ -122,7 +122,7 @@ This research project is driven by a very simple question: why do we remember th
 {%
   include button.html
   link="projects/Production-Effect"
-  text="Find out more about this study"
+  text="Find out more about the reading aloud study"
   icon="fas fa-arrow-right"
   flip=true
 %}
@@ -142,7 +142,7 @@ During the COVID-19 pandemic, there was a widespread adoption of remote work. Ho
 {%
   include button.html
   link="projects/Project-Homework"
-  text="Find out more about this study"
+  text="Find out more about the mind wandering study"
   icon="fas fa-arrow-right"
   flip=true
 %}
@@ -163,7 +163,7 @@ _Hyperscanning_ refers to collecting neuroimaging data from more than one person
 {%
   include button.html
   link="projects/Hyperscanning"
-  text="Find out more about this study"
+  text="Find out more about hyperscanning"
   icon="fas fa-arrow-right"
   flip=true
 %}
