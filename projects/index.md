@@ -56,7 +56,7 @@ A brain-computer interface (BCI) is an electronic system that can convert an ind
 
 
 {% capture text %}
-Aphasia is a communication disorder that affects approximately 2.5 million people in North America. Unfortunately, most people with aphasia are not able to access adequate treatment. Computer-based therapies can help to address these problems as they provide people with access to a potentially cost-effective therapy, from the comfort of their own home. In our research project, we are developing and testing a computer-based therapy for at-home rehabilitation of aphasia, with the future goal of releasing a commercial product. The initial version of our web app has been developed and tested for usability, and is now undergoing efficacy testing. We are currently recruiting people with aphasia to participate in this study — please contact us if you're interested!
+Aphasia is an acquired loss of language abilities, often caused by stroke or other brain injury. It affects 2.5 million people in North America alone. Aphasia can can disrupt people's ability to hold a job, or even communicate noramlly with their family and friends. Unfortunately, most people with aphasia are not able to access adequate treatment. We are developing and testing a computer-based therapy for at-home rehabilitation of aphasia. We are currently recruiting people with aphasia to participate in this study — please contact us if you're interested!
 {%
   include button.html
   link="projects/Aphasia"
@@ -77,7 +77,7 @@ Aphasia is a communication disorder that affects approximately 2.5 million peopl
 
 
 {% capture text %}
-Partnering with app developer Mango Languages (whose Research Director, Dr. Kaitlyn Tagarelli, is NCIL alum!), we are studying how the Mango Languages app can assist newcomers to Canada with improving their English abilities. After 8 weeks of app use, we evaluate learners’ benefit and how it relates to other language supports they receive (such as classes or discussion groups). In this project, we are partnered with the [Language Learning & Development Lab](https://www.sfu.ca/langdev.html) at Simon Fraser University, directed by Dr. Henny Yeung. This project is funded through a larger, multi-partner research grant, [_Ensuring Full Literacy in a Multicultural and Digital World_](https://ensuringliteracy.ca), under the direction of [Dr. Janet F. Werker](https://psych.ubc.ca/profile/janet-werker/) at the University of British Columbia.   
+We are studying how the[Mango Languages](https://mangolanguages.com) app can assist newcomers to Canada to improve their English abilities. We are conducting this sudy in partnership with Mango Languages and the [Language Learning & Development Lab](https://www.sfu.ca/langdev.html) at Simon Fraser University, directed by Dr. Henny Yeung. This project is funded through a [SSHRC](https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx) Partnership Grant, [_Ensuring Full Literacy in a Multicultural and Digital World_](https://ensuringliteracy.ca), under the direction of [Dr. Janet F. Werker](https://psych.ubc.ca/profile/janet-werker/) at the University of British Columbia.   
 {%
   include button.html
   link="projects/MADworld-Mango"
@@ -118,7 +118,7 @@ Learning a new language is challenging for most adults, and it has been shown th
 
 
 {% capture text %}
-This research project is driven by a very simple question: why do we remember things better when we read them aloud, than when we read them silently? There are many possible reasons: when we read aloud, we engage our mouth and larynx (motor system) and we hear ourselves speak (auditory perception). We also simply have to "do" a thing when we read a word aloud that we don't when we read silently, which may direct more attention to the word. All of these things might strengthen our memory for a word. In our research, we are using functional MRI scanning to examine what is different in the brain when we read aloud. In particular, we are using an advanced analysis technique known as _representational similarity analysis_ (RSA), which allows us to examine the distinct neural "fingerprints" of individual words, in different brain areas. 
+This research project is driven by a very simple question: why do we remember things better when we read them aloud, than when we read them silently? There are many possible reasons, including hearing your voice, moving your mouth, and paying attention. In our research, we are using functional MRI scanning to examine what is different in the brain when we read aloud. 
 {%
   include button.html
   link="projects/Production-Effect"
@@ -138,7 +138,7 @@ This research project is driven by a very simple question: why do we remember th
 
 
 {% capture text %}
-During the COVID-19 pandemic, there was a widespread adoption of remote work. However, the collaboration platforms that enable this work may strain cognitive systems — which can inhibit the ability to learn or develop new ideas. We hypothesize that this is in part to increased mind wandering when working and learning online. This project, in collaboration iwth [Dr. Colin Conrad](https://www.dal.ca/faculty/management/school-of-information-management/faculty-staff/faculty/colin-conrad.html) of Dalhousie University's [School of Information Management](https://www.dal.ca/faculty/management/school-of-information-management.html), aims to explore how the ability to sustain attention may become weaker over time and how changes in work environments can prevent it. This study uses surveys, behavioural studies and electroencephalography (EEG).
+During the COVID-19 pandemic, there was a widespread adoption of remote work. However, online meetings and lectures do not always produce as good outcomes (such as learning and developing new ideas). We are studying whether this is because people's minds wander more when they are working and learning online. This project, led by [Dr. Colin Conrad](https://www.dal.ca/faculty/management/school-of-information-management/faculty-staff/faculty/colin-conrad.html) of Dalhousie University's [School of Information Management](https://www.dal.ca/faculty/management/school-of-information-management.html), aims to explore how the ability to sustain attention may become weaker over time and how changes in work environments can prevent it. This study uses surveys, behavioural studies and NCIL's electroencephalography (EEG) system.
 {%
   include button.html
   link="projects/Project-Homework"
