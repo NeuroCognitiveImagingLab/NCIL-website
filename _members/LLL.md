@@ -4,6 +4,7 @@ image: images/team/LLL_team.jpg
 description: 
 role: collab
 aliases:
+  - Language and Literacy Lab
   - LLL
   - H. Deacon
 links:
