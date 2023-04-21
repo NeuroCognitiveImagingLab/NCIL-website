@@ -1,5 +1,5 @@
 ---
-name: Language and Literacy Lab (LLL)
+name: Language and Literacy Lab
 image: images/team/LLL_team.jpg
 description: 
 role: collab
