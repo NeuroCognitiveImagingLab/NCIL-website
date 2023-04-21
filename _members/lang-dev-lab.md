@@ -1,6 +1,6 @@
 ---
 name: Language Learning and Development Lab
-image: images/photo.jpg
+image: images/team/LangDevLab.jpeg
 description: 
 role: collab
 aliases:
