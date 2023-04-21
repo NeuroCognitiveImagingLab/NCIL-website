@@ -1,0 +1,13 @@
+---
+name: Eskes Lab
+image: images/team/Eskes-Lab.jpeg
+description: 
+role: collab
+aliases:
+  - Eskes Lab
+  - G. Eskes
+links:
+  email: EskesPsychLab@gmail.com
+---
+
+To learn about the Eskes Lab, please visit their [website](https://www.dal.ca/diff/eskes.html).
