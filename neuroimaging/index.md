@@ -37,6 +37,8 @@ The most important thing to understand about EEG is that while it is very good a
 {%
   include feature.html
   image="images/cindy_eeg_2.JPG"
+  link=""
+  title=""
   text=text
 %}
 
@@ -47,6 +49,8 @@ The most important thing to understand about EEG is that while it is very good a
 {%
   include feature.html
   image="images/DSC_3734 copy.JPG"
+  link=""
+  title=""
   text=text
   flip=true
 %}
@@ -62,6 +66,8 @@ Functional MRI (fMRI) works by measuring the amount of oxygen delivered to diffe
 {%
   include feature.html
   image="images/child_in_MRI_scanner.png"
+  link=""
+  title=""
   text=text
 %}
 
