@@ -30,28 +30,20 @@ A number of remarkable tools exist to measure and localize the activity of the b
 ## Electroencephalography (EEG)
 EEG is a technique used for recording ‘brain waves’, or more technically the electrical activity produced by the brain. EEG achieves this by using electrodes that are placed on the scalp, and recording the summed electrical signals the brain produces to operate. NCIL has two state-of-the-art EEG systems available for research use, each with up to 64 electrodes. The majority of projects in NCIL use EEG, and this is what most trainees get access to. Our lab manager, Dr. Cindy Hamon-Hill, runs EEG training sessions at the start of every term to help onboard new lab members. 
 
-{% capture content %}
-The most important thing to understand about EEG is that while it is very good at answering questions about when in time a cognitive process occurs, and how that process is affected by different experimental manipulations, it is not good at localizing where in the brain activity occurs. Typically many brain regions are active at one time, and the inside of the head is an excellent conductor of these electrical signals. Thus the signals we record with electrodes on the outside of the scalp tend to be largest where the signals happen to add up, which is not necessarily directly over the part of the brain that is generating the signal. In cognitive neuroscience research, most people use EEG in two ways: event-related potentials (ERPs), and frequency-domain analyses.
-
-{% endcapture %}
 {%
   include feature.html
   image="images/cindy_eeg_2.JPG"
   link=""
   title=""
-  text=text
+  text="The most important thing to understand about EEG is that while it is very good at answering questions about when in time a cognitive process occurs, and how that process is affected by different experimental manipulations, it is not good at localizing where in the brain activity occurs. Typically many brain regions are active at one time, and the inside of the head is an excellent conductor of these electrical signals. Thus the signals we record with electrodes on the outside of the scalp tend to be largest where the signals happen to add up, which is not necessarily directly over the part of the brain that is generating the signal. In cognitive neuroscience research, most people use EEG in two ways: event-related potentials (ERPs), and frequency-domain analyses."
 %}
 
-{% capture content %}
-**ERPs** focus on EEG activity that is time-locked to an event of experimental interest. Commonly, this is the onset of a stimulus, such as a picture or a word. The ERP typically contains a series of peaks and troughs focused over certain parts of the scalp. We call these ERP *components* and they are typically what we focus on in ERP experiments. Different ERP components are associated with different cognitive processes. For example, one called the N400 is associated with processing the meanings of words (and also pictures), while one called the P600 is associated with grammatical processing in sentences. **Frequency-domain analyses** involve applying a mathematical transformation to the EEG signal, to computer the power (size) of the signal in different frequency bands. "Frequency" refers to how many peaks/troughs occur in a signal in a given period of time, like 1 second. Human EEG tends to be organized into different frequency bands (delta, theta, alpha, beta, and gamma), which can be associated with different cognitive processes. 
-
-{% endcapture %}
 {%
   include feature.html
   image="images/DSC_3734 copy.JPG"
   link=""
   title=""
-  text=text
+  text="**ERPs** focus on EEG activity that is time-locked to an event of experimental interest. Commonly, this is the onset of a stimulus, such as a picture or a word. The ERP typically contains a series of peaks and troughs focused over certain parts of the scalp. We call these ERP *components* and they are typically what we focus on in ERP experiments. Different ERP components are associated with different cognitive processes. For example, one called the N400 is associated with processing the meanings of words (and also pictures), while one called the P600 is associated with grammatical processing in sentences. **Frequency-domain analyses** involve applying a mathematical transformation to the EEG signal, to computer the power (size) of the signal in different frequency bands. "Frequency" refers to how many peaks/troughs occur in a signal in a given period of time, like 1 second. Human EEG tends to be organized into different frequency bands (delta, theta, alpha, beta, and gamma), which can be associated with different cognitive processes."
   flip=true
 %}
 
@@ -59,16 +51,12 @@ The most important thing to understand about EEG is that while it is very good a
 ## Magnetic Resonance Imaging (MRI)
 MRI is used to get images of various parts of the body, including the brain, using a combination of magnetic fields and radio waves. MRI is one of the best ways to look at the brain, because it is very safe (it doesn't use radiation or x-rays), and it can provide both high-resolution anatomical images, and functional images showing which areas "light up" during different cognitive tasks. MRI scanners are very expensive to install and maintain; for this reason, we do not have an MRI scanner in NCIL, but we have access to MRIs for research purposes at the nearby IWK and QEII health centres. MRI studies are very expensive to run and typically we can only conduct an MRI research study if we have a significant research grant to cover these costs.
 
-{% capture content %}
-Functional MRI (fMRI) works by measuring the amount of oxygen delivered to different parts of the brain. When neurons (brain cells) are active, more oxygen is delivered to those parts of the brain. This means that fMRI has excellent spatial resolution: we can localize where activity is occurring down to the level of a few millimetres. On the other hand, fMRI does not have the same sensitivity as EEG to when activity occurs. This is because the changes in blood oxygenation that we measure are an indirect measure of the electrical activity of neurons. Whereas we can distinguish different EEG signals that are separated by only a few milliseconds in time, the signal we measure with fMRI changes only on the order of seconds. Thus fMRI and EEG are complementary techniques that can each answer different questions in cognitive neuroscience. 
-
-{% endcapture %}
 {%
   include feature.html
   image="images/child_in_MRI_scanner.png"
   link=""
   title=""
-  text=text
+  text="Functional MRI (fMRI) works by measuring the amount of oxygen delivered to different parts of the brain. When neurons (brain cells) are active, more oxygen is delivered to those parts of the brain. This means that fMRI has excellent spatial resolution: we can localize where activity is occurring down to the level of a few millimetres. On the other hand, fMRI does not have the same sensitivity as EEG to when activity occurs. This is because the changes in blood oxygenation that we measure are an indirect measure of the electrical activity of neurons. Whereas we can distinguish different EEG signals that are separated by only a few milliseconds in time, the signal we measure with fMRI changes only on the order of seconds. Thus fMRI and EEG are complementary techniques that can each answer different questions in cognitive neuroscience."
 %}
 
 In addition to fMRI, MRI scanners can produce other types of scans that are useful in research. These include anatomical scans that allow us to measure things like cortical thickness and shape, and diffusion tensor images (DTI), which allow us to visualize and quantify the white matter tracts that connect different brain areas.
