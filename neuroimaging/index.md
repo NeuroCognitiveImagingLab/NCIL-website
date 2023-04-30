@@ -35,7 +35,7 @@ While EEG is very good at answering questions about *when* in time a cognitive p
 {% endcapture %}
 {%
   include feature.html
-  image="images/cindy_eeg_2.JPG"
+  image="images/cindy_eeg_2.jpg"
   link="neuroimaging/#electroencephalography-eeg"
   title=""
   text=text
@@ -46,7 +46,7 @@ In cognitive neuroscience research, most people use EEG in two ways: **event-rel
 {% endcapture %}
 {%
   include feature.html
-  image="images/DSC_3734 copy.JPG"
+  image="images/DSC_3734.jpg"
   link="neuroimaging/#electroencephalography-eeg"
   title=""
   text=text
@@ -61,7 +61,7 @@ Functional MRI (fMRI) works by measuring the amount of oxygen delivered to diffe
 {% endcapture %}
 {%
   include feature.html
-  image="images/child_in_MRI_scanner.png"
+  image="images/child_in_MRI_scanner.jpg"
   link="neuroimaging/#magnetic-resonance-imaging-mri"
   title=""
   text=text
