@@ -35,7 +35,7 @@ While EEG is very good at answering questions about *when* in time a cognitive p
 {% endcapture %}
 {%
   include feature.html
-  image="images/cindy_eeg_2.jpg"
+  image="images/cindy_eeg_2.JPG"
   link="neuroimaging/#electroencephalography-eeg"
   title=""
   text=text
