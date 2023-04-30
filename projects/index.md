@@ -162,7 +162,7 @@ During the COVID-19 pandemic, there was a widespread adoption of remote work. Ho
 _Hyperscanning_ refers to collecting neuroimaging data from more than one person at the same time. Our lab has [developed a technique](https://doi.org/10.1016/j.mex.2023.102019) for doing this while people are engaged in conversation, using only a single EEG system. Notably, we have shown that we are able to time-lock EEG data to specific, individual words in a coversation. In contrast to conventional lab studies in which stimuli are presented by computers to ensure precise time-locking, our approach allows us very high precision in characterizing brain activity during natural human interactions. 
 {%
   include button.html
-  link="projects/Hyperscanning"
+  link="projects/hyperscanning"
   text="Find out more about hyperscanning"
   icon="fas fa-arrow-right"
   flip=true
