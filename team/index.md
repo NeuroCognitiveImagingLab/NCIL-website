@@ -80,7 +80,13 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 Our work is made possible by funding from several organizations.
 {:.center}
 
-{% include figure.html image="images/team/sshrc-fip-full-color-eng.png" link="https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" %}
-{% include figure.html image="images/team/nserc_logo.png" link="https://www.nserc-crsng.gc.ca/index_eng.asp" %}
+{% capture content %}
+{% include figure.html image="images/team/nserc_logo.png" link="https://www.nserc-crsng.gc.ca/index_eng.asp" height="200px"%}
 {% include figure.html image="images/team/BRC_logo.png" link="https://www.brainrepair.ca/" height="200px"%}
 {% include figure.html image="images/team/Mitacs.png" link="https://www.mitacs.ca/en" %}
+
+{% endcapture %}
+
+{% include grid.html content=content %}
+
+{% include figure.html image="images/team/sshrc-fip-full-color-eng.png" link="https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" %}
