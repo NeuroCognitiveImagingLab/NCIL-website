@@ -83,7 +83,7 @@ Our work is made possible by funding from several organizations.
 {% capture content %}
 {% include figure.html image="images/team/nserc_logo.png" link="https://www.nserc-crsng.gc.ca/index_eng.asp" height="200px"%}
 {% include figure.html image="images/team/BRC_logo.png" link="https://www.brainrepair.ca/" height="200px"%}
-{% include figure.html image="images/team/Mitacs.png" link="https://www.mitacs.ca/en" %}
+{% include figure.html image="images/team/Mitacs.png" link="https://www.mitacs.ca/en" height="200px"%%}
 
 {% endcapture %}
 
