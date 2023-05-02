@@ -28,7 +28,7 @@ What Makes a Skilled Reader? The NeuroCognitive Imaging Lab needs your help to f
 {% endcapture %}
 {%
   include feature.html
-  image="images/kids-reading-books.jpg"
+  image="images/kids_reading_books.jpg"
   link="projects/What-Makes-a-Skilled-Reader"
   title="Reading Development (fMRI)"
   flip=true
@@ -48,7 +48,7 @@ A brain-computer interface (BCI) is an electronic system that can convert an ind
 {% endcapture %}
 {%
   include feature.html
-  image="images/shutterstock_1048466104.jpg"
+  image="images/EEG_signals.jpg"
   link="projects/BCI"
   title="Brain-Computer Interfaces (BCI)"
   text=text
@@ -68,7 +68,7 @@ Aphasia is an acquired loss of language abilities, often caused by stroke or oth
 {% endcapture %}
 {%
   include feature.html
-  image="images/Photo_AphasiaProject.jpeg"
+  image="images/aphasia_project.jpg"
   link="projects/Aphasia"
   title="Aphasia Treatment (online app)"
   text=text
@@ -89,7 +89,7 @@ We are studying how the [Mango Languages](https://mangolanguages.com) app can as
 {% endcapture %}
 {%
   include feature.html
-  image="images/young-woman-using-smartphone.jpg"
+  image="images/using_smartphone.jpg"
   link="projects/MADworld-Mango"
   title="Mobile Apps to Help Newcomers to Canada Learn English"
   text=text
@@ -109,7 +109,7 @@ Learning a new language is challenging for most adults, and it has been shown th
 {% endcapture %}
 {%
   include feature.html
-  image="images/welsh-dragon-2931-p.png"
+  image="images/talking_to_laptop.jpg"
   link="projects/WERP"
   title="Memory Processes in Second Language Learning (EEG)"
   flip=true
@@ -130,7 +130,7 @@ This research project is driven by a very simple question: why do we remember th
 {% endcapture %}
 {%
   include feature.html
-  image="images/guy_speaks.png"
+  image="images/reading_book.jpg"
   link="projects/Production-Effect"
   title="What's Special About Reading Aloud? (fMRI)"
   text=text
@@ -150,7 +150,7 @@ During the COVID-19 pandemic, there was a widespread adoption of remote work. Ho
 {% endcapture %}
 {%
   include feature.html
-  image="images/mind_wandering.PNG"
+  image="images/mind_wandering.jpg"
   link="projects/Project-Homework"
   title="Mind Wandering in Remote Collaboration and Remote Work Platforms (EEG)"
   flip=true
