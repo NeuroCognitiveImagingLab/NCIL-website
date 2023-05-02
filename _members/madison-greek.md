@@ -1,6 +1,6 @@
 ---
 name: Madison Greek
-image: images/team/Madison.jpg
+image: images/team/Madison_G.jpg
 description: Independent Research
 role: undergrad
 aliases:

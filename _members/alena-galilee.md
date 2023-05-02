@@ -1,6 +1,6 @@
 ---
 name: Alena Galilee
-image: images/team/Alena-Galilee.png
+image: images/team/Alena-Galilee.jpg
 description: 
 role: collab
 aliases:

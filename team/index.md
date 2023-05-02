@@ -30,7 +30,7 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 
 {% include list.html data="members" component="portrait" filters="role: undergrad, group: " %}
 
-{% include section.html background="images/team/join.png" dark=true %}
+{% include section.html background="images/team/join.jpg" dark=true %}
 
 {%
   include button.html
@@ -81,6 +81,6 @@ Our work is made possible by funding from several organizations.
 {:.center}
 
 {% include figure.html image="images/team/sshrc-fip-full-color-eng.png" link="https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" %}
-{% include figure.html image="images/team/NSERC_FIP_RGB.png" link="https://www.nserc-crsng.gc.ca/index_eng.asp" width="800px"%}
+{% include figure.html image="images/team/nserc_logo.png" link="https://www.nserc-crsng.gc.ca/index_eng.asp" %}
 {% include figure.html image="images/team/BRC_logo.png" link="https://www.brainrepair.ca/" height="200px"%}
 {% include figure.html image="images/team/Mitacs.png" link="https://www.mitacs.ca/en" %}

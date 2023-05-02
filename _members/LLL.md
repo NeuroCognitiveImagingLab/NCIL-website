@@ -1,6 +1,6 @@
 ---
 name: Language and Literacy Lab
-image: images/team/LLL_team.jpg
+image: images/team/LLL_team.jpeg
 description: 
 role: collab
 aliases:
