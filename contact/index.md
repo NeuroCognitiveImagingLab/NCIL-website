@@ -36,8 +36,6 @@ link="https://www.google.com/maps/place/Department+of+Psychology+and+Neuroscienc
 %}
 {:.center}
 
-{% include section.html %}
-
 # {% include icon.html icon="fa-solid fa-envelopes-bulk" %}Mailing Address
 {:.center}
 
