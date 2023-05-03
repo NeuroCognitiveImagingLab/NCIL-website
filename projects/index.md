@@ -130,7 +130,7 @@ This research project is driven by a very simple question: why do we remember th
 {% endcapture %}
 {%
   include feature.html
-  image="images/reading_book.jpg"
+  image="images/person_speaking.jpg"
   link="projects/Production-Effect"
   title="What's Special About Reading Aloud? (fMRI)"
   text=text
