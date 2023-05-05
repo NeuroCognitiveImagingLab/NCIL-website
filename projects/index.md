@@ -48,7 +48,7 @@ A brain-computer interface (BCI) is an electronic system that can convert an ind
 {% endcapture %}
 {%
   include feature.html
-  image="images/EEG_signals.jpg"
+  image="images/EEG_setup.jpg"
   link="projects/BCI"
   title="Brain-Computer Interfaces (BCI)"
   text=text
@@ -68,7 +68,7 @@ Aphasia is an acquired loss of language abilities, often caused by stroke or oth
 {% endcapture %}
 {%
   include feature.html
-  image="images/aphasia_project.jpg"
+  image="images/aphasia_couple.jpg"
   link="projects/Aphasia"
   title="Aphasia Treatment (online app)"
   text=text
@@ -109,7 +109,7 @@ Learning a new language is challenging for most adults, and it has been shown th
 {% endcapture %}
 {%
   include feature.html
-  image="images/talking_to_laptop.jpg"
+  image="images/EEG_cap.jpg"
   link="projects/WERP"
   title="Memory Processes in Second Language Learning (EEG)"
   flip=true
@@ -130,7 +130,7 @@ This research project is driven by a very simple question: why do we remember th
 {% endcapture %}
 {%
   include feature.html
-  image="images/person_speaking.jpg"
+  image="images/pdxn_fMRI_brains.jpg"
   link="projects/Production-Effect"
   title="What's Special About Reading Aloud? (fMRI)"
   text=text
