@@ -48,7 +48,7 @@ We generally ask all volunteers to make a **minimum 3 hour/week commitment** to 
 
 Rather than schedule volunteers at specific times/days of the week, we post all volunteer opportunities on our communication platform (Basecamp), and we expect you to sign up for those that you are available for. As well, **you should try to attend weekly lab meetings** so we get to know your face, and get familiar with the many projects going on in the lab. Times and locations for the meetings are posted on Basecamp, and we hold them hybrid with a Zoom option if you can’t make it to the LSC.
 
-If you would like to volunteer, please [email us](mailto:NCIL@dal.ca).
+If you would like to volunteer, please complete this [application form](join/NCIL-Volunteer_Application-Form).
 
 ## Honours Theses
 If you are interested in doing an honours thesis in NCIL, please note that **Dr. Newman will only take on honours students who have completed PSYO/NESC 3100/3101 (Independent Research) under his supervision, with a grade of A- or better**. An honours thesis in cognitive neuroscience is a significant undertaking, and the independent research project ensures that students go into honours with proper training and expectations.
