@@ -5,7 +5,7 @@ nav:
   tooltip: Email, address, and location
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-solid fa-envelope" %}Contact
 {:.center}
 
 Our lab is part of the [Department of Psychology & Neuroscience](https://www.dal.ca/faculty/science/psychology_neuroscience.html), at  [Dalhousie University](https://www.dal.ca/).
@@ -36,7 +36,7 @@ link="https://www.google.com/maps/place/Department+of+Psychology+and+Neuroscienc
 %}
 {:.center}
 
-# {% include icon.html icon="fa-regular fa-envelopes-bulk" %}Mailing Address
+# {% include icon.html icon="fa-solid fa-envelopes-bulk" %}Mailing Address
 {:.center}
 
 1355 Oxford St.  
