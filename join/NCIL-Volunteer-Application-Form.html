@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="form-reset.css">
+</head>
+<body>
+
 <p>Thank you for your interest in volunteering with the NeuroCognitive Imaging Lab! To move forward with volunteering in the lab, please fill out the following form to the best of your ability. The survey will take approximately 7 minutes to complete.</p>
 <form id="fs-frm" name="NCIL Volunteer Application" accept-charset="utf-8" action="https://formspree.io/f/meqwdjjr" method="post">
   <fieldset id="fs-frm-inputs">
@@ -23,11 +30,8 @@
     <label for="availability">How many hours can you volunteer per week?  What day/time works best for you?</label>
     <input type="text" name="availability" id="availability" placeholder="Enter your answer" required="">
     <label for="CV">Please upload the most current copy of your CV or Resume and an unofficial academic transcript.</label>
-    <form action="/action_page.php">
-  	 <input type="file" id="myFile" name="filename">
-	</form>
-     <input type="file" id="myFile" name="filename">
-	</form>
+    <input type="file" name="upload">
+    <input type="file" name="upload">
     <label for="reference">Provide a Reference  - Please provide the name and contact Information (phone number and email address) of 1-2 persons who can provide a reference for your working, research or volunteering skills.</label>
     <input type="text" name="reference" id="reference" placeholder="Enter your answer" required="">
     <label for="TCPS-2"> NCIL requires that all volunteers achieve their TCPS-2 Core Certification, if you have already completed your TCPS-2 Core Certification please upload your certificate here. 
@@ -35,12 +39,13 @@
       If you have not yet achieved this certification, please follow this link to complete your certification: https://tcps2core.ca/welcome. The tutorial takes approximately 2 hours to complete.
 
 Once you have your certificate, please send an email to our lab manager Cindy.Hamon-Hill@Dal.Ca with your name and certificate as soon as possible.</label>
-    <form action="/action_page.php">
-  	  <input type="file" id="myFile" name="filename">
-	 </form>
+    <input type="file" name="upload">
     <label for="LinkedIn">Please provide your LinkedIn profile (if you have one).</label>
     <input type="text" name="LinkedIn" id="LinkedIn" placeholder="Enter your answer" required="">
     <input type="hidden" name="_subject" id="email-subject" value="NCIL Volunteer Application Form">
   </fieldset>
   <input type="submit" value="Submit">
 </form>
+
+</body>
+</html>
