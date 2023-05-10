@@ -36,7 +36,7 @@ link="https://www.google.com/maps/place/Department+of+Psychology+and+Neuroscienc
 %}
 {:.center}
 
-# {% include icon.html icon="fa-solid fa-envelopes-bulk" %}Mailing Address
+# {% include icon.html icon="fa-regular fa-envelopes-bulk" %}Mailing Address
 {:.center}
 
 1355 Oxford St.  
