@@ -28,7 +28,7 @@ What Makes a Skilled Reader? The NeuroCognitive Imaging Lab needs your help to f
 {% endcapture %}
 {%
   include feature.html
-  image="images/SKIRF_project.jpg"
+  image="images/projects/SKIRF_project.jpeg"
   link="projects/What-Makes-a-Skilled-Reader"
   title="Reading Development (fMRI)"
   flip=true
@@ -48,7 +48,7 @@ A brain-computer interface (BCI) is an electronic system that can convert an ind
 {% endcapture %}
 {%
   include feature.html
-  image="images/EEG_setup.jpg"
+  image="images/projects/EEG_setup.jpeg"
   link="projects/BCI"
   title="Brain-Computer Interfaces (BCI)"
   text=text
@@ -68,7 +68,7 @@ Aphasia is an acquired loss of language abilities, often caused by stroke or oth
 {% endcapture %}
 {%
   include feature.html
-  image="images/aphasia_couple.jpg"
+  image="images/projects/aphasia_couple.jpeg"
   link="projects/Aphasia"
   title="Aphasia Treatment (online app)"
   text=text
@@ -89,7 +89,7 @@ We are studying how the [Mango Languages](https://mangolanguages.com) app can as
 {% endcapture %}
 {%
   include feature.html
-  image="images/using_smartphone.jpg"
+  image="images/projects/using_smartphone.jpeg"
   link="projects/MADworld-Mango"
   title="Mobile Apps to Help Newcomers to Canada Learn English"
   text=text
@@ -109,7 +109,7 @@ Learning a new language is challenging for most adults, and it has been shown th
 {% endcapture %}
 {%
   include feature.html
-  image="images/EEG_cap.jpg"
+  image="images/projects/EEG_cap.jpeg"
   link="projects/WERP"
   title="Memory Processes in Second Language Learning (EEG)"
   flip=true
@@ -130,7 +130,7 @@ This research project is driven by a very simple question: why do we remember th
 {% endcapture %}
 {%
   include feature.html
-  image="images/pdxn_fMRI_brains.jpg"
+  image="images/projects/pdxn_fMRI_brains.jpeg"
   link="projects/Production-Effect"
   title="What's Special About Reading Aloud? (fMRI)"
   text=text
@@ -150,7 +150,7 @@ During the COVID-19 pandemic, there was a widespread adoption of remote work. Ho
 {% endcapture %}
 {%
   include feature.html
-  image="images/mind_wandering.jpg"
+  image="images/projects/mind_wandering.jpeg"
   link="projects/Project-Homework"
   title="Mind Wandering in Remote Collaboration and Remote Work Platforms (EEG)"
   flip=true
@@ -171,7 +171,7 @@ _Hyperscanning_ refers to collecting neuroimaging data from more than one person
 {% endcapture %}
 {%
   include feature.html
-  image="images/hyperscanning.jpg"
+  image="images/projects/hyperscanning.jpeg"
   link="projects/hyperscanning"
   title="Hyperscanning During Conversation (Two-Person EEG)"
   text=text
