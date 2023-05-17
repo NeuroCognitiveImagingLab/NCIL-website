@@ -48,12 +48,10 @@ We generally ask all volunteers to make a **minimum 3 hour/week commitment** to 
 
 Rather than schedule volunteers at specific times/days of the week, we post all volunteer opportunities on our communication platform (Basecamp), and we expect you to sign up for those that you are available for. As well, **you should try to attend weekly lab meetings** so we get to know your face, and get familiar with the many projects going on in the lab. Times and locations for the meetings are posted on Basecamp, and we hold them hybrid with a Zoom option if you can’t make it to the LSC.
 
-Want to volunteer in the lab?
-{:.center}
 {%
   include button.html
   link="join/NCIL-Volunteer-Application-Form"
-  text="Apply Now"
+  text="Want to become a volunteer? Apply now!"
   flip=true
 %}
 
