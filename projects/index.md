@@ -5,7 +5,7 @@ nav:
   tooltip: Our projects
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-flask" %}Projects
 {:.center}
 
 NCIL conducts research on language, using a combination of neuroimaging and behavioural measures. 
