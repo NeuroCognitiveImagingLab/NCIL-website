@@ -47,7 +47,6 @@ Current research projects in the lab are focused on a number of different topics
 {% 
   include section.html
   background="images/cindy_eeg_1.JPG"
-  dark=true
   size=full
 %}
 
@@ -75,6 +74,7 @@ To support the growth of the field, lab director Dr. Aaron Newman has written te
 {% 
   include section.html
   background="images/aaron_with_book.png"
+  dark=true
   size=full
 %}
 
@@ -95,7 +95,7 @@ NCIL is committed to providing a safe, diverse, inclusive, and equitable environ
 %}
 {:.center}
 
-{% include section.html dark=true%}
+{% include section.html %}
 
 ## Do you want to participate in one of our studies?
 {:.center}
