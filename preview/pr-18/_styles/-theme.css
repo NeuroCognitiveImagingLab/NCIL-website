@@ -1,0 +1,41 @@
+[data-dark=false] {
+  --primary: #457B9D;
+  --secondary: #A8DADC;
+  --text: #1D3557;
+  --background: #F1FAEE;
+  --background-alt: #A&DADC;
+  --light-gray: #e0e0e0;
+  --gray: #808080;
+  --overlay: #00000020;
+}
+
+[data-dark=true] {
+  --primary: #457B9D;
+  --secondary: #A8DADC;
+  --text: #F1FAEE;
+  --background: #1D3557;
+  --background-alt: #768AA1;
+  --light-gray: #404040;
+  --gray: #808080;
+  --overlay: #ffffff10;
+}
+
+:root {
+  --title: "Zen Kaku Gothic New", sans-serif;
+  --heading: "Zen Kaku Gothic New", sans-serif;
+  --body: "Zen Kaku Gothic New", sans-serif;
+  --code: "Fira Mono", monospace;
+  --medium: 1.2rem;
+  --large: 1.4rem;
+  --xl: 1.6rem;
+  --xxl: 1.8rem;
+  --thin: 200;
+  --regular: 400;
+  --semi-bold: 500;
+  --bold: 600;
+  --spacing: 2;
+  --rounded: 3px;
+  --shadow: 0 0 10px 0 var(--overlay);
+}
+
+/*# sourceMappingURL=-theme.css.map */
