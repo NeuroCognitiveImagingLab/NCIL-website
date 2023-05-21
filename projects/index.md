@@ -56,7 +56,7 @@ A brain-computer interface (BCI) is an electronic system that can convert an ind
 
 
 {% capture text %}
-Aphasia is an acquired loss of language abilities, often caused by stroke or other brain injury. It affects 2.5 million people in North America alone. Aphasia can can disrupt people's ability to hold a job, or even communicate noramlly with their family and friends. Unfortunately, most people with aphasia are not able to access adequate treatment. We are developing and testing a computer-based therapy for at-home rehabilitation of aphasia. We are currently recruiting people with aphasia to participate in this study — please contact us if you're interested!
+Aphasia is an acquired loss of language abilities, often caused by stroke or other brain injury. It affects 2.5 million people in North America alone. Aphasia can can disrupt people's ability to hold a job, or even communicate normally with their family and friends. Unfortunately, most people with aphasia are not able to access adequate treatment. We are developing and testing a computer-based therapy for at-home rehabilitation of aphasia. We are currently recruiting people with aphasia to participate in this study — please contact us if you're interested!
 {%
   include button.html
   link="projects/Aphasia"
@@ -159,7 +159,7 @@ During the COVID-19 pandemic, there was a widespread adoption of remote work. Ho
 
 
 {% capture text %}
-_Hyperscanning_ refers to collecting neuroimaging data from more than one person at the same time. Our lab has [developed a technique](https://doi.org/10.1016/j.mex.2023.102019) for doing this while people are engaged in conversation, using only a single EEG system. Notably, we have shown that we are able to time-lock EEG data to specific, individual words in a coversation. In contrast to conventional lab studies in which stimuli are presented by computers to ensure precise time-locking, our approach allows us very high precision in characterizing brain activity during natural human interactions. 
+_Hyperscanning_ refers to collecting neuroimaging data from more than one person at the same time. Our lab has [developed a technique](https://doi.org/10.1016/j.mex.2023.102019) for doing this while people are engaged in conversation, using only a single EEG system. Notably, we have shown that we are able to time-lock EEG data to specific, individual words in a conversation. In contrast to conventional lab studies in which stimuli are presented by computers to ensure precise time-locking, our approach allows us very high precision in characterizing brain activity during natural human interactions. 
 {%
   include button.html
   link="projects/hyperscanning"
