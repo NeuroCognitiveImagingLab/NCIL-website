@@ -9,7 +9,6 @@ nav:
 {:.center}
 
 The Lab Handbook provides information on the roles, policies, expectations, and resources in the lab. If you would like to learn more about being involved in the lab, please click the link below.
-{:.center}
 
 {%
   include button.html
