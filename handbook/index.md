@@ -8,7 +8,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-book-open" %}Lab Handbook
 {:.center}
 
-The Lab Handbook provides information on the roles, policies, expectations, and resources in the lab. If you would like to learn more about being involved in the lab, please click the link below.
+The Lab Handbook provides information on the roles, policies, expectations, and resources in the lab. It is primarily a reference for people who are already working in the lab - especially new folks. But, it is a public document so feel free to look through it if you're curious about the lab!
 
 {%
   include button.html
