@@ -13,10 +13,10 @@ We are currently recruiting adults aged 18 years or older, who currently present
 
 Prospective participants are also required to have a partner who can assist with the delivery of the standardized test during session 1, and can help facilitate communication between the researcher and the person with aphasia.
 
-{% include banner.html image="images/Aphasia-recruitment1.png" %}
+{% include figure.html image="images/Aphasia-recruitment1.jpg" %}
 
 # What Does a Participant Do?
-{% include banner.html image="images/Aphasia-recruitment2.png" %}
+{% include figure.html image="images/Aphasia-recruitment2.jpg" %}
 
 Participants will take part in this study from their home, as the study will be conducted entirely remotely. This study will take place over approximately 10 weeks and involve approximately 22 hours of participation, over the course of the study. Participants will receive $10 for each session of the study they complete (if all sessions are completed, this sums to $170). 
 
