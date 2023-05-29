@@ -1,9 +1,10 @@
 ---
-name: Language and Literacy Lab (LLL)
-image: images/team/LLL_team.jpg
+name: Language and Literacy Lab
+image: images/team/LLL_team.jpeg
 description: 
 role: collab
 aliases:
+  - Language and Literacy Lab
   - LLL
   - H. Deacon
 links:
