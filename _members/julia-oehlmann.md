@@ -1,6 +1,6 @@
 ---
 name: Julia Oehlmann
-image: images/team/Julia.png
+image: images/team/Julia_O.jpg
 description: Honours Student
 role: undergrad
 aliases:

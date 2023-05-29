@@ -1,6 +1,6 @@
 ---
 name: Laura Elliott
-image: images/team/LE.jpg
+image: images/team/Laura_E.jpg
 description: Master's Student
 role: phd
 aliases:

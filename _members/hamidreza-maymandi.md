@@ -1,6 +1,6 @@
 ---
 name: Hamidreza Maymandi
-image: images/team/Hamidreza_Maymandi_Photo.png
+image: images/team/Hamidreza_Maymandi_Photo.jpg
 description: Postdoctoral Researcher
 role: postdoc
 aliases:
