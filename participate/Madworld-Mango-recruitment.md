@@ -2,9 +2,14 @@
 title: Madworld-Mango
 ---
 
-{%include figure.html image="images/logos/ML-Logo-Header.svg" width="400px"%}
+{% capture content %}
+{% include figure.html image="images/logos/ML-Logo-Header.svg" link="https://mangolanguages.com/" width="200px"%}
 {% include figure.html image="images/logos/DAL_LogoHorz_RGB.png" width="400px"%}
 {% include figure.html image="images/logos/SFU_horizontal_logo_rgb.png" width="400px"%}
+
+{% endcapture %}
+
+{% include grid.html content=content %}
 
 # The Mango Languages Project
 
