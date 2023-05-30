@@ -3,7 +3,7 @@ title: Madworld-Mango
 ---
 
 {% capture content %}
-{% include figure.html image="images/logos/DAL_LogoHorz_RGB.png" link="https://www.dal.ca/" width="200px"%}
+{% include figure.html image="images/logos/DAL_LogoHorz_RGB.png" link="https://www.dal.ca/" width="300px"%}
 {% include figure.html image="images/logos/ML-Logo-Header.svg" link="https://mangolanguages.com/" width="200px"%}
 {% include figure.html image="images/logos/SFU_horizontal_logo_rgb.png" link="https://www.sfu.ca/" width="400px"%}
 
