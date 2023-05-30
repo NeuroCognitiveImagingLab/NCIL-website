@@ -52,12 +52,12 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 {:.center}
 
 {% capture content %}
-{% include figure.html image="images/team/S_Color_horizontal_medium_lightBG.png" link="https://www.surgeinnovation.ca/" %}
-{% include figure.html image="images/team/BRC_logo.png" link="https://www.brainrepair.ca/" %}
-{% include figure.html image="images/team/Ensuring_Full_Literacy_logo.png" link="https://ensuringliteracy.ca/" %}
-{% include figure.html image="images/team/IWK-Logo-Colour-1080.png" link="https://www.iwk.nshealth.ca/" %}
-{% include figure.html image="images/team/ML-Logo-Header.svg" link="https://mangolanguages.com/" width="200px"%}
-{% include figure.html image="images/team/QEII_logo.svg" link="https://qe2foundation.ca/" width="800px"%}
+{% include figure.html image="images/logos/S_Color_horizontal_medium_lightBG.png" link="https://www.surgeinnovation.ca/" %}
+{% include figure.html image="images/logos/BRC_logo.png" link="https://www.brainrepair.ca/" %}
+{% include figure.html image="images/logos/Ensuring_Full_Literacy_logo.png" link="https://ensuringliteracy.ca/" %}
+{% include figure.html image="images/logos/IWK-Logo-Colour-1080.png" link="https://www.iwk.nshealth.ca/" %}
+{% include figure.html image="images/logos/ML-Logo-Header.svg" link="https://mangolanguages.com/" width="200px"%}
+{% include figure.html image="images/logos/QEII_logo.svg" link="https://qe2foundation.ca/" width="800px"%}
 
 {% endcapture %}
 
@@ -81,12 +81,12 @@ Our work is made possible by funding from several organizations.
 {:.center}
 
 {% capture content %}
-{% include figure.html image="images/team/nserc_logo.png" link="https://www.nserc-crsng.gc.ca/index_eng.asp" height="200px"%}
-{% include figure.html image="images/team/BRC_logo.png" link="https://www.brainrepair.ca/" height="200px"%}
-{% include figure.html image="images/team/Mitacs.png" link="https://www.mitacs.ca/en" width="300px"%}
+{% include figure.html image="images/logos/nserc_logo.png" link="https://www.nserc-crsng.gc.ca/index_eng.asp" height="200px"%}
+{% include figure.html image="images/logos/BRC_logo.png" link="https://www.brainrepair.ca/" height="200px"%}
+{% include figure.html image="images/logos/Mitacs.png" link="https://www.mitacs.ca/en" width="300px"%}
 
 {% endcapture %}
 
 {% include grid.html content=content %}
 
-{% include figure.html image="images/team/sshrc-fip-full-color-eng.png" link="https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" %}
+{% include figure.html image="images/logos/sshrc-fip-full-color-eng.png" link="https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" %}

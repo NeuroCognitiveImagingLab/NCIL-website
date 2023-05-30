@@ -12,7 +12,7 @@ Interested in participating in one of our studies? Click the links below to find
 
 {%
   include card.html
-  image="images/child_in_MRI_scanner.jpg"
+  image="images/projects/SKIRF_project.jpeg"
   link="participate/What-Makes-a-Skilled-Reader-recruitment"
   title="Reading Development (fMRI)"
   subtitle=""
@@ -23,7 +23,7 @@ Interested in participating in one of our studies? Click the links below to find
 %}
 {%
   include card.html
-  image="images/aphasia_project.jpg"
+  image="images/projects/aphasia_couple.jpeg"
   link="participate/Aphasia-recruitment"
   title="Aphasia Treatment (online app)"
   subtitle=""
@@ -34,7 +34,7 @@ Interested in participating in one of our studies? Click the links below to find
 %}
 {%
   include card.html
-  image="images/using_smartphone.jpg"
+  image="images/projects/using_smartphone.jpeg"
   link="participate/Madworld-Mango-recruitment"
   title="Mobile Apps to Help Newcomers to Canada Learn English"
   subtitle=""

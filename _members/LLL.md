@@ -17,4 +17,4 @@ The LLL consists of an interdisciplinary and diverse team of researchers who sup
 
 You can learn more about the LLL and our research by visiting our [website](http://langlabatdal.weebly.com/).
 
-{% include figure.html image="images/team/L3.Logo.Colour.Text.jpg" link="http://langlabatdal.weebly.com/" %}
+{% include figure.html image="images/logos/L3.Logo.Colour.Text.jpg" link="http://langlabatdal.weebly.com/" %}
