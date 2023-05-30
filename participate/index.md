@@ -6,6 +6,7 @@ nav:
 ---
 
 # {% include icon.html icon="fas fa-users" %}Participate
+{:.center}
 
 Interested in participating in one of our studies? Click the links below to find out more!
 {:.center}
