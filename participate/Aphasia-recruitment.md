@@ -3,6 +3,8 @@ title: Aphasia
 ---
 
 # Developing A Prototype Of A Computer-Based Therapy For Aphasia: Usability Testing And Preliminary Assessment Of Efficacy
+{:.center}
+
 We are recruiting adults aged 18 years or older, who currently present with moderate expressive aphasia. Please continue reading for more information!
 
 # What is the Purpose of the Project?
