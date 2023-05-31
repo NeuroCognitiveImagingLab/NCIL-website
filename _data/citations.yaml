@@ -131,3 +131,14 @@
   image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1364/josaa.14.000013
+  title: Equivalent background speed in recovery from motion adaptation
+  authors:
+  - William A. Simpson
+  - Aaron Newman
+  - Wendi Aasland
+  publisher: Journal of the Optical Society of America A
+  date: '1997-01-01'
+  link: https://doi.org/dp8q5w
+  plugin: sources.py
+  file: sources.yaml
