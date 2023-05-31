@@ -31,7 +31,7 @@ Funded by the Nova Scotia Graduate Scholarship (NSGS) and the Dalhousie Medical 
 
 {%
   include figure.html
-  image="images/DMRF_Logo.svg"
+  image="images/logos/DMRF_Logo.svg"
   link="https://dmrf.ca/"
   tooltip="DMRF"
 %}
