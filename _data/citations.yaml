@@ -208,3 +208,96 @@
   link: https://doi.org/bhsq33
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1016/j.cogbrainres.2003.10.014
+  title: 'The cortical organization of audio-visual sentence comprehension: an fMRI
+    study at 4 Tesla'
+  authors:
+  - Cheryl M. Capek
+  - Daphne Bavelier
+  - David Corina
+  - Aaron J. Newman
+  - Peter Jezzard
+  - Helen J. Neville
+  publisher: Cognitive Brain Research
+  date: ''
+  link: https://doi.org/b42dzj
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.neuroimage.2006.09.007
+  title: An ERP study of regular and irregular English past tense inflection
+  authors:
+  - Aaron J. Newman
+  - Michael T. Ullman
+  - Roumyana Pancheva
+  - Diane L. Waligura
+  - Helen J. Neville
+  publisher: NeuroImage
+  date: ''
+  link: https://doi.org/cnd2n9
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/cercor/bhm248
+  title: 'Encoding, Rehearsal, and Recall in Signers and Speakers: Shared Network
+    but Differential Engagement'
+  authors:
+  - D. Bavelier
+  - A. J. Newman
+  - M. Mukherjee
+  - P. Hauser
+  - S. Kemeny
+  - A. Braun
+  - M. Boutla
+  publisher: Cerebral Cortex
+  date: ''
+  link: https://doi.org/b6m4xp
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1073/pnas.0809609106
+  title: 'Brain systems mediating semantic and syntactic processing in deaf native
+    signers: Biological invariance and modality specificity'
+  authors:
+  - Cheryl M. Capek
+  - Giordana Grossi
+  - Aaron J. Newman
+  - Susan L. McBurney
+  - David Corina
+  - Brigitte Roeder
+  - Helen J. Neville
+  publisher: Proceedings of the National Academy of Sciences
+  date: ''
+  link: https://doi.org/fnhjf7
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.neuroimage.2010.03.055
+  title: 'Prosodic and narrative processing in American Sign Language: An fMRI study'
+  authors:
+  - Aaron J. Newman
+  - Ted Supalla
+  - Peter C. Hauser
+  - Elissa L. Newport
+  - Daphne Bavelier
+  publisher: NeuroImage
+  date: ''
+  link: https://doi.org/fck4fs
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1073/pnas.1003174107
+  title: Dissociating neural subsystems for grammar by contrasting word order and
+    inflection
+  authors:
+  - Aaron J. Newman
+  - Ted Supalla
+  - Peter Hauser
+  - Elissa L. Newport
+  - Daphne Bavelier
+  publisher: Proceedings of the National Academy of Sciences
+  date: ''
+  link: https://doi.org/fnm7dp
+  image: null
+  plugin: sources.py
+  file: sources.yaml
