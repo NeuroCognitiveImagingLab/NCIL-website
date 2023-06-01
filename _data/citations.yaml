@@ -142,3 +142,13 @@
   link: https://doi.org/dp8q5w
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1016/s0042-6989(97)00294-0
+  title: Motion detection and directional tuning
+  authors:
+  - William A Simpson
+  - Aaron Newman
+  publisher: Vision Research
+  date: '1998-06-01'
+  link: https://doi.org/d3pcwh
+  plugin: sources.py
+  file: sources.yaml
