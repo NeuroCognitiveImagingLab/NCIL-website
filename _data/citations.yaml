@@ -301,3 +301,186 @@
   image: null
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1097/AUD.0b013e3181ec5d7a
+  title: Sensitivity of the Human Binaural Cortical Steady State Response to Interaural
+    Level Differences
+  authors:
+  - Sarah Massoud
+  - Steve J. Aiken
+  - Aaron J. Newman
+  - Dennis P. Phillips
+  - Manohar Bance
+  publisher: Ear &amp; Hearing
+  date: ''
+  link: https://doi.org/dw5bkk
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.brainres.2010.12.022
+  title: 'Interplay between morphology and frequency in lexical access: The case of
+    the base frequency effect'
+  authors:
+  - Jennifer Vannest
+  - Elissa L. Newport
+  - Aaron J. Newman
+  - Daphne Bavelier
+  publisher: Brain Research
+  date: ''
+  link: https://doi.org/fj967r
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.36510/learnland.v5i1.542
+  title: 'The Impact of Emotions on Divergent Thinking Processes: &lt;br&gt;A Consideration
+    for Inquiry-Oriented Teachers'
+  authors:
+  - Krista C. Ritchie
+  - Bruce M. Shore
+  - Frank LaBanca
+  - Aaron J. Newman
+  publisher: LEARNing Landscapes
+  date: ''
+  link: https://doi.org/gr924p
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1162/jocn_a_00143
+  title: The Influence of Language Proficiency on Lexical Semantic Processing in Native
+    and Late Learners of English
+  authors:
+  - Aaron J. Newman
+  - Antoine Tremblay
+  - Emily S. Nichols
+  - Helen J. Neville
+  - Michael T. Ullman
+  publisher: Journal of Cognitive Neuroscience
+  date: ''
+  link: https://doi.org/drggk2
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3758/s13428-012-0273-2
+  title: Communicative and noncommunicative point-light actions featuring high-resolution
+    representation of the hands and fingers
+  authors:
+  - Hazlin Zaini
+  - Jonathan M. Fawcett
+  - Nicole C. White
+  - Aaron J. Newman
+  publisher: Behavior Research Methods
+  date: ''
+  link: https://doi.org/f4xhzs
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.bandl.2012.06.005
+  title: Changes in N400 topography following intensive speech language therapy for
+    individuals with aphasia
+  authors:
+  - K. Ryan Wilson
+  - "Heather O\u2019Rourke"
+  - Linda A. Wozniak
+  - Ellina Kostopoulos
+  - Yannick Marchand
+  - Aaron J. Newman
+  publisher: Brain and Language
+  date: ''
+  link: https://doi.org/f4dcsk
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1002/hbm.22024
+  title: 'Spatial MEG Laterality maps for language: Clinical applications in epilepsy'
+  authors:
+  - Ryan C.N. D'Arcy
+  - Timothy Bardouille
+  - Aaron J. Newman
+  - Sean R. McWhinney
+  - Drew DeBay
+  - R. Mark Sadler
+  - David B. Clarke
+  - Michael J. Esser
+  publisher: Human Brain Mapping
+  date: ''
+  link: https://doi.org/gf269z
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3109/14992027.2012.743044
+  title: Refractory effects of the N1 event-related potential in experienced cochlear
+    implant patients
+  authors:
+  - Christopher D. Cowper-Smith
+  - Janet Green
+  - Heather Maessen
+  - Manohar Bance
+  - Aaron J. Newman
+  publisher: International Journal of Audiology
+  date: ''
+  link: https://doi.org/ggkh5h
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.bandl.2012.11.009
+  title: Can skilled readers perform a second task in parallel? A functional connectivity
+    MRI study
+  authors:
+  - Aaron J. Newman
+  - Sophie Kenny
+  - Jean Saint-Aubin
+  - Raymond M. Klein
+  publisher: Brain and Language
+  date: ''
+  link: https://doi.org/f4mn3q
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1371/journal.pone.0058130
+  title: Sensitivity to White Matter fMRI Activation Increases with Field Strength
+  authors:
+  - Erin L. Mazerolle
+  - Jodie R. Gawryluk
+  - Kim N. H. Dillen
+  - Steven A. Patterson
+  - Kirk W. Feindel
+  - Steven D. Beyea
+  - M. Tynan R Stevens
+  - Aaron J. Newman
+  - Matthias H. Schmidt
+  - "Ryan C.N. D\u2019Arcy"
+  publisher: PLoS ONE
+  date: ''
+  link: https://doi.org/f4tg5b
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/1471-244X-13-264
+  title: 'Multimodal neuroimaging of frontal white matter microstructure in early
+    phase schizophrenia: the impact of early adolescent cannabis use'
+  authors:
+  - Denise Bernier
+  - Jacob Cookey
+  - David McAllindon
+  - Robert Bartha
+  - Christopher C Hanstock
+  - Aaron J Newman
+  - Sherry H Stewart
+  - Philip G Tibbo
+  publisher: BMC Psychiatry
+  date: ''
+  link: https://doi.org/gbd2gw
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.neuroimage.2013.09.026
+  title: Electrophysiological markers of biological motion and human form recognition
+  authors:
+  - Nicole C. White
+  - Jonathan M. Fawcett
+  - Aaron J. Newman
+  publisher: NeuroImage
+  date: ''
+  link: https://doi.org/f5mnmn
+  image: null
+  plugin: sources.py
+  file: sources.yaml
