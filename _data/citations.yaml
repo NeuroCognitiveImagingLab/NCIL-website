@@ -152,3 +152,59 @@
   link: https://doi.org/d3pcwh
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1155/2014/301473
+  title: A Comparative Study on Visual Choice Reaction Time for Different Colors in
+    Females
+  authors:
+  - Grrishma Balakrishnan
+  - Gurunandan Uppinakudru
+  - Gaur Girwar Singh
+  - Shobith Bangera
+  - Aswini Dutt Raghavendra
+  - Dinesh Thangavel
+  publisher: Neurology Research International
+  date: '2014-01-01'
+  link: https://doi.org/gb626j
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1097/00001756-200104170-00027
+  title: 'How the mass counts: An electrophysiological approach to the processing
+    of lexical features'
+  authors:
+  - Karsten Steinhauer
+  - Roumyana Pancheva
+  - Aaron J. Newman
+  - Silvia Gennari
+  - Michael T. Ullman
+  publisher: Neuroreport
+  date: '2001-04-01'
+  link: https://doi.org/dk76w7
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1023/a:1010499119393
+  title: ''
+  authors:
+  - Aaron J. Newman
+  - Roumyana Pancheva
+  - Kaori Ozawa
+  - Helen J. Neville
+  - Michael T. Ullman
+  publisher: Journal of Psycholinguistic Research
+  date: '2001-01-01'
+  link: https://doi.org/bt5c9c
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/nn775
+  title: A critical period for right hemisphere recruitment in American Sign Language
+    processing
+  authors:
+  - Aaron J. Newman
+  - Daphne Bavelier
+  - David Corina
+  - Peter Jezzard
+  - Helen J. Neville
+  publisher: Nature Neuroscience
+  date: '2001-11-26'
+  link: https://doi.org/bhsq33
+  plugin: sources.py
+  file: sources.yaml
