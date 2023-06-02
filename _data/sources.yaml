@@ -33,6 +33,7 @@
 - id: doi:10.1073/pnas.1003174107
   image:
   date: 
+
 - id: doi:10.1097/AUD.0b013e3181ec5d7a
   image:
   date: 
@@ -172,7 +173,7 @@
   image:
   date: 
 
-- id:  doi:10.3389/fnhum.2021.697532
+- id: doi:10.3389/fnhum.2021.697532
   image:
   date: 
 
@@ -181,5 +182,17 @@
   date: 
 
 - id: doi:10.3389/fnins.2022.922960
+  image:
+  date: 
+
+- id: doi: 10.1016/j.prdoa.2022.100182
+  image:
+  date: 
+
+- id: doi: 10.1016/j.mex.2023.102019
+  image:
+  date: 
+
+- id: doi: 10.1016/j.neuropsychologia.2023.108546
   image:
   date: 
