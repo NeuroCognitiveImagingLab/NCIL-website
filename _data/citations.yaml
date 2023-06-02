@@ -822,3 +822,54 @@
   image: null
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1016/j.prdoa.2022.100182
+  title: 'Aberrant corticospinal tract characteristics in prodromal PD: A diffusion
+    tensor imaging study'
+  authors:
+  - Laura J. Pimer
+  - Ronald A. Leslie
+  - Gosia Phillips
+  - Aaron J. Newman
+  - Benjamin Rusak
+  - Tyler M. Rolheiser
+  - Kerrie Schoffer
+  - M. Naeem Khan
+  - J. Roger McKelvey
+  - Harold A. Robertson
+  - Kimberley P. Good
+  publisher: Clinical Parkinsonism &amp; Related Disorders
+  date: ''
+  link: https://doi.org/gr96cf
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.mex.2023.102019
+  title: 'A two for one special: EEG hyperscanning using a single-person EEG recording
+    setup'
+  authors:
+  - Caitriona L. Douglas
+  - Antoine Tremblay
+  - Aaron J. Newman
+  publisher: MethodsX
+  date: ''
+  link: https://doi.org/gr96cg
+  image: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.neuropsychologia.2023.108546
+  title: Age-related changes to electroencephalographic markers of visuomotor error
+    processing and learning in prism adaptation
+  authors:
+  - "Zo\xEB Lazar-Kurz"
+  - Jasmine Aziz
+  - Katelyn J. McKearney
+  - Cindy Hamon-Hill
+  - Arthur MacDonald
+  - Aaron Newman
+  - Gail Eskes
+  publisher: Neuropsychologia
+  date: ''
+  link: https://doi.org/gr96ch
+  image: null
+  plugin: sources.py
+  file: sources.yaml
