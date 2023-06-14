@@ -22,12 +22,11 @@
   - Antoine Tremblay
   - Aaron J. Newman
   publisher: MethodsX
-  date: ''
+  date: '2023-01-01'
   link: https://doi.org/gr96cg
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.31234/osf.io/ndxc6
   title: 'A two for one special: EEG hyperscanning using a single-person EEG recording
     setup'
@@ -49,12 +48,11 @@
   - Kiera G.R. O'Neil
   - Aaron J. Newman
   publisher: IEEE Transactions on Learning Technologies
-  date: ''
+  date: '2018-01-01'
   link: https://doi.org/gdc3hf
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1080/02699052.2018.1429022
   title: 'Attentional dysfunction and recovery in concussion: effects on the P300m
     and contingent magnetic variation'
@@ -68,12 +66,11 @@
   - Antonina Omisade
   - Steven Beyea
   publisher: Brain Injury
-  date: ''
+  date: '2018-01-22'
   link: https://doi.org/gqwmhw
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-85041126085
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -93,12 +90,11 @@
   - Aaron J. Newman
   - Karen M. Arnell
   publisher: Cognitive, Affective, &amp; Behavioral Neuroscience
-  date: ''
+  date: '2017-03-06'
   link: https://doi.org/gqwmhx
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-85019158916
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -114,12 +110,11 @@
   - M Latimer
   - M Campbell-Yeo
   publisher: Acta Paediatrica
-  date: ''
+  date: '2017-05-09'
   link: https://doi.org/f9547g
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-84953352161
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -134,12 +129,11 @@
   - "Ryan C. N. D\u2019Arcy"
   - Aaron J. Newman
   publisher: Brain Topography
-  date: ''
+  date: '2015-10-22'
   link: https://doi.org/f76nrr
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1044/2016_AJA-15-0080
   title: Preliminary Investigation of the Passively Evoked N400 as a Tool for Estimating
     Speech-in-Noise Thresholds
@@ -151,12 +145,11 @@
   - Manohar Bance
   - Lauren Sculthorpe-Petley
   publisher: American Journal of Audiology
-  date: ''
+  date: '2016-12-01'
   link: https://doi.org/f9g57x
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-85006717182
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -172,12 +165,11 @@
   - Vanessa K. Lim
   - Aaron J. Newman
   publisher: Brain Connectivity
-  date: ''
+  date: '2016-12-01'
   link: https://doi.org/gqwmhz
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-85004081550
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -198,12 +190,11 @@
   - Tim Bardouille
   - Aaron J. Newman
   publisher: The Mental Lexicon
-  date: ''
+  date: '2016-06-07'
   link: https://doi.org/gr93v8
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-84919844737
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -216,12 +207,11 @@
   - Antoine Tremblay
   - Aaron J. Newman
   publisher: Psychophysiology
-  date: ''
+  date: '2014-08-17'
   link: https://doi.org/f6vf4z
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-84941687373
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -237,12 +227,11 @@
   - Elissa L. Newport
   - Daphne Bavelier
   publisher: Proceedings of the National Academy of Sciences
-  date: ''
+  date: '2015-08-17'
   link: https://doi.org/f7sm9m
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.neuroimage.2013.09.026
   title: Electrophysiological markers of biological motion and human form recognition
   authors:
@@ -250,12 +239,11 @@
   - Jonathan M. Fawcett
   - Aaron J. Newman
   publisher: NeuroImage
-  date: ''
+  date: '2014-01-01'
   link: https://doi.org/f5mnmn
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-84885693088
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -269,12 +257,11 @@
   - Jason Satel
   - Patricia McMullen
   publisher: Brain and Cognition
-  date: ''
+  date: '2014-04-01'
   link: https://doi.org/f5x2sp
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-84896697775
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -289,12 +276,11 @@
   - Jean Saint-Aubin
   - Raymond M. Klein
   publisher: Brain and Language
-  date: ''
+  date: '2013-01-01'
   link: https://doi.org/f4mn3q
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-84871722577
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -309,12 +295,11 @@
   - Nicole C. White
   - Aaron J. Newman
   publisher: Behavior Research Methods
-  date: ''
+  date: '2012-10-17'
   link: https://doi.org/f4xhzs
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-84878217542
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -349,12 +334,11 @@
   - Sherry H Stewart
   - Philip G Tibbo
   publisher: BMC Psychiatry
-  date: ''
+  date: '2013-10-17'
   link: https://doi.org/gbd2gw
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-84886253476
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -375,12 +359,11 @@
   - Manohar Bance
   - Aaron J. Newman
   publisher: International Journal of Audiology
-  date: ''
+  date: '2013-01-03'
   link: https://doi.org/ggkh5h
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1371/journal.pone.0058130
   title: Sensitivity to White Matter fMRI Activation Increases with Field Strength
   authors:
@@ -395,12 +378,11 @@
   - Matthias H. Schmidt
   - "Ryan C.N. D\u2019Arcy"
   publisher: PLoS ONE
-  date: ''
+  date: '2013-03-04'
   link: https://doi.org/f4tg5b
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-84874612953
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -418,12 +400,11 @@
   - David B. Clarke
   - Michael J. Esser
   publisher: Human Brain Mapping
-  date: ''
+  date: '2012-03-15'
   link: https://doi.org/gf269z
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-84880132790
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -445,12 +426,11 @@
   - Yannick Marchand
   - Aaron J. Newman
   publisher: Brain and Language
-  date: ''
+  date: '2012-11-01'
   link: https://doi.org/f4dcsk
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-84859146010
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -466,12 +446,11 @@
   - Helen J. Neville
   - Michael T. Ullman
   publisher: Journal of Cognitive Neuroscience
-  date: ''
+  date: '2012-05-01'
   link: https://doi.org/drggk2
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.brainres.2010.12.022
   title: 'Interplay between morphology and frequency in lexical access: The case of
     the base frequency effect'
@@ -481,12 +460,11 @@
   - Aaron J. Newman
   - Daphne Bavelier
   publisher: Brain Research
-  date: ''
+  date: '2011-02-01'
   link: https://doi.org/fj967r
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-79151480245
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -507,12 +485,11 @@
   - Dennis P. Phillips
   - Manohar Bance
   publisher: Ear &amp; Hearing
-  date: ''
+  date: '2011-02-01'
   link: https://doi.org/dw5bkk
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1073/pnas.1003174107
   title: Dissociating neural subsystems for grammar by contrasting word order and
     inflection
@@ -523,12 +500,11 @@
   - Elissa L. Newport
   - Daphne Bavelier
   publisher: Proceedings of the National Academy of Sciences
-  date: ''
+  date: '2010-04-05'
   link: https://doi.org/fnm7dp
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-77952175920
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -548,12 +524,11 @@
   - Elissa L. Newport
   - Daphne Bavelier
   publisher: NeuroImage
-  date: ''
+  date: '2010-08-15'
   link: https://doi.org/fck4fs
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1073/pnas.0809609106
   title: 'Brain systems mediating semantic and syntactic processing in deaf native
     signers: Biological invariance and modality specificity'
@@ -566,12 +541,11 @@
   - Brigitte Roeder
   - Helen J. Neville
   publisher: Proceedings of the National Academy of Sciences
-  date: ''
+  date: '2009-05-26'
   link: https://doi.org/fnhjf7
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-66649126024
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -589,12 +563,11 @@
   - A. Braun
   - M. Boutla
   publisher: Cerebral Cortex
-  date: ''
+  date: '2008-01-31'
   link: https://doi.org/b6m4xp
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-58149199141
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -625,12 +598,11 @@
   - Diane L. Waligura
   - Helen J. Neville
   publisher: NeuroImage
-  date: ''
+  date: '2007-01-01'
   link: https://doi.org/cnd2n9
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.cogbrainres.2003.10.014
   title: 'The cortical organization of audio-visual sentence comprehension: an fMRI
     study at 4 Tesla'
@@ -642,12 +614,11 @@
   - Peter Jezzard
   - Helen J. Neville
   publisher: Cognitive Brain Research
-  date: ''
+  date: '2004-07-01'
   link: https://doi.org/b42dzj
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
-  image: null
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-2942525375
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -666,8 +637,8 @@
   date: '2001-11-26'
   link: https://doi.org/bhsq33
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-0036138435
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -710,8 +681,8 @@
   date: '2001-04-01'
   link: https://doi.org/dk76w7
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-0034540886
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -726,8 +697,8 @@
   date: '1998-06-01'
   link: https://doi.org/d3pcwh
   orcid: 0000-0001-5290-8342
-  plugin: sources.py
-  file: sources.yaml
+  plugin: orcid.py
+  file: orcid.yaml
 - id: eid:2-s2.0-21944435266
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
@@ -771,315 +742,7 @@
   plugin: orcid.py
   file: orcid.yaml
   date: ''
-- id: doi:10.1364/josaa.14.000013
-  title: Equivalent background speed in recovery from motion adaptation
-  authors:
-  - William A. Simpson
-  - Aaron Newman
-  - Wendi Aasland
-  publisher: Journal of the Optical Society of America A
-  date: '1997-01-01'
-  link: https://doi.org/dp8q5w
+- doi: 10.1080/02699052.2018.1429022
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1155/2014/301473
-  title: A Comparative Study on Visual Choice Reaction Time for Different Colors in
-    Females
-  authors:
-  - Grrishma Balakrishnan
-  - Gurunandan Uppinakudru
-  - Gaur Girwar Singh
-  - Shobith Bangera
-  - Aswini Dutt Raghavendra
-  - Dinesh Thangavel
-  publisher: Neurology Research International
-  date: '2014-01-01'
-  link: https://doi.org/gb626j
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1023/a:1010499119393
-  title: ''
-  authors:
-  - Aaron J. Newman
-  - Roumyana Pancheva
-  - Kaori Ozawa
-  - Helen J. Neville
-  - Michael T. Ullman
-  publisher: Journal of Psycholinguistic Research
-  date: '2001-01-01'
-  link: https://doi.org/bt5c9c
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.36510/learnland.v5i1.542
-  title: 'The Impact of Emotions on Divergent Thinking Processes: &lt;br&gt;A Consideration
-    for Inquiry-Oriented Teachers'
-  authors:
-  - Krista C. Ritchie
-  - Bruce M. Shore
-  - Frank LaBanca
-  - Aaron J. Newman
-  publisher: LEARNing Landscapes
   date: ''
-  link: https://doi.org/gr924p
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1007/978-3-030-01087-4_19
-  title: How Attention Networks Can Inform Research in Information Systems
-  authors:
-  - Colin Conrad
-  - Aaron Newman
-  publisher: Information Systems and Neuroscience
-  date: ''
-  link: https://doi.org/gr93v9
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1007/978-3-030-01087-4_5
-  title: Measuring the Impact of Mind Wandering in Real Time Using an Auditory Evoked
-    Potential
-  authors:
-  - Colin Conrad
-  - Aaron Newman
-  publisher: Information Systems and Neuroscience
-  date: ''
-  link: https://doi.org/gr93wb
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1089/brain.2018.0611.
-  title: 'Microstructural Findings in White Matter Associated with Cannabis and Alcohol
-    Use in Early-Phase Psychosis: A Diffusion Tensor Imaging and Relaxometry Study'
-  authors:
-  - Jacob Cookey
-  - Candice E. Crocker
-  - Denise Bernier
-  - Aaron J. Newman
-  - Sherry Stewart
-  - David McAllindon
-  - Philip G. Tibbo
-  publisher: Brain Connectivity
-  date: ''
-  link: https://doi.org/10.1089/brain.2018.0611.
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1007/978-3-030-28144-1_32
-  title: On Using Python to Run, Analyze, and Decode EEG Experiments
-  authors:
-  - Colin Conrad
-  - Om Agarwal
-  - Carlos Calix Woc
-  - Tazmin Chiles
-  - Daniel Godfrey
-  - Kavita Krueger
-  - Valentina Marini
-  - Alexander Sproul
-  - Aaron Newman
-  publisher: Information Systems and Neuroscience
-  date: ''
-  link: https://doi.org/ghv8hx
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1177/0269881119872205
-  title: The impacts of actual and perceived nicotine administration on insula functional
-    connectivity with the anterior cingulate cortex and nucleus accumbens
-  authors:
-  - Robin N Perry
-  - Hera E Schlagintweit
-  - Christine Darredeau
-  - Carl Helmick
-  - Aaron J Newman
-  - Kimberley P Good
-  - Sean P Barrett
-  publisher: Journal of Psychopharmacology
-  date: ''
-  link: https://doi.org/gqwmhh
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1111/ejn.14542.
-  title: "A sinister subject: Quantifying handedness\u2010based recruitment biases\
-    \ in current neuroimaging research"
-  authors:
-  - Lyam M. Bailey
-  - Laura E. McMillan
-  - Aaron J. Newman
-  publisher: European Journal of Neuroscience
-  date: ''
-  link: https://doi.org/10.1111/ejn.14542.
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1007/978-3-030-60073-0_17
-  title: What Do Users Feel? Towards Affective EEG Correlates of Cybersecurity Notifications
-  authors:
-  - Colin Conrad
-  - Jasmine Aziz
-  - Natalie Smith
-  - Aaron Newman
-  publisher: Information Systems and Neuroscience
-  date: ''
-  link: https://doi.org/gqwmhg
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1007/978-3-030-60073-0_34
-  title: A Tri-Hybrid Brain-Computer Interface for Neuro-Information Systems
-  authors:
-  - Daniel Godfrey
-  - Chantel Findlay
-  - Dinesh Mulchandani
-  - Ravishankar Subramanilyer
-  - Colin Conrad
-  - Aaron Newman
-  publisher: Information Systems and Neuroscience
-  date: ''
-  link: https://doi.org/gqwmhf
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1371/journal.pone.0236800
-  title: 'Enhancement of visual biological motion recognition in early-deaf adults:
-    Functional and behavioral correlates'
-  authors:
-  - Marie Simon
-  - Latifa Lazzouni
-  - Emma Campbell
-  - Audrey Delcenserie
-  - Alexandria Muise-Hennessey
-  - Aaron J. Newman
-  - "Fran\xE7ois Champoux"
-  - Franco Lepore
-  publisher: PLOS ONE
-  date: ''
-  link: https://doi.org/gmjq5s
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1016/j.earlhumdev.2021.105308
-  title: 'The influence of breastfeeding on cortical and bio-behavioural indicators
-    of procedural pain in newborns: Findings of a randomized controlled trial'
-  authors:
-  - Britney Benoit
-  - Aaron Newman
-  - Ruth Martin-Misener
-  - Margot Latimer
-  - Marsha Campbell-Yeo
-  publisher: Early Human Development
-  date: ''
-  link: https://doi.org/gr93wd
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1016/j.earlhumdev.2021.105363
-  title: Challenges and complexities in the electroencephalographic measurement of
-    neonatal pain
-  authors:
-  - Britney Benoit
-  - Aaron Newman
-  - Marsha Campbell-Yeo
-  publisher: Early Human Development
-  date: ''
-  link: https://doi.org/gqwmhd
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1016/j.bandc.2021.105757
-  title: 'Neural correlates of the production effect: An fMRI study'
-  authors:
-  - Lyam M. Bailey
-  - Glen E. Bodner
-  - Heath E. Matheson
-  - Brandie M. Stewart
-  - Kyle Roddick
-  - Kiera O'Neil
-  - Maria Simmons
-  - Angela M. Lambert
-  - Olave E. Krigolson
-  - Aaron J. Newman
-  - Jonathan M. Fawcett
-  publisher: Brain and Cognition
-  date: ''
-  link: https://doi.org/gqwmhc
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.3389/fnhum.2021.697532
-  title: Measuring Mind Wandering During Online Lectures Assessed With EEG
-  authors:
-  - Colin Conrad
-  - Aaron Newman
-  publisher: Frontiers in Human Neuroscience
-  date: ''
-  link: https://doi.org/gps2d9
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.3389/fpsyg.2022.668276
-  title: 'Native Word Order Processing Is Not Uniform: An ERP Study of Verb-Second
-    Word Order'
-  authors:
-  - Susan Sayehli
-  - Marianne Gullberg
-  - Aaron J. Newman
-  - Annika Andersson
-  publisher: Frontiers in Psychology
-  date: ''
-  link: https://doi.org/gpsvtk
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.3389/fnins.2022.922960
-  title: Do emotions influence safe browsing? Toward an electroencephalography marker
-    of affective responses to cybersecurity notifications
-  authors:
-  - Colin D. Conrad
-  - Jasmine R. Aziz
-  - Jonathon M. Henneberry
-  - Aaron J. Newman
-  publisher: Frontiers in Neuroscience
-  date: ''
-  link: https://doi.org/gqvnqg
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1016/j.prdoa.2022.100182
-  title: 'Aberrant corticospinal tract characteristics in prodromal PD: A diffusion
-    tensor imaging study'
-  authors:
-  - Laura J. Pimer
-  - Ronald A. Leslie
-  - Gosia Phillips
-  - Aaron J. Newman
-  - Benjamin Rusak
-  - Tyler M. Rolheiser
-  - Kerrie Schoffer
-  - M. Naeem Khan
-  - J. Roger McKelvey
-  - Harold A. Robertson
-  - Kimberley P. Good
-  publisher: Clinical Parkinsonism &amp; Related Disorders
-  date: ''
-  link: https://doi.org/gr96cf
-  image: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1016/j.neuropsychologia.2023.108546
-  title: Age-related changes to electroencephalographic markers of visuomotor error
-    processing and learning in prism adaptation
-  authors:
-  - "Zo\xEB Lazar-Kurz"
-  - Jasmine Aziz
-  - Katelyn J. McKearney
-  - Cindy Hamon-Hill
-  - Arthur MacDonald
-  - Aaron Newman
-  - Gail Eskes
-  publisher: Neuropsychologia
-  date: ''
-  link: https://doi.org/gr96ch
-  image: null
-  plugin: sources.py
-  file: sources.yaml
