@@ -11,3 +11,5 @@ package.json
 package-lock.json
 yarn.lock
 node_modules
+_cite/.cache/cache.db
+_data/citations.yaml
