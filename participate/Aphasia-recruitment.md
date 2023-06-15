@@ -20,7 +20,7 @@ Prospective participants are also required to have a partner who can assist with
 # What Does a Participant Do?
 {% include figure.html image="images/Aphasia-recruitment2.jpg" %}
 
-Participants will take part in this study from their home, as the study will be conducted entirely remotely. This study will take place over approximately 10 weeks and involve approximately 22 hours of participation, over the course of the study. Participants will receive $10 for each session of the study they complete (if all sessions are completed, this sums to $170). 
+Participants will take part in this study from their home, as the study will be conducted entirely remotely. This study will take place over approximately 10 weeks and involve approximately 22 hours of participation, over the course of the study. Participants will receive 10 dollars for each session of the study they complete (if all sessions are completed, this sums to 170 dollars). 
 
 
 1. Intake Assessment (Session 1): During this session we will assess participants' language abilities using standardized measures. This session will last approximately 1.5 hours.
