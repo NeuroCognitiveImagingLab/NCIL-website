@@ -20,7 +20,16 @@ We are currently recruiting participants in grades 2 and 3, who speak English at
 
 This study involves measuring brain responses to English words in children who are expected to be able to speak and read English; children who frequently use other languages at home and/or school would not be expected to process written English in the same way, especially in the early grades when first learning to read. 
 
+{% capture text %}
 This study involves an MRI scan. To participate, children will need to lie still in the scanner (which is like a big tube) for about one hour. A parent can be in the room during the scan. While most children do well in the MRI, children who have trouble holding still, or are claustrophobic, might not enjoy participating in this study.
+{% endcapture %}
+{%
+  include feature.html
+  image="images/IWK_MRI_scanner.jpg"
+  link="neuroimaging/#magnetic-resonance-imaging-mri"
+  title=""
+  text=text
+%}
 
 ## What Will Children Do?
 This study will be conducted at our lab at Dalhousie University, plus one visit to the IWK. We’ll conduct assessments of children’s reading and related skills using tasks designed to measure changes in reading ability as children mature. 
