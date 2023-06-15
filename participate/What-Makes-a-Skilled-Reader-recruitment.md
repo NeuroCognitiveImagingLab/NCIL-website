@@ -18,8 +18,6 @@ In the long run, we hope this research will help us understand what causes delay
 ## Who Are We Looking For?
 We are currently recruiting participants in grades 2 and 3, who speak English at home and at school. We also require that participants have no problems with their vision or hearing (wearing glasses is OK). 
 
-This study involves measuring brain responses to English words in children who are expected to be able to speak and read English; children who frequently use other languages at home and/or school would not be expected to process written English in the same way, especially in the early grades when first learning to read. 
-
 {% capture text %}
 This study involves an MRI scan. To participate, children will need to lie still in the scanner (which is like a big tube) for about one hour. A parent can be in the room during the scan. While most children do well in the MRI, children who have trouble holding still, or are claustrophobic, might not enjoy participating in this study.
 {% endcapture %}
