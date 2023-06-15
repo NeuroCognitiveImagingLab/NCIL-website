@@ -26,7 +26,7 @@ This study involves an MRI scan. To participate, children will need to lie still
 {%
   include feature.html
   image="images/IWK_MRI_scanner.jpg"
-  link="neuroimaging/#magnetic-resonance-imaging-mri"
+  link=""
   title=""
   text=text
 %}
