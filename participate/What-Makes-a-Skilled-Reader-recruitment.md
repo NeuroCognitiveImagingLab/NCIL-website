@@ -45,4 +45,4 @@ There will be an honorarium (thank-you payment) for each study visit attended, r
 If you and your child wish, we can provide you with a digital image of your child’s MRI showing a side view through the centre of their brain.
 
 ## Interested? Want to learn more?
-You can learn more about this study and what children will do in this [video](https://youtu.be/2Ic7_4nDfz8). If you are interested in joining our study, you can contact us by email (reading_brains@ncilab.ca) or by phone (902-494-1911), or fill out this [survey](What-Makes-a-Skilled-Reader-recruitment-survey). We look forward to hearing from you!
+You can learn more about this study by watching this [video](https://youtu.be/2Ic7_4nDfz8). If you are interested in joining our study, you can contact us by email (reading_brains@ncilab.ca) or by phone (902-494-1911), or fill out this [survey](What-Makes-a-Skilled-Reader-recruitment-survey). We look forward to hearing from you!
