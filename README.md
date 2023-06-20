@@ -1,5 +1,4 @@
-
-# NeuroCognitiveImagingLab's Website
+# NeuroCognitive Imaging Lab's Website
 
 Visit **[neurocognitiveimaginglab.github.io/NCIL-website-23](https://neurocognitiveimaginglab.github.io/NCIL-website-23)** 🚀
 
