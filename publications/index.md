@@ -11,7 +11,7 @@ Below are publications authored by Dr. Aaron Newman. We will be adding PDFs of t
 
 {% include section.html %}
 
-## Highlighted
+<!-- ## Highlighted -->
 
 <!-- {% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %} -->
 
