@@ -5,7 +5,7 @@ nav:
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %}Published Research
 
 Below are publications authored by Dr. Aaron Newman. We will be adding PDFs of those papers we can share over time, but for now please refer to the links to the original sources. If you wish to request a paper directly, please do so via [ResearchGate](https://www.researchgate.net/profile/Aaron-Newman-2).
 
