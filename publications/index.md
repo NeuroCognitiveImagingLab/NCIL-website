@@ -7,14 +7,13 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Below are publications authored by Dr. Aaron Newman. We will be adding PDFs of those papers we can share over time, but for now please refer to the links to the original sources. If you wish to request a paper directly, please do so via [ResearchGate](https://www.researchgate.net/profile/Aaron-Newman-2).
 
 {% include section.html %}
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+<!-- {% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %} -->
 
 {% include section.html %}
 
