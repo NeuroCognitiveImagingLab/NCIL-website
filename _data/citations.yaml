@@ -66,10 +66,10 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: ':'
-  title: Research Methods for Cognitive Neuroscience
-  publisher: SAGE
+  title: "Data Science for Psychology and Neuroscience \u2014 in Python"
+  publisher: Open Educational Resource
   date: '2023-06-22'
-  link: https://uk.sagepub.com/en-gb/eur/research-methods-for-cognitive-neuroscience/book242924
+  link: https://neuraldatascience.io
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
   file: orcid.yaml
@@ -294,6 +294,16 @@
   publisher: Information Systems and Neuroscience
   date: '2020-01-01'
   link: https://doi.org/gqwmhg
+  orcid: 0000-0001-5290-8342
+  plugin: orcid.py
+  file: orcid.yaml
+- id: isbn:1446296504
+  title: Research Methods for Cognitive Neuroscience
+  authors:
+  - Aaron Newman
+  publisher: Sage Publications
+  date: '2023-06-23'
+  link: https://uk.sagepub.com/en-gb/eur/research-methods-for-cognitive-neuroscience/book242924
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
   file: orcid.yaml
@@ -923,5 +933,9 @@
   date: '2023-04-19'
   link: https://doi.org/gscgtt
   image: images/are_you_human.png
+  plugin: sources.py
+  file: sources.yaml
+- title: Research Methods for Cognitive Neuroscience
+  image: images/rmcn_cover.png
   plugin: sources.py
   file: sources.yaml
