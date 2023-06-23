@@ -908,7 +908,7 @@
   publisher: MethodsX
   date: '2023-01-01'
   link: https://doi.org/gr96cg
-  image: images/are_you_human.jpg
+  image: images/two_for_one.png
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/3544548.3580943
@@ -922,6 +922,6 @@
     Systems
   date: '2023-04-19'
   link: https://doi.org/gscgtt
-  image: images/two_for_one.jpg
+  image: images/are_you_human.png
   plugin: sources.py
   file: sources.yaml
