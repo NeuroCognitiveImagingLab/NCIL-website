@@ -12,8 +12,9 @@
   date: '2023-04-19'
   link: https://doi.org/gscgtt
   orcid: 0000-0001-5290-8342
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/are_you_human.png
 - id: doi:10.1016/j.mex.2023.102019
   title: 'A two for one special: EEG hyperscanning using a single-person EEG recording
     setup'
@@ -25,8 +26,9 @@
   date: '2023-01-01'
   link: https://doi.org/gr96cg
   orcid: 0000-0001-5290-8342
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/two_for_one.png
 - id: doi:10.1016/j.prdoa.2022.100182
   title: 'Aberrant corticospinal tract characteristics in prodromal PD: A diffusion
     tensor imaging study'
@@ -300,13 +302,14 @@
 - id: isbn:1446296504
   title: Research Methods for Cognitive Neuroscience
   authors:
-  - Aaron Newman
+  - Aaron J. Newman
   publisher: Sage Publications
-  date: '2023-06-23'
+  date: ''
   link: https://uk.sagepub.com/en-gb/eur/research-methods-for-cognitive-neuroscience/book242924
   orcid: 0000-0001-5290-8342
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/rmcn_cover.png
 - id: doi:10.1007/978-3-030-01087-4_19
   title: How Attention Networks Can Inform Research in Information Systems
   authors:
@@ -908,37 +911,3 @@
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
   file: orcid.yaml
-- id: 10.1016/j.mex.2023.102019
-  title: 'A two for one special: EEG hyperscanning using a single-person EEG recording
-    setup'
-  authors:
-  - Caitriona L. Douglas
-  - Antoine Tremblay
-  - Aaron J. Newman
-  publisher: MethodsX
-  date: '2023-01-01'
-  link: https://doi.org/gr96cg
-  image: images/two_for_one.png
-  plugin: sources.py
-  file: sources.yaml
-- id: 10.1145/3544548.3580943
-  title: Are You Human? Investigating the Perceptions and Evaluations of Virtual Versus
-    Human Instagram Influencers
-  authors:
-  - Anika Nissen
-  - Colin Conrad
-  - Aaron Newman
-  publisher: Proceedings of the 2023 CHI Conference on Human Factors in Computing
-    Systems
-  date: '2023-04-19'
-  link: https://doi.org/gscgtt
-  image: images/are_you_human.png
-  plugin: sources.py
-  file: sources.yaml
-- title: Research Methods for Cognitive Neuroscience
-  image: images/rmcn_cover.png
-  date: ''
-  authors:
-  - Aaron J. Newman
-  plugin: sources.py
-  file: sources.yaml
