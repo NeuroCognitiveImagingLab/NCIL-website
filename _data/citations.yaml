@@ -65,6 +65,14 @@
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
   file: orcid.yaml
+- id: ':'
+  title: Research Methods for Cognitive Neuroscience
+  publisher: SAGE
+  date: '2023-06-22'
+  link: https://uk.sagepub.com/en-gb/eur/research-methods-for-cognitive-neuroscience/book242924
+  orcid: 0000-0001-5290-8342
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.3389/fnins.2022.922960
   title: Do emotions influence safe browsing? Toward an electroencephalography marker
     of affective responses to cybersecurity notifications
@@ -890,3 +898,30 @@
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
   file: orcid.yaml
+- id: 10.1016/j.mex.2023.102019
+  title: 'A two for one special: EEG hyperscanning using a single-person EEG recording
+    setup'
+  authors:
+  - Caitriona L. Douglas
+  - Antoine Tremblay
+  - Aaron J. Newman
+  publisher: MethodsX
+  date: '2023-01-01'
+  link: https://doi.org/gr96cg
+  image: are_you_human.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1145/3544548.3580943
+  title: Are You Human? Investigating the Perceptions and Evaluations of Virtual Versus
+    Human Instagram Influencers
+  authors:
+  - Anika Nissen
+  - Colin Conrad
+  - Aaron Newman
+  publisher: Proceedings of the 2023 CHI Conference on Human Factors in Computing
+    Systems
+  date: '2023-04-19'
+  link: https://doi.org/gscgtt
+  image: two_for_one.jpg
+  plugin: sources.py
+  file: sources.yaml
