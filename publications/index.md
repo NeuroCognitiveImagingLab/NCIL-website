@@ -13,6 +13,8 @@ Below are publications authored by Dr. Aaron Newman and NCIL lab mambers. We wil
 
 ## Highlighted
 
+{% include citation.html lookup="Research Methods for Cognitive Neuroscience" style="rich" %}
+
 {% include citation.html lookup="A two for one special: EEG hyperscanning using a single-person EEG recording setup" style="rich" %}
 
 {% include citation.html lookup="Are You Human? Investigating the Perceptions and Evaluations of Virtual Versus Human Instagram Influencers" style="rich" %}
