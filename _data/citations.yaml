@@ -304,7 +304,7 @@
   authors:
   - Aaron J. Newman
   publisher: Sage Publications
-  date: ''
+  date: '2019-03-01'
   link: https://uk.sagepub.com/en-gb/eur/research-methods-for-cognitive-neuroscience/book242924
   orcid: 0000-0001-5290-8342
   plugin: sources.py
@@ -911,3 +911,10 @@
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
   file: orcid.yaml
+- title: "Data Science for Psychology and Neuroscience \u2014 in Python"
+  image: images/data_science_book.png
+  date: ''
+  authors:
+  - Aaron J. Newman
+  plugin: sources.py
+  file: sources.yaml
