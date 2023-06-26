@@ -13,6 +13,24 @@
   authors: 
     - Aaron J. Newman
 
+- id: doi:10.1016/j.neuropsychologia.2023.108546
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0028393223000805-gr7_lrg.jpg    
+
+- id: doi:10.1016/j.prdoa.2022.100182
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2590112522000536-gr1_lrg.jpg
+
+- id: doi:10.3389/fnins.2022.922960
+  image: https://www.frontiersin.org/files/Articles/922960/fnins-16-922960-HTML/image_m/fnins-16-922960-g002.jpg  
+
+- id: doi:10.1186/s13063-022-06424-4
+  image: https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-022-06424-4/figures/1
+
+- id: doi:10.3389/fpsyg.2022.668276
+  image: https://www.frontiersin.org/files/Articles/668276/fpsyg-13-668276-HTML-r2/image_m/fpsyg-13-668276-g006.jpg
+
+- id: doi:doi:10.1007/978-3-031-13064-9_27
+  image: https://media.springernature.com/w184/springer-static/cover/book/978-3-031-13064-9.jpg?as=webp
+
 # - title: "Data Science for Psychology and Neuroscience \u2014 in Python"
 #   image: images/data_science_book.png
 #   date: 2021-12-01
