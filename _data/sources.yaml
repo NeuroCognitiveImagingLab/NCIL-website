@@ -1,10 +1,10 @@
 # manually provide all citation details  \u2014
-- title: Data Science for Psychology and Neuroscience - in Python
-  authors:
-    - Aaron J. Newman
-  publisher: Open Educational Resource
-  date: 2023-01-12
-  link: https://neuraldatascience.io
+# - title: Data Science for Psychology and Neuroscience - in Python
+#   authors:
+#     - Aaron J. Newman
+#   publisher: Open Educational Resource
+#   date: 2023-01-12
+#   link: https://neuraldatascience.io
   # image: images/data_science_book.png
 
 # manually correct citations
