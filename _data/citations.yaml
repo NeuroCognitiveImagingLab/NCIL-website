@@ -909,7 +909,7 @@
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
   file: orcid.yaml
-- title: Data Science for Psychology and Neuroscience \u2014 in Python
+- title: "Data Science for Psychology and Neuroscience \u2014 in Python"
   authors:
   - Aaron J. Newman
   publisher: Open Educational Resource
