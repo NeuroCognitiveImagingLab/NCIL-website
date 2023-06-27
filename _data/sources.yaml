@@ -1,6 +1,17 @@
+# manually provide all citation details
+- title: Data Science for Psychology and Neuroscience \u2014 in Python
+  authors:
+    - Aaron J. Newman
+  publisher: Open Educational Resource
+  date: 2023-01-12
+  link: https://neuraldatascience.io
+  image: images/data_science_book.png
+
+# manually correct citations
 - id: doi:10.1023/A:1010499119393
   title: "An Event-Related fMRI Study of Syntactic and Semantic Violations"
 
+# specify thumbnail images for citations
 - id: doi:10.1016/j.mex.2023.102019
   image: images/two_for_one.png
 
@@ -31,8 +42,3 @@
 - id: doi:10.1007/978-3-031-13064-9_27
   image: https://media.springernature.com/w184/springer-static/cover/book/978-3-031-13064-9.jpg?as=webp
 
-- id: neural_data_science_newman
-  image: images/data_science_book.png
-  date: 2021-12-01
-  authors: 
-    - Aaron J. Newman
