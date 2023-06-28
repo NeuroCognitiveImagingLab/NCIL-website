@@ -28,6 +28,7 @@ div.highlighter-rouge div.highlight {
 }
 div.highlighter-rouge div.highlight pre.highlight {
   width: fit-content;
+  min-width: 100%;
   margin: 0;
   padding: 20px;
   color: var(--white);
