@@ -1,23 +1,44 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
-  tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+# manually provide all citation details  \u2014
+# - title: Data Science for Psychology and Neuroscience - in Python
+#   authors:
+#     - Aaron J. Newman
+#   publisher: Open Educational Resource
+#   date: 2023-01-12
+#   link: https://neuraldatascience.io
+  # image: images/data_science_book.png
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+# manually correct citations
+- id: doi:10.1023/A:1010499119393
+  title: "An Event-Related fMRI Study of Syntactic and Semantic Violations"
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+# specify thumbnail images for citations
+- id: doi:10.1016/j.mex.2023.102019
+  image: images/two_for_one.png
+
+- id: doi:10.1145/3544548.3580943
+  image: images/are_you_human.png 
+
+- id: isbn:1446296504
+  image: images/rmcn_cover.png
+  date: "2019-03-01"
+  authors: 
+    - Aaron J. Newman
+
+- id: doi:10.1016/j.neuropsychologia.2023.108546
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0028393223000805-gr7_lrg.jpg    
+
+- id: doi:10.1016/j.prdoa.2022.100182
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2590112522000536-gr1_lrg.jpg
+
+- id: doi:10.3389/fnins.2022.922960
+  image: https://www.frontiersin.org/files/Articles/922960/fnins-16-922960-HTML/image_m/fnins-16-922960-g002.jpg  
+
+- id: doi:10.1186/s13063-022-06424-4
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13063-022-06424-4/MediaObjects/13063_2022_6424_Fig1_HTML.png?as=webp
+
+- id: doi:10.3389/fpsyg.2022.668276
+  image: https://www.frontiersin.org/files/Articles/668276/fpsyg-13-668276-HTML-r2/image_m/fpsyg-13-668276-g006.jpg
+
+- id: doi:10.1007/978-3-031-13064-9_27
+  image: https://media.springernature.com/w184/springer-static/cover/book/978-3-031-13064-9.jpg?as=webp
+
