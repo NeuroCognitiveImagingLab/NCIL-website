@@ -1,8 +1,8 @@
 ---
-title: Project Homework
+title: Mind Wandering in Remote Collaboration and Remote Work Platforms
 ---
 
-# Project Homework: An investigation into cognitive factors in remote collaboration and remote work platforms
+# Mind Wandering in Remote Collaboration and Remote Work Platforms
 
 ## Overview
 The Covid-19 pandemic disrupted many work practices, not least through the widespread adoption of remote work. Workplace collaboration platform (e.g. Microsoft Teams, Zoom, or Slack) enable this work, though they often come with costs to various cognitive systems. For example, a recent study found that the prolonged use of Zoom inhibited users’ ability to develop new ideas. Other past studies conducted by our lab suggested that exposure to long videos strain our ability to learn, due in part to increased mind wandering.

@@ -30,7 +30,7 @@ What Makes a Skilled Reader? The NeuroCognitive Imaging Lab needs your help to f
   include feature.html
   image="images/projects/SKIRF_project.jpeg"
   link="projects/What-Makes-a-Skilled-Reader"
-  title="Reading Development (fMRI)"
+  title="Reading Development"
   flip=true
   text=text
 %}
@@ -50,7 +50,7 @@ A brain-computer interface (BCI) is an electronic system that can convert an ind
   include feature.html
   image="images/projects/EEG_setup.jpeg"
   link="projects/BCI"
-  title="Brain-Computer Interfaces (BCI)"
+  title="Brain-Computer Interfaces"
   text=text
 %}
 
@@ -70,7 +70,7 @@ Aphasia is an acquired loss of language abilities, often caused by stroke or oth
   include feature.html
   image="images/projects/aphasia_couple.jpeg"
   link="projects/Aphasia"
-  title="Aphasia Treatment (online app)"
+  title="Aphasia Treatment"
   text=text
   flip=true
 %}
@@ -111,7 +111,7 @@ Learning a new language is challenging for most adults, and it has been shown th
   include feature.html
   image="images/projects/EEG_cap.jpeg"
   link="projects/WERP"
-  title="Memory Processes in Second Language Learning (EEG)"
+  title="Memory Processes in Second Language Learning"
   flip=true
   text=text
 %}
@@ -132,7 +132,7 @@ This research project is driven by a very simple question: why do we remember th
   include feature.html
   image="images/projects/pdxn_fMRI_brains.jpeg"
   link="projects/Production-Effect"
-  title="What's Special About Reading Aloud? (fMRI)"
+  title="What's Special About Reading Aloud?"
   text=text
 %}
 
@@ -152,7 +152,7 @@ During the COVID-19 pandemic, there was a widespread adoption of remote work. Ho
   include feature.html
   image="images/projects/mind_wandering.jpeg"
   link="projects/Project-Homework"
-  title="Mind Wandering in Remote Collaboration and Remote Work Platforms (EEG)"
+  title="Mind Wandering in Remote Collaboration and Remote Work Platforms"
   flip=true
   text=text
 %}
@@ -173,6 +173,6 @@ _Hyperscanning_ refers to collecting neuroimaging data from more than one person
   include feature.html
   image="images/projects/hyperscanning.jpeg"
   link="projects/hyperscanning"
-  title="Hyperscanning During Conversation (Two-Person EEG)"
+  title="Hyperscanning During Conversation"
   text=text
 %}

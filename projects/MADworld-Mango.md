@@ -1,7 +1,7 @@
 ---
-title: MADworld-Mango
+title: Mobile Apps to Help Newcomers to Canada Learn English
 ---
-## The MADworld-Mango Languages Project
+## Mobile Apps to Help Newcomers to Canada Learn English
 
 The goal of this study is to learn if a digital app is useful in helping newcomers to Canada improve their English abilities. The NeuroCognitive Imaging Lab at Dalhousie University has partnered with Simon Fraser University and Mango Languages to conduct this study.
 

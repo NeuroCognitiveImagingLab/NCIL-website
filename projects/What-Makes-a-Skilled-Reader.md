@@ -1,8 +1,8 @@
 ---
-title: What Makes a Skilled Reader?
+title: Reading Development
 ---
 
-# What Makes a Skilled Reader? 
+# Reading Development
 
 ## Project Rationale
 One of the most valuable skills we learn is how to read. Reading skill is essential for academic and career success. For some children, learning to read is a challenging task, and this begs the question: Why are some children stronger readers than others? Being able to understand individual differences in reading development provides the opportunity to design better reading education programs that provide personalised teaching strategies for individual children’s needs.

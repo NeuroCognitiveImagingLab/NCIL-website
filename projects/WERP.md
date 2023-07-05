@@ -1,8 +1,8 @@
 ---
-title: WERP
+title: Memory Processes in Second Language Learning
 ---
 
-# Welsh Event Related Potential (WERP)
+# Memory Processes in Second Language Learning
 
 This project is investigating adult language learning with electroencephalography (EEG). Learning a new language is challenging for most adults, and research has shown that it can be made more difficult by using one’s mother tongue during the learning process. EEG allows us to measure small voltages generated in the brain in relation to changes in someone’s external or internal environment. Therefore, event related potentials (ERPs) can help inform our understanding of the underlying processes occurring in the brain during language learning. 
 
