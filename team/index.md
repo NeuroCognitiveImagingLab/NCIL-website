@@ -91,4 +91,4 @@ Our work is made possible by funding from several organizations.
 
 {% include grid.html content=content %}
 
-{% include figure.html image="images/logos/sshrc-fip-full-color-eng.png" link="https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" width="200px"%}
+{% include figure.html image="images/logos/sshrc-fip-full-color-eng.png" link="https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" width="400px"%}
