@@ -15,7 +15,7 @@ Interested in participating in one of our studies? Click the links below to find
   include card.html
   image="images/projects/SKIRF_project.jpeg"
   link="participate/What-Makes-a-Skilled-Reader-recruitment"
-  title="Reading Development (fMRI)"
+  title="Reading Development"
   subtitle=""
   description=""
   tooltip=""
@@ -26,7 +26,7 @@ Interested in participating in one of our studies? Click the links below to find
   include card.html
   image="images/projects/aphasia_couple.jpeg"
   link="participate/Aphasia-recruitment"
-  title="Aphasia Treatment (online app)"
+  title="Aphasia Treatment"
   subtitle=""
   description=""
   tooltip=""

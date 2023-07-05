@@ -1,8 +1,8 @@
 ---
-title: Aphasia
+title: Aphasia Treatment
 ---
 
-# Developing A Prototype Of A Computer-Based Therapy For Aphasia: Usability Testing And Preliminary Assessment Of Efficacy
+# Aphasia Treatment
 {:.center}
 
 We are recruiting adults aged 18 years or older, who currently present with moderate expressive aphasia. Please continue reading for more information!

@@ -1,8 +1,8 @@
 ---
-title: What Makes a Skilled Reader?
+title: Reading Development
 ---
 
-# What Makes A Skilled Reader?
+# Reading Development
 {:.center}
 
 The NeuroCognitive Imaging Lab at Dalhousie University is looking for English speaking children in grades 2 and 3 to participate in a research study about reading and the brain. This study is funded by the Social Sciences and Humanities Research Council of Canada (SSHRC).
