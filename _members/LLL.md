@@ -7,6 +7,9 @@ aliases:
   - Language and Literacy Lab
   - LLL
   - H. Deacon
+  - H Deacon
+  - Helene Deacon
+  - Hélène Deacon
 links:
   email: langlabmanager@dal.ca
 ---

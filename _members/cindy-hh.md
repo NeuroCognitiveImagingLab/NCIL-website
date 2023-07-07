@@ -5,6 +5,8 @@ description: Lab Manager
 role: pi
 aliases:
   - C. Hamon-Hill
+  - C Hamon-Hill
+  - Cindy Hamon-Hill
 links:
   email: cindy.hamon-hill@dal.ca
   LinkedIn: www.linkedin.com/in/cindy-hamon-hill-phd-9b899029

@@ -5,6 +5,8 @@ description:
 role: collab
 aliases:
   - C. Conrad
+  - C Conrad
+  - Colin Conrad
 links:
   email: colin.conrad@dal.ca
 ---

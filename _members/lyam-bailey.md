@@ -4,7 +4,10 @@ image: images/team/Lyam_B.jpg
 description: PhD Student
 role: phd
 aliases:
-  - L.Bailey
+  - L. Bailey
+  - L Bailey
+  - Lyam Bailey
+
 links:
   email: lyam.bailey@dal.ca
 ---

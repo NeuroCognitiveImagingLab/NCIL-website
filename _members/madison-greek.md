@@ -6,6 +6,7 @@ role: undergrad
 aliases:
   - M.Greek
   - M Greek
+  - Madison Greek
 links:
 email: madison.greek@dal.ca
 ---

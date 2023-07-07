@@ -5,6 +5,8 @@ description: Master's Student
 role: phd
 aliases:
   - L. Elliott
+  - L Elliott
+  - Laura Elliott
 links:
   email: laura.elliott@dal.ca
 ---

@@ -5,6 +5,8 @@ description: Master's Student
 role: phd
 aliases:
   - S. Rankaduwa
+  - S Rankaduwa
+  - Saisha Rankaduwa
 links:
   email: saisha@dal.ca
 ---

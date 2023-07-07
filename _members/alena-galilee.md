@@ -5,6 +5,8 @@ description:
 role: collab
 aliases:
   - A. Galilee
+  - A Galilee
+  - Alena Galilee
 links:
   email: alena.galilee@canterbury.ac.uk
 ---

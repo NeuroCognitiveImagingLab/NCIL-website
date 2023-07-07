@@ -5,6 +5,8 @@ description: Honours Student
 role: undergrad
 aliases:
   - J. Christiani
+  - J Christiani
+  - Juliana Christiani
 links:
   email: juliana.christiani@dal.ca
   LinkedIn: www.linkedin.com/in/juliana-christiani

@@ -5,6 +5,8 @@ description: Honours Student
 role: undergrad
 aliases:
   - L. Coady
+  - L Coady
+  - Lucy Coady
 links:
   email: lc410754@dal.ca
 ---

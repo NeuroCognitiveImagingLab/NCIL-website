@@ -5,6 +5,8 @@ description: PhD Student
 role: phd
 aliases:
   - C. Holland
+  - C Holland
+  - Chris Holland
 links:
   email: Chris.Holland@dal.ca
 ---

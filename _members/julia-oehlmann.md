@@ -4,7 +4,10 @@ image: images/team/Julia_O.jpg
 description: Honours Student
 role: undergrad
 aliases:
-  - J.Oehlmann
+  - J. Oehlmann
+  - J Oehlmann
+  - Julia Oehlmann
+
 links:
   email: Julia.Oehlmann@dal.ca
 ---
