@@ -7,7 +7,7 @@ aliases:
   - L. Bailey
   - L Bailey
   - Lyam Bailey
-  - - Lyam M. Bailey
+  - Lyam M. Bailey
 
 links:
   email: lyam.bailey@dal.ca
