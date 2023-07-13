@@ -5,7 +5,7 @@ nav:
   tooltip: Study recruitment 
 ---
 
-# {% include icon.html icon="fas fa-users" %}Participate
+# {% include icon.html icon="fas fa-user-group" %}Participate
 {:.center}
 
 Interested in participating in one of our studies? Click the links below to find out more!
