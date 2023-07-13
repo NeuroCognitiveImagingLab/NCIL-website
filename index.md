@@ -13,7 +13,7 @@ We recognize that African Nova Scotians are a distinct people whose histories, l
 
 {% 
   include figure.html
-  image="images/DSC_3730.jpg"
+  image="images/EEG_3730.jpg"
   width="100%"
   size=full
 %}
@@ -46,7 +46,7 @@ Current research projects in the lab are focused on a number of different topics
 
 {% 
   include figure.html
-  image="images/cindy_eeg_1.jpeg"
+  image="images/cindy_eeg_banner.jpg"
   size=full
   width="100%"
 %}
@@ -74,7 +74,7 @@ To support the growth of the field, lab director Dr. Aaron Newman has written te
 
 {% 
   include figure.html
-  image="images/aaron_with_book.jpeg"
+  image="images/NCIL_Hike_2022.jpg"
   size=full
   width="100%"
 %}
@@ -95,8 +95,6 @@ NCIL is committed to providing a safe, diverse, inclusive, and equitable environ
   flip=true
 %}
 {:.center}
-
-{% include section.html %}
 
 ## Do you want to participate in one of our studies?
 {:.center}
