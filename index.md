@@ -39,7 +39,7 @@ Current research projects in the lab are focused on a number of different topics
 {% endcapture %}
 {%
   include feature.html
-  image="images/DSC_3730.JPG"
+  image="images/EEG_3730.JPG"
   title=""
   text=text
 %}
