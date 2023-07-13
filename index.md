@@ -19,7 +19,15 @@ NCIL's research is focused on **Neuroplasticity**: how the brain is changed by e
 adaptation to the loss of a sense (such the loss of hearing or sight), and many other things.
 
 In our lab, we mostly use **neuroimaging** tools like MRI and EEG to study the brain. These tools are non-invasive (they are safe and painless) and give us amazing abilities to see where and when things are happening in the brain. You can learn more about these tools under the Neuroimaging link at the top of the page.
+{% endcapture %}
+{%
+  include feature.html
+  image="images/EEG_3753.jpg"
+  title=""
+  text=text
+%}
 
+{% capture text %}
 Current research projects in the lab are focused on a number of different topics, including:
 * Basic Language Processing
 * Reading Development
@@ -42,6 +50,7 @@ Current research projects in the lab are focused on a number of different topics
   image="images/EEG_3730.JPG"
   title=""
   text=text
+  flip=true
 %}
 
 {% capture text %}
@@ -71,7 +80,6 @@ To support the growth of the field, lab director Dr. Aaron Newman has written te
   image="images/cindy_eeg_1.jpeg"
   title=""
   text=text
-  flip=true
 %}
 
 {% capture text %}
@@ -97,9 +105,8 @@ NCIL is committed to providing a safe, diverse, inclusive, and equitable environ
   image="images/NCILHike2022.jpg"
   title=""
   text=text
+  flip=true
 %}
-
-{% include section.html %}
 
 ## Do you want to participate in one of our studies?
 {:.center}
