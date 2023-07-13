@@ -50,7 +50,6 @@ Current research projects in the lab are focused on a number of different topics
   image="images/EEG_3730.JPG"
   title=""
   text=text
-  flip=true
 %}
 
 {% capture text %}
