@@ -12,9 +12,9 @@ NCIL is located in Mi’kma’ki, the ancestral and unceded territory of the Mi�
 We recognize that African Nova Scotians are a distinct people whose histories, legacies and contributions have enriched that part of Mi'kma'ki known as Nova Scotia for over 400 years. 
 
 {% 
-  include section.html
-  background="images/DSC_3730.jpg"
-  dark=true
+  include figure.html
+  image="images/DSC_3730.jpg"
+  width="100%"
   size=full
 %}
 
@@ -45,9 +45,10 @@ Current research projects in the lab are focused on a number of different topics
 {:.center}
 
 {% 
-  include section.html
-  background="images/cindy_eeg_1.jpeg"
+  include figure.html
+  image="images/cindy_eeg_1.jpeg"
   size=full
+  width="100%"
 %}
 
 ## Our Resources
@@ -72,10 +73,10 @@ To support the growth of the field, lab director Dr. Aaron Newman has written te
 {:.center}
 
 {% 
-  include section.html
-  background="images/aaron_with_book.jpeg"
-  dark=true
+  include figure.html
+  image="images/aaron_with_book.jpeg"
   size=full
+  width="100%"
 %}
 
 ## Our Team
