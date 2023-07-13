@@ -1,8 +1,8 @@
 ---
-title: Production Effect
+title: What's Special About Reading Aloud?
 ---
 
-# Neural correlates of the Production Effect
+# What's Special About Reading Aloud?
 
 This research project is driven by a very simple question: why do we remember things better when we read them aloud, than when we read them silently? There are many possible reasons: when we read aloud, we engage our mouth and larynx (motor system) and we hear ourselves speak (auditory perception). We also simply have to "do" a thing when we read a word aloud that we don't when we read silently, which may direct more attention to the word. All of these things might strengthen our memory for a word. In our research, we are using functional MRI scanning to examine what is different in the brain when we read aloud. In particular, we are using an advanced analysis technique known as _representational similarity analysis_ (RSA), which allows us to examine the distinct neural "fingerprints" of individual words, in different brain areas. 
 

@@ -5,6 +5,8 @@ description: Postdoctoral Researcher
 role: postdoc
 aliases:
   - H. Maymandi
+  - H Maymandi
+  - Hamidreza Maymandi
 links:
   email: hamid@dal.ca
 ---

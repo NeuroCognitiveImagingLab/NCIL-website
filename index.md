@@ -64,7 +64,7 @@ To support the growth of the field, lab director Dr. Aaron Newman has written te
 
 {%
   include button.html
-  link="resources"
+  link="neuroimaging"
   text="Find out more about the resources available in the NeuroCognitive Imaging Lab"
   icon="fas fa-arrow-right"
   flip=true

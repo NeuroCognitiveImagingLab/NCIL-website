@@ -4,7 +4,9 @@ image: images/team/DGBioPic.jpg
 description: PhD Student
 role: phd
 aliases:
-  - D.Godfrey
+  - D. Godfrey
+  - D Godfrey
+  - Daniel Godfrey
 links:
   email: daniel.godfrey@dal.ca
 ---

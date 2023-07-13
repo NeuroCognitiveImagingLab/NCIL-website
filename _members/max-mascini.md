@@ -5,6 +5,8 @@ description: Independent Research
 role: undergrad
 aliases:
   - M. Mascini
+  - M Mascini
+  - Max Mascini
 links:
   email: Mascini.max@dal.ca
 ---

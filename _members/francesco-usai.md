@@ -6,6 +6,7 @@ role: phd
 aliases:
   - F. Usai
   - F Usai
+  - Francesco Usai
 links:
 email: francesco.usai@dal.ca
 ---

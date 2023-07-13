@@ -4,8 +4,12 @@ image: images/team/Aaron.jpg
 description: Lab Director
 role: pi
 aliases:
+  - A Newman
   - A. Newman
   - A.J. Newman
+  - Aaron Newman
+  - Aaron J. Newman
+  - Aaron J Newman
 links:
   email: Aaron.Newman@dal.ca
 ---

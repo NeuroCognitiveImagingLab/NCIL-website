@@ -7,6 +7,8 @@ aliases:
   - Lang Dev Lab
   - Language Learning and Development Lab
   - H. Yeung
+  - H Yeung
+  - Henny Yeung
 links:
   email: langdev@sfu.ca
 ---

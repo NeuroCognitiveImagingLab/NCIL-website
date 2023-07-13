@@ -25,14 +25,17 @@
         <option value="Yes">Yes</option>
         <option value="No">No</option>
       </select>
-      <label for="language">Does your child use only English at home and at school?
+      <label for="language">Does your child speak only English at home?
 </label>
-      <select name="language" id="language" required="">
+      <select name="home-language" id="home-language" required="">
         <option value="" selected="" disabled="">Choose</option>
         <option value="Yes">Yes</option>
         <option value="No">No</option>
       </select>
     </fieldset>
+    <label for="school-language">What language does your child speak at school?
+    </label>
+        <textarea rows="3" name="school-language" id="school-language" placeholder="English, French, etc." required=""></textarea>
     <label for="message">When are you available for us to contact you?
 </label>
     <textarea rows="3" name="message" id="message" placeholder="9 am-5 pm Monday-Friday, weekends, etc." required=""></textarea>

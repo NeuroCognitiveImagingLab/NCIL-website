@@ -6,6 +6,8 @@ role: collab
 aliases:
   - Eskes Lab
   - G. Eskes
+  - G Eskes
+  - Gail Eskes
 links:
   email: EskesPsychLab@gmail.com
 ---

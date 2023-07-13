@@ -5,6 +5,9 @@ description: Honours Student
 role: undergrad
 aliases:
   - B. Harris-Shanks
+  - B Harris-Shanks
+  - Brynn Harris-Shanks
+
 links:
   email: brynn.hs@dal.ca
 ---

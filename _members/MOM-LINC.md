@@ -7,6 +7,8 @@ aliases:
   - Mechanisms Outcomes Mobilization of maternally Led Interventions in Newborn Care
   - MOM-LINC Lab
   - M. Campbell-Yeo
+  - M Campbell-Yeo
+  - Marsha Campbell-Yeo
 links:
   email: Kallen.Rutledge@iwk.nshealth.ca
 ---

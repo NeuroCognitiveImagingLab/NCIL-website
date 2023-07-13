@@ -1,7 +1,7 @@
 ---
-title: BCI
+title: Brain-Computer Interfaces
 ---
-# A Novel Flickering Oddball Stimulation Paradigm for Hybrid Brain-Computer Interfaces
+# Brain-Computer Interfaces
 
 ## Project Rationale
 A brain-computer interface (BCI) is an electronic system that converts users’ brain activity into control commands to operate external software or devices (e.g., typing programs, electronic wheelchairs). BCIs receive input directly from task-related brain signals rather than from traditional input methods that require muscular control to operate (e.g., mouse/keyboard, joystick). Most BCIs use visual stimuli to elicit the necessary input signal(s). An array of objects is presented and the user attends to the one that he/she wants to select—the *target*. The objects are highlighted systematically, using stimulation techniques known to elicit predictable signals of interest when the target is highlighted, but not (as strongly) when non-targets are highlighted. Neuroimaging equipment records the user’s brain activity, and machine learning algorithms are trained to classify target and non-target responses based on the presence or absence of the predicted signals. The user’s target is determined to be the object that elicited signal-present responses. The system selects the target object and executes its corresponding control command. In this way, BCIs offer promising assistive technology solutions for people suffering with severe motor dysfunction. Beyond clinical use, applications are being developed for gaming systems, smart home control, and other uses. 

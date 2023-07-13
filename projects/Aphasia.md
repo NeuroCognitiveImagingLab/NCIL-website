@@ -1,8 +1,8 @@
 ---
-title: Aphasia
+title: Aphasia Treatment
 ---
 
-# Developing A Prototype Of A Computer-Based Therapy For Aphasia: Usability Testing And Preliminary Assessment Of Efficacy
+# Aphasia Treatment
 
 ## Rationale
 
