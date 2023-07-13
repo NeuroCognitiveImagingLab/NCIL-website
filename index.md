@@ -13,7 +13,6 @@ We recognize that African Nova Scotians are a distinct people whose histories, l
 
 {% 
   include section.html
-  background="images/DSC_3730.jpg"
   dark=true
   size=full
 %}
@@ -46,7 +45,6 @@ Current research projects in the lab are focused on a number of different topics
 
 {% 
   include section.html
-  background="images/cindy_eeg_1.jpeg"
   size=full
 %}
 
@@ -73,7 +71,6 @@ To support the growth of the field, lab director Dr. Aaron Newman has written te
 
 {% 
   include section.html
-  background="images/aaron_with_book.jpeg"
   dark=true
   size=full
 %}
