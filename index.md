@@ -46,7 +46,6 @@ Current research projects in the lab are focused on a number of different topics
 
 {% 
   include section.html
-  background="images/cindy_eeg_1.jpeg"
   size=full
 %}
 
@@ -73,7 +72,7 @@ To support the growth of the field, lab director Dr. Aaron Newman has written te
 
 {% 
   include section.html
-  background="images/aaron_with_book.jpeg"
+  background="images/NCILHike2022.jpg"
   dark=true
   size=full
 %}
