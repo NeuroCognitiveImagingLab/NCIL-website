@@ -72,7 +72,7 @@ To support the growth of the field, lab director Dr. Aaron Newman has written te
 
 {% 
   include section.html
-  background="images/NCIL_Hike_2022.jpg"
+  background="images/NCIL_Hike2022.jpg"
   dark=true
   size=full
 %}
