@@ -1,7 +1,12 @@
 ---
 title: Home
 ---
-
+{%
+  include section.html
+  <!-- background="images/some-bg-image.jpg" -->
+  dark=false
+  size=full
+%}
 # NeuroCognitive Imaging Lab (NCIL)
 {:.center}
 
@@ -44,6 +49,7 @@ Current research projects in the lab are focused on a number of different topics
 %}
 {:.center}
 
+
 {% 
   include section.html
   background="images/cindy_eeg_1.jpeg"
@@ -71,6 +77,7 @@ To support the growth of the field, lab director Dr. Aaron Newman has written te
 %}
 {:.center}
 
+
 {% 
   include section.html
   background="images/aaron_with_book.jpeg"
@@ -95,7 +102,9 @@ NCIL is committed to providing a safe, diverse, inclusive, and equitable environ
 %}
 {:.center}
 
-{% include section.html %}
+{% include section.html 
+  size=full
+%}
 
 ## Do you want to participate in one of our studies?
 {:.center}
