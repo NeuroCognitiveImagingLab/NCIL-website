@@ -1,1 +1,1 @@
-Sitemap: /NCIL-website-23/sitemap.xml
+Sitemap: /sitemap.xml
