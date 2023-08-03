@@ -909,10 +909,3 @@
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
   file: orcid.yaml
-- title: Research Methods in Second Language Psycholinguistics | Chapter 12. Functional
-    Magnetic Resonance Imaging (fMRI)
-  authors:
-  - Aaron J. Newman
-  date: '2013-12-18'
-  plugin: sources.py
-  file: sources.yaml
