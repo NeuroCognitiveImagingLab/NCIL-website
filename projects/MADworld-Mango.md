@@ -35,7 +35,7 @@ During the study, you will have free access to an ESL program on Mango Languages
 Your English ability will be assessed by the TrueNorth test at the start and end of the study, and you will be able to see your score. This test provides scores that can be compared to widely-used tests of English ability, such as CEFR and ACTFL. The TrueNorth scores may be interesting and useful to you, to understand your English ability level. Normally you would have to pay for a TrueNorth assessment, but for people enrolled in this study you do not have to pay for this test.
 
 ## Do you want to participate in this study?
-Please go to [this link](https://bit.ly/3wNinP9) to get started
+
 
 If you have any questions, please email us at [madworld@dal.ca](mailto:madworld@dal.ca)
 
