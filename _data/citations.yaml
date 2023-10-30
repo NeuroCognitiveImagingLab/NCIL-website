@@ -415,10 +415,10 @@
     of research methods'
   authors:
   - B Benoit
-  - R Martin-Misener
+  - "R Martin\u2010Misener"
   - A Newman
   - M Latimer
-  - M Campbell-Yeo
+  - "M Campbell\u2010Yeo"
   publisher: Acta Paediatrica
   date: '2017-05-09'
   link: https://doi.org/f9547g
@@ -486,8 +486,8 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1111/psyp.12299
-  title: Modeling nonlinear relationships in ERP data using mixed-effects regression
-    with R examples
+  title: "Modeling nonlinear relationships in <scp>ERP</scp> data using mixed\u2010\
+    effects regression with <scp>R</scp> examples"
   authors:
   - Antoine Tremblay
   - Aaron J. Newman
