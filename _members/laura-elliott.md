@@ -1,7 +1,7 @@
 ---
 name: Laura Elliott
 image: images/team/Laura_E.jpg
-description: Master's Student
+description: Clinical PhD Student
 role: phd
 aliases:
   - L. Elliott
