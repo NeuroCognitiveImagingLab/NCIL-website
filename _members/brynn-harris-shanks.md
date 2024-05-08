@@ -1,7 +1,7 @@
 ---
 name: Brynn Harris-Shanks
 image: images/team/Brynn_HS.jpeg
-description: Honours Student
+description: Research Assistant
 role: pi
 aliases:
   - B. Harris-Shanks
