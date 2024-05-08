@@ -16,6 +16,9 @@
 #   image: https://images.tandf.co.uk/common/jackets/crclarge/978041551/9780415518260.jpg
   
 # manually correct citations
+- id : doi:10.31234/osf.io/ezdbr
+  image: images/Leger_2023.png
+
 - id: doi:10.1023/A:1010499119393
   title: "An Event-Related fMRI Study of Syntactic and Semantic Violations"
 
