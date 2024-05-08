@@ -21,10 +21,10 @@
 
 # specify thumbnail images for citations
 - id: doi:10.1016/j.mex.2023.102019
-  image: images/two_for_one.png
+  image: images/thumbnails/two_for_one.png
 
 - id: doi:10.1145/3544548.3580943
-  image: images/are_you_human.png 
+  image: images/thumbnails/are_you_human.png 
 
 - id: isbn:1446296504
   image: images/rmcn_cover.png
