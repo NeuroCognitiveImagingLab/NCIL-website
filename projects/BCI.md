@@ -33,4 +33,5 @@ Funded by the Natural Sciences and Engineering Research Council of Canada (NSERC
   image="images/logos/nserc_logo.png"
   link="https://www.nserc-crsng.gc.ca/"
   tooltip="NSERC"
+  height='100px'
 %}
