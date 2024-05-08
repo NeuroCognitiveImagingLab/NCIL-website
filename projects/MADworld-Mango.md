@@ -24,11 +24,11 @@ You must also have use of a computer or mobile device that meets the minimum tec
 
 
 ## What is the Purpose of the Project?
-Mobile/Computer-Assisted language learning tools are being increasingly adopted by casual language learners, and for use in formal classroom settings. However, there is very limited unbiased scientific evidence investigating the quality and adequacy of these virtual language learning tools. Therefore, this research aims to determine whether learners benefit from adding language training within a language app, as an addition to any other language instruction they are receiving. 
+Mobile/Computer-Assisted language learning tools are being increasingly adopted by casual language learners, and for use in formal classroom settings. However, there is limited unbiased scientific evidence investigating the quality and adequacy of these virtual language learning tools. Therefore, this research aims to determine whether learners benefit from adding language training within a language app, as an addition to any other language instruction they are receiving. 
 
 ## Compensation and Benefits
 
-Everyone who is an active participant in the study (you are using the app for at least 1 hour every week, during the 8 week period you are in the study) will be entered in a monthly draw to win a $50 Amazon.ca gift card. 
+Everyone who is an active participant in the study (you are using the app for at least 1 hour every week, during the 8 week period you are in the study) will be entered in a monthly draw to win a $50 gift card. 
 
 During the study, you will have free access to an ESL program on Mango Languages. Your English ability may improve by using this app.
 
