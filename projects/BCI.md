@@ -21,17 +21,16 @@ Phase 2: We will then combine two stimulus presentation methods to elicit a hybr
 Phase 3: Once the performance metrics have been maximized, we aim to integrate this stimulus presentation approach into an *online* BCI system designed to identify users' target objects and execute their corresponding commands in real time. 
 
 ## Current State of Project and Lab Volunteer Contribution Opportunities
-We are finalizing the stimulus protocol for Phase 1, and we will resume collecting data during the Fall 2023 semester. We will conduct several statistical and machine learning analyses on this data during the Winter 2024 semester. In parallel, across both semesters, we will integrate our second stimulation method and begin Phase 2 data collection. Phase 2 analyses and Phase 3 preparation will be conducted thereafter. 
+We have finalized the stimulus protocol for Phase 2, and will be piloting the study over summer 2024. We will conduct several statistical and machine learning analyses on this data during the Fall 2024 semester. In parallel we are beginning Phase 3 with the gamification and online implementation of a pirate-based BCI paradigm.
 
-
-Overall, this is a complex study that intersects neuroscience, computer science, and data science. Involvement opportunities exist at all levels (volunteer, independent study, honours, graduate students) during any phase. Note that while domain knowledge is considered an asset, especially [NESC/PSYO 3505 *Neural Data Science*](https://dalpsychneuro.github.io/NESC_3505/), it may not be required for some roles/tasks. 
+Overall, this is a complex study that intersects neuroscience, computer science, and data science. Involvement opportunities exist at all levels (independent study, honours, graduate students) during any phase. Note that while domain knowledge is considered an asset, especially [NESC/PSYO 3505 *Neural Data Science*](https://dalpsychneuro.github.io/NESC_3505/), it may not be required for some roles/tasks. 
 
 ## Funding Sources
-Funded by the Nova Scotia Graduate Scholarship (NSGS) and the Dalhousie Medical Research Foundation (DMRF).
+Funded by the Natural Sciences and Engineering Research Council of Canada (NSERC).
 
 {%
   include figure.html
-  image="images/logos/DMRF_Logo.svg"
-  link="https://dmrf.ca/"
-  tooltip="DMRF"
+  image="images/logos/nserc_logo.png"
+  link="https://nserc-crsng.gc.ca/index_eng.asp"
+  tooltip="NSERC"
 %}
