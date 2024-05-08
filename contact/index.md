@@ -15,7 +15,7 @@ We are located on the 2nd floor of the [Life Sciences Centre](https://www.dal.ca
 {:.center}
 {%
   include feature.html
-  image="images/LSC>jpg"
+  image="images/LSC.jpg"
   link="[Life Sciences Centre](https://www.dal.ca/campus-maps/building-directory/studley-campus/life-sciences-centre.html)"
   title="LSC"
   flip=false
