@@ -54,9 +54,9 @@ Current research projects in the lab are focused on a number of different topics
 The NeuroCognitive Imaging lab makes extensive use of brain imaging technologies including:
 - Functional magnetic resonance imaging (fMRI)
 - Event-related brain potentials (ERP)
-- Magnetoencephalography (MEG)
+- Functional near-infrared spectroscopy (fNIRS)
 
-Our lab houses two 64-channel EEG systems as well as servers for data storage and analysis. We make use of the MRI and MEG facilities available locally at the IWK and QEII Health Centres. We collaborate with other labs, researchers, and organizations to develop and complete innovative research objectives.
+Our lab houses two 64-channel EEG systems, one 32-channel fNIRS system, and servers for data storage and analysis. We make use of the MRI facilities available locally at the IWK and QEII Health Centres. We collaborate with other labs, researchers, and organizations to develop and complete innovative research objectives.
 
 To support the growth of the field, lab director Dr. Aaron Newman has written textbooks on [neuroimaging](https://uk.sagepub.com/en-gb/eur/research-methods-for-cognitive-neuroscience/book242924) and [neural data science](https://neuraldatascience.io/intro.html) in Python.
 
