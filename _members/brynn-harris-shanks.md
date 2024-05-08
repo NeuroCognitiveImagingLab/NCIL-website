@@ -2,8 +2,7 @@
 name: Brynn Harris-Shanks
 image: images/team/Brynn_HS.jpeg
 description: Honours Student
-role: undergrad
-group: alum
+role: pi
 aliases:
   - B. Harris-Shanks
   - B Harris-Shanks
