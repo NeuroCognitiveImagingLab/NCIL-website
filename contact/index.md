@@ -13,6 +13,7 @@ Our lab is part of the [Department of Psychology & Neuroscience](https://www.dal
 
 We are located on the 2nd floor of the [Life Sciences Centre](https://www.dal.ca/campus-maps/building-directory/studley-campus/life-sciences-centre.html).
 {:.center}
+
 {%
   include feature.html
   image="images/LSC.jpg"
@@ -54,3 +55,4 @@ link="https://www.google.com/maps/place/Department+of+Psychology+and+Neuroscienc
 Halifax, NS B3H 4R2  
 Canada
 {:.center}
+ 
