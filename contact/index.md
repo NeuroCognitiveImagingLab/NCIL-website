@@ -8,15 +8,12 @@ nav:
 # {% include icon.html icon="fa-solid fa-envelope" %}Contact
 {:.center}
 
-Our lab is part of the [Department of Psychology & Neuroscience](https://www.dal.ca/faculty/science/psychology_neuroscience.html), at  [Dalhousie University](https://www.dal.ca/).
-
-
-We are located on the 2nd floor of the [Life Sciences Centre](https://www.dal.ca/campus-maps/building-directory/studley-campus/life-sciences-centre.html).
+Our lab is part of the [Department of Psychology & Neuroscience](https://www.dal.ca/faculty/science/psychology_neuroscience.html), at  [Dalhousie University](https://www.dal.ca/). We are located on the 2nd floor of the [Life Sciences Centre](https://www.dal.ca/campus-maps/building-directory/studley-campus/life-sciences-centre.html).
 {:.center}
 
 {%
   include figure.html
-  image="images/LSC.jpg"
+  image="images/LSC.jpeg"
   link="https://www.dal.ca/campus-maps/building-directory/studley-campus/life-sciences-centre.html"
   width="400px"
 %}
