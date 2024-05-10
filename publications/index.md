@@ -16,6 +16,9 @@ Below are publications authored by Dr. Aaron Newman and NCIL lab members. Please
 
 {% include citation.html lookup="Research Methods for Cognitive Neuroscience" style="rich" %}
 
+{% include citation.html lookup="Ortho-semantic learning of novel words: an event-related potential study
+    of grade 3 children" style="rich" %}
+
 {% include citation.html lookup="A two for one special: EEG hyperscanning using a single-person EEG recording setup" style="rich" %}
 
 {% include citation.html lookup="Are You Human? Investigating the Perceptions and Evaluations of Virtual Versus Human Instagram Influencers" style="rich" %}
