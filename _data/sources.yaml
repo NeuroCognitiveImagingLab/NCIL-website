@@ -16,7 +16,10 @@
 #   image: https://images.tandf.co.uk/common/jackets/crclarge/978041551/9780415518260.jpg
   
 # manually correct citations
-- id : doi:10.31234/osf.io/ezdbr
+- id: doi:10.3389/fdpys.2024.1340383
+  image: https://www.frontiersin.org/files/Articles/1340383/fdpys-02-1340383-HTML/image_m/fdpys-02-1340383-g003.jpg
+
+- id: doi:10.31234/osf.io/ezdbr
   image: images/thumbnails/Leger_2023.png
 
 - id: doi:10.1023/A:1010499119393
