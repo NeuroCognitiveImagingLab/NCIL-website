@@ -8,14 +8,14 @@ nav:
 # {% include icon.html icon="fa-solid fa-envelope" %}Contact
 {:.center}
 
-Our lab is part of the [Department of Psychology & Neuroscience](https://www.dal.ca/faculty/science/psychology_neuroscience.html), at  [Dalhousie University](https://www.dal.ca/). We are located on the 2nd floor of the [Life Sciences Centre](https://www.dal.ca/campus-maps/building-directory/studley-campus/life-sciences-centre.html).
+Our lab is located on the 2nd floor of the [Life Sciences Centre](https://www.dal.ca/campus-maps/building-directory/studley-campus/life-sciences-centre.html), in the [Department of Psychology & Neuroscience](https://www.dal.ca/faculty/science/psychology_neuroscience.html), at [Dalhousie University](https://www.dal.ca/). 
 {:.center}
 
 {%
   include figure.html
   image="images/LSC.jpeg"
   link="https://www.dal.ca/campus-maps/building-directory/studley-campus/life-sciences-centre.html"
-  width="400px"
+  width="600px"
 %}
 {:.center}
 
@@ -40,9 +40,6 @@ link="https://www.google.com/maps/place/Department+of+Psychology+and+Neuroscienc
 %}
 {:.center}
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2839.0991840661363!2d-63.59639872247504!3d44.635889771072506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a23b5b1aefd25%3A0x45789688a9b36605!2s6287%20Alumni%20Crescent%2C%20Halifax%2C%20NS%20B3H%204R2!5e0!3m2!1sen!2sca!4v1715197273845!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
 # {% include icon.html icon="fa-solid fa-envelopes-bulk" %}Mailing Address
 {:.center}
 
@@ -51,3 +48,8 @@ Halifax, NS B3H 4R2
 Canada
 {:.center}
  
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2839.0991840661363!2d-63.59639872247504!3d44.635889771072506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a23b5b1aefd25%3A0x45789688a9b36605!2s6287%20Alumni%20Crescent%2C%20Halifax%2C%20NS%20B3H%204R2!5e0!3m2!1sen!2sca!4v1715197273845!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{:.center}
+
+
