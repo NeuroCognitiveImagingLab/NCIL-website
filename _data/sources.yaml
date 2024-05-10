@@ -26,6 +26,9 @@
 - id: doi:10.31234/osf.io/ezdbr
   image: images/thumbnails/Leger_2023.png
 
+- id: doi:10.4324/9780429342356
+  image: https://images.tandf.co.uk/common/jackets/crclarge/978042934/9780429342356.jpg
+
 - id: doi:10.1016/j.mex.2023.102019
   image: images/thumbnails/two_for_one.png
 
