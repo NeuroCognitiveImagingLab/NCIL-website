@@ -20,11 +20,20 @@
   title: "An Event-Related fMRI Study of Syntactic and Semantic Violations"
 
 # specify thumbnail images for citations
+- id: doi:10.3389/fdpys.2024.1340383
+  image: https://www.frontiersin.org/files/Articles/1340383/fdpys-02-1340383-HTML/image_m/fdpys-02-1340383-g003.jpg
+
+- id: doi:10.31234/osf.io/ezdbr
+  image: images/thumbnails/Leger_2023.png
+
+- id: doi:10.4324/9780429342356
+  image: https://images.tandf.co.uk/common/jackets/crclarge/978042934/9780429342356.jpg
+
 - id: doi:10.1016/j.mex.2023.102019
-  image: images/two_for_one.png
+  image: images/thumbnails/two_for_one.png
 
 - id: doi:10.1145/3544548.3580943
-  image: images/are_you_human.png 
+  image: images/thumbnails/are_you_human.png 
 
 - id: isbn:1446296504
   image: images/rmcn_cover.png
