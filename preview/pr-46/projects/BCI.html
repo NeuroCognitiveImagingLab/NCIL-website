@@ -477,12 +477,34 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="brain-computer-interfaces">Brain-Computer Interfaces</h1>
+    <h1 id="brain-computer-interfaces-for-visual-selection">Brain-Computer Interfaces for Visual Selection</h1>
 
 <h2 id="project-rationale">Project Rationale</h2>
-<p>A brain-computer interface (BCI) is an electronic system that converts users’ brain activity into control commands to operate external software or devices (e.g., typing programs, electronic wheelchairs). BCIs receive input directly from task-related brain signals rather than from traditional input methods that require muscular control to operate (e.g., mouse/keyboard, joystick). Most BCIs use visual stimuli to elicit the necessary input signal(s). An array of objects is presented and the user attends to the one that he/she wants to select—the <em>target</em>. The objects are highlighted systematically, using stimulation techniques known to elicit predictable signals of interest when the target is highlighted, but not (as strongly) when non-targets are highlighted. Neuroimaging equipment records the user’s brain activity, and machine learning algorithms are trained to classify target and non-target responses based on the presence or absence of the predicted signals. The user’s target is determined to be the object that elicited signal-present responses. The system selects the target object and executes its corresponding control command. In this way, BCIs offer promising assistive technology solutions for people suffering with severe motor dysfunction. Beyond clinical use, applications are being developed for gaming systems, smart home control, and other uses.</p>
 
-<p>In theory, target stimuli will consistently elicit distinct response signals from all users, all the time. In practice, however, this has yet to be the case. No two brains are identical, and no one’s brain activity remains constant under varying circumstances (e.g., fatigue, hunger, mood). As such, signal features (e.g., strength, timing) in response to a given stimulus will vary widely—both between users and within an individual user at different points in time. This variability compromises classification accuracy and, in turn, overall system performance. Consequently, there is no BCI that works extremely well for all users, nor for a single user all the time.</p>
+<p>A brain-computer interface (BCI) is an electronic system that converts users’ brain activity into control commands to operate external software or devices (e.g., typing programs, electronic wheelchairs). BCIs offer promising assistive technology solutions for people suffering with severe motor dysfunction. Beyond clinical use, applications are being developed for gaming systems, smart home control, and other uses.</p>
+
+<p>One class of BCIs use visual stimuli to elicit the necessary input signal(s). A number of pictures (or letters, numbers, etc.) are presented on a screen, and the user attends to the one they want to select. The system then identifies the user’s target based on the brain activity elicited by the target stimulus. An important part of this process is modifying the visual stimuli so that we can determine which one the user is paying attention to. Our project is focused on testing different kinds of visual stimuli, and ways of presenting them, to determine which ones are most effective at eliciting the necessary brain activity.</p>
+
+<p>One of the biggest challenges with BCIs is that no two brains, or brain responses are identical. So, the best method of stimulation may vary from person to person, and even within the same person at different times. Brain signals are affected by things like tiredness, boredom, and hunger. Consequently, there is no BCI that works extremely well for all users, nor for a single user all the time. Our goal is to optimize the performance of BCIs by maximizing the distinction between the brain activity elicited by the target and non-target stimuli.</p>
+
+<h2 id="project-description">Project Description</h2>
+
+<p>We are testing different ways of presenting stimuli, and analyzing the brain responses, to determine which approaches work best, or how they can be combined to improve performance. One way of presenting the stimuli is to use the <em>oddball</em> paradigm, where each stimulus (picture) is highlighted in some way, one at a time, in a random order. The highlighting can involve making that stimulus bigger, brighter, a different colour, a different object (such as a face) etc.. When the highlight occurs on the attended stimulus, the brain response is different (or at least stronger) than when the highlight occurs on a non-attended stimulus. Another approach is for the different stimuli to flicker at different rates. Flickering stimuli elicit <em>steady-state visual evoked potentials</em> (SSVEPs), which are brain responses that oscillate (get stronger and weaker) at the same rate as the flicker frequency. The SSVEP response to the attended stimulus is stronger than to the non-attended stimuli. We are testing different ways of combining these two approaches to see if we can get a stronger response than either one alone. For fun (and because we’re in Halifax, a coastal city), we are using pirate-themed stimuli!</p>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="An example BCI stimulus, using green pirate faces as highlights">
+    <img src="/preview/pr-46/images/bci_pirates.png" style="
+        width: 400px;
+        max-height: unset;
+      " alt="An example BCI stimulus, using green pirate faces as highlights" loading="lazy" onerror="this.src = '/preview/pr-46/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      An example BCI stimulus, using green pirate faces as highlights
+
+    </figcaption>
+  
+</figure>
 
 <h2 id="mission">Mission</h2>
 
