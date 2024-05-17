@@ -26,7 +26,7 @@ Interested in participating in one of our studies? Click the links below to find
   include card.html
   image="images/projects/EEG_setup.jpeg"
   link="participate/BCI-Participate"
-  title="Brain-Computer Interfacing"
+  title="Brain-Computer Interfaces"
   subtitle=""
   description=""
   tooltip=""
