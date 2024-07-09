@@ -77,7 +77,7 @@ In short, fNIRS acts as a non-invasive tool for research, assisting in understan
 {% endcapture %}
 {%
   include feature.html
-  image="Blonde_fNIRS_lady.jpeg"
+  image="images/Blonde_fNIRS_lady.jpeg"
   link="neuroimaging/#Functional-Near-Infrared-Spectroscopy-fNIRS"
   title=""
   text=text
