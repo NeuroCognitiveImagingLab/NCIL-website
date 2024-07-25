@@ -1,0 +1,13 @@
+---
+name: Jana Kamel
+image: images/photo.jpg
+description: USRA Student
+role: undergrad
+aliases:
+  - J. Kamel
+  - J Kamel
+  - Jana Kamel
+links:
+  email: 
+---
+
