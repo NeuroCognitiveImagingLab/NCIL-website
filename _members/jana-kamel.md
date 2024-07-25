@@ -8,6 +8,6 @@ aliases:
   - J Kamel
   - Jana Kamel
 links:
-  email: 
+  email: jn770802@dal.ca
 ---
 
