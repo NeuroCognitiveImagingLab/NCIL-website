@@ -1,6 +1,6 @@
 ---
 name: Sarah Haggett
-image: images/team/Sarah-Haggett.jpg
+image: images/team/Sarah_Haggett.jpg
 description: Clinical PhD Student
 role: phd
 aliases:

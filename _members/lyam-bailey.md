@@ -2,7 +2,8 @@
 name: Lyam Bailey
 image: images/team/Lyam_B.jpg
 description: PhD Student
-role: alum
+role: phd
+group: alum
 aliases:
   - L. Bailey
   - L Bailey

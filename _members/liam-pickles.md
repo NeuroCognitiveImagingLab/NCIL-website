@@ -1,6 +1,6 @@
 ---
 name: Liam Pickles
-image: images/team/photo.jpg
+image: images/team/Liam_Pickles.jpeg
 description: Honours Student
 role: undergrad
 aliases:
