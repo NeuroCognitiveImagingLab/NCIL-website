@@ -2,7 +2,8 @@
 name: Hamidreza Maymandi
 image: images/team/Hamidreza_Maymandi_Photo.jpg
 description: Postdoctoral Researcher
-role: alum
+role: postdoc
+group: alum
 aliases:
   - H. Maymandi
   - H Maymandi

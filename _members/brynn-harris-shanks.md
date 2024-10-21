@@ -2,7 +2,8 @@
 name: Brynn Harris-Shanks
 image: images/team/Brynn_HS.jpeg
 description: Research Assistant
-role: alum
+role: pi
+group: alum
 aliases:
   - B. Harris-Shanks
   - B Harris-Shanks
