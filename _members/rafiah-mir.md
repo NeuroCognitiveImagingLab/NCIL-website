@@ -1,6 +1,6 @@
 ---
 name: Rafiah Mir
-image: images/team/Rafiah_Mir.jpg
+image: images/team/Rafiah_Mir_Photo.jpg
 description: Independent Research
 role: undergrad
 aliases:

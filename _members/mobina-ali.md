@@ -1,6 +1,6 @@
 ---
 name: Mobina Ali
-image: images/team/Mobina_Ali.jpg
+image: images/team/Mobina_Ali_Photo.jpg
 description: Independent Research
 role: undergrad
 aliases:
