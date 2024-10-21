@@ -1,6 +1,6 @@
 ---
 name: Laura Earl
-image: images/photo.jpg
+image: images/Laura_Earl.jpg
 description: Independent Research
 role: undergrad
 aliases:
@@ -10,3 +10,5 @@ aliases:
 links:
   email:
 ---
+
+Laura is from Novar Ontario and is a third year undergraduate student studying Neuroscience at Dalhousie University. She is completing her independent research project under the supervision of Dr. Aaron Newman. She is part of the BCI team and is looking at the effect of stimulus hybridization on EEG signals and BCI performance. In her free time Laura enjoys reading, road trips and baking. 
