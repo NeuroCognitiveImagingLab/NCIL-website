@@ -1,6 +1,6 @@
 ---
 name: Jeff Locke
-image: images/team/Jeff_Locke.jpg
+image: images/team/Jeff_Locke_Photo.jpg
 description: PhD Student
 role: phd
 aliases:
