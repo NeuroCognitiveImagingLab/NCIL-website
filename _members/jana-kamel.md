@@ -1,7 +1,7 @@
 ---
 name: Jana Kamel
 image: images/photo.jpg
-description: RA Trainee
+description: Research Assistant Trainee
 role: undergrad
 aliases:
   - J. Kamel
