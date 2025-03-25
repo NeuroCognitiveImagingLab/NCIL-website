@@ -1,7 +1,7 @@
 ---
 name: Jana Kamel
 image: images/photo.jpg
-description: USRA Student
+description: RA Trainee
 role: undergrad
 aliases:
   - J. Kamel
