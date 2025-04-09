@@ -16,11 +16,11 @@ Here are the current projects we are working on at NCIL:
 
 
 {% capture text %}
-What Makes a Skilled Reader? The NeuroCognitive Imaging Lab needs your help to find out! The goal of the study is to characterize how individual differences in reading skills relate to children’s patterns of brain activation, and how these relationships change from Grade 2 to Grade 5. We’re currently looking for kids to participate who are in grades 2 or 3, speak only English at home, and are enrolled in either standard English or French immersion programs at school. Click below to find out more if you're interested!
+What Makes a Skilled Reader? The NeuroCognitive Imaging Lab needs your help to find out! The goal of the study is to characterize how individual differences in reading skills relate to children’s patterns of brain activation, and how these relationships change from Grade 2 to Grade 5. We’re currently looking for kids to participate who are in grades 2 or 3, who speak English at home and at school. Click below to find out more if you're interested!
 {%
   include button.html
   link="projects/What-Makes-a-Skilled-Reader"
-  text="Find out more about our fMRI study for kids!"
+  text="Find out more about our study for kids!"
   icon="fas fa-arrow-right"
   flip=true
 %}
@@ -28,7 +28,7 @@ What Makes a Skilled Reader? The NeuroCognitive Imaging Lab needs your help to f
 {% endcapture %}
 {%
   include feature.html
-  image="images/projects/SKIRF_project.jpeg"
+  image="images/projects/SKNIRF_project.jpg"
   link="projects/What-Makes-a-Skilled-Reader"
   title="Reading Development"
   flip=true
