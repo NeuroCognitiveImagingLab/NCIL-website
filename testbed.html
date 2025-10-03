@@ -42,6 +42,10 @@
 
 
 
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Testbed | NeuroCognitive Imaging Lab</title>
@@ -54,13 +58,13 @@
 <meta property="og:title" content="Testbed">
 <meta property="og:site_title" content="NeuroCognitive Imaging Lab">
 <meta property="og:description" content="at Dalhousie University. Directed by Dr. Aaron J Newman">
-<meta property="og:url" content="">
+<meta property="og:url" content="http://www.ncilab.ca">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Testbed">
 <meta property="twitter:description" content="at Dalhousie University. Directed by Dr. Aaron J Newman">
-<meta property="twitter:url" content="">
+<meta property="twitter:url" content="http://www.ncilab.ca">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
@@ -81,11 +85,11 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
-    "url": ""
+    "url": "http://www.ncilab.ca"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="http://www.ncilab.ca/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
@@ -95,9 +99,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -161,6 +165,10 @@
 
   
     <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
@@ -365,6 +373,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -388,6 +398,8 @@
 
   <script src="/_scripts/site-search.js"></script>
 
+  <script src="/_scripts/table-wrap.js"></script>
+
   <script src="/_scripts/tooltip.js"></script>
 
 
@@ -395,7 +407,7 @@
 </head>
 
   <body>
-        
+    
 
 
 
@@ -470,12 +482,12 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
-          <span>NeuroCognitive Imaging Lab</span>
+          <span class="title">NeuroCognitive Imaging Lab</span>
         
         
-          <span>at Dalhousie University</span>
+          <span class="subtitle">at Dalhousie University</span>
         
       </span>
     
@@ -542,11 +554,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -567,9 +576,9 @@
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h1 id="basic-formatting">Basic formatting</h1>
@@ -607,6 +616,20 @@ Text with extra blank lines above and below
   <li>ordered list item 3</li>
 </ol>
 
+<!--  -->
+
+<ol>
+  <li>top level list item
+    <ul>
+      <li>nested list item
+        <ol>
+          <li>even deeper nested list item</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+</ol>
+
 <p>Plain image:</p>
 
 <p><img src="/images/photo.jpg" alt="plain image"></p>
@@ -627,9 +650,17 @@ Text with extra blank lines above and below
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
+<h5 id="heading-5">Heading 5</h5>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+<h6 id="heading-6">Heading 6</h6>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
 <hr>
 
-<div class="table-wrapper"><table>
+<table>
   <thead>
     <tr>
       <th style="text-align: left">TABLE</th>
@@ -662,7 +693,7 @@ Text with extra blank lines above and below
       <td style="text-align: right">549</td>
     </tr>
   </tbody>
-</table></div>
+</table>
 
 <blockquote>
   <p>It was the best of times it was the worst of times.
@@ -682,6 +713,13 @@ It was the spring of hope, it was the winter of despair.</p>
 <p class="left">Lorem ipsum dolor sit amet.</p>
 <p class="center">Consectetur adipiscing elit.</p>
 <p class="right">Sed do eiusmod tempor incididunt.</p>
+
+<details>
+  <summary>Hidden content</summary>
+
+  <p><strong>Lorem</strong> <em>ipsum</em> <a href="">dolor sit amet</a>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+</details>
   </section>
 
   
@@ -690,14 +728,14 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h1 id="jekyll-spaceship">Jekyll Spaceship</h1>
 
-<div class="table-wrapper"><table>
+<table>
   <thead>
     <tr>
       <th style="text-align: right">Stage</th>
@@ -746,7 +784,7 @@ It was the spring of hope, it was the winter of despair.</p>
       <td style="text-align: right"> </td>
     </tr>
   </tbody>
-</table></div>
+</table>
 
 <p>$ a * b = c ^ b $</p>
 
@@ -763,9 +801,9 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h1 id="components">Components</h1>
@@ -779,9 +817,9 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="1" style="--image: url('/images/background.jpg')">
     <!--
-  background: images/background.jpg;
-  dark: ;
-  size: 1;
+  <background>images/background.jpg</background>
+  <dark></dark>
+  <size>1</size>
 -->
 
 <p>Section, <code class="language-plaintext highlighter-rouge">background</code></p>
@@ -793,9 +831,9 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="1" data-dark="true">
     <!--
-  background: ;
-  dark: true;
-  size: 1;
+  <background></background>
+  <dark>true</dark>
+  <size>1</size>
 -->
 
 <p>Section, <code class="language-plaintext highlighter-rouge">dark=true</code></p>
@@ -807,9 +845,9 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="2" data-dark="true" style="--image: url('/images/background.jpg')">
     <!--
-  background: images/background.jpg;
-  dark: true;
-  size: 2;
+  <background>images/background.jpg</background>
+  <dark>true</dark>
+  <size>2</size>
 -->
 
 <p>Section, <code class="language-plaintext highlighter-rouge">background</code> <code class="language-plaintext highlighter-rouge">dark=true</code></p>
@@ -821,9 +859,9 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="wide">
     <!--
-  background: ;
-  dark: ;
-  size: wide;
+  <background></background>
+  <dark></dark>
+  <size>wide</size>
 -->
 
 <p>Section, <code class="language-plaintext highlighter-rouge">size=wide</code></p>
@@ -835,9 +873,9 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="full">
     <!--
-  background: ;
-  dark: ;
-  size: full;
+  <background></background>
+  <dark></dark>
+  <size>full</size>
 -->
 
 <p>Section, <code class="language-plaintext highlighter-rouge">size=full</code> w/ figure</p>
@@ -859,9 +897,9 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="figure">Figure</h2>
@@ -877,11 +915,11 @@ It was the spring of hope, it was the winter of despair.</p>
 </figure>
 
 <figure class="figure">
-  <a class="figure-image" aria-label="_Lorem_ **ipsum**.">
+  <a class="figure-image" aria-label="Lorem ipsum .">
     <img src="/images/icon.png" style="
         width: auto;
         max-height: unset;
-      " alt="_Lorem_ **ipsum**." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      " alt="Lorem ipsum ." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
     <figcaption class="figure-caption">
@@ -892,11 +930,11 @@ It was the spring of hope, it was the winter of despair.</p>
 </figure>
 
 <figure class="figure">
-  <a class="figure-image" aria-label="_Lorem_ **ipsum**. `px` width">
+  <a class="figure-image" aria-label="Lorem ipsum . px width">
     <img src="/images/icon.png" style="
         width: 400px;
         max-height: unset;
-      " alt="_Lorem_ **ipsum**. `px` width" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      " alt="Lorem ipsum . px width" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
     <figcaption class="figure-caption">
@@ -907,11 +945,11 @@ It was the spring of hope, it was the winter of despair.</p>
 </figure>
 
 <figure class="figure">
-  <a href="/team" class="figure-image" aria-label="_Lorem_ **ipsum**. `%` width">
+  <a href="/team" class="figure-image" aria-label="Lorem ipsum . width">
     <img src="/images/icon.png" style="
         width: 50%;
         max-height: unset;
-      " alt="_Lorem_ **ipsum**. `%` width" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      " alt="Lorem ipsum . width" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
     <figcaption class="figure-caption">
@@ -922,11 +960,11 @@ It was the spring of hope, it was the winter of despair.</p>
 </figure>
 
 <figure class="figure">
-  <a href="/team" class="figure-image" aria-label="_Lorem_ **ipsum**. `px` height">
+  <a href="/team" class="figure-image" aria-label="Lorem ipsum . px height">
     <img src="/images/icon.png" style="
         width: auto;
         max-height: 200px;
-      " alt="_Lorem_ **ipsum**. `px` height" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      " alt="Lorem ipsum . px height" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
     <figcaption class="figure-caption">
@@ -937,11 +975,11 @@ It was the spring of hope, it was the winter of despair.</p>
 </figure>
 
 <figure class="figure">
-  <a href="/team" class="figure-image" aria-label="_Lorem_ **ipsum**. `px` width, svg">
+  <a href="/team" class="figure-image" aria-label="Lorem ipsum . px width, svg">
     <img src="/images/fallback.svg" style="
         width: 400px;
         max-height: unset;
-      " alt="_Lorem_ **ipsum**. `px` width, svg" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      " alt="Lorem ipsum . px width, svg" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
     <figcaption class="figure-caption">
@@ -952,11 +990,11 @@ It was the spring of hope, it was the winter of despair.</p>
 </figure>
 
 <figure class="figure">
-  <a href="/team" class="figure-image" aria-label="_Lorem_ **ipsum**. `%` width, svg">
+  <a href="/team" class="figure-image" aria-label="Lorem ipsum . width, svg">
     <img src="/images/fallback.svg" style="
         width: 50%;
         max-height: unset;
-      " alt="_Lorem_ **ipsum**. `%` width, svg" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      " alt="Lorem ipsum . width, svg" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
     <figcaption class="figure-caption">
@@ -967,11 +1005,11 @@ It was the spring of hope, it was the winter of despair.</p>
 </figure>
 
 <figure class="figure">
-  <a href="/team" class="figure-image" aria-label="_Lorem_ **ipsum**. `px` height, svg">
+  <a href="/team" class="figure-image" aria-label="Lorem ipsum . px height, svg">
     <img src="/images/fallback.svg" style="
         width: auto;
         max-height: 200px;
-      " alt="_Lorem_ **ipsum**. `px` height, svg" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      " alt="Lorem ipsum . px height, svg" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
     <figcaption class="figure-caption">
@@ -988,9 +1026,9 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="button">Button</h2>
@@ -1043,9 +1081,9 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="icon">Icon</h2>
@@ -1066,9 +1104,9 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="feature">Feature</h2>
@@ -1119,1788 +1157,14 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="list">List</h2>
 
 <h3 id="list-citations">List citations</h3>
-
-<h3 id="2024">2024</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gttf4k" class="citation-title">
-      Ortho-semantic learning of novel words: an event-related potential study of grade 3 children
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Alena Galilee, Lisa J. Beck, Clara J. Lownie, Jennika Veinot, Catherine Mimeau, Tammy Dempster, Laura M. Elliott, S. Hélène Deacon, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Frontiers in Developmental Psychology
-        ·  
-      28 Feb 2024
-        ·  
-      doi:10.3389/fdpys.2024.1340383
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2023">2023</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gs5d85" class="citation-title">
-      A New Measure of Mnemonic Discrimination Applicable to Recognition Memory Tests with Continuous Variation in Novel Stimulus Interference
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Simon Leger, Christian Guinard, Selena Singh, Suzanna Becker, Jasmyn E A Cunningham, Martin Alda, Aaron J Newman, Thomas Trappenberg, Abraham Nunes
-    </div>
-
-    <div class="citation-details">
-      Center for Open Science
-        ·  
-      14 Nov 2023
-        ·  
-      doi:10.31234/osf.io/ezdbr
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gr96ch" class="citation-title">
-      Age-related changes to electroencephalographic markers of visuomotor error processing and learning in prism adaptation
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Zoë Lazar-Kurz, Jasmine Aziz, Katelyn J. McKearney, Cindy Hamon-Hill, Arthur MacDonald, Aaron Newman, Gail Eskes
-    </div>
-
-    <div class="citation-details">
-      Neuropsychologia
-        ·  
-      01 Jun 2023
-        ·  
-      doi:10.1016/j.neuropsychologia.2023.108546
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gscgtt" class="citation-title">
-      Are You Human? Investigating the Perceptions and Evaluations of Virtual Versus Human Instagram Influencers
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Anika Nissen, Colin Conrad, Aaron Newman
-    </div>
-
-    <div class="citation-details">
-      Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
-        ·  
-      19 Apr 2023
-        ·  
-      doi:10.1145/3544548.3580943
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gr96cf" class="citation-title">
-      Aberrant corticospinal tract characteristics in prodromal PD: A diffusion tensor imaging study
-    </a>
-
-    <div class="citation-authors" data-tooltip="Laura J. Pimer, Ronald A. Leslie, Gosia Phillips, Aaron J. Newman, Benjamin Rusak, Tyler M. Rolheiser, Kerrie Schoffer, M. Naeem Khan, J. Roger McKelvey, Harold A. Robertson, Kimberley P. Good " tabindex="0">
-      Laura J. Pimer, Ronald A. Leslie, Gosia Phillips, Aaron J. Newman, Benjamin Rusak, ..., Kerrie Schoffer, M. Naeem Khan, J. Roger McKelvey, Harold A. Robertson, Kimberley P. Good
-    </div>
-
-    <div class="citation-details">
-      Clinical Parkinsonism &amp; Related Disorders
-        ·  
-      01 Jan 2023
-        ·  
-      doi:10.1016/j.prdoa.2022.100182
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gr96cg" class="citation-title">
-      A two for one special: EEG hyperscanning using a single-person EEG recording setup
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Caitriona L. Douglas, Antoine Tremblay, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      MethodsX
-        ·  
-      01 Jan 2023
-        ·  
-      doi:10.1016/j.mex.2023.102019
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2022">2022</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/grpfwj" class="citation-title">
-      Changing Brains
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Giordana Grossi, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Routledge
-        ·  
-      02 Dec 2022
-        ·  
-      doi:10.4324/9780429342356
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqvnqg" class="citation-title">
-      Do emotions influence safe browsing? Toward an electroencephalography marker of affective responses to cybersecurity notifications
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Colin D. Conrad, Jasmine R. Aziz, Jonathon M. Henneberry, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Frontiers in Neuroscience
-        ·  
-      14 Jul 2022
-        ·  
-      doi:10.3389/fnins.2022.922960
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gsc3qv" class="citation-title">
-      The influence of skin-to-skin contact on Cortical Activity during Painful procedures in preterm infants in the neonatal intensive care unit (iCAP mini): study protocol for a randomized control trial
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Marsha Campbell-Yeo, Britney Benoit, Aaron Newman, Celeste Johnston, Tim Bardouille, Bonnie Stevens, Arlene Jiang
-    </div>
-
-    <div class="citation-details">
-      Trials
-        ·  
-      20 Jun 2022
-        ·  
-      doi:10.1186/s13063-022-06424-4
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gpsvtk" class="citation-title">
-      Native Word Order Processing Is Not Uniform: An ERP Study of Verb-Second Word Order
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Susan Sayehli, Marianne Gullberg, Aaron J. Newman, Annika Andersson
-    </div>
-
-    <div class="citation-details">
-      Frontiers in Psychology
-        ·  
-      30 Mar 2022
-        ·  
-      doi:10.3389/fpsyg.2022.668276
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gsc3qw" class="citation-title">
-      Towards Mind Wandering Adaptive Online Learning and Virtual Work Experiences
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Colin Conrad, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Information Systems and Neuroscience
-        ·  
-      01 Jan 2022
-        ·  
-      doi:10.1007/978-3-031-13064-9_27
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2021">2021</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gscgtv" class="citation-title">
-      A two for one special: EEG hyperscanning using a single-person EEG recording setup
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Caitriona Douglas, Antoine Tremblay, Aaron J Newman
-    </div>
-
-    <div class="citation-details">
-      Center for Open Science
-        ·  
-      22 Sep 2021
-        ·  
-      doi:10.31234/osf.io/ndxc6
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gps2d9" class="citation-title">
-      Measuring Mind Wandering During Online Lectures Assessed With EEG
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Colin Conrad, Aaron Newman
-    </div>
-
-    <div class="citation-details">
-      Frontiers in Human Neuroscience
-        ·  
-      09 Aug 2021
-        ·  
-      doi:10.3389/fnhum.2021.697532
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhc" class="citation-title">
-      Neural correlates of the production effect: An fMRI study
-    </a>
-
-    <div class="citation-authors" data-tooltip="Lyam M. Bailey, Glen E. Bodner, Heath E. Matheson, Brandie M. Stewart, Kyle Roddick, Kiera O'Neil, Maria Simmons, Angela M. Lambert, Olave E. Krigolson, Aaron J. Newman, Jonathan M. Fawcett " tabindex="0">
-      Lyam M. Bailey, Glen E. Bodner, Heath E. Matheson, Brandie M. Stewart, Kyle Roddick, ..., Maria Simmons, Angela M. Lambert, Olave E. Krigolson, Aaron J. Newman, Jonathan M. Fawcett
-    </div>
-
-    <div class="citation-details">
-      Brain and Cognition
-        ·  
-      01 Aug 2021
-        ·  
-      doi:10.1016/j.bandc.2021.105757
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhd" class="citation-title">
-      Challenges and complexities in the electroencephalographic measurement of neonatal pain
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Britney Benoit, Aaron Newman, Marsha Campbell-Yeo
-    </div>
-
-    <div class="citation-details">
-      Early Human Development
-        ·  
-      01 Jun 2021
-        ·  
-      doi:10.1016/j.earlhumdev.2021.105363
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gr93wd" class="citation-title">
-      The influence of breastfeeding on cortical and bio-behavioural indicators of procedural pain in newborns: Findings of a randomized controlled trial
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Britney Benoit, Aaron Newman, Ruth Martin-Misener, Margot Latimer, Marsha Campbell-Yeo
-    </div>
-
-    <div class="citation-details">
-      Early Human Development
-        ·  
-      01 Mar 2021
-        ·  
-      doi:10.1016/j.earlhumdev.2021.105308
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2020">2020</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gmjq5s" class="citation-title">
-      Enhancement of visual biological motion recognition in early-deaf adults: Functional and behavioral correlates
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Marie Simon, Latifa Lazzouni, Emma Campbell, Audrey Delcenserie, Alexandria Muise-Hennessey, Aaron J. Newman, François Champoux, Franco Lepore
-    </div>
-
-    <div class="citation-details">
-      PLOS ONE
-        ·  
-      10 Aug 2020
-        ·  
-      doi:10.1371/journal.pone.0236800
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gsc3qx" class="citation-title">
-      Corrigendum to The impacts of actual and perceived nicotine administration on insula functional connectivity with the anterior cingulate cortex and nucleus accumbens
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Robin N Perry, Hera E Schlagintweit, Christine Darredeau, Carl Helmick, Aaron J Newman, Kimberley P Good, Sean P Barrett
-    </div>
-
-    <div class="citation-details">
-      Journal of Psychopharmacology
-        ·  
-      04 Feb 2020
-        ·  
-      doi:10.1177/0269881120902733
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhg" class="citation-title">
-      What Do Users Feel? Towards Affective EEG Correlates of Cybersecurity Notifications
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Colin Conrad, Jasmine Aziz, Natalie Smith, Aaron Newman
-    </div>
-
-    <div class="citation-details">
-      Information Systems and Neuroscience
-        ·  
-      01 Jan 2020
-        ·  
-      doi:10.1007/978-3-030-60073-0_17
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhf" class="citation-title">
-      A Tri-Hybrid Brain-Computer Interface for Neuro-Information Systems
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Daniel Godfrey, Chantel Findlay, Dinesh Mulchandani, Ravishankar Subramanilyer, Colin Conrad, Aaron Newman
-    </div>
-
-    <div class="citation-details">
-      Information Systems and Neuroscience
-        ·  
-      01 Jan 2020
-        ·  
-      doi:10.1007/978-3-030-60073-0_34
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2019">2019</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/ghv8hx" class="citation-title">
-      On Using Python to Run, Analyze, and Decode EEG Experiments
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Colin Conrad, Om Agarwal, Carlos Calix Woc, Tazmin Chiles, Daniel Godfrey, Kavita Krueger, Valentina Marini, Alexander Sproul, Aaron Newman
-    </div>
-
-    <div class="citation-details">
-      Information Systems and Neuroscience
-        ·  
-      24 Oct 2019
-        ·  
-      doi:10.1007/978-3-030-28144-1_32
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhh" class="citation-title">
-      The impacts of actual and perceived nicotine administration on insula functional connectivity with the anterior cingulate cortex and nucleus accumbens
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Robin N Perry, Hera E Schlagintweit, Christine Darredeau, Carl Helmick, Aaron J Newman, Kimberley P Good, Sean P Barrett
-    </div>
-
-    <div class="citation-details">
-      Journal of Psychopharmacology
-        ·  
-      23 Sep 2019
-        ·  
-      doi:10.1177/0269881119872205
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gm9mpx" class="citation-title">
-      A sinister subject: Quantifying handedness‐based recruitment biases in current neuroimaging research
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Lyam M. Bailey, Laura E. McMillan, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      European Journal of Neuroscience
-        ·  
-      28 Aug 2019
-        ·  
-      doi:10.1111/ejn.14542
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://uk.sagepub.com/en-gb/eur/research-methods-for-cognitive-neuroscience/book242924" class="citation-title">
-      Research Methods for Cognitive Neuroscience
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Sage Publications
-        ·  
-      01 Mar 2019
-        ·  
-      isbn:1446296504
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2018">2018</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gr93wb" class="citation-title">
-      Measuring the Impact of Mind Wandering in Real Time Using an Auditory Evoked Potential
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Colin Conrad, Aaron Newman
-    </div>
-
-    <div class="citation-details">
-      Information Systems and Neuroscience
-        ·  
-      04 Nov 2018
-        ·  
-      doi:10.1007/978-3-030-01087-4_5
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gr93v9" class="citation-title">
-      How Attention Networks Can Inform Research in Information Systems
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Colin Conrad, Aaron Newman
-    </div>
-
-    <div class="citation-details">
-      Information Systems and Neuroscience
-        ·  
-      04 Nov 2018
-        ·  
-      doi:10.1007/978-3-030-01087-4_19
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhj" class="citation-title">
-      Microstructural Findings in White Matter Associated with Cannabis and Alcohol Use in Early-Phase Psychosis: A Diffusion Tensor Imaging and Relaxometry Study
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Jacob Cookey, Candice E. Crocker, Denise Bernier, Aaron J. Newman, Sherry Stewart, David McAllindon, Philip G. Tibbo
-    </div>
-
-    <div class="citation-details">
-      Brain Connectivity
-        ·  
-      01 Nov 2018
-        ·  
-      doi:10.1089/brain.2018.0611
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhw" class="citation-title">
-      Attentional dysfunction and recovery in concussion: effects on the P300m and contingent magnetic variation
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Lauren Petley, Tim Bardouille, Darrell Chiasson, Patrick Froese, Steve Patterson, Aaron Newman, Antonina Omisade, Steven Beyea
-    </div>
-
-    <div class="citation-details">
-      Brain Injury
-        ·  
-      22 Jan 2018
-        ·  
-      doi:10.1080/02699052.2018.1429022
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gdc3hf" class="citation-title">
-      Design and Empirical Validation of Effectiveness of LANGA, an Online Game-Based Platform for Second Language Learning
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Francesco Usai, Kiera G.R. O'Neil, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      IEEE Transactions on Learning Technologies
-        ·  
-      01 Jan 2018
-        ·  
-      doi:10.1109/TLT.2017.2762688
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2017">2017</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f9547g" class="citation-title">
-      Neurophysiological assessment of acute pain in infants: a scoping review of research methods
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      B Benoit, R Martin‐Misener, A Newman, M Latimer, M Campbell‐Yeo
-    </div>
-
-    <div class="citation-details">
-      Acta Paediatrica
-        ·  
-      09 May 2017
-        ·  
-      doi:10.1111/apa.13839
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhx" class="citation-title">
-      Do emotion-induced blindness and the attentional blink share underlying mechanisms? An event-related potential study of emotionally-arousing words
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Jeffrey MacLeod, Brandie M. Stewart, Aaron J. Newman, Karen M. Arnell
-    </div>
-
-    <div class="citation-details">
-      Cognitive, Affective, &amp; Behavioral Neuroscience
-        ·  
-      06 Mar 2017
-        ·  
-      doi:10.3758/s13415-017-0499-7
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2016">2016</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhz" class="citation-title">
-      Using CForest to Analyze Diffusion Tensor Imaging Data: A Study of White Matter Integrity in Healthy Aging
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Sean R. McWhinney, Antoine Tremblay, Thérèse M. Chevalier, Vanessa K. Lim, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Brain Connectivity
-        ·  
-      01 Dec 2016
-        ·  
-      doi:10.1089/brain.2016.0451
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f9g57x" class="citation-title">
-      Preliminary Investigation of the Passively Evoked N400 as a Tool for Estimating Speech-in-Noise Thresholds
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Caroline Jamison, Steve J. Aiken, Michael Kiefte, Aaron J. Newman, Manohar Bance, Lauren Sculthorpe-Petley
-    </div>
-
-    <div class="citation-details">
-      American Journal of Audiology
-        ·  
-      01 Dec 2016
-        ·  
-      doi:10.1044/2016_AJA-15-0080
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gr93v8" class="citation-title">
-      What the Networks Tell us about Serial and Parallel Processing
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Antoine Tremblay, Elissa Asp, Anne Johnson, Malgorzata Zarzycka Migdal, Tim Bardouille, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      The Mental Lexicon
-        ·  
-      07 Jun 2016
-        ·  
-      doi:10.1075/ml.11.1.06tre
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2015">2015</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f76nrr" class="citation-title">
-      Asymmetric Weighting to Optimize Regional Sensitivity in Combined fMRI-MEG Maps
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Sean R. McWhinney, Timothy Bardouille, Ryan C. N. D’Arcy, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Brain Topography
-        ·  
-      22 Oct 2015
-        ·  
-      doi:10.1007/s10548-015-0457-z
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f7sm9m" class="citation-title">
-      Neural systems supporting linguistic structure, linguistic experience, and symbolic communication in sign language and gesture
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman, Ted Supalla, Nina Fernandez, Elissa L. Newport, Daphne Bavelier
-    </div>
-
-    <div class="citation-details">
-      Proceedings of the National Academy of Sciences
-        ·  
-      17 Aug 2015
-        ·  
-      doi:10.1073/pnas.1510527112
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2014">2014</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f6vf4z" class="citation-title">
-      Modeling nonlinear relationships in <scp>ERP</scp> data using mixed‐effects regression with <scp>R</scp> examples
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Antoine Tremblay, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Psychophysiology
-        ·  
-      17 Aug 2014
-        ·  
-      doi:10.1111/psyp.12299
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f5x2sp" class="citation-title">
-      Handles of manipulable objects attract covert visual attention: ERP evidence
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Heath Matheson, Aaron J. Newman, Jason Satel, Patricia McMullen
-    </div>
-
-    <div class="citation-details">
-      Brain and Cognition
-        ·  
-      01 Apr 2014
-        ·  
-      doi:10.1016/j.bandc.2014.01.013
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f5mnmn" class="citation-title">
-      Electrophysiological markers of biological motion and human form recognition
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Nicole C. White, Jonathan M. Fawcett, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      NeuroImage
-        ·  
-      01 Jan 2014
-        ·  
-      doi:10.1016/j.neuroimage.2013.09.026
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2013">2013</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gscgtw" class="citation-title">
-      Research Methods in Second Language Psycholinguistics
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Jill Jegerski, Bill VanPatten
-    </div>
-
-    <div class="citation-details">
-      Routledge
-        ·  
-      17 Dec 2013
-        ·  
-      doi:10.4324/9780203123430
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gbd2gw" class="citation-title">
-      Multimodal neuroimaging of frontal white matter microstructure in early phase schizophrenia: the impact of early adolescent cannabis use
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Denise Bernier, Jacob Cookey, David McAllindon, Robert Bartha, Christopher C Hanstock, Aaron J Newman, Sherry H Stewart, Philip G Tibbo
-    </div>
-
-    <div class="citation-details">
-      BMC Psychiatry
-        ·  
-      17 Oct 2013
-        ·  
-      doi:10.1186/1471-244X-13-264
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f4tg5b" class="citation-title">
-      Sensitivity to White Matter fMRI Activation Increases with Field Strength
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Erin L. Mazerolle, Jodie R. Gawryluk, Kim N. H. Dillen, Steven A. Patterson, Kirk W. Feindel, Steven D. Beyea, M. Tynan R Stevens, Aaron J. Newman, Matthias H. Schmidt, Ryan C.N. D’Arcy
-    </div>
-
-    <div class="citation-details">
-      PLoS ONE
-        ·  
-      04 Mar 2013
-        ·  
-      doi:10.1371/journal.pone.0058130
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/ggkh5h" class="citation-title">
-      Refractory effects of the N1 event-related potential in experienced cochlear implant patients
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Christopher D. Cowper-Smith, Janet Green, Heather Maessen, Manohar Bance, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      International Journal of Audiology
-        ·  
-      03 Jan 2013
-        ·  
-      doi:10.3109/14992027.2012.743044
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f4mn3q" class="citation-title">
-      Can skilled readers perform a second task in parallel? A functional connectivity MRI study
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman, Sophie Kenny, Jean Saint-Aubin, Raymond M. Klein
-    </div>
-
-    <div class="citation-details">
-      Brain and Language
-        ·  
-      01 Jan 2013
-        ·  
-      doi:10.1016/j.bandl.2012.11.009
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2012">2012</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f4dcsk" class="citation-title">
-      Changes in N400 topography following intensive speech language therapy for individuals with aphasia
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      K. Ryan Wilson, Heather O’Rourke, Linda A. Wozniak, Ellina Kostopoulos, Yannick Marchand, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Brain and Language
-        ·  
-      01 Nov 2012
-        ·  
-      doi:10.1016/j.bandl.2012.06.005
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f4xhzs" class="citation-title">
-      Communicative and noncommunicative point-light actions featuring high-resolution representation of the hands and fingers
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Hazlin Zaini, Jonathan M. Fawcett, Nicole C. White, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Behavior Research Methods
-        ·  
-      17 Oct 2012
-        ·  
-      doi:10.3758/s13428-012-0273-2
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/drggk2" class="citation-title">
-      The Influence of Language Proficiency on Lexical Semantic Processing in Native and Late Learners of English
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman, Antoine Tremblay, Emily S. Nichols, Helen J. Neville, Michael T. Ullman
-    </div>
-
-    <div class="citation-details">
-      Journal of Cognitive Neuroscience
-        ·  
-      01 May 2012
-        ·  
-      doi:10.1162/jocn_a_00143
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gf269z" class="citation-title">
-      Spatial MEG Laterality maps for language: Clinical applications in epilepsy
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Ryan C.N. D'Arcy, Timothy Bardouille, Aaron J. Newman, Sean R. McWhinney, Drew DeBay, R. Mark Sadler, David B. Clarke, Michael J. Esser
-    </div>
-
-    <div class="citation-details">
-      Human Brain Mapping
-        ·  
-      15 Mar 2012
-        ·  
-      doi:10.1002/hbm.22024
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2011">2011</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/dw5bkk" class="citation-title">
-      Sensitivity of the Human Binaural Cortical Steady State Response to Interaural Level Differences
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Sarah Massoud, Steve J. Aiken, Aaron J. Newman, Dennis P. Phillips, Manohar Bance
-    </div>
-
-    <div class="citation-details">
-      Ear &amp; Hearing
-        ·  
-      01 Feb 2011
-        ·  
-      doi:10.1097/AUD.0b013e3181ec5d7a
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/fj967r" class="citation-title">
-      Interplay between morphology and frequency in lexical access: The case of the base frequency effect
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Jennifer Vannest, Elissa L. Newport, Aaron J. Newman, Daphne Bavelier
-    </div>
-
-    <div class="citation-details">
-      Brain Research
-        ·  
-      01 Feb 2011
-        ·  
-      doi:10.1016/j.brainres.2010.12.022
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2010">2010</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/fck4fs" class="citation-title">
-      Prosodic and narrative processing in American Sign Language: An fMRI study
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman, Ted Supalla, Peter C. Hauser, Elissa L. Newport, Daphne Bavelier
-    </div>
-
-    <div class="citation-details">
-      NeuroImage
-        ·  
-      15 Aug 2010
-        ·  
-      doi:10.1016/j.neuroimage.2010.03.055
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/fnm7dp" class="citation-title">
-      Dissociating neural subsystems for grammar by contrasting word order and inflection
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman, Ted Supalla, Peter Hauser, Elissa L. Newport, Daphne Bavelier
-    </div>
-
-    <div class="citation-details">
-      Proceedings of the National Academy of Sciences
-        ·  
-      05 Apr 2010
-        ·  
-      doi:10.1073/pnas.1003174107
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2009">2009</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/fnhjf7" class="citation-title">
-      Brain systems mediating semantic and syntactic processing in deaf native signers: Biological invariance and modality specificity
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Cheryl M. Capek, Giordana Grossi, Aaron J. Newman, Susan L. McBurney, David Corina, Brigitte Roeder, Helen J. Neville
-    </div>
-
-    <div class="citation-details">
-      Proceedings of the National Academy of Sciences
-        ·  
-      26 May 2009
-        ·  
-      doi:10.1073/pnas.0809609106
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2008">2008</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/b6m4xp" class="citation-title">
-      Encoding, Rehearsal, and Recall in Signers and Speakers: Shared Network but Differential Engagement
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      D. Bavelier, A. J. Newman, M. Mukherjee, P. Hauser, S. Kemeny, A. Braun, M. Boutla
-    </div>
-
-    <div class="citation-details">
-      Cerebral Cortex
-        ·  
-      31 Jan 2008
-        ·  
-      doi:10.1093/cercor/bhm248
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gscgtx" class="citation-title">
-      Race and the Structural Encoding of Faces
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Heath E. Matheson, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      PsycEXTRA Dataset
-        ·  
-      01 Jan 2008
-        ·  
-      doi:10.1037/e527312012-462
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2007">2007</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/cnd2n9" class="citation-title">
-      An ERP study of regular and irregular English past tense inflection
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman, Michael T. Ullman, Roumyana Pancheva, Diane L. Waligura, Helen J. Neville
-    </div>
-
-    <div class="citation-details">
-      NeuroImage
-        ·  
-      01 Jan 2007
-        ·  
-      doi:10.1016/j.neuroimage.2006.09.007
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2004">2004</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/b42dzj" class="citation-title">
-      The cortical organization of audio-visual sentence comprehension: an fMRI study at 4 Tesla
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Cheryl M. Capek, Daphne Bavelier, David Corina, Aaron J. Newman, Peter Jezzard, Helen J. Neville
-    </div>
-
-    <div class="citation-details">
-      Cognitive Brain Research
-        ·  
-      01 Jul 2004
-        ·  
-      doi:10.1016/j.cogbrainres.2003.10.014
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2001">2001</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/bhsq33" class="citation-title">
-      A critical period for right hemisphere recruitment in American Sign Language processing
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman, Daphne Bavelier, David Corina, Peter Jezzard, Helen J. Neville
-    </div>
-
-    <div class="citation-details">
-      Nature Neuroscience
-        ·  
-      26 Nov 2001
-        ·  
-      doi:10.1038/nn775
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/dk76w7" class="citation-title">
-      How the mass counts: An electrophysiological approach to the processing of lexical features
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Karsten Steinhauer, Roumyana Pancheva, Aaron J. Newman, Silvia Gennari, Michael T. Ullman
-    </div>
-
-    <div class="citation-details">
-      Neuroreport
-        ·  
-      01 Apr 2001
-        ·  
-      doi:10.1097/00001756-200104170-00027
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/bt5c9c" class="citation-title">
-      An Event-Related fMRI Study of Syntactic and Semantic Violations
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman, Roumyana Pancheva, Kaori Ozawa, Helen J. Neville, Michael T. Ullman
-    </div>
-
-    <div class="citation-details">
-      Journal of Psycholinguistic Research
-        ·  
-      01 Jan 2001
-        ·  
-      doi:10.1023/A:1010499119393
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2000">2000</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/ftwx4s" class="citation-title">
-      Identification of the eye–brain–hand system with point processes: A new approach to simple reaction time.
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      William A. Simpson, W. John Braun, Catherine Bargen, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Journal of Experimental Psychology: Human Perception and Performance
-        ·  
-      01 Jan 2000
-        ·  
-      doi:10.1037/0096-1523.26.6.1675
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="1998">1998</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/d3pcwh" class="citation-title">
-      Motion detection and directional tuning
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      William A Simpson, Aaron Newman
-    </div>
-
-    <div class="citation-details">
-      Vision Research
-        ·  
-      01 Jun 1998
-        ·  
-      doi:10.1016/S0042-6989(97)00294-0
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gsc6hr" class="citation-title">
-      Effects of Age of Acquisition on Cortical Organization for American Sign Language: an fMRI Study.
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      A.J. Newman, D. Corina, A. Tomann, D. Bavelier, P. Jezzard, A. Braun, V. Clark, T. Mitchell, H.J. Neville
-    </div>
-
-    <div class="citation-details">
-      NeuroImage
-        ·  
-      01 May 1998
-        ·  
-      doi:10.1016/s1053-8119(18)31027-9
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="1997">1997</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/dp8q5w" class="citation-title">
-      Equivalent background speed in recovery from motion adaptation
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      William A. Simpson, Aaron Newman, Wendi Aasland
-    </div>
-
-    <div class="citation-details">
-      Journal of the Optical Society of America A
-        ·  
-      01 Jan 1997
-        ·  
-      doi:10.1364/josaa.14.000013
-    </div>
-
-    
-  </div>
-</div>
 
 <hr>
 
@@ -2912,552 +1176,1024 @@ It was the spring of hope, it was the winter of despair.</p>
 
 <div class="portrait-wrapper">
   <a href="/members/LLL.html" class="portrait" data-style="" aria-label="Language and Literacy Lab">
+    
+      <i class="icon fa-solid fa-people-group"></i>
+    
+
     <img src="/images/team/LLL_team.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Language and Literacy Lab
-          </span>
-        
+      <span class="portrait-name">
+        Language and Literacy Lab
+      </span>
+    
 
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-people-group"></i>
-            <span></span>
-          </span>
+    
+      <span class="portrait-description">
         
       </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/MOM-LINC.html" class="portrait" data-style="" aria-label="MOM-LINC Lab">
+    
+      <i class="icon fa-solid fa-people-group"></i>
+    
+
     <img src="/images/team/MOM-LINC.webp" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            MOM-LINC Lab
-          </span>
-        
+      <span class="portrait-name">
+        MOM-LINC Lab
+      </span>
+    
 
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-people-group"></i>
-            <span></span>
-          </span>
+    
+      <span class="portrait-description">
         
       </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/PVSRG.html" class="portrait" data-style="" aria-label="Pediatric Vision Science Research Group">
+    
+      <i class="icon fa-solid fa-people-group"></i>
+    
+
     <img src="/images/team/PVSRG.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Pediatric Vision Science Research Group
-          </span>
-        
+      <span class="portrait-name">
+        Pediatric Vision Science Research Group
+      </span>
+    
 
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-people-group"></i>
-            <span></span>
-          </span>
+    
+      <span class="portrait-description">
         
       </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/aaron-newman.html" class="portrait" data-style="" aria-label="Aaron Newman">
+    
+
     <img src="/images/team/Aaron.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Aaron Newman
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-microscope"></i>
-            <span>Lab Director</span>
-          </span>
-        
+      <span class="portrait-name">
+        Aaron Newman
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Lab Director
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/alena-galilee.html" class="portrait" data-style="" aria-label="Alena Galilee">
+    
+      <i class="icon fa-solid fa-people-group"></i>
+    
+
     <img src="/images/team/Alena-Galilee.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Alena Galilee
-          </span>
-        
+      <span class="portrait-name">
+        Alena Galilee
+      </span>
+    
 
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-people-group"></i>
-            <span></span>
-          </span>
+    
+      <span class="portrait-description">
         
       </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/brooke-power.html" class="portrait" data-style="" aria-label="Brooke Power">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Brooke Power
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Honours Student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/brynn-harris-shanks.html" class="portrait" data-style="" aria-label="Brynn Harris-Shanks">
+    
+
     <img src="/images/team/Brynn_HS.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Brynn Harris-Shanks
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-user-graduate"></i>
-            <span>Honours Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Brynn Harris-Shanks
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Research Assistant
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/chris-holland.html" class="portrait" data-style="" aria-label="Chris Holland">
-    <img src="/images/team/Chris_Holland.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
+    <img src="/images/team/Chris_Holland_Photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Chris Holland
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-graduation-cap"></i>
-            <span>PhD Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Chris Holland
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/cindy-hh.html" class="portrait" data-style="" aria-label="Cindy Hamon-Hill">
+    
+
     <img src="/images/team/Cindy.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Cindy Hamon-Hill
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-microscope"></i>
-            <span>Lab Manager</span>
-          </span>
-        
+      <span class="portrait-name">
+        Cindy Hamon-Hill
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Lab Manager
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/clare-reynolds.html" class="portrait" data-style="" aria-label="Clare Reynolds">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Clare_Reynolds.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Clare Reynolds
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Honours Student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/colin-conrad.html" class="portrait" data-style="" aria-label="Colin Conrad">
+    
+      <i class="icon fa-solid fa-people-group"></i>
+    
+
     <img src="/images/team/Colin.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Colin Conrad
-          </span>
-        
+      <span class="portrait-name">
+        Colin Conrad
+      </span>
+    
 
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-people-group"></i>
-            <span></span>
-          </span>
+    
+      <span class="portrait-description">
         
       </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/cory-munroe.html" class="portrait" data-style="" aria-label="Cory Munroe">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
+    <img src="/images/team/Cory-Munroe.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Cory Munroe
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/daniel-godfrey.html" class="portrait" data-style="" aria-label="Danny Godfrey">
-    <img src="/images/team/DGBioPic.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
+    <img src="/images/team/Daniel_Godfrey.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Danny Godfrey
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-graduation-cap"></i>
-            <span>PhD Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Danny Godfrey
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/devon-bode.html" class="portrait" data-style="" aria-label="Devon Bode">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Devon_Bode.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Devon Bode
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Independent Research
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/eloise-moliner.html" class="portrait" data-style="" aria-label="Eloise Moliner">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Eloise_Moliner.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Eloise Moliner
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Research Intern
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/emily-wei.html" class="portrait" data-style="" aria-label="Emily Wei">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Emily_Wei_Photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Emily Wei
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Independent Research
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/eskes-lab.html" class="portrait" data-style="" aria-label="Eskes Lab">
+    
+      <i class="icon fa-solid fa-people-group"></i>
+    
+
     <img src="/images/team/Eskes-Lab.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Eskes Lab
-          </span>
-        
+      <span class="portrait-name">
+        Eskes Lab
+      </span>
+    
 
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-people-group"></i>
-            <span></span>
-          </span>
+    
+      <span class="portrait-description">
         
       </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/francesco-usai.html" class="portrait" data-style="" aria-label="Francesco Usai">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
     <img src="/images/team/FU_Bio_Pic.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Francesco Usai
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-graduation-cap"></i>
-            <span>PhD Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Francesco Usai
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/hamidreza-maymandi.html" class="portrait" data-style="" aria-label="Hamidreza Maymandi">
+    
+      <i class="icon fa-solid fa-glasses"></i>
+    
+
     <img src="/images/team/Hamidreza_Maymandi_Photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Hamidreza Maymandi
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-glasses"></i>
-            <span>Postdoctoral Researcher</span>
-          </span>
-        
+      <span class="portrait-name">
+        Hamidreza Maymandi
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Postdoctoral Researcher
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/jana-kamel.html" class="portrait" data-style="" aria-label="Jana Kamel">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Jana Kamel
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Research Assistant Trainee
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/jeff-locke.html" class="portrait" data-style="" aria-label="Jeff Locke">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
+    <img src="/images/team/Jeff_Locke_Photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Jeff Locke
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/julia-oehlmann.html" class="portrait" data-style="" aria-label="Julia Oehlmann">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
     <img src="/images/team/Julia_O.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Julia Oehlmann
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-user-graduate"></i>
-            <span>Honours Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Julia Oehlmann
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Honours Student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/juliana-christiani.html" class="portrait" data-style="" aria-label="Juliana Christiani">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
     <img src="/images/team/Juliana_C.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Juliana Christiani
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-user-graduate"></i>
-            <span>Honours Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Juliana Christiani
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Honours Student
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/kya-masoumi.html" class="portrait" data-style="" aria-label="Kya Masoumi">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Kya_Masoumi.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Kya Masoumi
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Independent Research
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/lang-dev-lab.html" class="portrait" data-style="" aria-label="Language Learning and Development Lab">
+    
+      <i class="icon fa-solid fa-people-group"></i>
+    
+
     <img src="/images/team/LangDevLab.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Language Learning and Development Lab
-          </span>
-        
+      <span class="portrait-name">
+        Language Learning and Development Lab
+      </span>
+    
 
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-people-group"></i>
-            <span></span>
-          </span>
+    
+      <span class="portrait-description">
         
       </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/laura-earl.html" class="portrait" data-style="" aria-label="Laura Earl">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Laura_Earl.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Laura Earl
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Independent Research
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/laura-elliott.html" class="portrait" data-style="" aria-label="Laura Elliott">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
     <img src="/images/team/Laura_E.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Laura Elliott
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-graduation-cap"></i>
-            <span>Master's Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Laura Elliott
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Clinical PhD Student
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/liam-pickles.html" class="portrait" data-style="" aria-label="Liam Pickles">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Liam_Pickles.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Liam Pickles
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Honours Student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/lucy-coady.html" class="portrait" data-style="" aria-label="Lucy Coady">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
     <img src="/images/team/Lucy_Coady_Photo.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Lucy Coady
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-user-graduate"></i>
-            <span>Honours Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Lucy Coady
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Honours Student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/lyam-bailey.html" class="portrait" data-style="" aria-label="Lyam Bailey">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
     <img src="/images/team/Lyam_B.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Lyam Bailey
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-graduation-cap"></i>
-            <span>PhD Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Lyam Bailey
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/madison-greek.html" class="portrait" data-style="" aria-label="Madison Greek">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
     <img src="/images/team/Madison_G.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Madison Greek
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-user-graduate"></i>
-            <span>Independent Research</span>
-          </span>
-        
+      <span class="portrait-name">
+        Madison Greek
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Independent Research
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/marilla-hulls.html" class="portrait" data-style="" aria-label="Marilla Hulls">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Marilla_Hulls.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Marilla Hulls
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Honours Student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/max-mascini.html" class="portrait" data-style="" aria-label="Max Mascini">
+    
+
     <img src="/images/team/Max_Mascini_Photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Max Mascini
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-user-graduate"></i>
-            <span>Independent Research</span>
-          </span>
-        
+      <span class="portrait-name">
+        Max Mascini
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Research Assistant
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/mayank-ramchandani.html" class="portrait" data-style="" aria-label="Mayank Ramchandani">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Mayank_Ramchandani.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Mayank Ramchandani
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Independent Research
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/mobina-ali.html" class="portrait" data-style="" aria-label="Mobina Ali">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Mobina_Ali_Photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Mobina Ali
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Independent Research
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/nana-boakye.html" class="portrait" data-style="" aria-label="Nana Boakye">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Nana_Boakye.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Nana Boakye
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Research Assistant Trainee
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/paige-lavoie.html" class="portrait" data-style="" aria-label="Paige Lavoie">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Paige_Lavoie.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Paige Lavoie
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Honours Student
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/rafael-fecury-braga.html" class="portrait" data-style="" aria-label="Rafael Fecury Braga">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Rafael Fecury Braga
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Independent Research
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/rafiah-mir.html" class="portrait" data-style="" aria-label="Rafiah Mir">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Rafiah_Mir_Photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Rafiah Mir
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Independent Research
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/ry-lewis.html" class="portrait" data-style="" aria-label="Ry Lewis">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
+    <img src="/images/team/Ry_Lewis.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Ry Lewis
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/saisha-rankaduwa.html" class="portrait" data-style="" aria-label="Saisha Rankaduwa">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
     <img src="/images/team/Saisha_Rankaduwa_Photo.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Saisha Rankaduwa
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-graduation-cap"></i>
-            <span>Master's Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Saisha Rankaduwa
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/sarah-haggett.html" class="portrait" data-style="" aria-label="Sarah Haggett">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
+    <img src="/images/team/Sarah_Haggett.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Sarah Haggett
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Clinical PhD Student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/simon-leger.html" class="portrait" data-style="" aria-label="Simon Leger">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
     <img src="/images/team/Simon_L.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Simon Leger
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-user-graduate"></i>
-            <span>Honours Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Simon Leger
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Honours Student
+      </span>
+    
+
     
   </a>
 </div>
@@ -3468,19 +2204,32 @@ It was the spring of hope, it was the winter of despair.</p>
 
 <h3 id="2023">2023</h3>
 
-<div class="post-excerpt">
-  
-  
-  <a href="/2023/02/23/example-post-3.html">Example post 3</a>
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
 
-  <div class="post-info">
+    
+      <a href="/2023/02/23/example-post-3.html" class="post-excerpt-image" aria-label="Example post 3">
+        <img src="/images/photo.jpg" alt="Example post 3" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="post-excerpt-text">
+      <a href="/2023/02/23/example-post-3.html">Example post 3</a>
+
+      <div class="post-info">
   
     
     
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>john-doe</span>
-      </span>
+      
+      
+        <span data-tooltip="Author">
+          <i class="icon fa-solid fa-feather-pointed"></i>
+          <span>john-doe</span>
+        </span>
+      
     
   
 
@@ -3497,7 +2246,7 @@ It was the spring of hope, it was the winter of despair.</p>
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>May 17, 2024</span>
+      <span>October 03, 2025</span>
     </span>
   
 </div>
@@ -3506,7 +2255,7 @@ It was the spring of hope, it was the winter of despair.</p>
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags">
     
       <a href="/blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
         biology
@@ -3522,29 +2271,40 @@ It was the spring of hope, it was the winter of despair.</p>
 
 
 
-  
-  
-  <p data-search="Lorem ipsum dolor sit amet  consectetur adipiscing elit  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      
+      
+      <p data-search="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-  </p>
+      </p>
+    </div>
+  </div>
 </div>
 
 <h3 id="2021">2021</h3>
 
-<div class="post-excerpt">
-  
-  
-  <a href="/2021/09/30/example-post-2.html">Example post 2</a>
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
 
-  <div class="post-info">
+    
+
+    <div class="post-excerpt-text">
+      <a href="/2021/09/30/example-post-2.html">Example post 2</a>
+
+      <div class="post-info">
   
     
     
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>jane-smith</span>
-      </span>
+      
+      
+        <span data-tooltip="Author">
+          <i class="icon fa-solid fa-feather-pointed"></i>
+          <span>jane-smith</span>
+        </span>
+      
     
   
 
@@ -3561,7 +2321,7 @@ It was the spring of hope, it was the winter of despair.</p>
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>May 17, 2024</span>
+      <span>October 03, 2025</span>
     </span>
   
 </div>
@@ -3574,29 +2334,40 @@ It was the spring of hope, it was the winter of despair.</p>
 
 
 
-  
-  
-  <p data-search="Lorem ipsum dolor sit amet  consectetur adipiscing elit  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      
+      
+      <p data-search="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-  </p>
+      </p>
+    </div>
+  </div>
 </div>
 
 <h3 id="2019">2019</h3>
 
-<div class="post-excerpt">
-  
-  
-  <a href="/2019/01/07/example-post-1.html">Example post 1</a>
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
 
-  <div class="post-info">
+    
+
+    <div class="post-excerpt-text">
+      <a href="/2019/01/07/example-post-1.html">Example post 1</a>
+
+      <div class="post-info">
   
     
     
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>sarah-johnson</span>
-      </span>
+      
+      
+        <span data-tooltip="Author">
+          <i class="icon fa-solid fa-feather-pointed"></i>
+          <span>sarah-johnson</span>
+        </span>
+      
     
   
 
@@ -3613,7 +2384,7 @@ It was the spring of hope, it was the winter of despair.</p>
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>May 17, 2024</span>
+      <span>October 03, 2025</span>
     </span>
   
 </div>
@@ -3622,7 +2393,7 @@ It was the spring of hope, it was the winter of despair.</p>
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags">
     
       <a href="/blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
         biology
@@ -3632,8 +2403,8 @@ It was the spring of hope, it was the winter of despair.</p>
         medicine
       </a>
     
-      <a href="/blog?search=%22tag:%20big%20data%22" class="tag" data-tooltip='Show items with the tag "big data"'>
-        big data
+      <a href="/blog?search=%22tag:%20big-data%22" class="tag" data-tooltip='Show items with the tag "big-data"'>
+        big-data
       </a>
     
   </div>
@@ -3642,12 +2413,14 @@ It was the spring of hope, it was the winter of despair.</p>
 
 
 
-  
-  
-  <p data-search="Lorem ipsum dolor sit amet  consectetur adipiscing elit  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      
+      
+      <p data-search="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-  </p>
+      </p>
+    </div>
+  </div>
 </div>
   </section>
 
@@ -3657,101 +2430,110 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="citation">Citation</h2>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a class="citation-title">
-      [no title info]
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      [no author info]
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      [no publisher info]
-        ·  
-      [no date info]
-        ·  
-      [no id info]
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a class="citation-image" aria-label="citation link">
-      <img src="" alt="citation image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a class="citation-title">
-      [no title info]
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      [no author info]
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      [no publisher info]
-        ·  
-      [no date info]
-        ·  
-      [no id info]
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a class="citation-title">
-      Manual title
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Manual authors " tabindex="0">
-      Manual authors
+      <a class="citation-title">
+        Manual title
+      </a>
+
+      <div class="citation-authors" data-tooltip="Manual authors" tabindex="0">
+        Manual authors
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      [no publisher info]
-        ·  
-      [no date info]
-        ·  
-      [no id info]
-    </div>
-
-    
   </div>
 </div>
   </section>
@@ -3762,9 +2544,9 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="card">Card</h2>
@@ -3786,15 +2568,21 @@ It was the spring of hope, it was the winter of despair.</p>
     
 
     
-      <p>A cool description</p>
+      <p>
+        A cool description
 
+      </p>
     
 
     
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/">
+  <div class="tags" data-repo="greenelab/lab-website-template">
+    
+      <a href="/?search=%22tag:%20manual-tag%22" class="tag" data-tooltip='Show items with the tag "manual-tag"'>
+        manual-tag
+      </a>
     
   </div>
 
@@ -3820,15 +2608,21 @@ It was the spring of hope, it was the winter of despair.</p>
     
 
     
-      <p><em>Lorem</em> <strong>ipsum</strong></p>
+      <p>
+        <em>Lorem</em> <strong>ipsum</strong>
 
+      </p>
     
 
     
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/">
+  <div class="tags" data-repo="greenelab/lab-website-template">
+    
+      <a href="/?search=%22tag:%20manual-tag%22" class="tag" data-tooltip='Show items with the tag "manual-tag"'>
+        manual-tag
+      </a>
     
   </div>
 
@@ -3844,16 +2638,22 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="portrait">Portrait</h2>
 
 <div class="portrait-wrapper">
   <a class="portrait" data-style="" aria-label="member link">
+    
+
     <img src="" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+
+    
 
     
   </a>
@@ -3861,7 +2661,13 @@ It was the spring of hope, it was the winter of despair.</p>
 
 <div class="portrait-wrapper">
   <a class="portrait" data-style="small" aria-label="member link">
+    
+
     <img src="" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+
+    
 
     
   </a>
@@ -3869,25 +2675,31 @@ It was the spring of hope, it was the winter of despair.</p>
 
 <div class="portrait-wrapper">
   <a class="portrait" data-style="small" aria-label="Manual name">
+    
+
     <img src="" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Manual name
-          </span>
-        
-
-        
+      <span class="portrait-name">
+        Manual name
       </span>
+    
+
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a class="portrait" data-style="small" aria-label="member link">
+    
+
     <img src="" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+
+    
 
     
   </a>
@@ -3900,26 +2712,35 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="post-excerpt">Post Excerpt</h2>
 
-<div class="post-excerpt">
-  
-  
-  <a href="/2019/01/07/example-post-1.html">Example post 1</a>
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
 
-  <div class="post-info">
+    
+
+    <div class="post-excerpt-text">
+      <a href="/2019/01/07/example-post-1.html">Example post 1</a>
+
+      <div class="post-info">
   
     
     
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>sarah-johnson</span>
-      </span>
+      
+      
+        <span data-tooltip="Author">
+          <i class="icon fa-solid fa-feather-pointed"></i>
+          <span>sarah-johnson</span>
+        </span>
+      
     
   
 
@@ -3936,7 +2757,7 @@ It was the spring of hope, it was the winter of despair.</p>
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>May 17, 2024</span>
+      <span>October 03, 2025</span>
     </span>
   
 </div>
@@ -3945,7 +2766,7 @@ It was the spring of hope, it was the winter of despair.</p>
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags">
     
       <a href="/blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
         biology
@@ -3955,8 +2776,8 @@ It was the spring of hope, it was the winter of despair.</p>
         medicine
       </a>
     
-      <a href="/blog?search=%22tag:%20big%20data%22" class="tag" data-tooltip='Show items with the tag "big data"'>
-        big data
+      <a href="/blog?search=%22tag:%20big-data%22" class="tag" data-tooltip='Show items with the tag "big-data"'>
+        big-data
       </a>
     
   </div>
@@ -3965,27 +2786,38 @@ It was the spring of hope, it was the winter of despair.</p>
 
 
 
-  
-  
-  <p data-search="Lorem ipsum dolor sit amet  consectetur adipiscing elit  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      
+      
+      <p data-search="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-  </p>
+      </p>
+    </div>
+  </div>
 </div>
 
-<div class="post-excerpt">
-  
-  
-  <a href="">Manual title</a>
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
 
-  <div class="post-info">
+    
+
+    <div class="post-excerpt-text">
+      <a href="">Manual title</a>
+
+      <div class="post-info">
   
     
     
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Manual author</span>
-      </span>
+      
+      
+        <span data-tooltip="Author">
+          <i class="icon fa-solid fa-feather-pointed"></i>
+          <span>manual author</span>
+        </span>
+      
     
   
 
@@ -4005,11 +2837,13 @@ It was the spring of hope, it was the winter of despair.</p>
 
 
 
-  
-  
-  <p data-search="">
-    
-  </p>
+      
+      
+      <p data-search="">
+        
+      </p>
+    </div>
+  </div>
 </div>
   </section>
 
@@ -4019,9 +2853,9 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="alert">Alert</h2>
@@ -4093,14 +2927,26 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="tags">Tags</h2>
 
-<div class="tags" data-repo="greenelab/lab-website-template" data-link="/blog">
+<div class="tags" data-repo="greenelab/lab-website-template">
+    
+      <a href="/blog?search=%22tag:%20ovarian-cancer%22" class="tag" data-tooltip='Show items with the tag "ovarian-cancer"'>
+        ovarian-cancer
+      </a>
+    
+      <a href="/blog?search=%22tag:%20dataset%22" class="tag" data-tooltip='Show items with the tag "dataset"'>
+        dataset
+      </a>
+    
+      <a href="/blog?search=%22tag:%20gene-expression%22" class="tag" data-tooltip='Show items with the tag "gene-expression"'>
+        gene-expression
+      </a>
     
   </div>
   </section>
@@ -4111,9 +2957,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="float">Float</h2>
@@ -4165,9 +3011,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="grid">Grid</h2>
@@ -4220,7 +3066,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp" style="
+    <img src="https://iiif.elifesciences.org/lax:32822/elife-32822-fig8-v3.tif/full/863,/0/default.webp" style="
         width: auto;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -4265,1780 +3111,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <div class="grid" data-style="">
   
-<h3 id="2024">2024</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gttf4k" class="citation-title">
-      Ortho-semantic learning of novel words: an event-related potential study of grade 3 children
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Alena Galilee, Lisa J. Beck, Clara J. Lownie, Jennika Veinot, Catherine Mimeau, Tammy Dempster, Laura M. Elliott, S. Hélène Deacon, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Frontiers in Developmental Psychology
-        ·  
-      28 Feb 2024
-        ·  
-      doi:10.3389/fdpys.2024.1340383
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2023">2023</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gs5d85" class="citation-title">
-      A New Measure of Mnemonic Discrimination Applicable to Recognition Memory Tests with Continuous Variation in Novel Stimulus Interference
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Simon Leger, Christian Guinard, Selena Singh, Suzanna Becker, Jasmyn E A Cunningham, Martin Alda, Aaron J Newman, Thomas Trappenberg, Abraham Nunes
-    </div>
-
-    <div class="citation-details">
-      Center for Open Science
-        ·  
-      14 Nov 2023
-        ·  
-      doi:10.31234/osf.io/ezdbr
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gr96ch" class="citation-title">
-      Age-related changes to electroencephalographic markers of visuomotor error processing and learning in prism adaptation
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Zoë Lazar-Kurz, Jasmine Aziz, Katelyn J. McKearney, Cindy Hamon-Hill, Arthur MacDonald, Aaron Newman, Gail Eskes
-    </div>
-
-    <div class="citation-details">
-      Neuropsychologia
-        ·  
-      01 Jun 2023
-        ·  
-      doi:10.1016/j.neuropsychologia.2023.108546
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gscgtt" class="citation-title">
-      Are You Human? Investigating the Perceptions and Evaluations of Virtual Versus Human Instagram Influencers
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Anika Nissen, Colin Conrad, Aaron Newman
-    </div>
-
-    <div class="citation-details">
-      Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
-        ·  
-      19 Apr 2023
-        ·  
-      doi:10.1145/3544548.3580943
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gr96cf" class="citation-title">
-      Aberrant corticospinal tract characteristics in prodromal PD: A diffusion tensor imaging study
-    </a>
-
-    <div class="citation-authors" data-tooltip="Laura J. Pimer, Ronald A. Leslie, Gosia Phillips, Aaron J. Newman, Benjamin Rusak, Tyler M. Rolheiser, Kerrie Schoffer, M. Naeem Khan, J. Roger McKelvey, Harold A. Robertson, Kimberley P. Good " tabindex="0">
-      Laura J. Pimer, Ronald A. Leslie, Gosia Phillips, Aaron J. Newman, Benjamin Rusak, ..., Kerrie Schoffer, M. Naeem Khan, J. Roger McKelvey, Harold A. Robertson, Kimberley P. Good
-    </div>
-
-    <div class="citation-details">
-      Clinical Parkinsonism &amp; Related Disorders
-        ·  
-      01 Jan 2023
-        ·  
-      doi:10.1016/j.prdoa.2022.100182
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gr96cg" class="citation-title">
-      A two for one special: EEG hyperscanning using a single-person EEG recording setup
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Caitriona L. Douglas, Antoine Tremblay, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      MethodsX
-        ·  
-      01 Jan 2023
-        ·  
-      doi:10.1016/j.mex.2023.102019
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2022">2022</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/grpfwj" class="citation-title">
-      Changing Brains
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Giordana Grossi, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Routledge
-        ·  
-      02 Dec 2022
-        ·  
-      doi:10.4324/9780429342356
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqvnqg" class="citation-title">
-      Do emotions influence safe browsing? Toward an electroencephalography marker of affective responses to cybersecurity notifications
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Colin D. Conrad, Jasmine R. Aziz, Jonathon M. Henneberry, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Frontiers in Neuroscience
-        ·  
-      14 Jul 2022
-        ·  
-      doi:10.3389/fnins.2022.922960
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gsc3qv" class="citation-title">
-      The influence of skin-to-skin contact on Cortical Activity during Painful procedures in preterm infants in the neonatal intensive care unit (iCAP mini): study protocol for a randomized control trial
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Marsha Campbell-Yeo, Britney Benoit, Aaron Newman, Celeste Johnston, Tim Bardouille, Bonnie Stevens, Arlene Jiang
-    </div>
-
-    <div class="citation-details">
-      Trials
-        ·  
-      20 Jun 2022
-        ·  
-      doi:10.1186/s13063-022-06424-4
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gpsvtk" class="citation-title">
-      Native Word Order Processing Is Not Uniform: An ERP Study of Verb-Second Word Order
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Susan Sayehli, Marianne Gullberg, Aaron J. Newman, Annika Andersson
-    </div>
-
-    <div class="citation-details">
-      Frontiers in Psychology
-        ·  
-      30 Mar 2022
-        ·  
-      doi:10.3389/fpsyg.2022.668276
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gsc3qw" class="citation-title">
-      Towards Mind Wandering Adaptive Online Learning and Virtual Work Experiences
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Colin Conrad, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Information Systems and Neuroscience
-        ·  
-      01 Jan 2022
-        ·  
-      doi:10.1007/978-3-031-13064-9_27
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2021">2021</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gscgtv" class="citation-title">
-      A two for one special: EEG hyperscanning using a single-person EEG recording setup
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Caitriona Douglas, Antoine Tremblay, Aaron J Newman
-    </div>
-
-    <div class="citation-details">
-      Center for Open Science
-        ·  
-      22 Sep 2021
-        ·  
-      doi:10.31234/osf.io/ndxc6
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gps2d9" class="citation-title">
-      Measuring Mind Wandering During Online Lectures Assessed With EEG
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Colin Conrad, Aaron Newman
-    </div>
-
-    <div class="citation-details">
-      Frontiers in Human Neuroscience
-        ·  
-      09 Aug 2021
-        ·  
-      doi:10.3389/fnhum.2021.697532
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhc" class="citation-title">
-      Neural correlates of the production effect: An fMRI study
-    </a>
-
-    <div class="citation-authors" data-tooltip="Lyam M. Bailey, Glen E. Bodner, Heath E. Matheson, Brandie M. Stewart, Kyle Roddick, Kiera O'Neil, Maria Simmons, Angela M. Lambert, Olave E. Krigolson, Aaron J. Newman, Jonathan M. Fawcett " tabindex="0">
-      Lyam M. Bailey, Glen E. Bodner, Heath E. Matheson, Brandie M. Stewart, Kyle Roddick, ..., Maria Simmons, Angela M. Lambert, Olave E. Krigolson, Aaron J. Newman, Jonathan M. Fawcett
-    </div>
-
-    <div class="citation-details">
-      Brain and Cognition
-        ·  
-      01 Aug 2021
-        ·  
-      doi:10.1016/j.bandc.2021.105757
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhd" class="citation-title">
-      Challenges and complexities in the electroencephalographic measurement of neonatal pain
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Britney Benoit, Aaron Newman, Marsha Campbell-Yeo
-    </div>
-
-    <div class="citation-details">
-      Early Human Development
-        ·  
-      01 Jun 2021
-        ·  
-      doi:10.1016/j.earlhumdev.2021.105363
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gr93wd" class="citation-title">
-      The influence of breastfeeding on cortical and bio-behavioural indicators of procedural pain in newborns: Findings of a randomized controlled trial
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Britney Benoit, Aaron Newman, Ruth Martin-Misener, Margot Latimer, Marsha Campbell-Yeo
-    </div>
-
-    <div class="citation-details">
-      Early Human Development
-        ·  
-      01 Mar 2021
-        ·  
-      doi:10.1016/j.earlhumdev.2021.105308
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2020">2020</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gmjq5s" class="citation-title">
-      Enhancement of visual biological motion recognition in early-deaf adults: Functional and behavioral correlates
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Marie Simon, Latifa Lazzouni, Emma Campbell, Audrey Delcenserie, Alexandria Muise-Hennessey, Aaron J. Newman, François Champoux, Franco Lepore
-    </div>
-
-    <div class="citation-details">
-      PLOS ONE
-        ·  
-      10 Aug 2020
-        ·  
-      doi:10.1371/journal.pone.0236800
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gsc3qx" class="citation-title">
-      Corrigendum to The impacts of actual and perceived nicotine administration on insula functional connectivity with the anterior cingulate cortex and nucleus accumbens
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Robin N Perry, Hera E Schlagintweit, Christine Darredeau, Carl Helmick, Aaron J Newman, Kimberley P Good, Sean P Barrett
-    </div>
-
-    <div class="citation-details">
-      Journal of Psychopharmacology
-        ·  
-      04 Feb 2020
-        ·  
-      doi:10.1177/0269881120902733
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhg" class="citation-title">
-      What Do Users Feel? Towards Affective EEG Correlates of Cybersecurity Notifications
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Colin Conrad, Jasmine Aziz, Natalie Smith, Aaron Newman
-    </div>
-
-    <div class="citation-details">
-      Information Systems and Neuroscience
-        ·  
-      01 Jan 2020
-        ·  
-      doi:10.1007/978-3-030-60073-0_17
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhf" class="citation-title">
-      A Tri-Hybrid Brain-Computer Interface for Neuro-Information Systems
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Daniel Godfrey, Chantel Findlay, Dinesh Mulchandani, Ravishankar Subramanilyer, Colin Conrad, Aaron Newman
-    </div>
-
-    <div class="citation-details">
-      Information Systems and Neuroscience
-        ·  
-      01 Jan 2020
-        ·  
-      doi:10.1007/978-3-030-60073-0_34
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2019">2019</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/ghv8hx" class="citation-title">
-      On Using Python to Run, Analyze, and Decode EEG Experiments
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Colin Conrad, Om Agarwal, Carlos Calix Woc, Tazmin Chiles, Daniel Godfrey, Kavita Krueger, Valentina Marini, Alexander Sproul, Aaron Newman
-    </div>
-
-    <div class="citation-details">
-      Information Systems and Neuroscience
-        ·  
-      24 Oct 2019
-        ·  
-      doi:10.1007/978-3-030-28144-1_32
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhh" class="citation-title">
-      The impacts of actual and perceived nicotine administration on insula functional connectivity with the anterior cingulate cortex and nucleus accumbens
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Robin N Perry, Hera E Schlagintweit, Christine Darredeau, Carl Helmick, Aaron J Newman, Kimberley P Good, Sean P Barrett
-    </div>
-
-    <div class="citation-details">
-      Journal of Psychopharmacology
-        ·  
-      23 Sep 2019
-        ·  
-      doi:10.1177/0269881119872205
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gm9mpx" class="citation-title">
-      A sinister subject: Quantifying handedness‐based recruitment biases in current neuroimaging research
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Lyam M. Bailey, Laura E. McMillan, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      European Journal of Neuroscience
-        ·  
-      28 Aug 2019
-        ·  
-      doi:10.1111/ejn.14542
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://uk.sagepub.com/en-gb/eur/research-methods-for-cognitive-neuroscience/book242924" class="citation-title">
-      Research Methods for Cognitive Neuroscience
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Sage Publications
-        ·  
-      01 Mar 2019
-        ·  
-      isbn:1446296504
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2018">2018</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gr93wb" class="citation-title">
-      Measuring the Impact of Mind Wandering in Real Time Using an Auditory Evoked Potential
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Colin Conrad, Aaron Newman
-    </div>
-
-    <div class="citation-details">
-      Information Systems and Neuroscience
-        ·  
-      04 Nov 2018
-        ·  
-      doi:10.1007/978-3-030-01087-4_5
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gr93v9" class="citation-title">
-      How Attention Networks Can Inform Research in Information Systems
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Colin Conrad, Aaron Newman
-    </div>
-
-    <div class="citation-details">
-      Information Systems and Neuroscience
-        ·  
-      04 Nov 2018
-        ·  
-      doi:10.1007/978-3-030-01087-4_19
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhj" class="citation-title">
-      Microstructural Findings in White Matter Associated with Cannabis and Alcohol Use in Early-Phase Psychosis: A Diffusion Tensor Imaging and Relaxometry Study
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Jacob Cookey, Candice E. Crocker, Denise Bernier, Aaron J. Newman, Sherry Stewart, David McAllindon, Philip G. Tibbo
-    </div>
-
-    <div class="citation-details">
-      Brain Connectivity
-        ·  
-      01 Nov 2018
-        ·  
-      doi:10.1089/brain.2018.0611
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhw" class="citation-title">
-      Attentional dysfunction and recovery in concussion: effects on the P300m and contingent magnetic variation
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Lauren Petley, Tim Bardouille, Darrell Chiasson, Patrick Froese, Steve Patterson, Aaron Newman, Antonina Omisade, Steven Beyea
-    </div>
-
-    <div class="citation-details">
-      Brain Injury
-        ·  
-      22 Jan 2018
-        ·  
-      doi:10.1080/02699052.2018.1429022
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gdc3hf" class="citation-title">
-      Design and Empirical Validation of Effectiveness of LANGA, an Online Game-Based Platform for Second Language Learning
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Francesco Usai, Kiera G.R. O'Neil, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      IEEE Transactions on Learning Technologies
-        ·  
-      01 Jan 2018
-        ·  
-      doi:10.1109/TLT.2017.2762688
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2017">2017</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f9547g" class="citation-title">
-      Neurophysiological assessment of acute pain in infants: a scoping review of research methods
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      B Benoit, R Martin‐Misener, A Newman, M Latimer, M Campbell‐Yeo
-    </div>
-
-    <div class="citation-details">
-      Acta Paediatrica
-        ·  
-      09 May 2017
-        ·  
-      doi:10.1111/apa.13839
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhx" class="citation-title">
-      Do emotion-induced blindness and the attentional blink share underlying mechanisms? An event-related potential study of emotionally-arousing words
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Jeffrey MacLeod, Brandie M. Stewart, Aaron J. Newman, Karen M. Arnell
-    </div>
-
-    <div class="citation-details">
-      Cognitive, Affective, &amp; Behavioral Neuroscience
-        ·  
-      06 Mar 2017
-        ·  
-      doi:10.3758/s13415-017-0499-7
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2016">2016</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gqwmhz" class="citation-title">
-      Using CForest to Analyze Diffusion Tensor Imaging Data: A Study of White Matter Integrity in Healthy Aging
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Sean R. McWhinney, Antoine Tremblay, Thérèse M. Chevalier, Vanessa K. Lim, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Brain Connectivity
-        ·  
-      01 Dec 2016
-        ·  
-      doi:10.1089/brain.2016.0451
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f9g57x" class="citation-title">
-      Preliminary Investigation of the Passively Evoked N400 as a Tool for Estimating Speech-in-Noise Thresholds
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Caroline Jamison, Steve J. Aiken, Michael Kiefte, Aaron J. Newman, Manohar Bance, Lauren Sculthorpe-Petley
-    </div>
-
-    <div class="citation-details">
-      American Journal of Audiology
-        ·  
-      01 Dec 2016
-        ·  
-      doi:10.1044/2016_AJA-15-0080
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gr93v8" class="citation-title">
-      What the Networks Tell us about Serial and Parallel Processing
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Antoine Tremblay, Elissa Asp, Anne Johnson, Malgorzata Zarzycka Migdal, Tim Bardouille, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      The Mental Lexicon
-        ·  
-      07 Jun 2016
-        ·  
-      doi:10.1075/ml.11.1.06tre
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2015">2015</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f76nrr" class="citation-title">
-      Asymmetric Weighting to Optimize Regional Sensitivity in Combined fMRI-MEG Maps
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Sean R. McWhinney, Timothy Bardouille, Ryan C. N. D’Arcy, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Brain Topography
-        ·  
-      22 Oct 2015
-        ·  
-      doi:10.1007/s10548-015-0457-z
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f7sm9m" class="citation-title">
-      Neural systems supporting linguistic structure, linguistic experience, and symbolic communication in sign language and gesture
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman, Ted Supalla, Nina Fernandez, Elissa L. Newport, Daphne Bavelier
-    </div>
-
-    <div class="citation-details">
-      Proceedings of the National Academy of Sciences
-        ·  
-      17 Aug 2015
-        ·  
-      doi:10.1073/pnas.1510527112
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2014">2014</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f6vf4z" class="citation-title">
-      Modeling nonlinear relationships in <scp>ERP</scp> data using mixed‐effects regression with <scp>R</scp> examples
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Antoine Tremblay, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Psychophysiology
-        ·  
-      17 Aug 2014
-        ·  
-      doi:10.1111/psyp.12299
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f5x2sp" class="citation-title">
-      Handles of manipulable objects attract covert visual attention: ERP evidence
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Heath Matheson, Aaron J. Newman, Jason Satel, Patricia McMullen
-    </div>
-
-    <div class="citation-details">
-      Brain and Cognition
-        ·  
-      01 Apr 2014
-        ·  
-      doi:10.1016/j.bandc.2014.01.013
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f5mnmn" class="citation-title">
-      Electrophysiological markers of biological motion and human form recognition
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Nicole C. White, Jonathan M. Fawcett, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      NeuroImage
-        ·  
-      01 Jan 2014
-        ·  
-      doi:10.1016/j.neuroimage.2013.09.026
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2013">2013</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gscgtw" class="citation-title">
-      Research Methods in Second Language Psycholinguistics
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Jill Jegerski, Bill VanPatten
-    </div>
-
-    <div class="citation-details">
-      Routledge
-        ·  
-      17 Dec 2013
-        ·  
-      doi:10.4324/9780203123430
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gbd2gw" class="citation-title">
-      Multimodal neuroimaging of frontal white matter microstructure in early phase schizophrenia: the impact of early adolescent cannabis use
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Denise Bernier, Jacob Cookey, David McAllindon, Robert Bartha, Christopher C Hanstock, Aaron J Newman, Sherry H Stewart, Philip G Tibbo
-    </div>
-
-    <div class="citation-details">
-      BMC Psychiatry
-        ·  
-      17 Oct 2013
-        ·  
-      doi:10.1186/1471-244X-13-264
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f4tg5b" class="citation-title">
-      Sensitivity to White Matter fMRI Activation Increases with Field Strength
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Erin L. Mazerolle, Jodie R. Gawryluk, Kim N. H. Dillen, Steven A. Patterson, Kirk W. Feindel, Steven D. Beyea, M. Tynan R Stevens, Aaron J. Newman, Matthias H. Schmidt, Ryan C.N. D’Arcy
-    </div>
-
-    <div class="citation-details">
-      PLoS ONE
-        ·  
-      04 Mar 2013
-        ·  
-      doi:10.1371/journal.pone.0058130
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/ggkh5h" class="citation-title">
-      Refractory effects of the N1 event-related potential in experienced cochlear implant patients
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Christopher D. Cowper-Smith, Janet Green, Heather Maessen, Manohar Bance, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      International Journal of Audiology
-        ·  
-      03 Jan 2013
-        ·  
-      doi:10.3109/14992027.2012.743044
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f4mn3q" class="citation-title">
-      Can skilled readers perform a second task in parallel? A functional connectivity MRI study
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman, Sophie Kenny, Jean Saint-Aubin, Raymond M. Klein
-    </div>
-
-    <div class="citation-details">
-      Brain and Language
-        ·  
-      01 Jan 2013
-        ·  
-      doi:10.1016/j.bandl.2012.11.009
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2012">2012</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f4dcsk" class="citation-title">
-      Changes in N400 topography following intensive speech language therapy for individuals with aphasia
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      K. Ryan Wilson, Heather O’Rourke, Linda A. Wozniak, Ellina Kostopoulos, Yannick Marchand, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Brain and Language
-        ·  
-      01 Nov 2012
-        ·  
-      doi:10.1016/j.bandl.2012.06.005
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/f4xhzs" class="citation-title">
-      Communicative and noncommunicative point-light actions featuring high-resolution representation of the hands and fingers
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Hazlin Zaini, Jonathan M. Fawcett, Nicole C. White, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Behavior Research Methods
-        ·  
-      17 Oct 2012
-        ·  
-      doi:10.3758/s13428-012-0273-2
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/drggk2" class="citation-title">
-      The Influence of Language Proficiency on Lexical Semantic Processing in Native and Late Learners of English
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman, Antoine Tremblay, Emily S. Nichols, Helen J. Neville, Michael T. Ullman
-    </div>
-
-    <div class="citation-details">
-      Journal of Cognitive Neuroscience
-        ·  
-      01 May 2012
-        ·  
-      doi:10.1162/jocn_a_00143
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gf269z" class="citation-title">
-      Spatial MEG Laterality maps for language: Clinical applications in epilepsy
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Ryan C.N. D'Arcy, Timothy Bardouille, Aaron J. Newman, Sean R. McWhinney, Drew DeBay, R. Mark Sadler, David B. Clarke, Michael J. Esser
-    </div>
-
-    <div class="citation-details">
-      Human Brain Mapping
-        ·  
-      15 Mar 2012
-        ·  
-      doi:10.1002/hbm.22024
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2011">2011</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/dw5bkk" class="citation-title">
-      Sensitivity of the Human Binaural Cortical Steady State Response to Interaural Level Differences
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Sarah Massoud, Steve J. Aiken, Aaron J. Newman, Dennis P. Phillips, Manohar Bance
-    </div>
-
-    <div class="citation-details">
-      Ear &amp; Hearing
-        ·  
-      01 Feb 2011
-        ·  
-      doi:10.1097/AUD.0b013e3181ec5d7a
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/fj967r" class="citation-title">
-      Interplay between morphology and frequency in lexical access: The case of the base frequency effect
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Jennifer Vannest, Elissa L. Newport, Aaron J. Newman, Daphne Bavelier
-    </div>
-
-    <div class="citation-details">
-      Brain Research
-        ·  
-      01 Feb 2011
-        ·  
-      doi:10.1016/j.brainres.2010.12.022
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2010">2010</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/fck4fs" class="citation-title">
-      Prosodic and narrative processing in American Sign Language: An fMRI study
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman, Ted Supalla, Peter C. Hauser, Elissa L. Newport, Daphne Bavelier
-    </div>
-
-    <div class="citation-details">
-      NeuroImage
-        ·  
-      15 Aug 2010
-        ·  
-      doi:10.1016/j.neuroimage.2010.03.055
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/fnm7dp" class="citation-title">
-      Dissociating neural subsystems for grammar by contrasting word order and inflection
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman, Ted Supalla, Peter Hauser, Elissa L. Newport, Daphne Bavelier
-    </div>
-
-    <div class="citation-details">
-      Proceedings of the National Academy of Sciences
-        ·  
-      05 Apr 2010
-        ·  
-      doi:10.1073/pnas.1003174107
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2009">2009</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/fnhjf7" class="citation-title">
-      Brain systems mediating semantic and syntactic processing in deaf native signers: Biological invariance and modality specificity
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Cheryl M. Capek, Giordana Grossi, Aaron J. Newman, Susan L. McBurney, David Corina, Brigitte Roeder, Helen J. Neville
-    </div>
-
-    <div class="citation-details">
-      Proceedings of the National Academy of Sciences
-        ·  
-      26 May 2009
-        ·  
-      doi:10.1073/pnas.0809609106
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2008">2008</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/b6m4xp" class="citation-title">
-      Encoding, Rehearsal, and Recall in Signers and Speakers: Shared Network but Differential Engagement
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      D. Bavelier, A. J. Newman, M. Mukherjee, P. Hauser, S. Kemeny, A. Braun, M. Boutla
-    </div>
-
-    <div class="citation-details">
-      Cerebral Cortex
-        ·  
-      31 Jan 2008
-        ·  
-      doi:10.1093/cercor/bhm248
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gscgtx" class="citation-title">
-      Race and the Structural Encoding of Faces
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Heath E. Matheson, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      PsycEXTRA Dataset
-        ·  
-      01 Jan 2008
-        ·  
-      doi:10.1037/e527312012-462
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2007">2007</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/cnd2n9" class="citation-title">
-      An ERP study of regular and irregular English past tense inflection
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman, Michael T. Ullman, Roumyana Pancheva, Diane L. Waligura, Helen J. Neville
-    </div>
-
-    <div class="citation-details">
-      NeuroImage
-        ·  
-      01 Jan 2007
-        ·  
-      doi:10.1016/j.neuroimage.2006.09.007
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2004">2004</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/b42dzj" class="citation-title">
-      The cortical organization of audio-visual sentence comprehension: an fMRI study at 4 Tesla
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Cheryl M. Capek, Daphne Bavelier, David Corina, Aaron J. Newman, Peter Jezzard, Helen J. Neville
-    </div>
-
-    <div class="citation-details">
-      Cognitive Brain Research
-        ·  
-      01 Jul 2004
-        ·  
-      doi:10.1016/j.cogbrainres.2003.10.014
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2001">2001</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/bhsq33" class="citation-title">
-      A critical period for right hemisphere recruitment in American Sign Language processing
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman, Daphne Bavelier, David Corina, Peter Jezzard, Helen J. Neville
-    </div>
-
-    <div class="citation-details">
-      Nature Neuroscience
-        ·  
-      26 Nov 2001
-        ·  
-      doi:10.1038/nn775
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/dk76w7" class="citation-title">
-      How the mass counts: An electrophysiological approach to the processing of lexical features
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Karsten Steinhauer, Roumyana Pancheva, Aaron J. Newman, Silvia Gennari, Michael T. Ullman
-    </div>
-
-    <div class="citation-details">
-      Neuroreport
-        ·  
-      01 Apr 2001
-        ·  
-      doi:10.1097/00001756-200104170-00027
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/bt5c9c" class="citation-title">
-      An Event-Related fMRI Study of Syntactic and Semantic Violations
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Aaron J. Newman, Roumyana Pancheva, Kaori Ozawa, Helen J. Neville, Michael T. Ullman
-    </div>
-
-    <div class="citation-details">
-      Journal of Psycholinguistic Research
-        ·  
-      01 Jan 2001
-        ·  
-      doi:10.1023/A:1010499119393
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="2000">2000</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/ftwx4s" class="citation-title">
-      Identification of the eye–brain–hand system with point processes: A new approach to simple reaction time.
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      William A. Simpson, W. John Braun, Catherine Bargen, Aaron J. Newman
-    </div>
-
-    <div class="citation-details">
-      Journal of Experimental Psychology: Human Perception and Performance
-        ·  
-      01 Jan 2000
-        ·  
-      doi:10.1037/0096-1523.26.6.1675
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="1998">1998</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/d3pcwh" class="citation-title">
-      Motion detection and directional tuning
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      William A Simpson, Aaron Newman
-    </div>
-
-    <div class="citation-details">
-      Vision Research
-        ·  
-      01 Jun 1998
-        ·  
-      doi:10.1016/S0042-6989(97)00294-0
-    </div>
-
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gsc6hr" class="citation-title">
-      Effects of Age of Acquisition on Cortical Organization for American Sign Language: an fMRI Study.
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      A.J. Newman, D. Corina, A. Tomann, D. Bavelier, P. Jezzard, A. Braun, V. Clark, T. Mitchell, H.J. Neville
-    </div>
-
-    <div class="citation-details">
-      NeuroImage
-        ·  
-      01 May 1998
-        ·  
-      doi:10.1016/s1053-8119(18)31027-9
-    </div>
-
-    
-  </div>
-</div>
-
-<h3 id="1997">1997</h3>
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/dp8q5w" class="citation-title">
-      Equivalent background speed in recovery from motion adaptation
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      William A. Simpson, Aaron Newman, Wendi Aasland
-    </div>
-
-    <div class="citation-details">
-      Journal of the Optical Society of America A
-        ·  
-      01 Jan 1997
-        ·  
-      doi:10.1364/josaa.14.000013
-    </div>
-
-    
-  </div>
-</div>
-
 
 </div>
 
@@ -6048,19 +3120,32 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   
 <h3 id="2023">2023</h3>
 
-<div class="post-excerpt">
-  
-  
-  <a href="/2023/02/23/example-post-3.html">Example post 3</a>
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
 
-  <div class="post-info">
+    
+      <a href="/2023/02/23/example-post-3.html" class="post-excerpt-image" aria-label="Example post 3">
+        <img src="/images/photo.jpg" alt="Example post 3" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="post-excerpt-text">
+      <a href="/2023/02/23/example-post-3.html">Example post 3</a>
+
+      <div class="post-info">
   
     
     
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>john-doe</span>
-      </span>
+      
+      
+        <span data-tooltip="Author">
+          <i class="icon fa-solid fa-feather-pointed"></i>
+          <span>john-doe</span>
+        </span>
+      
     
   
 
@@ -6077,7 +3162,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>May 17, 2024</span>
+      <span>October 03, 2025</span>
     </span>
   
 </div>
@@ -6086,7 +3171,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags">
     
       <a href="/blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
         biology
@@ -6102,29 +3187,40 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-  
-  
-  <p data-search="Lorem ipsum dolor sit amet  consectetur adipiscing elit  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      
+      
+      <p data-search="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-  </p>
+      </p>
+    </div>
+  </div>
 </div>
 
 <h3 id="2021">2021</h3>
 
-<div class="post-excerpt">
-  
-  
-  <a href="/2021/09/30/example-post-2.html">Example post 2</a>
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
 
-  <div class="post-info">
+    
+
+    <div class="post-excerpt-text">
+      <a href="/2021/09/30/example-post-2.html">Example post 2</a>
+
+      <div class="post-info">
   
     
     
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>jane-smith</span>
-      </span>
+      
+      
+        <span data-tooltip="Author">
+          <i class="icon fa-solid fa-feather-pointed"></i>
+          <span>jane-smith</span>
+        </span>
+      
     
   
 
@@ -6141,7 +3237,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>May 17, 2024</span>
+      <span>October 03, 2025</span>
     </span>
   
 </div>
@@ -6154,29 +3250,40 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-  
-  
-  <p data-search="Lorem ipsum dolor sit amet  consectetur adipiscing elit  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      
+      
+      <p data-search="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-  </p>
+      </p>
+    </div>
+  </div>
 </div>
 
 <h3 id="2019">2019</h3>
 
-<div class="post-excerpt">
-  
-  
-  <a href="/2019/01/07/example-post-1.html">Example post 1</a>
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
 
-  <div class="post-info">
+    
+
+    <div class="post-excerpt-text">
+      <a href="/2019/01/07/example-post-1.html">Example post 1</a>
+
+      <div class="post-info">
   
     
     
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>sarah-johnson</span>
-      </span>
+      
+      
+        <span data-tooltip="Author">
+          <i class="icon fa-solid fa-feather-pointed"></i>
+          <span>sarah-johnson</span>
+        </span>
+      
     
   
 
@@ -6193,7 +3300,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>May 17, 2024</span>
+      <span>October 03, 2025</span>
     </span>
   
 </div>
@@ -6202,7 +3309,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags">
     
       <a href="/blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
         biology
@@ -6212,8 +3319,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         medicine
       </a>
     
-      <a href="/blog?search=%22tag:%20big%20data%22" class="tag" data-tooltip='Show items with the tag "big data"'>
-        big data
+      <a href="/blog?search=%22tag:%20big-data%22" class="tag" data-tooltip='Show items with the tag "big-data"'>
+        big-data
       </a>
     
   </div>
@@ -6222,12 +3329,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-  
-  
-  <p data-search="Lorem ipsum dolor sit amet  consectetur adipiscing elit  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      
+      
+      <p data-search="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-  </p>
+      </p>
+    </div>
+  </div>
 </div>
 
 
@@ -6240,9 +3349,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="cols">Cols</h2>
@@ -6368,9 +3477,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="search">Search</h2>
@@ -6391,9 +3500,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="site-search">Site Search</h2>
@@ -6528,7 +3637,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   </div>
 
   <div>
-    © 2024
+    © 2025
     NeuroCognitive Imaging Lab
       |   Built with
     <a href="https://github.com/greenelab/lab-website-template">

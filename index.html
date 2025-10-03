@@ -42,6 +42,10 @@
 
 
 
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Home | NeuroCognitive Imaging Lab</title>
@@ -54,13 +58,13 @@
 <meta property="og:title" content="Home">
 <meta property="og:site_title" content="NeuroCognitive Imaging Lab">
 <meta property="og:description" content="at Dalhousie University. Directed by Dr. Aaron J Newman">
-<meta property="og:url" content="">
+<meta property="og:url" content="http://www.ncilab.ca">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Home">
 <meta property="twitter:description" content="at Dalhousie University. Directed by Dr. Aaron J Newman">
-<meta property="twitter:url" content="">
+<meta property="twitter:url" content="http://www.ncilab.ca">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
@@ -81,11 +85,11 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
-    "url": ""
+    "url": "http://www.ncilab.ca"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="http://www.ncilab.ca/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
@@ -95,9 +99,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -161,6 +165,10 @@
 
   
     <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
@@ -335,6 +343,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -358,13 +368,15 @@
 
   <script src="/_scripts/site-search.js"></script>
 
+  <script src="/_scripts/table-wrap.js"></script>
+
   <script src="/_scripts/tooltip.js"></script>
 
 
 </head>
 
   <body>
-        
+    
 
 
 
@@ -439,12 +451,12 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
-          <span>NeuroCognitive Imaging Lab</span>
+          <span class="title">NeuroCognitive Imaging Lab</span>
         
         
-          <span>at Dalhousie University</span>
+          <span class="subtitle">at Dalhousie University</span>
         
       </span>
     
@@ -511,11 +523,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -540,9 +549,9 @@
 
   <section class="background" data-size="page" data-dark="true" style="--image: url('/images/DSC_3730.jpg')">
     <!--
-  background: images/DSC_3730.jpg;
-  dark: true;
-  size: ;
+  <background>images/DSC_3730.jpg</background>
+  <dark>true</dark>
+  <size></size>
 -->
 
 <h2 class="center" id="our-research">Our Research</h2>
@@ -578,9 +587,9 @@ adaptation to the loss of a sense (such the loss of hearing or sight), and many 
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 class="center" id="our-resources">Our Resources</h2>
@@ -589,10 +598,10 @@ adaptation to the loss of a sense (such the loss of hearing or sight), and many 
 <ul>
   <li>Functional magnetic resonance imaging (fMRI)</li>
   <li>Event-related brain potentials (ERP)</li>
-  <li>Magnetoencephalography (MEG)</li>
+  <li>Functional near-infrared spectroscopy (fNIRS)</li>
 </ul>
 
-<p>Our lab houses two 64-channel EEG systems as well as servers for data storage and analysis. We make use of the MRI and MEG facilities available locally at the IWK and QEII Health Centres. We collaborate with other labs, researchers, and organizations to develop and complete innovative research objectives.</p>
+<p>Our lab houses two 64-channel EEG systems, one 32-channel fNIRS system, and servers for data storage and analysis. We make use of the MRI facilities available locally at the IWK and QEII Health Centres. We collaborate with other labs, researchers, and organizations to develop and complete innovative research objectives.</p>
 
 <p>To support the growth of the field, lab director Dr. Aaron Newman has written textbooks on <a href="https://uk.sagepub.com/en-gb/eur/research-methods-for-cognitive-neuroscience/book242924">neuroimaging</a> and <a href="https://neuraldatascience.io/intro.html">neural data science</a> in Python.</p>
 
@@ -612,9 +621,9 @@ adaptation to the loss of a sense (such the loss of hearing or sight), and many 
 
   <section class="background" data-size="page" data-dark="true" style="--image: url('/images/NCIL_Hike2022.jpg')">
     <!--
-  background: images/NCIL_Hike2022.jpg;
-  dark: true;
-  size: ;
+  <background>images/NCIL_Hike2022.jpg</background>
+  <dark>true</dark>
+  <size></size>
 -->
 
 <h2 class="center" id="our-team">Our Team</h2>
@@ -639,9 +648,9 @@ adaptation to the loss of a sense (such the loss of hearing or sight), and many 
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 class="center" id="do-you-want-to-participate-in-one-of-our-studies">Do you want to participate in one of our studies?</h2>
@@ -780,7 +789,7 @@ adaptation to the loss of a sense (such the loss of hearing or sight), and many 
   </div>
 
   <div>
-    © 2024
+    © 2025
     NeuroCognitive Imaging Lab
       |   Built with
     <a href="https://github.com/greenelab/lab-website-template">

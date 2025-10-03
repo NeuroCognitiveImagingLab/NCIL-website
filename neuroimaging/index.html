@@ -42,6 +42,10 @@
 
 
 
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Neuroimaging | NeuroCognitive Imaging Lab</title>
@@ -54,13 +58,13 @@
 <meta property="og:title" content="Neuroimaging">
 <meta property="og:site_title" content="NeuroCognitive Imaging Lab">
 <meta property="og:description" content="at Dalhousie University. Directed by Dr. Aaron J Newman">
-<meta property="og:url" content="">
+<meta property="og:url" content="http://www.ncilab.ca">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Neuroimaging">
 <meta property="twitter:description" content="at Dalhousie University. Directed by Dr. Aaron J Newman">
-<meta property="twitter:url" content="">
+<meta property="twitter:url" content="http://www.ncilab.ca">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
@@ -81,11 +85,11 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
-    "url": ""
+    "url": "http://www.ncilab.ca"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="http://www.ncilab.ca/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
@@ -95,9 +99,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -161,6 +165,10 @@
 
   
     <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
@@ -335,6 +343,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -358,13 +368,15 @@
 
   <script src="/_scripts/site-search.js"></script>
 
+  <script src="/_scripts/table-wrap.js"></script>
+
   <script src="/_scripts/tooltip.js"></script>
 
 
 </head>
 
   <body>
-        
+    
 
 
 
@@ -439,12 +451,12 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
-          <span>NeuroCognitive Imaging Lab</span>
+          <span class="title">NeuroCognitive Imaging Lab</span>
         
         
-          <span>at Dalhousie University</span>
+          <span class="subtitle">at Dalhousie University</span>
         
       </span>
     
@@ -511,11 +523,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -595,6 +604,25 @@
     
     
 <p>Functional MRI (fMRI) works by measuring the amount of oxygen delivered to different parts of the brain. When neurons (brain cells) are active, more oxygen is delivered to those parts of the brain. This means that fMRI has excellent spatial resolution: we can localize <em>where</em> activity occurs down to the level of a few millimetres. On the other hand, fMRI does not have the same sensitivity as EEG to <em>when</em> activity occurs. This is because the changes in blood oxygenation that we measure happen a few seconds after change sin electrical brain activity. For this reason, EEG and fMRI allows us to view brain activity in two complementary ways. We can also use MRI to view the structure of the brain, including diffusion tensor imaging (DTI), which allow us to map the white matter tracts that connect different brain areas.</p>
+
+  </div>
+</div>
+
+<h2 id="functional-near-infrared-spectroscopy-fnirs">Functional Near Infrared Spectroscopy (fNIRS)</h2>
+<p>Functional Near-Infrared Spectroscopy, or fNIRS, is a cool way scientists look inside our brains to understand how they work. It’s like peeking through a tiny window into the brain’s activities. Unlike big, noisy machines like MRIs, fNIRS is small and quiet, making it easier to use, even on kids!
+Here’s how it works: our brains need oxygen to do their job, just like muscles need fuel to move. When we think or do stuff, our brain cells use up oxygen. fNIRS measures this oxygen use by shining near-infrared light through our skulls. The light that doesn’t get absorbed by the hemoglobin proteins that carry oxygen, bounces back to detectors, telling scientists which brain areas are busy.</p>
+
+<div class="feature">
+  <a href="/neuroimaging/#Functional-Near-Infrared-Spectroscopy-fNIRS" class="feature-image" aria-label="feature link">
+    <img src="/images/Blonde_fNIRS_lady.jpeg" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  <div class="feature-text">
+    
+      <p class="feature-title"></p>
+    
+    
+<p>Why is this important? Well, scientists use fNIRS to learn about many things, like how we learn, feel, or solve problems. For example, they can see which parts of the brain light up when we read or do math. They can even use it to help kids with learning differences! Also, fNIRS is super handy for kids, since it is non-invasive and allow for more mobility and movement compared to other neuroimaging devices like fMRI. fNIRS helps researchers understand how kids think and learn, and how these processes develop over time. 
+In short, fNIRS acts as a non-invasive tool for research, assisting in understanding the complexities of how our brains work.</p>
 
   </div>
 </div>
@@ -754,7 +782,7 @@
   </div>
 
   <div>
-    © 2024
+    © 2025
     NeuroCognitive Imaging Lab
       |   Built with
     <a href="https://github.com/greenelab/lab-website-template">
