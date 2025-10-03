@@ -1,6 +1,6 @@
 ---
 name: Danny Godfrey
-image: images/team/DGBioPic.jpg
+image: images/team/Daniel_Godfrey.jpg
 description: PhD Student
 role: phd
 aliases:
