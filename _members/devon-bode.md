@@ -3,6 +3,7 @@ name: Devon Bode
 image: images/team/Devon_Bode.jpg
 description: Independent Research 
 role: undergrad
+group: alum
 aliases:
   - D. Bode
   - D Bode
