@@ -1,5 +1,21 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.chbah.2025.100185
+  title: Do truthfulness notifications influence perceptions of AI-generated political
+    images? A cognitive investigation with EEG
+  authors:
+  - Colin Conrad
+  - Anika Nissen
+  - Kya Masoumi
+  - Mayank Ramchandani
+  - Rafael Fecury Braga
+  - Aaron J. Newman
+  publisher: 'Computers in Human Behavior: Artificial Humans'
+  date: '2025-08-01'
+  link: https://doi.org/g95st4
+  orcid: 0000-0001-5290-8342
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.3389/fdpys.2024.1340383
   title: 'Ortho-semantic learning of novel words: an event-related potential study
     of grade 3 children'
@@ -172,7 +188,7 @@
   authors:
   - Colin Conrad
   - Aaron J. Newman
-  publisher: Information Systems and Neuroscience
+  publisher: Lecture Notes in Information Systems and Organisation
   date: '2022-01-01'
   link: https://doi.org/gsc3qw
   orcid: 0000-0001-5290-8342
@@ -260,7 +276,7 @@
   - Ravishankar Subramanilyer
   - Colin Conrad
   - Aaron Newman
-  publisher: Information Systems and Neuroscience
+  publisher: Lecture Notes in Information Systems and Organisation
   date: '2020-01-01'
   link: https://doi.org/gqwmhf
   orcid: 0000-0001-5290-8342
@@ -327,7 +343,7 @@
   - Valentina Marini
   - Alexander Sproul
   - Aaron Newman
-  publisher: Information Systems and Neuroscience
+  publisher: Lecture Notes in Information Systems and Organisation
   date: '2019-10-24'
   link: https://doi.org/ghv8hx
   orcid: 0000-0001-5290-8342
@@ -340,7 +356,7 @@
   - Jasmine Aziz
   - Natalie Smith
   - Aaron Newman
-  publisher: Information Systems and Neuroscience
+  publisher: Lecture Notes in Information Systems and Organisation
   date: '2020-01-01'
   link: https://doi.org/gqwmhg
   orcid: 0000-0001-5290-8342
@@ -351,7 +367,7 @@
   authors:
   - Colin Conrad
   - Aaron Newman
-  publisher: Information Systems and Neuroscience
+  publisher: Lecture Notes in Information Systems and Organisation
   date: '2018-11-04'
   link: https://doi.org/gr93v9
   orcid: 0000-0001-5290-8342
@@ -363,7 +379,7 @@
   authors:
   - Colin Conrad
   - Aaron Newman
-  publisher: Information Systems and Neuroscience
+  publisher: Lecture Notes in Information Systems and Organisation
   date: '2018-11-04'
   link: https://doi.org/gr93wb
   orcid: 0000-0001-5290-8342
