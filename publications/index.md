@@ -14,7 +14,7 @@ Below are publications authored by Dr. Aaron Newman and NCIL lab members. Please
 
 ## Highlighted
 
-{% include citation.html lookup="Research Methods for Cognitive Neuroscience" style="rich" %}
+{% include citation.html lookup="isbn:1446296504" style="rich" %}
 
 {% include citation.html lookup="doi:10.3389/fdpys.2024.1340383" style="rich" %}
 
