@@ -67,6 +67,23 @@ Functional MRI (fMRI) works by measuring the amount of oxygen delivered to diffe
   text=text
 %}
 
+## Functional Near Infrared Spectroscopy (fNIRS)
+Functional Near-Infrared Spectroscopy, or fNIRS, is a cool way scientists look inside our brains to understand how they work. It's like peeking through a tiny window into the brain's activities. Unlike big, noisy machines like MRIs, fNIRS is small and quiet, making it easier to use, even on kids!
+Here's how it works: our brains need oxygen to do their job, just like muscles need fuel to move. When we think or do stuff, our brain cells use up oxygen. fNIRS measures this oxygen use by shining near-infrared light through our skulls. The light that doesn’t get absorbed by the hemoglobin proteins that carry oxygen, bounces back to detectors, telling scientists which brain areas are busy.
+
+{% capture text %}
+Why is this important? Well, scientists use fNIRS to learn about many things, like how we learn, feel, or solve problems. For example, they can see which parts of the brain light up when we read or do math. They can even use it to help kids with learning differences! Also, fNIRS is super handy for kids, since it is non-invasive and allow for more mobility and movement compared to other neuroimaging devices like fMRI. fNIRS helps researchers understand how kids think and learn, and how these processes develop over time. 
+In short, fNIRS acts as a non-invasive tool for research, assisting in understanding the complexities of how our brains work. 
+{% endcapture %}
+{%
+  include feature.html
+  image="images/Blonde_fNIRS_lady.jpeg"
+  link="neuroimaging/#Functional-Near-Infrared-Spectroscopy-fNIRS"
+  title=""
+  text=text
+%}
+
+
 # Data Science
 {% capture text %}
 **Coding** (computer programming) is a vital skill in cognitive neuroscience. Our research relies on large, complicated data sets, and often combining different types of data (such as EEG and behavioural data measured during the same task). Managing and analyzing these data sets requires skills in **data science**, including coding, data management, statistics, and machine learning. Developing and running experiments also requires coding. Our lab primarily uses the Python and R programming languages.
