@@ -44,31 +44,19 @@ Every year, we receive many requests from students who are interested in volunte
 
 The best way to learn about conducting research in our lab (primarily using EEG or MRI) is to commit to the extent of training required, by enrolling in an coursework for academic credit. Our department offers a number of courses that provide this training, including two that were developed by Dr. Newman himself: [PSYO/NESC 3137, *Research Methods in Cognitive Neuroscience*](https://academiccalendar.dal.ca/Catalog/ViewCatalog.aspx?pageid=viewcatalog&topicgroupid=28087&entitytype=CID&entitycode=PSYO+3137), and [PSYO/NESC 3505, *Neural Data Science*](https://neural-data-science.github.io/NESC_3505/). These courses are open to students in any program, although they do have prerequisites (please see the Academic Calendar for details).
 
-## BCI Club
+## NeuroTech Club
 
-As an alternative to volunteering in the lab, we have developed **BCI Club** (BCI stands for brain-computer interface). The BCI club is led by members of our lab (graduate and undergraduate students) who have expertise in EEG. The club meets weekly and provides students with the opportunity to work with basic EEG equipment, try out small experiments, and even try developing your own applications. Compared to our lab, which runs professional research studies that require systematic training and high levels of quality control, BCI Club allows students to “play” and explore EEG on their own terms. This is a great way to get experience in EEG, and to decide if you want to pursue more formal training in our lab. Alternatively, if you are looking for volunteer hours to support some future goal (such as medical school application), you may wish to find other opportunities that are better aligned with your aspirations.
+As an alternative to volunteering in the lab, we have developed the **NeuroTech Club** which is offered through the SURGE sandbox in the Faculty of Science. Neurotech is an intersection of neuroscience, computer science and engineering. The [Neurotech Club](https://www.surgeinnovation.ca/clubs) is led by members of our lab (graduate and undergraduate students) who have expertise in neural data science and neuroimaging techniques such as electroencephalography (EEG). The club meets weekly and provides students with the opportunity to work with consumer-grade EEG equipment (e.g., OpenBCI Cyton Board, Unicorn, etc.), to try out small experiments, and even try developing their own applications. Compared to the professional research studies run in the lab that require systematic training and high levels of quality control using research grade EEG systems, the NeuroTech Club allows students to “play” and explore with EEG and other neuroimaging techniques on their own terms. This is a great way to get experience in EEG and other neuroimaging techniques, and to decide if you want to pursue more formal training in our lab. You may wish to work on developing a simple game, or learning how to process neural data. For more information on signing up and registering for the NeuroTech Club, please visit the link above.
 
-Students who try out BCI Club, attend regularly for at least 1 term, and are interested in pursuing research in our lab more formally can then discuss opportunities for doing an independent study course in the lab. More information on this is below. 
+Students who have participated in the NeuroTech Club attend regularly for at least 1 term, and are interested in pursuing research in our lab more formally can then discuss opportunities for doing an independent study course in the lab. More information on this is below. 
+
+If you are looking for volunteer hours to support some future goal (such as medical school application), you may wish to find other opportunities that are better aligned with your aspirations.
 
 ## Independent Research Project (NESC/PSYO 3100/3101/3001)
 
-Students who are interested in systematic research training are encouraged  to consider a PSYO/NESC 3100/3001 independent research project. I will normally only agree to supervise honours students who have completed 3100/3101 under my supervision, due to the extent of background knowledge and lab technique development required to complete an honours project in cognitive neuroscience (although completion of 3100/3101 does not guarantee an agreement to supervise honours). 
+Students who are interested in systematic research training are encouraged to consider a PSYO/NESC 3100/3001 independent research project. I will normally only agree to supervise honours students who have completed 3100/3101 under my supervision, due to the extent of background knowledge and lab technique development required to complete an honours project in cognitive neuroscience (although completion of 3100/3101 does not guarantee an agreement to supervise honours).
 
 We also strongly suggest that you enroll in two courses that Dr. Newman developed, which are perfectly-aligned with the research techniques we use in NCIL — including EEG and data science in Python. The two courses I recommend you take are NESC/PSYO 3137, Research Methods in Cognitive Neuroscience, and NESC/PSYO 3505, Neural Data Science. These courses teach you the things you need to do a research project in NCIL (like honours), and are fundamental to work in the areas such as neurotechnology, med-tech more generally, and data science even more generally. We work with complex, multidimensional data and advanced statistical and machine learning models — the only way you can do productive work in these fields is to commit to developing this technical know-how.
-
-<!-- ## Volunteers
-We are always keen to take on new volunteers. However, due to high demand and the training involved, we only accept volunteers at the start of Fall term, and sometimes at the start of Winter term if spots become available. We do not take new volunteers in the summer.
-
-We generally ask all volunteers to make a **minimum 3 hour/week commitment** to the lab. We won’t necessarily have 3 hours of work each week for you, but at times when the lab is busy, we do. Volunteers typically help with data collection (EEG and behavioural), data entry, organizational tasks around data management, stimulus development, etc.. We find that 3 hours/week is a reasonable amount of time to actually learn something from your experience over the course of a term, and decide if you want to get more deeply involved in a project.
-
-Rather than schedule volunteers at specific times/days of the week, we post all volunteer opportunities on our communication platform (Basecamp), and we expect you to sign up for those that you are available for. As well, **you should try to attend weekly lab meetings** so we get to know your face, and get familiar with the many projects going on in the lab. Times and locations for the meetings are posted on Basecamp, and we hold them hybrid with a Zoom option if you can’t make it to the LSC.
-
-{%
-  include button.html
-  link="join/NCIL-Volunteer-Application-Form"
-  text="Want to become a volunteer? Apply now!"
-  flip=true
-%} -->
 
 ## Honours Theses
 If you are interested in doing an honours thesis in NCIL, please note that **Dr. Newman will only take on honours students who have completed PSYO/NESC 3100/3101 (Independent Research) under his supervision, with a grade of A- or better**. An honours thesis in cognitive neuroscience is a significant undertaking, and the independent research project ensures that students go into honours with proper training and expectations.
