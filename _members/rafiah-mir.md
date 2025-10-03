@@ -3,6 +3,7 @@ name: Rafiah Mir
 image: images/team/Rafiah_Mir_Photo.jpg
 description: Independent Research
 role: undergrad
+group: alum
 aliases:
   - R. Mir
   - R Mir

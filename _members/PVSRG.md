@@ -3,6 +3,7 @@ name: Pediatric Vision Science Research Group
 image: images/team/PVSRG.jpeg
 description: 
 role: collab
+group: external
 aliases:
   - Pediatric Vision Science Research Group
   - PVSRG

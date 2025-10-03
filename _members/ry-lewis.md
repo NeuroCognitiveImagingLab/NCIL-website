@@ -1,9 +1,13 @@
 ---
-name: Ry Lewis
+name: Hope Lewis
 image: images/team/Ry_Lewis.jpg
 description: PhD Student
 role: phd
+group: grad
 aliases:
+  - H. Lewis
+  - H Lewis
+  - Hope Lewis
   - R. Lewis
   - R Lewis
   - Ry Lewis

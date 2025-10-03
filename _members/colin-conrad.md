@@ -3,6 +3,7 @@ name: Colin Conrad
 image: images/team/Colin.jpg
 description: 
 role: collab
+group: external
 aliases:
   - C. Conrad
   - C Conrad

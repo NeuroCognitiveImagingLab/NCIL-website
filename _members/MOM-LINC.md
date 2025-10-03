@@ -3,6 +3,7 @@ name: MOM-LINC Lab
 image: images/team/MOM-LINC.webp
 description: 
 role: collab
+group: external
 aliases:
   - Mechanisms Outcomes Mobilization of maternally Led Interventions in Newborn Care
   - MOM-LINC Lab

@@ -3,6 +3,7 @@ name: Mobina Ali
 image: images/team/Mobina_Ali_Photo.jpg
 description: Independent Research
 role: undergrad
+group: alum
 aliases:
   - M. Ali
   - M Ali

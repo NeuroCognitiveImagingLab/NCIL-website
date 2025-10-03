@@ -3,6 +3,7 @@ name: Max Mascini
 image: images/team/Max_Mascini_Photo.jpg
 description: Research Assistant 
 role: pi
+group: staff
 aliases:
   - M. Mascini
   - M Mascini

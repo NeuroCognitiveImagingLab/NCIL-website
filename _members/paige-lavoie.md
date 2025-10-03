@@ -3,6 +3,7 @@ name: Paige Lavoie
 image: images/team/Paige_Lavoie.jpg
 description: Honours Student
 role: undergrad
+group: alum
 aliases:
   - P. Lavoie
   - P Lavoie

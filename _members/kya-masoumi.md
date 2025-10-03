@@ -3,7 +3,7 @@ name: Kya Masoumi
 image: images/team/Kya_Masoumi.jpg
 description: Independent Research 
 role: undergrad
-group: alum
+group: grad
 aliases:
   - K. Masoumi
   - K Masoumi

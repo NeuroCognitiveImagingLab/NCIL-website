@@ -3,6 +3,7 @@ name: Alena Galilee
 image: images/team/Alena-Galilee.jpg
 description: 
 role: collab
+group: external
 aliases:
   - A. Galilee
   - A Galilee

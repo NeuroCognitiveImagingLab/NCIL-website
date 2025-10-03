@@ -3,6 +3,7 @@ name: Nana Boakye
 image: images/team/Nana_Boakye.jpg
 description: Research Assistant Trainee
 role: undergrad
+group: ug
 aliases:
   - N. Boakye
   - N Boakye

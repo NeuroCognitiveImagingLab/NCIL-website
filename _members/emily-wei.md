@@ -3,6 +3,7 @@ name: Emily Wei
 image: images/team/Emily_Wei_Photo.jpg
 description: Independent Research
 role: undergrad
+group: ug
 aliases:
   - E. Wei
   - E Wei

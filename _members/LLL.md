@@ -3,6 +3,7 @@ name: Language and Literacy Lab
 image: images/team/LLL_team.jpeg
 description: 
 role: collab
+group: external
 aliases:
   - Language and Literacy Lab
   - LLL

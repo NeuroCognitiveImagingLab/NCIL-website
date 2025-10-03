@@ -3,6 +3,7 @@ name: Aaron Newman
 image: images/team/Aaron.jpg
 description: Lab Director
 role: pi
+group: staff
 aliases:
   - A Newman
   - A. Newman

@@ -3,6 +3,7 @@ name: Cindy Hamon-Hill
 image: images/team/Cindy.jpeg
 description: Lab Manager
 role: pi
+group: staff
 aliases:
   - C. Hamon-Hill
   - C Hamon-Hill

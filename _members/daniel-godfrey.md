@@ -3,6 +3,7 @@ name: Danny Godfrey
 image: images/team/Daniel_Godfrey.jpg
 description: PhD Student
 role: phd
+group: grad
 aliases:
   - D. Godfrey
   - D Godfrey

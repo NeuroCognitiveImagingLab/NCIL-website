@@ -3,6 +3,7 @@ name: Liam Pickles
 image: images/team/Liam_Pickles.jpeg
 description: Honours Student
 role: undergrad
+group: alum
 aliases:
   - L. Pickles
   - L Pickles

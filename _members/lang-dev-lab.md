@@ -3,6 +3,7 @@ name: Language Learning and Development Lab
 image: images/team/LangDevLab.jpg
 description: 
 role: collab
+group: external
 aliases:
   - Lang Dev Lab
   - Language Learning and Development Lab

@@ -4,6 +4,7 @@ image: images/team/FU_Bio_Pic.jpeg
 description: PhD Student
 role: phd
 group: alum
+group: grad
 aliases:
   - F. Usai
   - F Usai

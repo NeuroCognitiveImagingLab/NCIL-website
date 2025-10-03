@@ -3,6 +3,7 @@ name: Eskes Lab
 image: images/team/Eskes-Lab.jpeg
 description: 
 role: collab
+group: external
 aliases:
   - Eskes Lab
   - G. Eskes

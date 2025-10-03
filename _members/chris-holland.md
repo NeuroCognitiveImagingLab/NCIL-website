@@ -3,6 +3,7 @@ name: Chris Holland
 image: images/team/Chris_Holland_Photo.jpg
 description: PhD Student
 role: phd
+group: grad
 aliases:
   - C. Holland
   - C Holland

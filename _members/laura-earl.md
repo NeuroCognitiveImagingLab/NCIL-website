@@ -3,6 +3,7 @@ name: Laura Earl
 image: images/team/Laura_Earl.jpg
 description: Independent Research
 role: undergrad
+group: ug
 aliases:
   - L. Earl
   - L Earl

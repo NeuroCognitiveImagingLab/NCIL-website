@@ -3,6 +3,7 @@ name: Saisha Rankaduwa
 image: images/team/Saisha_Rankaduwa_Photo.jpeg
 description: PhD Student
 role: phd
+group: grad
 aliases:
   - S. Rankaduwa
   - S Rankaduwa
