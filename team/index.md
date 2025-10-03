@@ -18,12 +18,12 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 ## Graduate Students
 {:.center}
 
-{% include list.html data="members" component="portrait" filters="role: phd, group: " %}
+{% include list.html data="members" component="portrait" filters="role: phd, group: grad" %}
 
 ## Undergraduate Students
 {:.center}
 
-{% include list.html data="members" component="portrait" filters="role: undergrad, group: " %}
+{% include list.html data="members" component="portrait" filters="role: undergrad, group: ug" %}
 
 {% include section.html background="images/team/join.jpg" dark=true %}
 
@@ -41,7 +41,7 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 ## Collaborators
 {:.center}
 
-{% include list.html data="members" component="portrait" filters="role: collab, group: " %}
+{% include list.html data="members" component="portrait" filters="role: collab, group: external" %}
 
 ## Partners
 {:.center}
