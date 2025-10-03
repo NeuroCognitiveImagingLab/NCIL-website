@@ -2,7 +2,7 @@
 name: Marilla Hulls
 image: images/team/Marilla_Hulls.jpg
 description: Honours Student
-role: undergrad
+role: alum
 group: alum
 aliases:
   - M. Hulls

@@ -2,7 +2,7 @@
 name: Madison Greek
 image: images/team/Madison_G.jpg
 description: Independent Research
-role: undergrad
+role: alum
 group: alum
 aliases:
   - M.Greek

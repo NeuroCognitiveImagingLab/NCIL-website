@@ -13,17 +13,17 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 ## Staff
 {:.center}
 
-{% include list.html data="members" component="portrait" filters="role: pi, group: staff" %}
+{% include list.html data="members" component="portrait" filters="role: pi" %}
 
 ## Graduate Students
 {:.center}
 
-{% include list.html data="members" component="portrait" filters="role: phd, group: grad" %}
+{% include list.html data="members" component="portrait" filters="role: phd" %}
 
 ## Undergraduate Students
 {:.center}
 
-{% include list.html data="members" component="portrait" filters="role: undergrad, group: ug" %}
+{% include list.html data="members" component="portrait" filters="role: undergrad" %}
 
 {% include section.html background="images/team/join.jpg" dark=true %}
 
@@ -41,7 +41,7 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 ## Collaborators
 {:.center}
 
-{% include list.html data="members" component="portrait" filters="role: collab, group: external" %}
+{% include list.html data="members" component="portrait" filters="role: collab" %}
 
 ## Partners
 {:.center}
@@ -60,14 +60,14 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 
 ## Alumni
 {:.center}
-
-{% include list.html data="members" component="portrait" filters="role: pi, group: alum" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: alum" style="small" %}
+<!-- {% include list.html data="members" component="portrait" filters="role: pi, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: phd, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: undergrad, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: programmer, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: mascot, group: alum" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: collab, group: alum" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: collab, group: alum" style="small" %} -->
 
 ## Funding
 {:.center}

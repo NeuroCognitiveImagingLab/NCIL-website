@@ -2,7 +2,7 @@
 name: Eloise Moliner
 image: images/team/Eloise_Moliner.jpg
 description: Research Intern
-role: undergrad
+role: alum
 group: alum
 aliases:
   - E. Moliner

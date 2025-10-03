@@ -2,7 +2,7 @@
 name: Clare Reynolds
 image: images/team/Clare_Reynolds.jpg
 description: Honours Student
-role: undergrad
+role: alum
 group: alum
 aliases:
   - C. Reynolds
