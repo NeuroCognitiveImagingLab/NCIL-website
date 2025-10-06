@@ -1,9 +1,30 @@
+{%- comment -%}
+  CUSTOMIZATION: Improved filter parsing
+  - If the include uses `filters` (comma-separated clauses like "role: phd, group: alum"),
+    this file will parse them and apply chained `where` filters so multiple conditions
+    are ANDed.
+  - Keep this file local and merge upstream template changes manually if needed.
+  - Author: automated patch
+{%- endcomment -%}
+
 {% assign emptyarray = "" | split: "," %}
 {% assign data = site.data[include.data]
   | default: site[include.data]
   | default: emptyarray
   | data_filter: include.filter
 %}
+
+{% if include.filters %}
+  {% assign clauses = include.filters | split: ',' %}
+  {% for clause in clauses %}
+    {% assign parts = clause | split: ':' %}
+    {% assign key = parts[0] | strip %}
+    {% assign value = parts[1] | strip %}
+    {% if key != "" and value != "" %}
+      {% assign data = data | where: key, value %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
 
 {% assign years = data
   | group_by_exp: "d", "d.date | date: '%Y'"
