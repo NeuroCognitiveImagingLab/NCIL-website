@@ -2,7 +2,7 @@
 name: Juliana Christiani
 image: images/team/Juliana_C.jpg
 description: Honours Student
-role: alum
+role: undergrad
 group: alum
 aliases:
   - J. Christiani

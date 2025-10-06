@@ -2,7 +2,7 @@
 name: Lucy Coady
 image: images/team/Lucy_Coady_Photo.jpeg
 description: Honours Student
-role: alum
+role: undergrad
 group: alum
 aliases:
   - L. Coady

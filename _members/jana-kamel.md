@@ -2,7 +2,7 @@
 name: Jana Kamel
 image: images/photo.jpg
 description: Research Assistant Trainee
-role: alum
+role: undergrad
 group: alum
 aliases:
   - J. Kamel

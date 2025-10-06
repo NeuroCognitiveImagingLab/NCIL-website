@@ -2,7 +2,7 @@
 name: Brooke Power
 image: images/photo.jpg
 description: Honours Student
-role: alum
+role: undergrad
 group: alum
 aliases:
   - B. Power

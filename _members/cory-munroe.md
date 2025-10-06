@@ -2,7 +2,7 @@
 name: Cory Munroe
 image: images/team/Cory-Munroe.jpg
 description: PhD Student
-role: alum
+role: phd
 group: alum
 aliases:
   - C. Munroe

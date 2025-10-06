@@ -2,7 +2,7 @@
 name: Mayank Ramchandani
 image: images/team/Mayank_Ramchandani.jpg
 description: Independent Research
-role: alum
+role: undergrad
 group: alum
 aliases:
   - M. Ramchandani

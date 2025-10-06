@@ -13,17 +13,19 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 ## Staff
 {:.center}
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
+{% include list.html data="members" component="portrait" filters="role: pi, group: staff" %}
+ 
 
 ## Graduate Students
 {:.center}
 
-{% include list.html data="members" component="portrait" filters="role: phd" %}
+{% include list.html data="members" component="portrait" filters="role: phd, group: grad" %}
+ 
 
 ## Undergraduate Students
 {:.center}
 
-{% include list.html data="members" component="portrait" filters="role: undergrad" %}
+{% include list.html data="members" component="portrait" filters="role: undergrad, group: ug" %}
 
 {% include section.html background="images/team/join.jpg" dark=true %}
 
@@ -60,7 +62,7 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 
 ## Alumni
 {:.center}
-{% include list.html data="members" component="portrait" filters="role: alum" style="small" %}
+{% include list.html data="members" component="portrait" filters="group: alum" style="small" %}
 <!-- {% include list.html data="members" component="portrait" filters="role: pi, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: phd, group: alum" style="small" %}
