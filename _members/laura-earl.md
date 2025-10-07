@@ -9,7 +9,7 @@ aliases:
   - L Earl
   - Laura Earl
 links:
-  email: lr618882@dal.ca
+  email: laura.earl@dal.ca
 ---
 
-Laura is from Novar Ontario and is a third year undergraduate student studying Neuroscience at Dalhousie University. She is completing her independent research project under the supervision of Dr. Aaron Newman. She is part of the BCI team and is looking at the effect of stimulus hybridization on EEG signals and BCI performance. In her free time Laura enjoys reading, road trips and baking. 
+Laura is a fourth year student from Novar, Ontario majoring in Neuroscience, minoring in Entrepreneurship and completing a certificate in Neurotechnology and Innovation. Last year she completed an independent project as part of the brain computer interface (BCI) team looking at the effect of stimulus hybridization on EEG signals and BCI performance. This years project, supervised by Dr. Aaron Newman, will focus on the efficacy and usability of motor imagery, and steady state visually evoked potential (SSVEP), -based BCIs. In her free time Laura enjoys reading, road trips and baking. 
