@@ -1,7 +1,7 @@
 ---
 name: Emily Wei
 image: images/team/Emily_Wei_Photo.jpg
-description: Independent Research
+description: Honours Student
 role: undergrad
 group: ug
 aliases:

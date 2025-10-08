@@ -1,7 +1,7 @@
 ---
 name: Laura Earl
 image: images/team/Laura_Earl.jpg
-description: Independent Research
+description: Honours Student
 role: undergrad
 group: ug
 aliases:
