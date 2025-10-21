@@ -7,7 +7,7 @@ title: Reading Development
 
 
 ## Project Rationale
-One of the most valuable skills we learn is how to read. Reading skill is essential for academic and career success. For some children, learning to read is a challenging task, and this begs the question: Why are some children stronger readers than others? Being able to understand individual differences in reading development provides the opportunity to design better reading education programs that provide personalised teaching strategies for individual children’s needs.
+One of the most valuable skills we learn is how to read. Reading is essential for academic and career success. For some children, learning to read is a challenging task, and this begs the question: Why are some children stronger readers than others? Being able to understand individual differences in reading development provides the opportunity to design better reading education programs that provide personalised teaching strategies for individual children’s needs.
 
 
 ## What do we already know?
@@ -16,7 +16,7 @@ Reading comprehension depends not only on recognizing words but also on interpre
 
 ## Overview of the Current Study
 {% capture text %}
-To build on previous research examining the relationships between brain activity and reading ability, the present study will recruit children from grades 3–5 to participate in one session lasting approximately 60 minutes. During this session we will examine their neural activity patterns in response to individual words and sentences. To look at children's brain activity, we will be using electroencephalography (EEG). EEG is a child-friendly brain imaging technique that measures electrical signals in the brain. (click [here](neuroimaging/neuroimaging/#electroencephalography-eeg) for more information). With EEG, and standardized measures of reading ability, we can then investigate if more differentiated brain responses, to different words, are related to better reading skill.
+To build on previous research examining the relationships between brain activity and reading ability, the present study will recruit children from grades 3–5 to participate in one session lasting approximately 90 minutes. During this session we will examine their neural activity patterns in response to individual words and sentences. To look at children's brain activity, we will be using electroencephalography (EEG). EEG is a child-friendly brain imaging technique that measures electrical signals in the brain. (click [here](neuroimaging/neuroimaging/#electroencephalography-eeg) for more information). With EEG, and standardized measures of reading ability, we can then investigate if more differentiated brain responses, to different words, are related to better reading skill.
 {% endcapture %}
 {%
  include feature.html
