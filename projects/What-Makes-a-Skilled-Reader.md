@@ -7,7 +7,7 @@ title: Reading Development
 
 
 ## Project Rationale
- Our ultimate goal is to understand factors tht contribute to full literacy - the skill of being able to comprehend and interpret written information.  Reading skills are essential for cognitive development, communication, academic and career success. With this study we are focusing factors that contribute to comprehension of written text during the early stages of literacy development - the crucially important transition from 'learning to read' to 'reading to learn'.  During just a few years, how and when do children begin to understand the meaning of text being read and, moreover, the meaning of words within the context of a sentence, or story? 
+ Our ultimate goal is to understand factors tht contribute to full literacy - the skill of being able to comprehend and interpret written information. With this study we are focusing on factors that contribute to comprehension of written text during the early stages of literacy development - the crucially important transition from 'learning to read' to 'reading to learn'.  During just a few years, how and when do children begin to understand the meaning of text being read and, moreover, the meaning of words within the context of a sentence, or story? 
  
 
 ## What do we already know?
@@ -18,7 +18,7 @@ Previous ERP studies have identified a distinct effect called the 'closure posit
 
 ## Overview of the Current Study
 {% capture text %}
-To build on previous research examining the relationships between neural processes and reading ability, the present study will recruit children from grades 3–5 to participate in one session lasting approximately 90 minutes. During this session we will examine patterns of brain activity while silently reading individual words that form sentences that, in turn, form a story. To look at children's brain activity we'll use electroencephalography (EEG). EEG is a safe, non-invasive, child-friendly brain imaging technique that measures electrical signals in the brain. (click [here](neuroimaging/neuroimaging/#electroencephalography-eeg) for more information). With EEG and standardized measures of reading ability, we can then investigate if more differentiated brain responses to punctuation are related to reading comprehension and reading related skills.
+To build on previous research examining the relationships between neural processes and reading ability, the present study will recruit children from grades 3–5 to participate in one session lasting approximately 90 minutes. During this session we will examine changes in patterns of brain activity while silently reading individual words that form sentences that, in turn, form a story. To look at children's brain activity we'll use electroencephalography (EEG). EEG is a safe, non-invasive, child-friendly brain imaging technique that measures electrical signals in the brain. (click [here](neuroimaging/neuroimaging/#electroencephalography-eeg) for more information). With EEG and standardized measures of reading ability, we can then investigate if more differentiated brain responses to punctuation are related to reading comprehension and reading related skills.
 {% endcapture %}
 {%
  include feature.html
