@@ -29,4 +29,4 @@ EEG is a safe, non-invasive and child-friendly brain imaging technique that meas
 There will be an honorarium (thank-you payment) to both participant and parent/guardian, regardless of whether your child completes the entire session. In appreciation for their participation, your child will receive 20 dollars. As well, we will pay the parent/guardian of the child 20 dollars to cover any expenses you might have for participating in this study, such as transportation and parking costs. Payments for each session will be paid at the conclusion of the study visit, even if your child chooses to stop participating before the session is completed.
 
 ## Interested? Want to learn more?
-If you are interested in joining our study, you can contact us by email (reading_brains@dal.ca) or by phone (902-494-1911). We look forward to hearing from you!
+If you are interested in joining our study, you can contact us by email (reading_brains@dal.ca) or by phone (902-494-1911), or go directly to this link to provide us with information. ........  We look forward to hearing from you!
