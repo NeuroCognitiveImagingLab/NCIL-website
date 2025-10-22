@@ -1,43 +1,46 @@
 ---
 title: Mobile Apps to Help Newcomers to Canada Learn English
 ---
-## Mobile Apps to Help Newcomers to Canada Learn English
+## Mobile Apps to Help Acquisition of a New Language
 
-The goal of this study is to learn if a digital app is useful in helping newcomers to Canada improve their English abilities. The NeuroCognitive Imaging Lab at Dalhousie University has partnered with Simon Fraser University and Mango Languages to conduct this study.
+The goal of this study is to learn if a digital app is useful in helping learners of a new language. The NeuroCognitive Imaging Lab at Dalhousie University has partnered with Simon Fraser University and Mango Languages to conduct this study.
 
-## What You Will Be Asked to Do
- If you are interested in participating, we'll provide you with a link to the study, and you will be given a choice to "consent" (agree) to take part in the study. If you agree to participate, you will complete several online questionnaires and assessment. You won't have to complete them in one session. Then you will be given free access to an ESL (English as a second language) program offered through the app, Mango Languages. You will be asked to use the Mango Languages app to play games intended to help improve your English. We ask that you try to use the app at least 1 hour per week, for a period of 8 weeks. We recommend that you practice for 20 minutes, 3 times per week, but that is up to you. At the end of 8 weeks, you will be asked to do a final test of your English abilities.
+Mobile/Computer-Assisted language learning tools are being increasingly adopted by casual language learners, and for use in formal classroom settings. However, there is limited unbiased scientific evidence investigating the quality and adequacy of these virtual language learning tools. Therefore, this research aims to determine whether learners benefit from adding language training within a language app, as an addition to any other language instruction they are receiving.
 
-## Who Can Take Part in this Research Study
+## What Were Participants Asked to Do
+We are no longer recruiting participants.  
 
-You may participate in this study if you are:
+Participants completed several online questionnaires and assessments. They were asked to use the Mango Languages app intended to help improve acquisition of a new language. Participants were asked to use the app at least 1 hour per week, for a period of 8 weeks. Recommended usage was 20 minutes, 3 times per week. At the end of 8 weeks, participants were asked to do a final test of their new language abilities.
+
+## Who Could Take Part in this Research Study
+
+Participants in this study were:
 
 Age 17 years or older,
 
 Currently living in Canada,
 
-Not a native English speaker, and
+And met criteria in one of the 3 conditions:
+1. Not a native English speaker, and a fluent speaker of one of the languages for which Mango Languages has an ESL program (Mango Languages provides ESL courses for speakers of over 20 languages, including Bengali, Haitian Creole, Hmong, Mandarin, Arabic (Egyptian), Arabic (MSA), Armenian, Cantonese, French, German, Greek, Italian, Japanese, Korean, Polish, Portuguese, Russian, Somali, Spanish, Turkish, Vietnamese). For the full list [click here](https://mangolanguages.com/available-languages)
+2. Enrolled in a Spanish language learning class but not fluent in Spanish
+3. Enrolled in a German language learning class but not fluent in German
 
-A fluent speaker of one of the languages for which Mango Languages has an ESL program (Mango Languages provides ESL courses for speakers of over 20 languages, including Bengali, Haitian Creole, Hmong, Mandarin, Arabic (Egyptian), Arabic (MSA), Armenian, Cantonese, French, German, Greek, Italian, Japanese, Korean, Polish, Portuguese, Russian, Somali, Spanish, Turkish, Vietnamese). For the full list [click here](https://mangolanguages.com/available-languages)
-
-You must also have use of a computer or mobile device that meets the minimum technical requirements of the online platforms used for this study.
+Participants also needed use of a computer or mobile device that meets the minimum technical requirements of the online platforms used for this study.
 
 
 ## What is the Purpose of the Project?
-Mobile/Computer-Assisted language learning tools are being increasingly adopted by casual language learners, and for use in formal classroom settings. However, there is limited unbiased scientific evidence investigating the quality and adequacy of these virtual language learning tools. Therefore, this research aims to determine whether learners benefit from adding language training within a language app, as an addition to any other language instruction they are receiving. 
+
+Mobile/Computer-Assisted language learning tools are being increasingly adopted by casual language learners, and for use in formal classroom settings. However, there is limited unbiased scientific evidence investigating the quality and adequacy of these virtual language learning tools. Therefore, this research aims to determine whether learners benefit from adding language training within a language app, as an addition to any other language instruction they are receiving.
 
 ## Compensation and Benefits
 
-Everyone who is an active participant in the study (you are using the app for at least 1 hour every week, during the 8 week period you are in the study) will be entered in a monthly draw to win a $50 gift card. 
+During the study, particiants were given free access to a language learning program on Mango Languages with the intention of improving acquisition of a new language.
 
-During the study, you will have free access to an ESL program on Mango Languages. Your English ability may improve by using this app.
+Language assessments in the learned language were administered online by the True North at the start and end of the study. This test provided scores that can be compared to widely-used tests of language ability, such as CEFR and ACTFL. participants received documentation of their test scores.
 
-Your English ability will be assessed by the TrueNorth test at the start and end of the study, and you will be able to see your score. This test provides scores that can be compared to widely-used tests of English ability, such as CEFR and ACTFL. The TrueNorth scores may be interesting and useful to you, to understand your English ability level. Normally you would have to pay for a TrueNorth assessment, but for people enrolled in this study you do not have to pay for this test.
+## Study status
 
-## Do you want to participate in this study?
-
-
-If you have any questions, please email us at [madworld@dal.ca](mailto:madworld@dal.ca)
+Data collection is now complete.  We are currently conducting quantitative and qualitative data analyses. If you have any questions, please email us at [madworld@dal.ca](mailto:madworld@dal.ca)
 
 ## Funding
 
