@@ -1,6 +1,6 @@
 ---
 name: Tiana Hauschka
-image: images/team/Tiana_Hauschka.jpg
+image: images/team/Tiana_H.jpeg
 description: Independent Research
 role: undergrad
 group: ug
