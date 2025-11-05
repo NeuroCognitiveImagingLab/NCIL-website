@@ -1,6 +1,6 @@
 ---
 name: Wateen Sadek
-image: images/team/Wateen_S.jpeg
+image: images/team/Wateen_S.jpg
 description: Volunteer
 role: undergrad
 group: ug

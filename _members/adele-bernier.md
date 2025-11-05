@@ -1,6 +1,6 @@
 ---
 name: Adele Bernier
-image: images/team/Adele_Bernier.jpg
+image: images/team/Adele_B.jpeg
 description: Honours Student
 role: undergrad
 group: ug
