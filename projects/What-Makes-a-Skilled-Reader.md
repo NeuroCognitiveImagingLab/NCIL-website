@@ -22,7 +22,7 @@ To build on previous research examining the relationships between neural process
 {% endcapture %}
 {%
  include feature.html
- image="images/DSC_3734.jpg"
+ image="images/ComChERP_thumbnail.jpg"
  link="neuroimaging/#electroencephalography-eeg"
  title=""
  text=text
