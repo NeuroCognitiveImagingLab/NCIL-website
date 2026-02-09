@@ -1,5 +1,19 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.3390/ai7020050
+  title: 'Efficient Feature Extraction for EEG-Based Classification: A Comparative
+    Review of Deep Learning Models'
+  authors:
+  - Louisa Hallal
+  - Jason Rhinelander
+  - Ramesh Venkat
+  - Aaron Newman
+  publisher: AI
+  date: '2026-02-01'
+  link: https://doi.org/hbnzn8
+  orcid: 0000-0001-5290-8342
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.chbah.2025.100185
   title: Do truthfulness notifications influence perceptions of AI-generated political
     images? A cognitive investigation with EEG
@@ -901,7 +915,7 @@
   - Helen J. Neville
   - Michael T. Ullman
   publisher: Journal of Psycholinguistic Research
-  date: '2001-01-01'
+  date: '2001-05-01'
   link: https://doi.org/bt5c9c
   orcid: 0000-0001-5290-8342
   plugin: sources.py
