@@ -1,6 +1,6 @@
 ---
 name: Arjun Litt
-image: images/team/Arjun_Litt.jpg
+image: images/team/Arjun_L.jpeg
 description: Independent Research
 role: undergrad
 group: ug
