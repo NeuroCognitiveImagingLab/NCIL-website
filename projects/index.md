@@ -28,7 +28,7 @@ What Makes a Skilled Reader? The NeuroCognitive Imaging Lab needs your help to f
 {% endcapture %}
 {%
   include feature.html
-  image="images/projects/SKNIRF_project.jpg"
+  image="images/projects/ComChERP_thumbnail.JPG"
   link="projects/What-Makes-a-Skilled-Reader"
   title="Reading Development"
   flip=true
