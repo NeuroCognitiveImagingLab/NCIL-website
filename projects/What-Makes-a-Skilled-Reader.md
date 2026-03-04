@@ -31,7 +31,7 @@ To build on previous research examining the relationships between neural process
 
 
 ## Current State of the Study
-We plan to collect data during the late fall of 2025 and continue to March 2026. If you would like more information on participating in this study, please contact us at reading_brains@dal.ca or go to this link: (https://redcap.link/ComChERP).
+We plan to collect data during the late fall of 2025 and continue until April 2026. If you would like more information on participating in this study, please contact us at reading_brains@dal.ca or go to this link: (https://redcap.link/ComChERP).
 This project is approved by the Social Sciences and Humanities Research Ethics Board at Dalhousie University (REB# 2025-8051). 
 
 ## Funding
