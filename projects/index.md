@@ -16,7 +16,7 @@ Here are the current projects we are working on at NCIL:
 
 
 {% capture text %}
-What Makes a Skilled Reader? The NeuroCognitive Imaging Lab needs your help to find out! The goal of the study is to characterize how individual differences in reading skills relate to children’s patterns of brain activation, and how these relationships change from Grade 2 to Grade 5. We’re currently looking for kids to participate who are in grades 2 or 3, who speak English at home and at school. Click below to find out more if you're interested!
+Our ultimate goal is to understand factors that contribute to full literacy – the skill of being able to comprehend and interpret written information. We are focusing on the early stages of literacy development: the crucially important transition from "learning to read" to "reading to learn" in grades 3–5.  We’re looking at patterns of brain activity that occur when children are reading and, in particular, how they understand meaning from the structure of sentences and stories. 
 {%
   include button.html
   link="projects/What-Makes-a-Skilled-Reader"
@@ -28,7 +28,7 @@ What Makes a Skilled Reader? The NeuroCognitive Imaging Lab needs your help to f
 {% endcapture %}
 {%
   include feature.html
-  image="images/projects/SKNIRF_project.jpg"
+  image="images/projects/ComChERP_thumbnail.JPG"
   link="projects/What-Makes-a-Skilled-Reader"
   title="Reading Development"
   flip=true
@@ -77,7 +77,7 @@ Aphasia is an acquired loss of language abilities, often caused by stroke or oth
 
 
 {% capture text %}
-We are studying how the [Mango Languages](https://mangolanguages.com) app can assist newcomers to Canada to improve their English abilities. We are conducting this sudy in partnership with Mango Languages and the [Language Learning & Development Lab](https://www.sfu.ca/langdev.html) at Simon Fraser University, directed by Dr. Henny Yeung. This project is funded through a [SSHRC](https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx) Partnership Grant, [_Ensuring Full Literacy in a Multicultural and Digital World_](https://ensuringliteracy.ca), under the direction of [Dr. Janet F. Werker](https://psych.ubc.ca/profile/janet-werker/) at the University of British Columbia.   
+We are studying how the [Mango Languages](https://mangolanguages.com) app can assist learners of new languages to improve their acquired language abilities. We are conducting this sudy in partnership with Mango Languages and the [Language Learning & Development Lab](https://www.sfu.ca/langdev.html) at Simon Fraser University, directed by Dr. Henny Yeung. This project is funded through a [SSHRC](https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx) Partnership Grant, [_Ensuring Full Literacy in a Multicultural and Digital World_](https://ensuringliteracy.ca), under the direction of [Dr. Janet F. Werker](https://psych.ubc.ca/profile/janet-werker/) at the University of British Columbia.   
 {%
   include button.html
   link="projects/MADworld-Mango"
@@ -138,7 +138,7 @@ This research project is driven by a very simple question: why do we remember th
 
 
 {% capture text %}
-During the COVID-19 pandemic, there was a widespread adoption of remote work. However, online meetings and lectures do not always produce as good outcomes (such as learning and developing new ideas). We are studying whether this is because people's minds wander more when they are working and learning online. This project, led by [Dr. Colin Conrad](https://www.dal.ca/faculty/management/school-of-information-management/faculty-staff/faculty/colin-conrad.html) of Dalhousie University's [School of Information Management](https://www.dal.ca/faculty/management/school-of-information-management.html), aims to explore how the ability to sustain attention may become weaker over time and how changes in work environments can prevent it. This study uses surveys, behavioural studies and NCIL's electroencephalography (EEG) system.
+Have you ever watched a long lecture or meeting video and found your attention shifting away? We often think that this phenomenon, called mind wandering, is bad. However, there are situations when it can be good, like when you listen to a podcast and develop new and exciting ideas. In this project, led by Dr. Colin Conrad of Dalhousie University’s Faculty of Management, aims to explore how the brain’s ability to sustain attention may become weaker over time and situations when this is either harmful or helpful. This study takes interdisciplinary approaches, though it especially uses NCIL’s electroencephalography (EEG) system.
 {%
   include button.html
   link="projects/Project-Homework"
