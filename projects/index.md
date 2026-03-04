@@ -138,7 +138,7 @@ This research project is driven by a very simple question: why do we remember th
 
 
 {% capture text %}
-During the COVID-19 pandemic, there was a widespread adoption of remote work. However, online meetings and lectures do not always produce as good outcomes (such as learning and developing new ideas). We are studying whether this is because people's minds wander more when they are working and learning online. This project, led by [Dr. Colin Conrad](https://www.dal.ca/faculty/management/school-of-information-management/faculty-staff/faculty/colin-conrad.html) of Dalhousie University's [School of Information Management](https://www.dal.ca/faculty/management/school-of-information-management.html), aims to explore how the ability to sustain attention may become weaker over time and how changes in work environments can prevent it. This study uses surveys, behavioural studies and NCIL's electroencephalography (EEG) system.
+Have you ever watched a long lecture or meeting video and found your attention shifting away? We often think that this phenomenon, called mind wandering, is bad. However, there are situations when it can be good, like when you listen to a podcast and develop new and exciting ideas. In this project, led by Dr. Colin Conrad of Dalhousie University’s Faculty of Management, aims to explore how the brain’s ability to sustain attention may become weaker over time and situations when this is either harmful or helpful. This study takes interdisciplinary approaches, though it especially uses NCIL’s electroencephalography (EEG) system.
 {%
   include button.html
   link="projects/Project-Homework"
