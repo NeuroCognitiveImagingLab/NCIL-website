@@ -16,7 +16,7 @@ Here are the current projects we are working on at NCIL:
 
 
 {% capture text %}
-What Makes a Skilled Reader? The NeuroCognitive Imaging Lab needs your help to find out! The goal of the study is to characterize how individual differences in reading skills relate to children’s patterns of brain activation, and how these relationships change from Grade 2 to Grade 5. We’re currently looking for kids to participate who are in grades 2 or 3, who speak English at home and at school. Click below to find out more if you're interested!
+Our ultimate goal is to understand factors that contribute to full literacy – the skill of being able to comprehend and interpret written information. We are focusing on the early stages of literacy development: the crucially important transition from "learning to read" to "reading to learn" in grades 3–5.  We’re looking at patterns of brain activity that occur when children are reading and, in particular, how they understand meaning from the structure of sentences and stories. 
 {%
   include button.html
   link="projects/What-Makes-a-Skilled-Reader"
