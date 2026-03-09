@@ -13,7 +13,7 @@ Interested in participating in one of our studies? Click the links below to find
 
 {%
   include card.html
-  image="images/projects/SKNIRF_project.jpg"
+  image="images/projects/ComChERP_thumbnail.JPG"
   link="participate/What-Makes-a-Skilled-Reader-recruitment"
   title="Reading Development"
   subtitle=""

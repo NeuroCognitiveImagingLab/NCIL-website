@@ -3,7 +3,7 @@ name: Hamidreza Maymandi
 image: images/team/Hamidreza_Maymandi_Photo.jpg
 description: Postdoctoral Researcher
 role: pi
-group: alum
+group: collab
 aliases:
   - H. Maymandi
   - H Maymandi
