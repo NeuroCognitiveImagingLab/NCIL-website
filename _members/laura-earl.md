@@ -3,7 +3,7 @@ name: Laura Earl
 image: images/team/Laura_Earl.jpg
 description: Honours Student
 role: undergrad
-group: ug
+group: alum
 aliases:
   - L. Earl
   - L Earl

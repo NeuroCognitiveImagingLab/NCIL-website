@@ -3,7 +3,7 @@ name: Cate Brandt
 image: images/team/Cate_Brandt.jpg
 description: Honours Student
 role: undergrad
-group: ug
+group: alum
 aliases:
   - C. Brandt
   - C Brandt

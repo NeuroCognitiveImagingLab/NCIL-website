@@ -3,7 +3,7 @@ name: Emily Wei
 image: images/team/Emily_Wei_Photo.jpg
 description: Honours Student
 role: undergrad
-group: ug
+group: alum
 aliases:
   - E. Wei
   - E Wei
