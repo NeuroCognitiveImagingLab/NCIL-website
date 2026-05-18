@@ -3,7 +3,7 @@ name: Wateen Sadek
 image: images/team/Wateen_S.jpg
 description: Volunteer
 role: undergrad
-group: ug
+group: alum
 aliases:
   - W. Sadek
   - W Sadek
