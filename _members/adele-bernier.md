@@ -3,7 +3,7 @@ name: Adele Bernier
 image: images/team/Adele_B.jpeg
 description: Honours Student
 role: undergrad
-group: ug
+group: alum
 aliases:
   - A. Bernier
   - A Bernier

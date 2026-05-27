@@ -3,7 +3,7 @@ name: Tiana Hauschka
 image: images/team/Tiana_H.jpeg
 description: Independent Research
 role: undergrad
-group: ug
+group: alum
 aliases:
   - T. Hauschka
   - T Hauschka
