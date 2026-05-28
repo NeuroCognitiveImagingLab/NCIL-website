@@ -1,9 +1,9 @@
 ---
 name: Laura Earl
 image: images/team/Laura_Earl.jpg
-description: Honours Student
-role: undergrad
-group: alum
+description: Research Assistant
+role: pi
+group: staff
 aliases:
   - L. Earl
   - L Earl

@@ -3,7 +3,7 @@ name: Yelyzaveta Reshetniak
 image: images/team/Liza_R.jpg
 description: Mitacs Research Intern
 role: undergrad
-group: ug
+group: alumni
 aliases:
   - Y. Reshetniak
   - Y Reshetniak
