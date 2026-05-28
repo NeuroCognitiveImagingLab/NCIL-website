@@ -1,9 +1,9 @@
 ---
 name: Laura Earl
 image: images/team/Laura_Earl.jpg
-description: Honours Student
-role: undergrad
-group: alum
+description: Research Assistant
+role: pi
+group: staff
 aliases:
   - L. Earl
   - L Earl
@@ -12,4 +12,4 @@ links:
   email: laura.earl@dal.ca
 ---
 
-Laura is a fourth year student from Novar, Ontario majoring in Neuroscience, minoring in Entrepreneurship and completing a certificate in Neurotechnology and Innovation. Last year she completed an independent project as part of the brain computer interface (BCI) team looking at the effect of stimulus hybridization on EEG signals and BCI performance. This years project, supervised by Dr. Aaron Newman, will focus on the efficacy and usability of motor imagery, and steady state visually evoked potential (SSVEP), -based BCIs. In her free time Laura enjoys reading, road trips and baking. 
+Laura is from Novar, Ontario and recently completed her BSc (Honours) in Neuroscience at Dalhousie University, with a minor in Entrepreneurship and a Certificate in Neurotechnology and Innovation. She has been a member of the lab since 2024, working as part of the brain-computer interface (BCI) team. Her independent research project examined the effect of stimulus hybridization on EEG signals and BCI performance, and her honours thesis, supervised by Dr. Aaron Newman,  investigated the efficacy and usability of motor imagery and steady-state visually evoked potential (SSVEP)-based BCIs. She continues in the lab as a research assistant, contributing to paradigm development and data collection. In her free time, Laura enjoys reading, road trips, and baking.

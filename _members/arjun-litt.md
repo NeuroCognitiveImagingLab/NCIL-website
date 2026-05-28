@@ -1,9 +1,9 @@
 ---
 name: Arjun Litt
 image: images/team/Arjun_L.jpeg
-description: Independent Research
-role: undergrad
-group: ug
+description: Research Assistant
+role: pi
+group: staff
 aliases:
   - A. Litt
   - A Litt
