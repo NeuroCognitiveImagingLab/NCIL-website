@@ -8,7 +8,7 @@ title: Brain-Computer Interfaces (BCI)
 We are recruiting adults aged 18 years or older. Please continue reading for more information!
 
 # What is the Purpose of the Project?
-Brain-computer interface (BCI) systems use brain signals to control a computer. Our lab is focused on *visual selection* BCIs, in which users direct their attention to different stimuli on a computer screen, with each stimulus executing a different command. UIsing EEG, we use brain activity to determine which stimulus the user is attending to. Read more about the [brain-computer interface project here.](https://www.ncilab.ca/projects/BCI)
+Brain-computer interface (BCI) systems use brain signals to control a computer. Our lab is focused on *visual selection* BCIs, in which users direct their attention to different stimuli on a computer screen, with each stimulus executing a different command. Using EEG, we use brain activity to determine which stimulus the user is attending to. Read more about the [brain-computer interface project here.](https://www.ncilab.ca/projects/BCI)
 
 # Who Are We Looking For?
 We are currently recruiting adults aged 18 years or older, with normal or corrected to normal vision, no color-blindness, and no history of neurological disorder (seizures, concussion, stroke).
