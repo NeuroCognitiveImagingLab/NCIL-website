@@ -9,7 +9,7 @@ aliases:
   - A Sudhir
   - Ananya Sudhir
 links:
-  email: 
+  email: asudhir@dal.ca
 ---
 
 Ananya is a fourth year undergraduate student majoring in Neuroscience with a certificate in Neurotechnology Innovation. As a volunteer with the Conversation EEG Project, she supports data collection for the study examining how the brain processes language during natural conversations. Her role involves assisting with EEG setup and recording sessions in which pairs of participants engage in conversations while their brain activity and synchronized audio data is collected.
