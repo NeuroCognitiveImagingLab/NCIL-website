@@ -1,1 +1,1 @@
-Sitemap: http://www.ncilab.ca/sitemap.xml
+Sitemap: http://ncil.science/sitemap.xml
