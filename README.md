@@ -1,6 +1,6 @@
 # NeuroCognitive Imaging Lab's Website
 
-Visit **[www.ncilab.ca](http://www.ncilab.ca)** 🚀
+Visit **[ncil.science](https://ncil.science)** 🚀
 
 _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
 
