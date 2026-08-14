@@ -8,8 +8,24 @@
   - Antoine Tremblay
   - Aaron J. Newman
   publisher: Journal of Cognitive Neuroscience
-  date: '2026-04-05'
+  date: '2026-01-01'
   link: https://doi.org/hbwvk7
+  orcid: 0000-0001-5290-8342
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.64898/2026.07.14.737938
+  title: Investigating fNIRS Test-Retest Reliability During Lexical Decision
+  authors:
+  - Laura M. Elliott
+  - Saisha S. Rankaduwa
+  - Cindy Hamon-Hill
+  - Devon A. Bode
+  - Marilla V. M. Hulls
+  - Paige J. A. Lavoie
+  - Aaron J. Newman
+  publisher: openRxiv
+  date: '2026-07-17'
+  link: https://doi.org/hcb45t
   orcid: 0000-0001-5290-8342
   plugin: orcid.py
   file: orcid.yaml
