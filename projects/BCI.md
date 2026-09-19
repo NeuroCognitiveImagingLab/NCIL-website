@@ -35,12 +35,13 @@ Phase 2: We will then combine two stimulus presentation methods to elicit a hybr
 Phase 3: Once the performance metrics have been maximized, we aim to integrate this stimulus presentation approach into an *online* BCI system designed to identify users' target objects and execute their corresponding commands in real time. 
 
 ## Current State of Project and Lab Volunteer Contribution Opportunities
-We have finalized the stimulus protocol for Phase 2, and will be piloting the study over summer 2024. We will conduct several statistical and machine learning analyses on this data during the Fall 2024 semester. In parallel we are beginning Phase 3 with the gamification and online implementation of a pirate-based BCI paradigm.
+
+This study is currently on pause.
 
 Overall, this is a complex study that intersects neuroscience, computer science, and data science. Involvement opportunities exist at all levels (independent study, honours, graduate students) during any phase. Note that while domain knowledge is considered an asset, especially [NESC/PSYO 3505 *Neural Data Science*](https://dalpsychneuro.github.io/NESC_3505/), it may not be required for some roles/tasks. 
 
 ## Funding Sources
-Funded by the Natural Sciences and Engineering Research Council of Canada (NSERC).
+Funded by a Discovery Grant from the Natural Sciences and Engineering Research Council of Canada ([NSERC](https://www.nserc-crsng.gc.ca)).
 
 {%
   include figure.html

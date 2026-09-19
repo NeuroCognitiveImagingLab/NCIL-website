@@ -31,8 +31,23 @@ To build on previous research examining the relationships between neural process
 
 
 ## Current State of the Study
-We plan to collect data during the late fall of 2025 and continue until April 2026. If you would like more information on participating in this study, please contact us at reading_brains@dal.ca or go to this link: (https://redcap.link/ComChERP).
+**We are currently recruiting children in grades 3–5 for this study.** If you would like more information on participating in this study, please contact us at [reading_brains@dal.ca](mailto:reading_brains@dal.ca) or go to [this link](https://redcap.link/ComChERP).
+
 This project is approved by the Social Sciences and Humanities Research Ethics Board at Dalhousie University (REB# 2025-8051). 
 
+
+## For Students
+
+There are opportunities to work on this project, assisting with data acquisition and analysis.
+
 ## Funding
-This project is funded by the Social Science and Humanities Research Council (SSHRC). 
+
+This project is funded by the Social Sciences and Humanities Research Council of Canada ([SSHRC](https://www.sshrc-crsh.gc.ca/)).
+
+{%
+  include figure.html
+  image="images/logos/sshrc_logo.png"
+  link="https://www.sshrc-crsh.gc.ca/"
+  tooltip="SSHRC"
+  width='450px'
+%}

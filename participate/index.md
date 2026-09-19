@@ -24,20 +24,9 @@ Interested in participating in one of our studies? Click the links below to find
 %}
 {%
   include card.html
-  image="images/projects/EEG_setup.jpeg"
-  link="participate/BCI-Participate"
-  title="Brain-Computer Interfaces"
-  subtitle=""
-  description=""
-  tooltip=""
-  tags=""
-  repo=""
-%}
-{%
-  include card.html
-  image="images/projects/aphasia_couple.jpeg"
-  link="participate/Aphasia-recruitment"
-  title="Aphasia Treatment"
+  image="images/projects/SKNIRF_project.jpg"
+  link="participate/fNIRS-Reliability-recruitment"
+  title="Reliability of fNIRS Signals"
   subtitle=""
   description=""
   tooltip=""
@@ -47,8 +36,19 @@ Interested in participating in one of our studies? Click the links below to find
 {%
   include card.html
   image="images/projects/using_smartphone.jpeg"
-  link="participate/Madworld-Mango-recruitment"
-  title="Mobile Apps to Help Newcomers to Canada Learn English"
+  link="participate/LANGA-recruitment"
+  title="Second Language Acquisition"
+  subtitle=""
+  description=""
+  tooltip=""
+  tags=""
+  repo=""
+%}
+{%
+  include card.html
+  image="images/projects/EEG_cap.jpeg"
+  link="participate/Vision-Disorders-recruitment"
+  title="Objective Diagnosis of Vision Disorders"
   subtitle=""
   description=""
   tooltip=""

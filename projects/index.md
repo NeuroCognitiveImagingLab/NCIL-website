@@ -35,12 +35,13 @@ Our ultimate goal is to understand factors that contribute to full literacy – 
   text=text
 %}
 
+
 {% capture text %}
-A brain-computer interface (BCI) is an electronic system that can convert an individual’s brain activity into control commands to operate devices, allowing systems to receive input directly from task-related brain signals. For this reason, BCIs offer promising assistive technology solutions for people suffering with severe motor dysfunction. Our research using EEG aims to maximize the performance of a BCI to distinguish target responses, for any user, at any time. 
+Functional near-infrared spectroscopy (fNIRS) is a promising neuroimaging technique that measures oxygen concentration in the brain. Our lab plans to use this to study reading development in children, in parallel with our EEG studies. However, the reliability of fNIRS has not been well established. That is, if we bring the same person in to the lab on two different days, and have them perform the same task, does fNIRS tell us the same story about their brain activity? To study this, we have people come to the lab two times, one week apart, and perform a reading task.
 {%
   include button.html
-  link="projects/BCI"
-  text="Find out more about our BCI study"
+  link="projects/fNIRS-Reliability"
+  text="Find out more about the fNIRS reliability study"
   icon="fas fa-arrow-right"
   flip=true
 %}
@@ -48,40 +49,19 @@ A brain-computer interface (BCI) is an electronic system that can convert an ind
 {% endcapture %}
 {%
   include feature.html
-  image="images/projects/EEG_setup.jpeg"
-  link="projects/BCI"
-  title="Brain-Computer Interfaces"
+  image="images/projects/SKNIRF_project.jpg"
+  link="projects/fNIRS-Reliability"
+  title="Reliability of fNIRS Signals"
   text=text
 %}
 
 
 {% capture text %}
-Aphasia is an acquired loss of language abilities, often caused by stroke or other brain injury. It affects 2.5 million people in North America alone. Aphasia can can disrupt people's ability to hold a job, or even communicate normally with their family and friends. Unfortunately, most people with aphasia are not able to access adequate treatment. We are developing and testing a computer-based therapy for at-home rehabilitation of aphasia. We are currently recruiting people with aphasia to participate in this study — please contact us if you're interested!
+The LANGA (LANguage GAming) project is aimed at studying changes in the brain as people first learn a new language. Our lab has developed games based on popular language learning apps, and we record brain activity using EEG while people play the games. In the process, we track changes in brain activity as people learn new vocabulary, and grammatical rules. The ultimate goal of this work would be to develop a brain-computer interface that dynamically adapts a language-learning app based on individual learners' brain activity.
 {%
   include button.html
-  link="projects/Aphasia"
-  text="Find out more about the aphasia study"
-  icon="fas fa-arrow-right"
-  flip=true
-%}
-{:.center}
-{% endcapture %}
-{%
-  include feature.html
-  image="images/projects/aphasia_couple.jpeg"
-  link="projects/Aphasia"
-  title="Aphasia Treatment"
-  text=text
-  flip=true
-%}
-
-
-{% capture text %}
-We are studying how the [Mango Languages](https://mangolanguages.com) app can assist learners of new languages to improve their acquired language abilities. We are conducting this sudy in partnership with Mango Languages and the [Language Learning & Development Lab](https://www.sfu.ca/langdev.html) at Simon Fraser University, directed by Dr. Henny Yeung. This project is funded through a [SSHRC](https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx) Partnership Grant, [_Ensuring Full Literacy in a Multicultural and Digital World_](https://ensuringliteracy.ca), under the direction of [Dr. Janet F. Werker](https://psych.ubc.ca/profile/janet-werker/) at the University of British Columbia.   
-{%
-  include button.html
-  link="projects/MADworld-Mango"
-  text="Find out more about the Mango study"
+  link="projects/LANGA"
+  text="Find out more about the LANGA study"
   icon="fas fa-arrow-right"
   flip=true
 %}
@@ -90,69 +70,8 @@ We are studying how the [Mango Languages](https://mangolanguages.com) app can as
 {%
   include feature.html
   image="images/projects/using_smartphone.jpeg"
-  link="projects/MADworld-Mango"
-  title="Mobile Apps to Help Newcomers to Canada Learn English"
-  text=text
-%}
-
-
-{% capture text %}
-Learning a new language is challenging for most adults, and it has been shown that it can be more difficult if the learner is using their first language during the process. Therefore, this project investigates adult language learning of Welsh words, and uses electroencephalography (EEG) to explore how speaking English versions of the newly learned Welsh words will alter brain activity. 
-{%
-  include button.html
-  link="projects/WERP"
-  text="Find out more about the Welsh learning study"
-  icon="fas fa-arrow-right"
-  flip=true
-%}
-{:.center}
-{% endcapture %}
-{%
-  include feature.html
-  image="images/projects/EEG_cap.jpeg"
-  link="projects/WERP"
-  title="Memory Processes in Second Language Learning"
-  flip=true
-  text=text
-%}
-
-
-{% capture text %}
-This research project is driven by a very simple question: why do we remember things better when we read them aloud, than when we read them silently? There are many possible reasons, including hearing your voice, moving your mouth, and paying attention. In our research, we are using functional MRI scanning to examine what is different in the brain when we read aloud. 
-{%
-  include button.html
-  link="projects/Production-Effect"
-  text="Find out more about the reading aloud study"
-  icon="fas fa-arrow-right"
-  flip=true
-%}
-{:.center}
-{% endcapture %}
-{%
-  include feature.html
-  image="images/projects/pdxn_fMRI_brains.jpeg"
-  link="projects/Production-Effect"
-  title="What's Special About Reading Aloud?"
-  text=text
-%}
-
-
-{% capture text %}
-Have you ever watched a long lecture or meeting video and found your attention shifting away? We often think that this phenomenon, called mind wandering, is bad. However, there are situations when it can be good, like when you listen to a podcast and develop new and exciting ideas. In this project, led by Dr. Colin Conrad of Dalhousie University’s Faculty of Management, aims to explore how the brain’s ability to sustain attention may become weaker over time and situations when this is either harmful or helpful. This study takes interdisciplinary approaches, though it especially uses NCIL’s electroencephalography (EEG) system.
-{%
-  include button.html
-  link="projects/Project-Homework"
-  text="Find out more about the mind wandering study"
-  icon="fas fa-arrow-right"
-  flip=true
-%}
-{:.center}
-{% endcapture %}
-{%
-  include feature.html
-  image="images/projects/mind_wandering.jpeg"
-  link="projects/Project-Homework"
-  title="Mind Wandering in Remote Collaboration and Remote Work Platforms"
+  link="projects/LANGA"
+  title="Second Language Acquisition"
   flip=true
   text=text
 %}
@@ -174,5 +93,67 @@ _Hyperscanning_ refers to collecting neuroimaging data from more than one person
   image="images/projects/hyperscanning.jpeg"
   link="projects/hyperscanning"
   title="Hyperscanning During Conversation"
+  text=text
+%}
+
+
+{% capture text %}
+EEG is commonly used in eye clinics to help diagnose different vision problems, often in combination with other vision tests and photographs of the inside of the eye. However, interpreting the EEG data typically relies on the subjective judgements of trained clinicians, which is challenging to train and risks bias. This line of work in our lab involves collecting EEG data in standard visual diagnostic paradigms from a large sample of people, and training machine learning algorithms to discriminate between different clinical conditions.
+{%
+  include button.html
+  link="projects/Vision-Disorders"
+  text="Find out more about the vision diagnosis study"
+  icon="fas fa-arrow-right"
+  flip=true
+%}
+{:.center}
+{% endcapture %}
+{%
+  include feature.html
+  image="images/projects/EEG_cap.jpeg"
+  link="projects/Vision-Disorders"
+  title="Objective Diagnosis of Vision Disorders"
+  flip=true
+  text=text
+%}
+
+
+{% capture text %}
+A brain-computer interface (BCI) is an electronic system that can convert an individual’s brain activity into control commands to operate devices, allowing systems to receive input directly from task-related brain signals. For this reason, BCIs offer promising assistive technology solutions for people suffering with severe motor dysfunction. Our research using EEG aims to maximize the performance of a BCI and contribute to the development of assistive technology.
+{%
+  include button.html
+  link="projects/BCI"
+  text="Find out more about our BCI study"
+  icon="fas fa-arrow-right"
+  flip=true
+%}
+{:.center}
+{% endcapture %}
+{%
+  include feature.html
+  image="images/projects/EEG_setup.jpeg"
+  link="projects/BCI"
+  title="Brain-Computer Interfaces"
+  text=text
+%}
+
+
+{% capture text %}
+Consistent with NCIL's mission to transform research knowledge into real-world solutions, lab director Aaron Newman, with former lab member Hamid Mandi, co-founded [Zeuron Inc.](https://zeuron.io) Zeuron's current focus is developing GamBit, an assistive technology that aims to enrich the social lives of people with physical mobility limitations (such as spinal cord injury, cerebral palsy, and ALS) by enabling them to play video games using brain activity.
+{%
+  include button.html
+  link="projects/Translational-Work"
+  text="Find out more about our translational work"
+  icon="fas fa-arrow-right"
+  flip=true
+%}
+{:.center}
+{% endcapture %}
+{%
+  include feature.html
+  image="images/projects/GamBit.jpg"
+  link="projects/Translational-Work"
+  title="Translational Work"
+  flip=true
   text=text
 %}

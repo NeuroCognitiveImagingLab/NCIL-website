@@ -26,12 +26,13 @@ adaptation to the loss of a sense (such the loss of hearing or sight), and many 
 In our lab, we mostly use **neuroimaging** tools like MRI and EEG to study the brain. These tools are non-invasive (they are safe and painless) and give us amazing abilities to see where and when things are happening in the brain. You can learn more about these tools under the Neuroimaging link at the top of the page.
 
 Current research projects in the lab are focused on a number of different topics, including:
-* Basic Language Processing
 * Reading Development
-* Second Language Learning
+* Reliability of fNIRS Measurements
+* Second Language Acquisition
+* Brain Activity During Natural Conversation
+* Objective Diagnosis of Vision Disorders
 * Brain-Computer Interfaces
-* Aphasia (an acquired language disorder)
-* Advanced analysis approaches for EEG and fMRI
+* Translating Research into Assistive Technology
 {:.center}
 
 {%
