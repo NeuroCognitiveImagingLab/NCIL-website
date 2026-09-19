@@ -8,7 +8,7 @@ title: Reading Development
 The NeuroCognitive Imaging Lab at Dalhousie University is looking for English speaking children in grades 3, 4, and 5 to participate in a research study about reading and the brain. This study is funded by the Social Sciences and Humanities Research Council of Canada (SSHRC).
 
 ## What Is This Study About?
-We are doing this study to learn more about factors that contribute to literacy development and neural processes associated with reading. In addition to recognizing words, reading comprehension relies on recognition of punctuation, such aas periods and commas. We are particularly interested in how and when children's sensitivity and understanding the meaning of commas develops. The "closure positive shift" (CPS) refers to a change in brain wave activity in response to pauses in speech and commas in written text that has been observed in children during listening to speech and in adults during silent reading. We'll be testing for the CPS during silent reading of children in grades 3-5. 
+We are doing this study to learn more about factors that contribute to literacy development and neural processes associated with reading. In addition to recognizing words, reading comprehension relies on recognition of punctuation, such as periods and commas. We are particularly interested in how and when children's sensitivity and understanding the meaning of commas develops. The "closure positive shift" (CPS) refers to a change in brain wave activity in response to pauses in speech and commas in written text that has been observed in children during listening to speech and in adults during silent reading. We'll be testing for the CPS during silent reading of children in grades 3-5. 
 
 Right now, our research is not looking at children with diagnosed reading disorders (like dyslexia), just at kids who are learning to read at more or less the expected level for their grade. 
 In the long run, we hope this research will help us understand what causes delays or disabilities in reading, to better diagnose reading problems earlier in development, and to assist in designing individually tailored programs for reading development.
@@ -19,7 +19,7 @@ We are currently recruiting participants in grades 3, 4, and 5, who speak Englis
 ## What Will Children Do?
 This study will be conducted at our lab at Dalhousie University.
 
- We’ll conduct brief assessments of children’s reading and related skills using standardized tasks followed by monitoring of changes in brain wave activity while children silently read. To monitor children's brain actviity we use electrencephalography, (EEG). 
+ We’ll conduct brief assessments of children’s reading and related skills using standardized tasks followed by monitoring of changes in brain wave activity while children silently read. To monitor children's brain activity we use electroencephalography, (EEG). 
 
 ## About EEG
 
