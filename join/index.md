@@ -40,26 +40,84 @@ NCIL is committed to providing a safe, diverse, inclusive, and equitable environ
 
 NCIL always has many undergraduate students in the lab, getting experience with cognitive neuroscience research. Lab experience in general is a great way to learn about the process of scientific research, and to develop critical thinking and writing skills. This can be valuable for a variety of educational and career paths, including graduate study in cognitive neuroscience, or many other fields (e.g., clinical professions, law, entrepreneurship).
 
-Every year, we receive many requests from students who are interested in volunteering in the lab. As of fall 2023, **we no longer take volunteers in the lab**. This decision was made because our experience over many years has proven that this not a good experience for either students or the lab. The technical and sophisticated nature of the research we do (primarily EEG and MRI) can’t be mastered by volunteering a few hours a week — it requires systematic training over the course of many months. As well, training each new volunteer takes a significant investment of time on the part of lab personnel, and most volunteers do not persist long enough to make this investment of our time worthwhile. 
+Every year we receive many requests from students who want to get involved. **We accept applications for volunteer research assistant positions, and for the department's research courses, through a single application form.**
 
-The best way to learn about conducting research in our lab (primarily using EEG or MRI) is to commit to the extent of training required, by enrolling in an coursework for academic credit. Our department offers a number of courses that provide this training, including two that were developed by Dr. Newman himself: [PSYO/NESC 3137, *Research Methods in Cognitive Neuroscience*](https://academiccalendar.dal.ca/Catalog/ViewCatalog.aspx?pageid=viewcatalog&topicgroupid=28087&entitytype=CID&entitycode=PSYO+3137), and [PSYO/NESC 3505, *Neural Data Science*](https://neural-data-science.github.io/NESC_3505/). These courses are open to students in any program, although they do have prerequisites (please see the Academic Calendar for details).
+{%
+  include button.html
+  link="https://redcap.link/ncil-ra-application"
+  text="Apply to join the lab"
+  icon="fas fa-arrow-right"
+  flip=true
+%}
+
+### What we ask for
+
+Research in this lab is technical, and it can't be picked up in a few scattered hours. So what we ask is less about what you already know than about what you're able to commit:
+
+- At least **four hours a week** in the lab, for at least **one full term**, plus about an hour for the weekly lab meeting.
+- **Showing up when you say you will.** When you run a participant session, someone has travelled to campus for that appointment and a lab member has set up the equipment.
+- **Telling us early when you can't make it.** That's always fine. Disappearing without a word is the thing that causes problems.
+
+Your **first four weeks are a trial, in both directions.** At the end of them you'll sit down with whoever you've been working with and decide together whether to carry on. If the work isn't what you hoped for — and cleaning electrodes and fitting caps is a real part of it — that's a perfectly acceptable answer.
+
+You don't need specific skills to start. We do generally expect that you've completed first year, including 6 credit hours in Introductory Psychology & Neuroscience.
+
+### Two things worth knowing before you apply
+
+**We don't take on new lab members over the summer**, and we don't supervise Directed Research in the summer term. You're welcome to apply then — we'll be in touch about a fall start.
+
+**If you're looking to tick off volunteer hours** for a medical school or professional program application, this probably isn't the right fit. The training investment only pays off for both sides over a longer commitment, and there are opportunities better aligned with that goal.
 
 ## NeuroTech Club
 
-As an alternative to volunteering in the lab, we have developed the **NeuroTech Club** which is offered through the SURGE sandbox in the Faculty of Science. Neurotech is an intersection of neuroscience, computer science and engineering. The [Neurotech Club](https://www.surgeinnovation.ca/clubs) is led by members of our lab (graduate and undergraduate students) who have expertise in neural data science and neuroimaging techniques such as electroencephalography (EEG). The club meets weekly and provides students with the opportunity to work with consumer-grade EEG equipment (e.g., OpenBCI Cyton Board, Unicorn, etc.), to try out small experiments, and even try developing their own applications. Compared to the professional research studies run in the lab that require systematic training and high levels of quality control using research grade EEG systems, the NeuroTech Club allows students to “play” and explore with EEG and other neuroimaging techniques on their own terms. This is a great way to get experience in EEG and other neuroimaging techniques, and to decide if you want to pursue more formal training in our lab. You may wish to work on developing a simple game, or learning how to process neural data. For more information on signing up and registering for the NeuroTech Club, please visit the link above.
+Alongside work in the lab, we have developed the **NeuroTech Club** which is offered through the SURGE sandbox in the Faculty of Science. Neurotech is an intersection of neuroscience, computer science and engineering. The [Neurotech Club](https://www.surgeinnovation.ca/neurotechclub) is led by members of our lab (graduate and undergraduate students) who have expertise in neural data science and neuroimaging techniques such as electroencephalography (EEG). The club meets weekly and provides students with the opportunity to work with consumer-grade EEG equipment (e.g., OpenBCI Cyton Board, Unicorn, etc.), to try out small experiments, and even try developing their own applications. Compared to the professional research studies run in the lab that require systematic training and high levels of quality control using research grade EEG systems, the NeuroTech Club allows students to “play” and explore with EEG and other neuroimaging techniques on their own terms. This is a great way to get experience in EEG and other neuroimaging techniques, and to decide if you want to pursue more formal training in our lab. You may wish to work on developing a simple game, or learning how to process neural data. For more information on signing up and registering for the NeuroTech Club, please visit the link above.
 
-Students who have participated in the NeuroTech Club attend regularly for at least 1 term, and are interested in pursuing research in our lab more formally can then discuss opportunities for doing an independent study course in the lab. More information on this is below. 
+Students who attend the NeuroTech Club regularly for at least a term, and want to pursue research in our lab more formally, are in a strong position to apply — whether for a volunteer position or an independent study course. More on those below.
 
-If you are looking for volunteer hours to support some future goal (such as medical school application), you may wish to find other opportunities that are better aligned with your aspirations.
+## Research Courses for Credit
 
-## Independent Research Project (NESC/PSYO 3100/3101/3001)
+The department offers two research courses, and they are different animals. Students often apply for one when they mean the other.
 
-Students who are interested in systematic research training are encouraged to consider a PSYO/NESC 3100/3001 independent research project. I will normally only agree to supervise honours students who have completed 3100/3101 under my supervision, due to the extent of background knowledge and lab technique development required to complete an honours project in cognitive neuroscience (although completion of 3100/3101 does not guarantee an agreement to supervise honours).
+### Directed Research — NESC/PSYO 3001 (and 3002)
 
-We also strongly suggest that you enroll in two courses that Dr. Newman developed, which are perfectly-aligned with the research techniques we use in NCIL — including EEG and data science in Python. The two courses I recommend you take are NESC/PSYO 3137, Research Methods in Cognitive Neuroscience, and NESC/PSYO 3505, Neural Data Science. These courses teach you the things you need to do a research project in NCIL (like honours), and are fundamental to work in the areas such as neurotechnology, med-tech more generally, and data science even more generally. We work with complex, multidimensional data and advanced statistical and machine learning models — the only way you can do productive work in these fields is to commit to developing this technical know-how.
+A **single-term** project worth 3 credit hours, designed to be completed within a 12-week term. It's called *directed* because the supervisor takes the larger role in shaping the project — making sure it's a sensible plan for the time available. A 3001 project might involve analysing data that has already been collected. The final product is usually a paper.
+
+**3002** is a second single-term project, for students who have already completed a 3001. It must be a genuinely new project with its own beginning and end, not a continuation — though the topic can be related.
+
+The department permits Directed Research in any term, including Summer. **NCIL does not supervise it over the summer.**
+
+### Independent Research — NESC/PSYO 3100/3101
+
+A **two-term** project worth 6 credit hours, running September through April. It's called *independent* because you take the larger role: helping develop the project, collecting and analysing the data, interpreting the results and producing a finished piece of work. It also satisfies 3 credit hours toward the laboratory component of the PSYO and NESC programs.
+
+This one runs **only across consecutive Fall and Winter terms** of the same academic year. The department does not offer it in Spring or Summer.
+
+### Which, and how many
+
+You can take **6 credit hours of independent research in total** during your degree — so **3001 + 3002, or 3100/3101, but not both**. Choose accordingly.
+
+### What the department requires
+
+Both courses have the same entry requirements:
+
+- A grade of **B or higher** in NESC/PSYO 2000
+- An average of **B+ or higher (GPA 3.30)** across all your completed NESC/PSYO courses at the 2000 level and above
+- A willing supervisor
+- A signed syllabus sent to the course coordinator **in the first week of term**
+- Ethics approval in place for the project
+
+Because all our research involves human participants, you will also need to complete **TCPS 2 CORE** certification before you can register. It's a free online course, it takes a few hours, and it has to be done in time — so start it early rather than in the week you're trying to register.
+
+The full rules are in the department's [Independent Research Project Courses guidelines](https://www.dal.ca/faculty/science/psychology_neuroscience/programs/psyc-program/Psychology_Course_Offerings.html).
+
+### Courses we recommend alongside
+
+Two courses Dr. Newman developed line up closely with the techniques we use — EEG and data science in Python: [NESC/PSYO 3137, *Research Methods in Cognitive Neuroscience*](https://academiccalendar.dal.ca/Catalog/ViewCatalog.aspx?pageid=viewcatalog&topicgroupid=28087&entitytype=CID&entitycode=PSYO+3137) and [NESC/PSYO 3505, *Neural Data Science*](https://neural-data-science.github.io/NESC_3505/). We work with complex, multidimensional data and advanced statistical and machine learning models; developing that technical know-how is what makes productive work possible, here and in neurotechnology, med-tech and data science more broadly.
 
 ## Honours Theses
-If you are interested in doing an honours thesis in NCIL, please note that **Dr. Newman will only take on honours students who have completed PSYO/NESC 3100/3101 (Independent Research) under his supervision, with a grade of A- or better**. An honours thesis in cognitive neuroscience is a significant undertaking, and the independent research project ensures that students go into honours with proper training and expectations.
+If you are interested in doing an honours thesis in NCIL, please note that **Dr. Newman will only take on honours students who have completed PSYO/NESC 3100/3101 (Independent Research) under his supervision, with a grade of A- or better**. An honours thesis in cognitive neuroscience is a significant undertaking, and the independent research project ensures that students go into honours with proper training and expectations. Completing 3100/3101 does not by itself guarantee an honours spot.
+
+**Timing matters more than most students expect.** The department only lets a supervisor confirm an honours project from **March 1**, and its application closes in **May**. That means you and Dr. Newman need to have met before March 1 — and because his calendar is often booked one to two weeks ahead, **ask for that meeting by February 15**. If you leave it to the last week of February, there may not be a slot left in time.
 
 We do not require undergraduate students to have any specific skills when starting work in the lab, although we generally require that you have completed first year university, including 6 credit hours in Introductory Psychology & Neuroscience. With that said, there are numerous skills that you should aim to develop if you wish to work and be successful in the lab. These include scientific computing skills, including working with the command line and basic programming (we primarily use the Python and R languages), as well as a grounding in the principles of cognitive neuroscience research techniques. These can be developed in a variety of ways, but a good choice is to enroll in the courses Dr. Newman has developed, including PSYO/NESC 3137, Research Methods in Cognitive Neuroscience, and PSYO/NESC 3505, Neural Data Science. 
 
