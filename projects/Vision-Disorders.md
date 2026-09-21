@@ -48,3 +48,7 @@ If you are interested in participating or would like more information, please em
 ## For Students
 
 There are no current opportunities to work on this project. However, if you are interested in learning more, you can volunteer to participate, and see how the study is done. Participating is also an opportunity to meet the researchers involved and ask questions about the study.
+
+## Funding Sources
+
+Supported by the Dr. R. Evatt and Rita Mathers Trainee Scholarship in Ophthalmology & Visual Sciences.
