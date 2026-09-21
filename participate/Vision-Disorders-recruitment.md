@@ -5,18 +5,24 @@ title: Objective Diagnosis of Vision Disorders
 # Objective Diagnosis of Vision Disorders
 {:.center}
 
-We are recruiting adult participants with healthy vision. Please continue reading for more information!
+We are recruiting adult volunteers — **with or without eye conditions**. Please continue reading for more information!
 
 ## What Is the Purpose of the Project?
-EEG is already used in eye clinics to help diagnose vision problems, but interpreting those recordings depends on the subjective judgement of a trained clinician. We are collecting EEG data using standard visual diagnostic tests so that we can train machine learning methods to tell clinical conditions apart objectively. This work is being done with the IWK Health Centre Eye Clinic in Halifax. Read more about the [vision diagnosis project here](https://ncil.science/projects/Vision-Disorders).
+Electrical recordings from the eye and the brain are already used in eye clinics to help diagnose vision problems, but interpreting those recordings depends on the subjective judgement of a trained clinician. We are collecting these recordings using the standard visual diagnostic tests so that we can train machine learning methods to tell clinical conditions apart objectively. This work is being done with the IWK Health Centre Eye Clinic in Halifax. Read more about the [vision diagnosis project here](https://ncil.science/projects/Vision-Disorders).
 
-To recognize a recording that reflects a vision disorder, we first need a clear picture of what a healthy recording looks like — which is why we are recruiting participants with healthy vision.
+For the algorithm to recognize a recording that reflects a vision disorder, it needs many examples of both — which is why we are recruiting volunteers with and without eye conditions.
 
 ## Who Are We Looking For?
-We are recruiting adults with **normal or corrected-to-normal vision** (glasses or contact lenses are fine) and **no neurological conditions**.
+Any interested adult volunteer, **with or without an eye condition**. You do not need a diagnosis, and you do not need to be a patient at the clinic.
 
 ## What Does a Participant Do?
-Sessions take place at the **IWK Health Centre** in Halifax. You will be seated in front of a screen and shown standard visual test patterns while we record your brain's response using EEG. EEG involves wearing sensors on the scalp; it is safe, painless, and non-invasive.
+Sessions take place at the **IWK Eye Clinic Visual Electrodiagnostic Lab** in Halifax, and take approximately **60–90 minutes**. One session covers three things, all of them tests we do routinely in clinic, performed the same way we would with a patient:
+
+1. **An eye exam** — similar to testing you may have had at an optometrist, including visual acuity, contrast sensitivity and colour vision.
+2. **Visual electrodiagnostic testing** — you look at various patterns or lights while electrodes placed on your scalp or lower eyelid record activity from your visual system. This is safe, painless and non-invasive.
+3. **Ocular photography** — photos of the back of your eye, taken with specialized cameras.
+
+This study has been reviewed and approved by the IWK Research Ethics Board.
 
 ## Interested? Want to Learn More?
 Contact [Jeff Locke](mailto:jeff.locke@dal.ca), who can tell you more about what is involved and answer any questions before you decide.
