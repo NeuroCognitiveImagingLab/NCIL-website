@@ -86,11 +86,27 @@ A **single-term** project worth 3 credit hours, designed to be completed within 
 
 In NCIL, Directed Research runs in the **Fall or Winter terms only**.
 
+{%
+  include button.html
+  link="https://redcap.link/ncil-ra-application"
+  text="Apply for Directed Research"
+  icon="fas fa-arrow-right"
+  flip=true
+%}
+
 ### Independent Research — NESC/PSYO 3100/3101
 
 A **two-term** project worth 6 credit hours, running September through April. It's called *independent* because you take the larger role: helping develop the project, collecting and analysing the data, interpreting the results and producing a finished piece of work. It also satisfies 3 credit hours toward the laboratory component of the PSYO and NESC programs.
 
 This one runs **only across consecutive Fall and Winter terms** of the same academic year. The department does not offer it in Spring or Summer.
+
+{%
+  include button.html
+  link="https://redcap.link/ncil-ra-application"
+  text="Apply for Independent Research"
+  icon="fas fa-arrow-right"
+  flip=true
+%}
 
 ### Which, and how many
 
@@ -120,6 +136,14 @@ If you are interested in doing an honours thesis in NCIL, please note that **Dr.
 **Timing matters more than most students expect.** The department only lets a supervisor confirm an honours project from **March 1**, and its application closes in **May**. That means you and Dr. Newman need to have met before March 1 — and because his calendar is often booked one to two weeks ahead, **ask for that meeting by February 15**. If you leave it to the last week of February, there may not be a slot left in time.
 
 We do not require undergraduate students to have any specific skills when starting work in the lab, although we generally require that you have completed first year university, including 6 credit hours in Introductory Psychology & Neuroscience. With that said, there are numerous skills that you should aim to develop if you wish to work and be successful in the lab. These include scientific computing skills, including working with the command line and basic programming (we primarily use the Python and R languages), as well as a grounding in the principles of cognitive neuroscience research techniques. These can be developed in a variety of ways, but a good choice is to enroll in the courses Dr. Newman has developed, including PSYO/NESC 3137, Research Methods in Cognitive Neuroscience, and PSYO/NESC 3505, Neural Data Science. 
+
+{%
+  include button.html
+  link="https://redcap.link/ncil-ra-application"
+  text="Apply for honours supervision"
+  icon="fas fa-arrow-right"
+  flip=true
+%}
 
 ## Certificate in Neurotechnology Innovation (for undergraduates)
 
