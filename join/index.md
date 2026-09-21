@@ -84,7 +84,7 @@ A **single-term** project worth 3 credit hours, designed to be completed within 
 
 **3002** is a second single-term project, for students who have already completed a 3001. It must be a genuinely new project with its own beginning and end, not a continuation — though the topic can be related.
 
-The department permits Directed Research in any term, including Summer. **NCIL does not supervise it over the summer.**
+In NCIL, Directed Research runs in the **Fall or Winter terms only**.
 
 ### Independent Research — NESC/PSYO 3100/3101
 
