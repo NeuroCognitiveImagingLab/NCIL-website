@@ -51,4 +51,4 @@ There are no current opportunities to work on this project. However, if you are 
 
 ## Funding Sources
 
-Supported by the Dr. R. Evatt and Rita Mathers Trainee Scholarship in Ophthalmology & Visual Sciences.
+Jeff Locke's work on this project is supported by the Dr. R. Evatt and Rita Mathers Trainee Scholarship in Ophthalmology & Visual Sciences.
