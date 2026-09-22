@@ -46,7 +46,7 @@ Interested in participating in one of our studies? Click the links below to find
 %}
 {%
   include card.html
-  image="images/projects/EEG_cap.jpeg"
+  image="images/projects/eyeAI-VEP.jpg"
   link="participate/Vision-Disorders-recruitment"
   title="Objective Diagnosis of Vision Disorders"
   subtitle=""

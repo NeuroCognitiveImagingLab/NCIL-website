@@ -110,7 +110,7 @@ Electrical recordings from the brain and the retina are commonly used in eye cli
 {% endcapture %}
 {%
   include feature.html
-  image="images/projects/EEG_cap.jpeg"
+  image="images/projects/eyeAI-VEP.jpg"
   link="projects/Vision-Disorders"
   title="Objective Diagnosis of Vision Disorders"
   flip=true
