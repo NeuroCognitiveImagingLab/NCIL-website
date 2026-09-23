@@ -3,7 +3,7 @@ name: Emily Wei
 image: images/team/Emily_Wei_Photo.jpg
 description: Research Assistant
 role: pi
-group: staff
+group: alum
 aliases:
   - E. Wei
   - E Wei

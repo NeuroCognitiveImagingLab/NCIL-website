@@ -1,6 +1,6 @@
 ---
 name: Cate Brandt
-image: images/team/Cate_Brandt.jpg
+image: images/photo.jpg
 description: Honours Student
 role: undergrad
 group: alum

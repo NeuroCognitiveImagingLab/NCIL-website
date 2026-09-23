@@ -3,7 +3,7 @@ name: Ananya Sudhir
 image: images/team/Ananya_S.jpg
 description: Volunteer
 role: undergrad
-group: ug
+group: alum
 aliases:
   - A. Sudhir
   - A Sudhir

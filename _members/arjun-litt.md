@@ -3,7 +3,7 @@ name: Arjun Litt
 image: images/team/Arjun_L.jpeg
 description: Research Assistant
 role: pi
-group: staff
+group: alum
 aliases:
   - A. Litt
   - A Litt
