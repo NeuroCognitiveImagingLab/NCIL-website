@@ -43,7 +43,14 @@ jobs:
 
       - name: Set root url
         run: |
-          printf "\n\nurl: ${{ steps.pages.outputs.origin }}" >> _config.yaml
+          # The Pages API reports http:// for this site: Cloudflare proxies
+          # ncil.science, so GitHub cannot provision its own certificate and
+          # "Enforce HTTPS" stays off. Visitors do get HTTPS -- Cloudflare
+          # terminates TLS at the edge -- so taking that http:// at face value
+          # puts a scheme nobody actually uses into canonical URLs, og:url, the
+          # sitemap, the feed, and every redirect_from target.
+          ORIGIN=$(printf '%s' "${{ steps.pages.outputs.origin }}" | sed 's|^http://|https://|')
+          printf "\n\nurl: %s" "$ORIGIN" >> _config.yaml
 
       - name: Build live version of site
         run: |
