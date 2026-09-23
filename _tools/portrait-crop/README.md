@@ -39,6 +39,10 @@ member front matter in `_members/` points straight at them.
 Exclude the lab/group photos (`LLL_team`, `Eskes-Lab`, `LangDevLab`, `MOM-LINC`,
 `PVSRG`, `join.jpg`) — they are not portraits and face-centring ruins them.
 
+Also exclude `Daniel_Godfrey.jpg`: the photo includes his dog, which is the
+point of it. A member's own framing wins over the house framing — ask before
+recropping a photo that obviously contains something besides the person.
+
 ## Where the source photos come from
 
 New members upload one to the REDCap intake form. It arrives via the **Website
