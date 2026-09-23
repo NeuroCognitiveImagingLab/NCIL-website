@@ -63,13 +63,6 @@ Great people doing amazing work is what makes NCIL. Here’s who we are:
 ## Alumni
 {:.center}
 {% include list.html data="members" component="portrait" filters="group: alum" style="small" %}
-<!-- {% include list.html data="members" component="portrait" filters="role: pi, group: alum" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: postdoc, group: alum" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: phd, group: alum" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: undergrad, group: alum" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: programmer, group: alum" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: mascot, group: alum" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: collab, group: alum" style="small" %} -->
 
 ## Funding
 {:.center}
