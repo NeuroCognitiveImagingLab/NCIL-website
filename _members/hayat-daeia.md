@@ -3,7 +3,7 @@ name: Hayat Daeia
 image: images/team/Hayat_D.jpeg
 description: Volunteer
 role: undergrad
-group: ug
+group: alum
 aliases:
   - H. Daeia
   - H Daeia

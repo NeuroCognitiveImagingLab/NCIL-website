@@ -3,7 +3,7 @@ name: Laura Earl
 image: images/team/Laura_Earl.jpg
 description: Research Assistant
 role: pi
-group: staff
+group: alum
 aliases:
   - L. Earl
   - L Earl

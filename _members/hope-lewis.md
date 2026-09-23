@@ -1,6 +1,6 @@
 ---
 name: Hope Lewis
-image: images/team/Ry_Lewis.jpg
+image: images/team/Hope_L.jpg
 description: PhD Student
 role: phd
 group: grad
@@ -12,7 +12,7 @@ aliases:
   - R Lewis
   - Ry Lewis
 links:
-  email: ry764058@dal.ca
+  email: hope.lewis@dal.ca
 ---
 
-Hope is a Psychology PhD student with research interests in human memory and language. They previously completed their BSc in Psychology at Cape Breton University before moving to Halifax where they finished their MSc in Psychology at Dalhousie. Hope is currently working on a study at the lab investigating changes in EEG activity associated with the successful learning of new words in an unfamiliar language. Outside the research sphere, Hope does volunteer work at the Loaded Ladle and enjoys playing RPGs, hot yoga, and drawing.
+Hope is a 4th year PhD student in Neuroscience and Psychology. She is currently conducting research on changes in EEG related to the initial stages of learning a new language. When she is not working on lab projects, she regularly spends her time running D&D campaigns and playing jugger on the weekend.
