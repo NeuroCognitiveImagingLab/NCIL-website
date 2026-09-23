@@ -98,7 +98,7 @@ _Hyperscanning_ refers to collecting neuroimaging data from more than one person
 
 
 {% capture text %}
-EEG is commonly used in eye clinics to help diagnose different vision problems, often in combination with other vision tests and photographs of the inside of the eye. However, interpreting the EEG data typically relies on the subjective judgements of trained clinicians, which is challenging to train and risks bias. This line of work in our lab involves collecting EEG data in standard visual diagnostic paradigms from a large sample of people, and training machine learning algorithms to discriminate between different clinical conditions.
+Electrical recordings from the brain and the retina are commonly used in eye clinics to help diagnose different vision problems, often in combination with other vision tests and photographs of the inside of the eye. However, interpreting these recordings typically relies on the subjective judgements of trained clinicians, which is challenging to train and risks bias. This line of work in our lab involves collecting these recordings in standard visual diagnostic paradigms from a large sample of people, and training machine learning algorithms to discriminate between different clinical conditions.
 {%
   include button.html
   link="projects/Vision-Disorders"
@@ -110,7 +110,7 @@ EEG is commonly used in eye clinics to help diagnose different vision problems, 
 {% endcapture %}
 {%
   include feature.html
-  image="images/projects/EEG_cap.jpeg"
+  image="images/projects/eyeAI-VEP.jpg"
   link="projects/Vision-Disorders"
   title="Objective Diagnosis of Vision Disorders"
   flip=true
