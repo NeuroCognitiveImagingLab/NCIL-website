@@ -1,1 +1,1 @@
-Sitemap: http://ncil.science/sitemap.xml
+Sitemap: https://ncil.science/sitemap.xml
