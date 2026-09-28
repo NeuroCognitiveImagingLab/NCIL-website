@@ -75,6 +75,15 @@ Children were given standardized tests of reading ability and tests of punctuati
 
 Preliminary data (n=18) show a significantly larger positivity for incorrect than correct commas over posterior midline channels between approximately 300–500 ms, as well as evidence of a larger positivity for correct than missing commas over anterior midline channels in the same time window. Additional data collection is underway; with a full sample, we will additionally investigate relationships between the magnitude of these effects and grade, punctuation sensitivity, and reading comprehension.
 
+{% capture text %}
+**Update to the abstract.** The abstract above is reproduced as submitted to SNL. Its
+reported results (n = 18) used an aggressive outlier trim (±2 SD of single-channel
+values) and channel-level models. With artifact-based rejection and trial-level
+models, **neither effect is reliable**. The poster presents the current analysis and
+supersedes the results paragraph above.
+{% endcapture %}
+{% include alert.html type="warning" content=text %}
+
 {% include section.html %}
 
 ## References
