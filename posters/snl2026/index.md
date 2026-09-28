@@ -80,7 +80,7 @@ Preliminary data (n=18) show a significantly larger positivity for incorrect tha
 ## References
 
 1. MacKay, E. J. (2023). [hdl.handle.net/10222/82818](https://hdl.handle.net/10222/82818)
-2. Ryken, A. M., Wade-Woolley, L., & Deacon, S. H. (2025). [doi.org/10.1023/a:1010443001646](https://dx.doi.org/10.1023/a:1010443001646)
+2. Ryken, A. M., Wade-Woolley, L., & Deacon, S. H. (2025). [doi.org/10.1007/s11145-024-10517-8](https://doi.org/10.1007/s11145-024-10517-8)
 3. Steinhauer, K., Alter, K., & Friederici, A. D. (1999). [doi.org/10.1038/5757](https://dx.doi.org/10.1038/5757)
 4. Steinhauer, K., & Friederici, A. D. (2001). [doi.org/10.1023/a:1010443001646](https://dx.doi.org/10.1023/a:1010443001646)
 5. Männel, C., & Friederici, A. D. (2011). [doi.org/10.1111/j.1467-7687.2010.01025.x](https://dx.doi.org/10.1111/j.1467-7687.2010.01025.x)
