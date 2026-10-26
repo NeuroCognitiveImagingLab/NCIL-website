@@ -597,8 +597,9 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1111/psyp.12299
-  title: "Modeling nonlinear relationships in <scp>ERP</scp> data using mixed\u2010\
-    effects regression with <scp>R</scp> examples"
+  title: "Modeling nonlinear relationships in\n                    <scp>ERP</scp>\n\
+    \                    data using mixed\u2010effects regression with\n         \
+    \           <scp>R</scp>\n                    examples"
   authors:
   - Antoine Tremblay
   - Aaron J. Newman
